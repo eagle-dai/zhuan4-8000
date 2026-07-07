@@ -10,8 +10,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 `pages/`（扫描原件）→ OCR/解析 → `ocr/`（结构化 JSON）→ `anki/`（卡片）
 
-1. **`pages/`** —— 词汇书的扫描原件，JPG 格式，按页码命名（`057.jpg` … `083.jpg`）。页码不连续：部分页缺失（如 069–071）。这是唯一可信来源，难以重建——绝不原地修改，只在副本上操作。
-2. **`ocr/`** —— 每页一个 `NNN.json`（页码对齐 `pages/NNN.jpg`），存 OCR 解析出的结构化词条。尚未创建。
+1. **`pages/`** —— 词汇书的扫描原件，JPG 格式，按页码命名（如 `057.jpg`）。**内容是增量的**：当前只有部分页，后续会陆续补充；页码也不连续（部分页缺失，如 069–071）。别假设某个页码一定存在或范围连续——每次处理前先 `ls pages/` 看实际有哪些。这是唯一可信来源，难以重建——绝不原地修改，只在副本上操作。
+2. **`ocr/`** —— 每页一个 `NNN.json`（页码对齐 `pages/NNN.jpg`），存 OCR 解析出的结构化词条。尚未创建。**增量、不重复解析**：OCR 前先对比 `pages/` 与 `ocr/`，只处理 `ocr/` 里还没有对应 `NNN.json` 的新页，已解析过的页直接跳过（除非明确要求重做某页）。
 3. **`anki/`** —— 最终产物：从 `ocr/` 合并生成的卡片。尚未创建。
 
 ## 版面结构（OCR 时须知）
@@ -53,14 +53,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
       "derivatives": ["exhaustive a. 消耗的;详尽的", "inexhaustible a. 用不完的;不知疲倦的"],
       "complete": true
     },
-    {"word": "debate", "partial": "head", "phonetic": "dɪˈbeɪt", "mnemonic": "...", "senses": ["..."]}
+    {"word": "debate", "partial": "head", "phonetic": "dɪˈbeɪt", "mnemonic": "de(down)+bate(打)→用言语将对方打倒→辩论",
+     "senses": [{"pos": "n.", "def_zh": "辩论", "example": "have a debate (with sb.)", "example_zh": "（与某人）进行辩论"}]}
   ]
 }
 ```
 
 ## 目录内容
 
-- `README.md` —— 仅有标题（`zhuan4-8000`）。
+- `README.md` —— 面向人的项目说明（是什么、目录、用法）。实现细节（schema、版面、接续规则）只写在本文件，README 不重复。
 
 ## 在本仓库工作时
 
