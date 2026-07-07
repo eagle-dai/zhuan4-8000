@@ -1,7 +1,7 @@
 {
   "page": 75,
   "continues_from": "proclaim",
-  "continues_to": null,
+  "continues_to": "behalf",
   "entries": [
     {
       "word": "proclaim",
@@ -89,13 +89,13 @@
     },
     {
       "word": "behalf",
+      "partial": "head",
       "phonetic": "bɪˈhɑːf",
       "senses": [
         {"pos": "n.", "def_zh": "利益,方面",
          "example": "Andy is not present, so I shall accept the prize on his behalf.", "example_zh": "安迪不在场，所以我代表他领奖。"}
       ],
-      "derivatives": [],
-      "complete": true
+      "complete": false
     }
   ]
 }

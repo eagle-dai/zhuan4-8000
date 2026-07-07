@@ -1,0 +1,112 @@
+{
+  "page": 79,
+  "continues_from": "economical",
+  "continues_to": "vehicle",
+  "entries": [
+    {
+      "word": "economical",
+      "partial": "tail",
+      "senses": []
+    },
+    {
+      "word": "economy",
+      "phonetic": "ɪˈkɒnəmɪ",
+      "mnemonic": "发音:\"依靠农民\"→发展\"经济\"离不开农民",
+      "senses": [
+        {"pos": "n.", "def_zh": "经济",
+         "example": "world/domestic economy", "example_zh": "全球/国内经济"},
+        {"pos": "n.", "def_en": "careful use of money, resources, etc.", "def_zh": "节约",
+         "example": "You should learn to practice economy in making out the household budget.", "example_zh": "你应当在制订家庭预算时学会精打细算。"}
+      ],
+      "derivatives": ["economic a. 经济上的 n.[-s]经济学", "economist n. 经济学家", "economise/-ize v. 节省,紧缩开支"],
+      "complete": true
+    },
+    {
+      "word": "stagnant",
+      "phonetic": "ˈstægnənt",
+      "senses": [
+        {"pos": "a.", "def_en": "not flowing", "def_zh": "(指水)因不流动而污浊的",
+         "example": "stagnant ponds", "example_zh": "死水潭"},
+        {"pos": "a.", "def_en": "not active, changing, or progressing", "def_zh": "不景气的",
+         "example": "Due to low investment, industrial output has remained stagnant.", "example_zh": "由于投资少，工业生产一直停滞不前。"}
+      ],
+      "derivatives": ["stagnation n. 不流动;不景气"],
+      "complete": true
+    },
+    {
+      "word": "motion",
+      "phonetic": "ˈməʊʃən",
+      "mnemonic": "mot(移动)+ion→运动",
+      "senses": [
+        {"pos": "n.", "def_zh": "运动",
+         "example": "You must not get out of the car when it is in motion.", "example_zh": "汽车行驶的时候千万不能下车。"},
+        {"pos": "n.", "def_zh": "手势",
+         "example": "make a motion", "example_zh": "打了个手势"},
+        {"pos": "n.", "def_en": "a formal suggestion or proposal that is made at a meeting for sth. to be done", "def_zh": "提议",
+         "example": "The motion was adopted by a majority of six votes.", "example_zh": "该提议以6票的多数获得采纳。"},
+        {"pos": "v.", "def_en": "to direct by making a gesture", "def_zh": "(向…)打手势",
+         "example": "He motioned (to) me to come in.", "example_zh": "他招手让我进来。"}
+      ],
+      "derivatives": ["motionless a. 不动的,静止的"],
+      "complete": true
+    },
+    {
+      "word": "activate",
+      "phonetic": "ˈæktɪveɪt",
+      "mnemonic": "activ(e)(活动的)+ate(使)→使活动",
+      "senses": [
+        {"pos": "vt.", "def_en": "to set in motion; make active", "def_zh": "使活动起来",
+         "example": "The burglar alarm is activated by movement.", "example_zh": "这防盗警报器一动就会响。"}
+      ],
+      "derivatives": ["activist n. 积极分子"],
+      "complete": true
+    },
+    {
+      "word": "split",
+      "phonetic": "splɪt",
+      "mnemonic": "发音:\"死劈了它\"→劈开",
+      "senses": [
+        {"pos": "vi.", "def_en": "to become separated into parts", "def_zh": "分裂",
+         "example": "The party split over segregation.", "example_zh": "该党在种族隔离问题上分歧严重。"},
+        {"pos": "vt.", "def_zh": "撕裂",
+         "example": "He split his pants at the seams when he bent over.", "example_zh": "他弯下身去时，把裤子接缝处绷裂了。"},
+        {"pos": "vt.", "def_en": "to divide money, food, etc. among people or things", "def_zh": "分担,分享",
+         "example": "Let's split the cost of the meal.", "example_zh": "我们分摊餐费吧。"},
+        {"pos": "n.", "def_zh": "裂口",
+         "example": "a split in my trousers", "example_zh": "我裤子上的一个口子"},
+        {"pos": "n.", "def_zh": "分裂",
+         "example": "Arguments over admitting women to the club may lead to a split.", "example_zh": "在接受妇女参加俱乐部问题上的争论能导致分裂。"}
+      ],
+      "derivatives": ["【短语】split up 断绝关系;划分：In 1991, the USSR split up into its constituent republics. 1991年，前苏联分裂成为联邦的各个共和国。", "【用法】过去式、过去分词 split。"],
+      "complete": true
+    },
+    {
+      "word": "mobile",
+      "phonetic": "ˈməʊbaɪl",
+      "mnemonic": "中国移动 China Mobile",
+      "senses": [
+        {"pos": "a.", "def_zh": "运动的;机动的",
+         "example": "John converted the truck into a mobile library.", "example_zh": "约翰将卡车改装成了一个流动图书馆。"},
+        {"pos": "a.", "def_zh": "多变的",
+         "example": "He has the mobile face of an actor.", "example_zh": "他有一张演员一样的表情多变的脸。"},
+        {"pos": "n.", "def_zh": "移动电话",
+         "example": "Give me a call on my mobile. Have you got my mobile number?", "example_zh": "给我电话吧。你有我的手机号码吗？"}
+      ],
+      "derivatives": ["mobility n. 可动性,机动性"],
+      "complete": true
+    },
+    {
+      "word": "vehicle",
+      "partial": "head",
+      "phonetic": "ˈviːɪkl",
+      "mnemonic": "vehi(运载)+cle(个体)→车辆",
+      "senses": [
+        {"pos": "n.", "def_zh": "交通工具,车辆",
+         "example": "It became the first reusable vehicle in space.", "example_zh": "它成为第一个能重复使用的宇宙交通工具。"},
+        {"pos": "n.", "def_en": "a medium through which sth. is transmitted, expressed, or accomplished", "def_zh": "传播媒介,工具,手段",
+         "example": "Television has become an important vehicle for spreading political ideas.", "example_zh": "电视已成为传播政治思想的重要媒介。"}
+      ],
+      "complete": false
+    }
+  ]
+}

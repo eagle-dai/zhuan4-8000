@@ -1,0 +1,138 @@
+{
+  "page": 76,
+  "continues_from": "behalf",
+  "continues_to": "judicial",
+  "entries": [
+    {
+      "word": "behalf",
+      "partial": "tail",
+      "senses": [],
+      "derivatives": ["【短语】on/in behalf of 代表,为了"]
+    },
+    {
+      "word": "intend",
+      "phonetic": "ɪnˈtend",
+      "mnemonic": "in+tend(趋向)→趋向做→打算",
+      "senses": [
+        {"pos": "vt.", "def_zh": "计划",
+         "example": "What do you intend to do today?", "example_zh": "你今天打算做些什么？"},
+        {"pos": "vt.", "def_en": "to have in mind for a particular use", "def_zh": "打算使(成为)",
+         "example": "The book is intended for beginners.", "example_zh": "本书是为初学者编写的。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "intention",
+      "phonetic": "ɪnˈtenʃən",
+      "senses": [
+        {"pos": "n.", "def_en": "a plan or desire to do sth.", "def_zh": "意图，目的",
+         "example": "The road to hell is paved with good intentions. // Good acts are better than good intentions.", "example_zh": "[谚]好心办坏事。好的行动胜于好的意图。"}
+      ],
+      "derivatives": ["intentional a. 有意的,故意的"],
+      "complete": true
+    },
+    {
+      "word": "desirable",
+      "phonetic": "dɪˈzaɪərəbl",
+      "mnemonic": "desir(e)(期望)+able(可…的)→值得想望的",
+      "senses": [
+        {"pos": "a.", "def_zh": "值得想望的",
+         "example": "It is not easy to get a desirable job that corresponds with interests.", "example_zh": "要找到一份与志趣相符的合意工作是不容易的。"},
+        {"pos": "a.", "def_zh": "可取的",
+         "example": "a desirable solution", "example_zh": "可取的解决方法"}
+      ],
+      "derivatives": ["undesirable a. 不受欢迎的;不合意的;讨厌的"],
+      "complete": true
+    },
+    {
+      "word": "elegant",
+      "phonetic": "ˈelɪgənt",
+      "mnemonic": "e(out)+leg(挑选)+ant→精心挑选出来的→讲究的",
+      "senses": [
+        {"pos": "a.", "def_en": "graceful and attractive", "def_zh": "优美的，讲究的",
+         "example": "Princess Diana's elegant manners are always within the memory of people.", "example_zh": "戴安娜王妃优雅的举止总是留在人们的记忆中。"},
+        {"pos": "a.", "def_en": "simple and clever", "def_zh": "简练的",
+         "example": "His elegant piece of reasoning impressed me deeply.", "example_zh": "他简要明确的论证给我留下深刻的印象。"}
+      ],
+      "derivatives": ["elegance n. 高雅,精美"],
+      "complete": true
+    },
+    {
+      "word": "acceptance",
+      "phonetic": "əkˈseptəns",
+      "mnemonic": "accept(v. 接受)的名词",
+      "senses": [
+        {"pos": "n.", "def_zh": "接受",
+         "example": "Please confirm your acceptance of this offer in writing.", "example_zh": "请书面确认你接受这项建议。"},
+        {"pos": "n.", "def_zh": "承认",
+         "example": "The idea rapidly gained acceptance in scientific circles.", "example_zh": "这一想法很快得到了科学界的认可。"},
+        {"pos": "n.", "def_zh": "容忍",
+         "example": "I was impressed by his calm acceptance of whatever comes his way.", "example_zh": "他对任何事情的从容接纳给我留下很深的印象。"}
+      ],
+      "derivatives": ["acceptable a. 可接受的,合意的"],
+      "complete": true
+    },
+    {
+      "word": "numerous",
+      "phonetic": "ˈnjuːmərəs",
+      "mnemonic": "numer(数)+ous→数目众多的→众多的",
+      "senses": [
+        {"pos": "a.", "def_zh": "众多的",
+         "example": "New York City's numerous skyscrapers give the city its special character.", "example_zh": "纽约市众多的摩天大楼赋予了这个城市独有的特征。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "massive",
+      "phonetic": "ˈmæsɪv",
+      "mnemonic": "mass(大量)+ive→大量的",
+      "senses": [
+        {"pos": "a.", "def_en": "very large and heavy", "def_zh": "大的",
+         "example": "A massive monument was erected in the front of the square.", "example_zh": "广场前立起了一块巨大的纪念碑。"},
+        {"pos": "a.", "def_en": "large in amount or degree", "def_zh": "大量的",
+         "example": "Doctors discourage massive doses of painkillers.", "example_zh": "医生不赞成大量服用止痛片。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "justice",
+      "phonetic": "ˈdʒʌstɪs",
+      "mnemonic": "just(正义)+ice→正义,公正",
+      "senses": [
+        {"pos": "n.", "def_en": "fairness", "def_zh": "正义,公正【反 injustice】",
+         "example": "If we do not maintain justice, justice will not maintain us.", "example_zh": "我们不维护正义，正义就不会维护我们。"},
+        {"pos": "n.", "def_zh": "司法",
+         "example": "the Department of Justice", "example_zh": "[美]司法部"}
+      ],
+      "derivatives": ["【短语】do justice to 公正地评判", "bring... to justice 把…交付审判：The police must do all they can to bring criminals to justice. 警方必须竭尽全力追捕罪犯，将他们绳之以法。"],
+      "complete": true
+    },
+    {
+      "word": "justify",
+      "phonetic": "ˈdʒʌstɪfaɪ",
+      "mnemonic": "just(正义)+ify(使)→证明…正当",
+      "senses": [
+        {"pos": "vt.", "def_en": "to prove sth. to be just, right, or reasonable", "def_zh": "证明…正当，为…辩护",
+         "example": "The pursuit of good ends does not justify the employment of bad means. // Nothing can justify such careless mistakes.", "example_zh": "追求正当的目的并不能为使用不正当的手段辩护。如此粗心的错误不可原谅。"}
+      ],
+      "derivatives": ["unjustified a. 不公正的,无正当理由的"],
+      "complete": true
+    },
+    {
+      "word": "judicial",
+      "partial": "head",
+      "phonetic": "dʒuːˈdɪʃəl",
+      "mnemonic": "judic(判断)+ial→审判的",
+      "senses": [
+        {"pos": "a.", "def_zh": "司法的，审判的",
+         "example": "The workers decided to take judicial proceedings against the company.", "example_zh": "工人们决定对公司正式提起诉讼。"},
+        {"pos": "a.", "def_zh": "明断的",
+         "example": "He is a man with a judicial mind.", "example_zh": "他是个公正的人。"}
+      ],
+      "complete": false
+    }
+  ]
+}
