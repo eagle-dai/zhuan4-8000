@@ -1,7 +1,7 @@
 {
   "page": 58,
   "continues_from": "debate",
-  "continues_to": null,
+  "continues_to": "cultivate",
   "entries": [
     {
       "word": "debate",
@@ -130,8 +130,7 @@
         {"pos": "vt.", "def_en": "to acquire or develop sth. such as a skill by education", "def_zh": "培养",
          "example": "They often take their child to concerts to cultivate a love of music in him.", "example_zh": "他们经常带孩子去听音乐会以培养他对音乐的热爱。"}
       ],
-      "derivatives": [],
-      "complete": true
+      "complete": false
     }
   ]
 }
