@@ -1,0 +1,75 @@
+{
+  "page": 72,
+  "continues_from": null,
+  "continues_to": "vibrant",
+  "entries": [
+    {
+      "word": "mere",
+      "phonetic": "mɪə",
+      "senses": [
+        {"pos": "a.", "def_zh": "仅仅的",
+         "example": "It is a mere trifle.", "example_zh": "这仅仅是件小事。"},
+        {"pos": "a.", "def_zh": "纯粹的",
+         "example": "This is a mere arithmetic question.", "example_zh": "这纯粹是个算术问题。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "bare",
+      "phonetic": "beə",
+      "senses": [
+        {"pos": "a.", "def_zh": "赤裸的",
+         "example": "the bare truth // in bare feet", "example_zh": "赤裸裸的事实；赤脚"},
+        {"pos": "a.", "def_zh": "光秃的",
+         "example": "The garden looked bare in winter, with few flowers.", "example_zh": "冬天，花园里光秃秃的，几乎没有花草。"},
+        {"pos": "a.", "def_zh": "勉强的",
+         "example": "He earns a bare living by his work.", "example_zh": "他的工作收入勉强维持生活。"},
+        {"pos": "vt.", "def_en": "to uncover or reveal; expose", "def_zh": "暴露",
+         "example": "The dog bared its teeth and growled.", "example_zh": "那条狗龇牙咧嘴地低吼。"}
+      ],
+      "derivatives": ["barely ad. 仅仅,几乎不"],
+      "complete": true
+    },
+    {
+      "word": "barren",
+      "phonetic": "ˈbærən",
+      "senses": [
+        {"pos": "a.", "def_zh": "贫瘠的,荒芜的",
+         "example": "Cold winds swept over the barren plains.", "example_zh": "寒风刮过荒芜的平原。"},
+        {"pos": "a.", "def_zh": "不结果实的",
+         "example": "a barren tree", "example_zh": "不结果的树"},
+        {"pos": "a.", "def_en": "unproductive of results or gains", "def_zh": "无益的",
+         "example": "barren discussion", "example_zh": "毫无结果的讨论"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "vibrate",
+      "phonetic": "vaɪˈbreɪt",
+      "senses": [
+        {"pos": "v.", "def_en": "to move back and forth or from side to side with very short, quick movements", "def_zh": "(使)振动,(使)摇摆",
+         "example": "The whole station seemed to vibrate as the express train rushed through. // The noise vibrated the table.", "example_zh": "当高速列车疾驰而过时，整个车站都仿佛在震动。噪音使桌子颤动起来。"}
+      ],
+      "derivatives": ["vibration n. 振动,颤动;感触,共鸣"],
+      "complete": true
+    },
+    {
+      "word": "vibrant",
+      "partial": "head",
+      "phonetic": "ˈvaɪbrənt",
+      "senses": [
+        {"pos": "a.", "def_zh": "颤动的",
+         "example": "The leaves were vibrant in the breeze.", "example_zh": "叶子在微风中抖动。"},
+        {"pos": "a.", "def_zh": "响亮的",
+         "example": "a vibrant voice", "example_zh": "响亮的嗓音"},
+        {"pos": "a.", "def_zh": "充满生气的",
+         "example": "The city is vibrant with life.", "example_zh": "这城市充满生机。"},
+        {"pos": "a.", "def_zh": "鲜明的",
+         "example": "Bright, vibrant colours characterize his paintings.", "example_zh": "他的画以明亮轻快的色彩为特征。"}
+      ],
+      "complete": false
+    }
+  ]
+}

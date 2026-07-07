@@ -1,0 +1,130 @@
+{
+  "page": 62,
+  "continues_from": null,
+  "continues_to": "trickle",
+  "entries": [
+    {
+      "word": "beforehand",
+      "phonetic": "bɪˈfɔːhænd",
+      "mnemonic": "before(在…之前)+hand(手)→抢在…之前下手→事先",
+      "senses": [
+        {"pos": "ad.", "def_en": "in advance", "def_zh": "预先",
+         "example": "No one expected this beforehand.", "example_zh": "没人事先预料到这事。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "advanced",
+      "phonetic": "ədˈvɑːnst",
+      "senses": [
+        {"pos": "a.", "def_en": "far on or ahead in development or progress", "def_zh": "先进的",
+         "example": "It takes time for advanced ideas to get generally accepted.", "example_zh": "先进的思想要被人们普遍接受需要时间。"},
+        {"pos": "a.", "def_en": "highly developed or complex", "def_zh": "高级的",
+         "example": "advanced civilization", "example_zh": "高度文明"},
+        {"pos": "a.", "def_zh": "年迈的",
+         "example": "He died at an advanced age.", "example_zh": "他活到高龄才去世。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "haste",
+      "phonetic": "heɪst",
+      "senses": [
+        {"pos": "n.", "def_en": "quickness or eagerness that can result in mistakes", "def_zh": "急速，急忙【同 hurry】",
+         "example": "More haste, less speed.", "example_zh": "[谚]欲速则不达。"}
+      ],
+      "derivatives": ["【短语】in haste 急忙,慌忙", "hasten v. 催促,(使)赶快;加快", "hasty a. 轻率的;匆忙的"],
+      "complete": true
+    },
+    {
+      "word": "urge",
+      "phonetic": "ɜːdʒ",
+      "senses": [
+        {"pos": "vt.", "def_zh": "鼓励【同 encourage】",
+         "example": "He is continually urging reform.", "example_zh": "他一直鼓励改革。"},
+        {"pos": "vt.", "def_en": "to advocate earnestly the doing, consideration, or approval of", "def_zh": "竭力主张",
+         "example": "Some people urge that boxing be banned.", "example_zh": "一些人强烈要求禁止拳击运动。"},
+        {"pos": "vt.", "def_en": "to impel to action, effort; spur", "def_zh": "催促",
+         "example": "Brown urged her to reconsider her decision.", "example_zh": "布朗极力劝说她重新考虑自己的决定。"},
+        {"pos": "n.", "def_zh": "强烈的欲望",
+         "example": "The boy has a strong urge to learn.", "example_zh": "这个男孩有极强的求知欲。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "urgent",
+      "phonetic": "ˈɜːdʒənt",
+      "mnemonic": "urg(e)(催促)+ent→不断催促的→急迫的",
+      "senses": [
+        {"pos": "a.", "def_en": "very important and needing to be dealt with immediately", "def_zh": "急迫的，紧要的",
+         "example": "Anything that is urgent must be attended to immediately.", "example_zh": "任何紧急的事情都必须立即处理。"}
+      ],
+      "derivatives": ["【用法】It is urgent that...表示\"急需…\",后接的从句用虚拟语气。"],
+      "complete": true
+    },
+    {
+      "word": "prior",
+      "phonetic": "ˈpraɪə",
+      "senses": [
+        {"pos": "a.", "def_en": "preceding in time, order or importance", "def_zh": "优先的，在前的",
+         "example": "It happened prior to her departure. // In emergency, children are always prior to all others to be considered.", "example_zh": "这事是在她走前发生的。在发生紧急情况时，总是优先考虑儿童。"}
+      ],
+      "derivatives": ["【短语】prior to 在…之前"],
+      "complete": true
+    },
+    {
+      "word": "priority",
+      "phonetic": "praɪˈɒrɪtɪ",
+      "senses": [
+        {"pos": "n.", "def_zh": "优先(权)【同 precedence】",
+         "example": "If medical supplies are short, children will be given priority.", "example_zh": "如果医疗供应品短缺的话，儿童将得到优先考虑。"},
+        {"pos": "n.", "def_zh": "优先考虑的事",
+         "example": "top priority", "example_zh": "最优先考虑的事情"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "emergency",
+      "phonetic": "ɪˈmɜːdʒənsɪ",
+      "mnemonic": "emerg(出现)+ency→突然出现→紧急情况",
+      "senses": [
+        {"pos": "n.", "def_en": "a serious situation that happens unexpectedly and demands immediate action", "def_zh": "紧急情况，非常时刻",
+         "example": "It's an emergency!", "example_zh": "十万火急！"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "leak",
+      "phonetic": "liːk",
+      "senses": [
+        {"pos": "v.", "def_zh": "(使)漏",
+         "example": "My car seems to be leaking oil. // The water pipes leak.", "example_zh": "我的汽车好像正在漏油。水管漏了。"},
+        {"pos": "v.", "def_zh": "泄露【同 disclose】",
+         "example": "Details of his business dealings were leaked to the press.", "example_zh": "他商务往来的详情已被泄漏给新闻界了。"},
+        {"pos": "n.", "def_zh": "漏洞;泄漏",
+         "example": "There's a leak in the roof—the rain's coming in. // A gas leak can result in a fire.", "example_zh": "房顶有漏洞，雨往里进。煤气泄漏可能会引起火灾。"},
+        {"pos": "n.", "def_zh": "(消息等的)走漏",
+         "example": "There has been a leak of information.", "example_zh": "走漏了风声。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "trickle",
+      "partial": "head",
+      "phonetic": "ˈtrɪkl",
+      "senses": [
+        {"pos": "vi.", "def_en": "to flow or fall in drops or in a thin stream", "def_zh": "滴流，滴淌",
+         "example": "The tears trickled down her cheeks.", "example_zh": "泪水一滴一滴地从她面颊上流下。"},
+        {"pos": "vi.", "def_zh": "缓慢地移动",
+         "example": "The audience trickled into the theater in twos and threes.", "example_zh": "人们三三两两地走进剧场。"}
+      ],
+      "complete": false
+    }
+  ]
+}

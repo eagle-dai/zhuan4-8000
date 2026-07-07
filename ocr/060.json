@@ -1,0 +1,122 @@
+{
+  "page": 60,
+  "continues_from": "adapt",
+  "continues_to": null,
+  "entries": [
+    {
+      "word": "adapt",
+      "partial": "tail",
+      "senses": [
+        {"pos": "vt.", "def_zh": "改编",
+         "example": "adapt a novel into movie", "example_zh": "把小说改编成电影"},
+        {"pos": "vi.", "def_zh": "适应",
+         "example": "Some people can't adapt to the humid weather.", "example_zh": "有些人不适应潮湿的天气。"}
+      ],
+      "derivatives": ["adaptable a. 能适应新环境的", "adaptation n. 改编;适应", "adapter/-or n. 适配器;改编者"]
+    },
+    {
+      "word": "adjust",
+      "phonetic": "əˈdʒʌst",
+      "mnemonic": "ad(to)+just(正确)→使正确→调整",
+      "senses": [
+        {"pos": "vt.", "def_en": "to alter or move slightly to achieve the desired appearance, result etc.", "def_zh": "调整",
+         "example": "Astronauts in flight must adjust themselves to weightlessness.", "example_zh": "宇航员在飞行中必须适应失重。"},
+        {"pos": "vi.", "def_zh": "(~to)适应【同 adapt】",
+         "example": "Adjusting to the tropical heat was more difficult than they had expected.", "example_zh": "适应热带的高温比他们预料的难得多。"}
+      ],
+      "derivatives": ["adjustment n. 调整,调节"],
+      "complete": true
+    },
+    {
+      "word": "regulate",
+      "phonetic": "ˈregjuleɪt",
+      "mnemonic": "reg(统治)+ul+ate(做)→进行治理→管理",
+      "senses": [
+        {"pos": "vt.", "def_en": "to control or supervise by means of rules and regulations", "def_zh": "管理，控制",
+         "example": "We must try our best to regulate our expenditure.", "example_zh": "我们必须尽力控制开支。"},
+        {"pos": "vt.", "def_zh": "调节",
+         "example": "Sweating helps regulate body temperature.", "example_zh": "流汗帮助调节体温。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "regulation",
+      "phonetic": "ˌregjuˈleɪʃən",
+      "senses": [
+        {"pos": "n.", "def_en": "a rule or directive made and maintained by an authority", "def_zh": "规则",
+         "example": "It is against traffic regulations to overtake other vehicles without signaling.", "example_zh": "没有示意信号就超车是违反交通规则的。"},
+        {"pos": "n.", "def_zh": "管理，调节",
+         "example": "A thermostat was used for the regulation of the temperature in the building.", "example_zh": "恒温器被用来调节大楼内的温度。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "equip",
+      "phonetic": "ɪˈkwɪp",
+      "senses": [
+        {"pos": "vt.", "def_zh": "装备【同 furnish】",
+         "example": "Buses equipped with air-conditioners charge you more.", "example_zh": "装有空调设备的公共汽车收费要贵些。"},
+        {"pos": "vt.", "def_en": "to prepare sb. for a particular activity or problem", "def_zh": "使有准备",
+         "example": "The course is designed to equip students for a career in nursing.", "example_zh": "此课程旨在使学生能够胜任护理工作。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "modify",
+      "phonetic": "ˈmɒdɪfaɪ",
+      "mnemonic": "mod(方式)+ify(使)→使…改变方式→修改",
+      "senses": [
+        {"pos": "vt.", "def_en": "to make small changes to sth. so as to improve it and make it more suitable or effective", "def_zh": "修改",
+         "example": "They agree to modify the contract.", "example_zh": "他们同意将合同稍作修改。"},
+        {"pos": "vt.", "def_zh": "修饰",
+         "example": "Adjectives modify nouns.", "example_zh": "形容词修饰名词。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "conform",
+      "phonetic": "kənˈfɔːm",
+      "mnemonic": "con(共同)+form(形式)→(使)形式统一→一致",
+      "senses": [
+        {"pos": "vi.", "def_en": "to obey or be in accordance with established rules (~ to)", "def_zh": "遵守，适应;一致",
+         "example": "Most people willingly conform to the customs of society. // This piece of equipment does not conform to the official safety standards.", "example_zh": "大多数人都愿意遵从社会习俗。这件设备不符合官方规定的安全标准。"}
+      ],
+      "derivatives": ["conformity n. 依照;一致"],
+      "complete": true
+    },
+    {
+      "word": "cater",
+      "phonetic": "ˈkeɪtə",
+      "senses": [
+        {"pos": "vi.", "def_en": "to try to satisfy a particular need or demand (~for, to)", "def_zh": "迎合",
+         "example": "TV programs must cater to/for many different tastes.", "example_zh": "电视节目必须迎合各种人的口味。"},
+        {"pos": "vi.", "def_en": "to provide food or entertainment (~for)", "def_zh": "提供饮食及服务",
+         "example": "He runs a restaurant and also caters for weddings and parties.", "example_zh": "他经营饭店，还承办婚礼和宴会酒席。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "pose",
+      "phonetic": "pəʊz",
+      "senses": [
+        {"pos": "vt.", "def_en": "to cause a problem, danger, difficulty etc.", "def_zh": "造成",
+         "example": "pose a threat to", "example_zh": "造成…的威胁"},
+        {"pos": "vt.", "def_en": "to raise a question or matter for consideration", "def_zh": "提出(问题等)",
+         "example": "pose a question", "example_zh": "提出一个问题"},
+        {"pos": "vi.", "def_zh": "摆姿势",
+         "example": "Models are employed by art schools to pose for art students to paint.", "example_zh": "艺术学校雇来模特摆姿势给学艺术的学生作画。"},
+        {"pos": "vi.", "def_en": "to pretend to be someone else to deceive people", "def_zh": "假装",
+         "example": "She was caught posing as a lawyer.", "example_zh": "她冒充律师被当场抓获。"},
+        {"pos": "n.", "def_zh": "样子",
+         "example": "put on a pose of", "example_zh": "装出…的样子"}
+      ],
+      "derivatives": [],
+      "complete": true
+    }
+  ]
+}

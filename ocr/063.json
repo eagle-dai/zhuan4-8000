@@ -1,0 +1,120 @@
+{
+  "page": 63,
+  "continues_from": "trickle",
+  "continues_to": "overthrow",
+  "entries": [
+    {
+      "word": "trickle",
+      "partial": "tail",
+      "senses": []
+    },
+    {
+      "word": "drip",
+      "phonetic": "drɪp",
+      "senses": [
+        {"pos": "v.", "def_zh": "滴",
+         "example": "He was dripping with sweat. // John came in, his arm dripping blood.", "example_zh": "他浑身是汗。约翰进来了，他的手臂在滴血。"},
+        {"pos": "n.", "def_zh": "滴水声",
+         "example": "The silence was broken only by the steady drip, drip of water from the roof.", "example_zh": "只有屋顶上滴答滴答持续不断的滴水声打破了寂静。"},
+        {"pos": "n.", "def_zh": "滴下的液体",
+         "example": "A drip of water ran down her forehead.", "example_zh": "一滴水顺着她的前额往下淌。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "fluctuate",
+      "phonetic": "ˈflʌktʃueɪt",
+      "mnemonic": "fluctu(波浪)+ate→像波浪似的→波动",
+      "senses": [
+        {"pos": "vi.", "def_en": "to vary irregularly, esp. in amount", "def_zh": "波动",
+         "example": "The prices of vegetables and fruits fluctuate with the seasons.", "example_zh": "蔬菜和水果的价格随季节而波动。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "drain",
+      "phonetic": "dreɪn",
+      "senses": [
+        {"pos": "v.", "def_zh": "排走",
+         "example": "Deep ditches were dug to drain the fields. // The rainwater drained away slowly because the drain was blocked.", "example_zh": "挖了深沟以排干田里的水。雨水排得很慢，因为排水沟给堵住了。"},
+        {"pos": "v.", "def_en": "to slowly be used up or to cause sth. to slowly be used up", "def_zh": "渐渐耗尽",
+         "example": "The state's finances have been drained by drought and civil disorder.", "example_zh": "国家财政已经被旱灾和内乱消耗殆尽了。"},
+        {"pos": "n.", "def_zh": "耗竭",
+         "example": "Military spending is a huge drain on the country's resources. // brain drain", "example_zh": "军费开支是对国家资源的巨大消耗。人才外流"},
+        {"pos": "n.", "def_zh": "排水管",
+         "example": "Tony built his own house and laid his own drains.", "example_zh": "托尼盖了自己的房子，铺设了自己的排水管道。"}
+      ],
+      "derivatives": ["drainage n. 排水系统;排水"],
+      "complete": true
+    },
+    {
+      "word": "spill",
+      "phonetic": "spɪl",
+      "mnemonic": "s+pill(药丸)→药丸洒了一地→洒落",
+      "senses": [
+        {"pos": "v.", "def_en": "to run or fall out of a container", "def_zh": "溢出，洒落",
+         "example": "It's no use crying over spilt milk! // He slipped and the wine spilled all over the carpet.", "example_zh": "牛奶洒了，哭也没用！他滑了一下，酒洒得满地毯都是。"},
+        {"pos": "n.", "def_zh": "溢出",
+         "example": "The oil spill in Alaska threatens ecological catastrophe.", "example_zh": "发生在阿拉斯加的石油外溢将会造成生态灾难。"}
+      ],
+      "derivatives": ["【用法】过去式、过去分词 spilled/spilt。"],
+      "complete": true
+    },
+    {
+      "word": "overflow",
+      "phonetic": "ˌəʊvəˈfləʊ",
+      "mnemonic": "over(beyond)+flow(流动)→溢出",
+      "senses": [
+        {"pos": "v.", "def_en": "to flow over the edge or top of (sth.)", "def_zh": "满得外溢",
+         "example": "I forgot to turn off the faucet and the toilet overflowed. // The river overflowed its banks.", "example_zh": "我忘了关水龙头，结果卫生间里的水溢了出来。河水溢过了堤岸。"},
+        {"pos": "v.", "def_zh": "(~with)充满",
+         "example": "His heart overflowed with gratitude.", "example_zh": "他的心里充满了感激之情。"},
+        {"pos": "n.", "def_zh": "容纳不下的物(或人)",
+         "example": "The overflow will be accommodated in another hotel.", "example_zh": "容纳不下的人将安排在另一家旅馆里。"},
+        {"pos": "n.", "def_zh": "溢流口"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "overwhelm",
+      "phonetic": "ˌəʊvəˈwelm",
+      "mnemonic": "over(above)+whelm(淹没,压倒)→在…上压倒→征服",
+      "senses": [
+        {"pos": "vt.", "def_en": "to affect deeply in mind or emotion", "def_zh": "使受不了",
+         "example": "Despair overwhelmed me when I got to know that the last train to the town had left.", "example_zh": "当我得知最后一班去镇上的火车已开走时，我绝望极了。"},
+        {"pos": "vt.", "def_en": "to defeat completely and decisively", "def_zh": "征服",
+         "example": "In last week's semifinal, the Manchester United overwhelmed Liz by 4-0.", "example_zh": "在上周的半决赛中，曼联队以4比0击败利兹队。"}
+      ],
+      "derivatives": ["overwhelming a. 势不可挡的;巨大的"],
+      "complete": true
+    },
+    {
+      "word": "overtake",
+      "phonetic": "ˌəʊvəˈteɪk",
+      "senses": [
+        {"pos": "vt.", "def_zh": "超过",
+         "example": "The car overtook the truck.", "example_zh": "小汽车超过了大卡车。"},
+        {"pos": "vt.", "def_en": "to come upon unexpectedly; take by surprise", "def_zh": "突然降临于",
+         "example": "A storm overtook the children.", "example_zh": "孩子们遇到了暴风雨。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "overthrow",
+      "partial": "head",
+      "phonetic": "ˌəʊvəˈθrəʊ",
+      "mnemonic": "由 throw over(抛弃)颠倒顺序构成",
+      "senses": [
+        {"pos": "vt.", "def_en": "to bring about the downfall, destruction, or ending of, esp. by force", "def_zh": "推翻;使终止",
+         "example": "overthrow slavery // The rebels have overthrown the government.", "example_zh": "废除奴隶制；反叛者已推翻了政府。"},
+        {"pos": "n.", "def_zh": "推翻，终止",
+         "example": "After the overthrow of the government, the country was in chaos.", "example_zh": "政府被推翻后，这个国家处于混乱中。"}
+      ],
+      "complete": false
+    }
+  ]
+}

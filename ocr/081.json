@@ -1,0 +1,146 @@
+{
+  "page": 81,
+  "continues_from": "comprise",
+  "continues_to": "celebrity",
+  "entries": [
+    {
+      "word": "comprise",
+      "partial": "tail",
+      "senses": [],
+      "derivatives": ["【用法】该词既可表示\"整体包括…部分\",也可以表示\"…部分构成整体\",还可用于 be comprised of 的结构表示\"整体由…构成\"。"]
+    },
+    {
+      "word": "rural",
+      "phonetic": "ˈruərəl",
+      "senses": [
+        {"pos": "a.", "def_zh": "农村的",
+         "example": "Rural areas have been worst hit by the strike.", "example_zh": "受罢工影响最严重的是乡村地区。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "suburb",
+      "phonetic": "ˈsʌbɜːb",
+      "mnemonic": "sub(near)+urb(城市)→城市附近→市郊",
+      "senses": [
+        {"pos": "n.", "def_zh": "市郊，郊区",
+         "example": "He lives in the suburb of Beijing and works in the city.", "example_zh": "他住在北京郊区，而在城里工作。"}
+      ],
+      "derivatives": ["suburban a. 郊区的;见闻不广的", "suburbanisation n. 郊区化"],
+      "complete": true
+    },
+    {
+      "word": "urban",
+      "phonetic": "ˈɜːbən",
+      "mnemonic": "urb(城市)+an→城市的",
+      "senses": [
+        {"pos": "a.", "def_zh": "城市的",
+         "example": "The urban poor are in need of homes.", "example_zh": "城市里的穷人需要住房。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "educate",
+      "phonetic": "ˈedjukeɪt",
+      "senses": [
+        {"pos": "vt.", "def_zh": "教育,培养",
+         "example": "Parents should educate their children to behave well.", "example_zh": "父母应当教育子女守规矩。"}
+      ],
+      "derivatives": ["uneducated a. 缺乏修养的", "educator n. 教育工作者", "educationist n. 教育家"],
+      "complete": true
+    },
+    {
+      "word": "compulsory",
+      "phonetic": "kəmˈpʌlsərɪ",
+      "mnemonic": "com(with)+puls(驱使)+ory→强制性的",
+      "senses": [
+        {"pos": "a.", "def_en": "required by a law or rule", "def_zh": "强制性的，必修的",
+         "example": "A nine year compulsory education is implemented in China.", "example_zh": "中国实行九年制义务教育。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "graduate",
+      "phonetic": "ˈgrædʒuɪt; ˈgrædʒueɪt",
+      "senses": [
+        {"pos": "n.", "def_zh": "毕业生",
+         "example": "She is a psychology graduate of University of Pennsylvania.", "example_zh": "她是宾夕法尼亚大学心理系毕业生。"},
+        {"pos": "n.", "def_zh": "研究生",
+         "example": "a Cambridge graduate", "example_zh": "剑桥毕业生/研究生"},
+        {"pos": "a.", "def_zh": "研究生的",
+         "example": "graduate school", "example_zh": "研究生院"},
+        {"pos": "v.", "def_zh": "(使)毕业",
+         "example": "Experience is a school from which one can never graduate. // be graduated with honors", "example_zh": "经验无止境。以优异成绩毕业"}
+      ],
+      "derivatives": ["graduation n. 毕业;毕业典礼", "undergraduate n./a. 大学本科生(的)"],
+      "complete": true
+    },
+    {
+      "word": "curriculum",
+      "phonetic": "kəˈrɪkjuləm",
+      "mnemonic": "curr(跑)+iculum→课时跑到一块成了\"课程\"",
+      "senses": [
+        {"pos": "n.", "def_zh": "课程",
+         "example": "English is on every university's curriculum.", "example_zh": "每所大学都开设英语课。"}
+      ],
+      "derivatives": ["【用法】复数为 curriculums 或 curricula。"],
+      "complete": true
+    },
+    {
+      "word": "extracurricular",
+      "phonetic": "ˌekstrəkəˈrɪkjulə",
+      "mnemonic": "extra(额外的)+curricular(课程的)→课程以外的",
+      "senses": [
+        {"pos": "a.", "def_zh": "课外的，课程以外的",
+         "example": "They take active part in extracurricular activities.", "example_zh": "他们积极参加课外活动。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "receipt",
+      "phonetic": "rɪˈsiːt",
+      "mnemonic": "re(back)+ceipt(拿)→拿回来→收到",
+      "senses": [
+        {"pos": "n.", "def_zh": "发票,收据",
+         "example": "She placed the change along with the receipt in her purse.", "example_zh": "她把找头连同收据一起放进钱包。"},
+        {"pos": "n.", "def_zh": "[pl.]收入",
+         "example": "The pop singer got huge cash receipts from his concert.", "example_zh": "那个流行歌星从演唱会中获得了巨额的现金收入。"},
+        {"pos": "n.", "def_zh": "收到",
+         "example": "We are in receipt of your letter.", "example_zh": "我们收到了你的来信。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "reception",
+      "phonetic": "rɪˈsepʃən",
+      "mnemonic": "re(back)+cept(拿)+ion→拿回来→接受",
+      "senses": [
+        {"pos": "n.", "def_en": "a social gathering to celebrate sth. or to welcome sb.", "def_zh": "招待会",
+         "example": "A champagne reception will be held in honour of the ambassador's visit.", "example_zh": "为欢迎大使来访将举行香槟酒招待会。"},
+        {"pos": "n.", "def_zh": "接受",
+         "example": "the reception of a new theory", "example_zh": "接受新理论"},
+        {"pos": "n.", "def_en": "a welcome, greeting", "def_zh": "接待",
+         "example": "a warm reception", "example_zh": "热情的接待"},
+        {"pos": "n.", "def_zh": "(无线电、电视等的)接收效果",
+         "example": "Television reception is very good in this area.", "example_zh": "这一地区的电视接收效果很好。"}
+      ],
+      "derivatives": ["receptionist n. 接待员"],
+      "complete": true
+    },
+    {
+      "word": "celebrity",
+      "partial": "head",
+      "phonetic": "sɪˈlebrɪtɪ",
+      "senses": [
+        {"pos": "n.", "def_zh": "名声【同 fame】",
+         "example": "Does he find his new celebrity intruding on his private life?", "example_zh": "他是否感觉到他最近的成名侵扰了自己的私生活？"}
+      ],
+      "complete": false
+    }
+  ]
+}

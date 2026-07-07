@@ -1,0 +1,101 @@
+{
+  "page": 75,
+  "continues_from": "proclaim",
+  "continues_to": "behalf",
+  "entries": [
+    {
+      "word": "proclaim",
+      "partial": "tail",
+      "senses": [
+        {"pos": "vt.", "def_en": "to show sth. clearly or be a sign of sth.", "def_zh": "显示",
+         "example": "In Britain one's accent proclaims his social status.", "example_zh": "在英国，一个人的口音显示他所处的社会地位。"}
+      ],
+      "derivatives": []
+    },
+    {
+      "word": "declaration",
+      "phonetic": "ˌdekləˈreɪʃən",
+      "mnemonic": "de(fully)+clara(清楚)+tion→说清楚→声明",
+      "senses": [
+        {"pos": "n.", "def_en": "the act or process of declaring", "def_zh": "宣布",
+         "example": "He was in favor of a declaration of war.", "example_zh": "他赞成宣布开战。"},
+        {"pos": "n.", "def_en": "a formal announcement, either oral or written", "def_zh": "声明",
+         "example": "joint declaration", "example_zh": "联合声明"},
+        {"pos": "n.", "def_zh": "申报",
+         "example": "a declaration of income", "example_zh": "收益申报"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "confirm",
+      "phonetic": "kənˈfɜːm",
+      "mnemonic": "con(完全)+firm(坚固的)→证据确凿,坚固不可摧→证实",
+      "senses": [
+        {"pos": "vt.", "def_en": "to support or establish the certainty of", "def_zh": "证实",
+         "example": "The President refused to either confirm or deny this rumor.", "example_zh": "总统拒绝证实或否认这种传闻。"},
+        {"pos": "vt.", "def_en": "to make an arrangement, date or time definite", "def_zh": "确认",
+         "example": "We had better confirm our hotel reservation by telephone.", "example_zh": "我们最好打电话确认一下我们预订的旅馆房间。"},
+        {"pos": "vt.", "def_en": "to give official approval to", "def_zh": "批准",
+         "example": "The queen confirmed the treaty.", "example_zh": "女王批准了此项条约。"}
+      ],
+      "derivatives": ["confirmation n. 确认,证实"],
+      "complete": true
+    },
+    {
+      "word": "confess",
+      "phonetic": "kənˈfes",
+      "mnemonic": "con(一起)+fess(说)→坦白",
+      "senses": [
+        {"pos": "v.", "def_en": "to admit sth. damaging or inconvenient to oneself", "def_zh": "坦白;承认",
+         "example": "She confessed that she killed her husband. // Mr. Foster confessed to having a secret admiration for his opponent.", "example_zh": "她承认杀死了自己的丈夫。福斯特先生承认私下里很钦佩他的对手。"}
+      ],
+      "derivatives": ["【用法】该词作不及物动词时和介词 to 搭配;作及物动词时,后面可以接名词、动名词或 that 从句作宾语。", "confession n. 忏悔,招供"],
+      "complete": true
+    },
+    {
+      "word": "acknowledge",
+      "phonetic": "əkˈnɒlɪdʒ",
+      "mnemonic": "ac(to)+know(知道)+ledge→人人都知道,不得不\"承认\"",
+      "senses": [
+        {"pos": "vt.", "def_en": "to admit the existence or truth of", "def_zh": "承认",
+         "example": "a broadcast message acknowledging their responsibility for the bombing", "example_zh": "他们承认对这起爆炸负责的广播消息"},
+        {"pos": "vt.", "def_en": "to tell sb. that you have received sth. that they sent to you", "def_zh": "确认",
+         "example": "Please acknowledge receipt of this document by signing the enclosed form.", "example_zh": "请在附表中签收这份文件。"},
+        {"pos": "vt.", "def_en": "to express gratitude or appreciation for", "def_zh": "报偿，答谢",
+         "example": "The author wishes to acknowledge the assistance of the volunteers.", "example_zh": "作者希望对志愿者的协助表示感谢。"}
+      ],
+      "derivatives": ["acknowledgement n. 承认;感谢;(确认收到某物的)回信,收条"],
+      "complete": true
+    },
+    {
+      "word": "account",
+      "phonetic": "əˈkaʊnt",
+      "mnemonic": "ac(to)+count(计算)→账户",
+      "senses": [
+        {"pos": "n.", "def_en": "a narrative or record of events", "def_zh": "记述",
+         "example": "Don't always believe newspaper accounts of events.", "example_zh": "不要老是相信报纸的报道。"},
+        {"pos": "n.", "def_zh": "账户",
+         "example": "open a bank account", "example_zh": "在银行开户"},
+        {"pos": "n.", "def_en": "a reason given for a particular action or event", "def_zh": "解释,说明",
+         "example": "He could give no account of what he did with the money.", "example_zh": "他无法解释清楚他是如何处置那笔钱的。"},
+        {"pos": "vi.", "def_zh": "(~for)说明…的原因",
+         "example": "He has been asked to account for his conduct.", "example_zh": "他被要求解释自己的行为。"},
+        {"pos": "vi.", "def_zh": "(在数量、比例方面)占",
+         "example": "A report said that men accounted for 52% of the Chinese population.", "example_zh": "一份报告说男性占中国人口的52%。"}
+      ],
+      "derivatives": ["【短语】of no account 不重要的", "on account of 由于", "on no account 决不", "take... into account 考虑到：We should take into account the proposals of our parents. 我们应该考虑父母的建议。", "accountant n. 会计师"],
+      "complete": true
+    },
+    {
+      "word": "behalf",
+      "partial": "head",
+      "phonetic": "bɪˈhɑːf",
+      "senses": [
+        {"pos": "n.", "def_zh": "利益,方面",
+         "example": "Andy is not present, so I shall accept the prize on his behalf.", "example_zh": "安迪不在场，所以我代表他领奖。"}
+      ],
+      "complete": false
+    }
+  ]
+}

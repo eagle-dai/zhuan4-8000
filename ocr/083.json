@@ -1,0 +1,42 @@
+{
+  "page": 83,
+  "continues_from": "suicide",
+  "continues_to": null,
+  "entries": [
+    {
+      "word": "suicide",
+      "partial": "tail",
+      "senses": [
+        {"pos": "n.", "def_zh": "自取灭亡",
+         "example": "It will not be suicide to admit your mistake.", "example_zh": "承认你的错误并不等于自取灭亡。"}
+      ],
+      "derivatives": ["suicidal a. 自杀的;自取灭亡的"]
+    },
+    {
+      "word": "slash",
+      "phonetic": "slæʃ",
+      "mnemonic": "江洋大盗一发生冲突(clash),就举刀乱砍(slash)",
+      "senses": [
+        {"pos": "v.", "def_en": "to cut or try to cut sth. violently with a knife, sword etc.", "def_zh": "砍",
+         "example": "The hunter slashed at the bear with his knife. // Most of the seats on the train had been slashed by vandals.", "example_zh": "猎人挥刀向熊猛烈砍去。火车上的多数座位都被破坏公物者划破了。"},
+        {"pos": "v.", "def_en": "to reduce drastically", "def_zh": "大幅度削减",
+         "example": "The government promises to slash taxes.", "example_zh": "政府许诺大幅减税。"},
+        {"pos": "n.", "def_zh": "砍;斜线号",
+         "example": "He used a slash (/) to indicate a short pause.", "example_zh": "他用斜线(/)代表短暂的停顿。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "census",
+      "phonetic": "ˈsensəs",
+      "mnemonic": "发音:\"先数数\",再人口普查",
+      "senses": [
+        {"pos": "n.", "def_zh": "人口普查",
+         "example": "A census of population is taken every ten years.", "example_zh": "人口普查每十年进行一次。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    }
+  ]
+}

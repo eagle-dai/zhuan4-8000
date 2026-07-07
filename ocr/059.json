@@ -1,0 +1,124 @@
+{
+  "page": 59,
+  "continues_from": "cultivate",
+  "continues_to": "adapt",
+  "entries": [
+    {
+      "word": "cultivate",
+      "partial": "tail",
+      "senses": [],
+      "derivatives": ["cultivation n. 培养,教育", "cultivated a. 有教养的"]
+    },
+    {
+      "word": "nourish",
+      "phonetic": "ˈnʌrɪʃ",
+      "mnemonic": "n+our(我们的)+ish(使)→我们\"养育\"自己的子女",
+      "senses": [
+        {"pos": "vt.", "def_en": "to provide with food or other substances necessary for growth", "def_zh": "养育",
+         "example": "They needed good food to nourish their bodies.", "example_zh": "他们需要好食品滋养身体。"},
+        {"pos": "vt.", "def_en": "to keep a feeling or belief in one's mind", "def_zh": "怀有(希望等)",
+         "example": "No matter how bad things are, we should always nourish a hope in our mind.", "example_zh": "无论事情多么糟糕，我们心里都要满怀希望。"}
+      ],
+      "derivatives": ["nourishment n. 滋养品;滋养状况"],
+      "complete": true
+    },
+    {
+      "word": "tame",
+      "phonetic": "teɪm",
+      "senses": [
+        {"pos": "a.", "def_zh": "驯服的，温顺的",
+         "example": "He is so tame that he agrees with everybody.", "example_zh": "他很随和，总是顺从他人的意见。"},
+        {"pos": "a.", "def_zh": "沉闷的【同 dull】",
+         "example": "The film has a tame ending.", "example_zh": "那部电影的结局枯燥无味。"},
+        {"pos": "vt.", "def_zh": "制服;驯化",
+         "example": "One day man will tame nature. // Pigeons are easy to tame.", "example_zh": "总有一天人类会征服大自然。鸽子很容易驯养。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "civil",
+      "phonetic": "ˈsɪvəl",
+      "senses": [
+        {"pos": "a.", "def_zh": "公民的，国内的",
+         "example": "Every citizen is supposed to have civil rights and civil duties.", "example_zh": "每一个公民都有权利和义务。"},
+        {"pos": "a.", "def_zh": "民用的",
+         "example": "civil construction", "example_zh": "民用建筑"},
+        {"pos": "a.", "def_zh": "民事的",
+         "example": "Many civil cases can be settled out of court.", "example_zh": "许多民事案件可以在法庭外解决。"},
+        {"pos": "a.", "def_zh": "文明的",
+         "example": "Try at least to be civil.", "example_zh": "至少要尽量礼貌些。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "civilian",
+      "phonetic": "sɪˈvɪljən",
+      "mnemonic": "civil(公民的)+ian(…的人)→平民",
+      "senses": [
+        {"pos": "n.", "def_zh": "平民，百姓",
+         "example": "The bomb injured 12 civilians.", "example_zh": "炸弹炸伤了12名平民。"},
+        {"pos": "a.", "def_zh": "平民的，百姓的",
+         "example": "civilian demands // civilian industry", "example_zh": "百姓的要求；民用工业"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "civilize/-ise",
+      "phonetic": "ˈsɪvɪlaɪz",
+      "senses": [
+        {"pos": "vt.", "def_en": "to bring out of a primitive state", "def_zh": "使文明，使开化",
+         "example": "The African countries hoped to civilize all the primitive tribes on the land.", "example_zh": "非洲国家希望把非洲所有的原始部落都变成文明社会。"}
+      ],
+      "derivatives": ["civilisation/civilization n. 文明,文化"],
+      "complete": true
+    },
+    {
+      "word": "sacrifice",
+      "phonetic": "ˈsækrɪfaɪs",
+      "mnemonic": "sacri(神圣的)+fice(使)→古人认为\"献祭\"使万物变得圣洁",
+      "senses": [
+        {"pos": "n.", "def_zh": "牺牲",
+         "example": "Success in your job is not worth the sacrifice of your health.", "example_zh": "以牺牲健康来求得工作上的成功是不值得的。"},
+        {"pos": "n.", "def_zh": "献祭;祭品",
+         "example": "They made sacrifices to the gods to ensure a good harvest.", "example_zh": "为了保丰收，他们向神灵献祭。"},
+        {"pos": "vt.", "def_zh": "牺牲",
+         "example": "She sacrificed much of her spare time to help the orphanage.", "example_zh": "她牺牲了很多闲暇时间帮助孤儿院做事。"},
+        {"pos": "vt.", "def_zh": "献祭",
+         "example": "The ancient Greeks sacrificed lambs or calves before engaging in battle.", "example_zh": "古希腊人参战前都要献祭羔羊或牛犊。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "adopt",
+      "phonetic": "əˈdɒpt",
+      "mnemonic": "ad(to)+opt(选择)→通过选择→采纳",
+      "senses": [
+        {"pos": "vt.", "def_zh": "收养【同 foster】",
+         "example": "Many childless couples adopted children.", "example_zh": "许多无子女的夫妇收养了孩子。"},
+        {"pos": "vt.", "def_en": "to take and use as one's own", "def_zh": "采用",
+         "example": "Circumstances will force us finally to adopt this policy.", "example_zh": "情况最终会迫使我们采用这项政策。"},
+        {"pos": "vt.", "def_en": "to vote to accept", "def_zh": "批准",
+         "example": "adopt a resolution unanimously", "example_zh": "全体一致通过决议"}
+      ],
+      "derivatives": ["adoption n. 收养,领养;采用"],
+      "complete": true
+    },
+    {
+      "word": "adapt",
+      "partial": "head",
+      "phonetic": "əˈdæpt",
+      "mnemonic": "ad(to)+apt(适当的)→使适合",
+      "senses": [
+        {"pos": "vt.", "def_en": "to change your behavior so that it is easier to live in a particular place or situation", "def_zh": "使适应",
+         "example": "She adapted herself quickly to the new climate.", "example_zh": "她很快就适应了这种新气候。"},
+        {"pos": "vt.", "def_en": "to make suitable to or fit for a specific use or situation", "def_zh": "修改",
+         "example": "This machine has been specially adapted for underwater use.", "example_zh": "这机器是为在水下使用而特别改装的。"}
+      ],
+      "complete": false
+    }
+  ]
+}

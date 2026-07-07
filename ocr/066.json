@@ -1,0 +1,152 @@
+{
+  "page": 66,
+  "continues_from": "minimum",
+  "continues_to": null,
+  "entries": [
+    {
+      "word": "minimum",
+      "partial": "tail",
+      "senses": [
+        {"pos": "a.", "def_zh": "最小的",
+         "example": "minimum wage", "example_zh": "最低工资"},
+        {"pos": "n.", "def_zh": "最低限度，最少量",
+         "example": "They want to spend a minimum of both time and money.", "example_zh": "他们想花费最少的时间和钱。"}
+      ],
+      "derivatives": []
+    },
+    {
+      "word": "maximum",
+      "phonetic": "ˈmæksɪməm",
+      "mnemonic": "maxi(大)+mum(表示最高级)→最大的",
+      "senses": [
+        {"pos": "a.", "def_zh": "最高的，最大的",
+         "example": "the maximum speed", "example_zh": "最高速度"},
+        {"pos": "n.", "def_zh": "最大限度",
+         "example": "Drivers must not exceed a maximum of 55 miles an hour.", "example_zh": "驾驶员不得超过每小时55英里的最高速限。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "sparse",
+      "phonetic": "spɑːs",
+      "senses": [
+        {"pos": "a.", "def_en": "not thick or dense", "def_zh": "零散的，稀疏的",
+         "example": "This is a country of sparse population.", "example_zh": "这是个人口稀少的小国。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "sensation",
+      "phonetic": "senˈseɪʃən",
+      "mnemonic": "sens(感觉)+ation→感觉能力",
+      "senses": [
+        {"pos": "n.", "def_zh": "感觉能力;感觉",
+         "example": "colour sensation // It was a strange sensation—it seems I've been there before.", "example_zh": "色彩感；那是一种奇怪的感觉——仿佛我以前到过那地方似的。"},
+        {"pos": "n.", "def_zh": "轰动",
+         "example": "The mass media go a long way to pursue whatever that can cause a sensation.", "example_zh": "为了达到轰动效应，媒体会不遗余力。"}
+      ],
+      "derivatives": ["sensational a. 轰动的;极好的"],
+      "complete": true
+    },
+    {
+      "word": "extraordinary",
+      "phonetic": "ɪkˈstrɔːdənərɪ",
+      "mnemonic": "extra(在…之外)+ordinary(平常的)→平常之外的→不平常的",
+      "senses": [
+        {"pos": "a.", "def_en": "very unusual or remarkable", "def_zh": "不平常的，非凡的",
+         "example": "Her strength of will was extraordinary.", "example_zh": "她的意志力非凡。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "unique",
+      "phonetic": "juːˈniːk",
+      "mnemonic": "uni(one)+que→唯一的",
+      "senses": [
+        {"pos": "a.", "def_en": "being the only one of its kind", "def_zh": "唯一的，独特的",
+         "example": "Each person's fingerprints are unique.", "example_zh": "每个人的指纹都是独一无二的。"},
+        {"pos": "a.", "def_en": "remarkable; extraordinary", "def_zh": "极不寻常的",
+         "example": "His talent is quite unique.", "example_zh": "他的天才是无以伦比的。"}
+      ],
+      "derivatives": ["【用法】unique 意为\"独一无二的\",没有比较级和最高级。"],
+      "complete": true
+    },
+    {
+      "word": "incident",
+      "phonetic": "ˈɪnsɪdənt",
+      "senses": [
+        {"pos": "n.", "def_en": "a particular occurrence, esp. one of minor importance", "def_zh": "发生的事",
+         "example": "trivial incident", "example_zh": "小事"},
+        {"pos": "n.", "def_en": "a usually violent occurrence; a hostile clash", "def_zh": "事件",
+         "example": "The Xi'an Incident was a very important turning point in China's modern history.", "example_zh": "西安事变是中国近代史上的一个很重要的转折点。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "hence",
+      "phonetic": "hens",
+      "senses": [
+        {"pos": "ad.", "def_zh": "因此【同 therefore】",
+         "example": "It's handmade and hence expensive.", "example_zh": "这是手工做的，因此很贵。"},
+        {"pos": "ad.", "def_zh": "今后",
+         "example": "The problem will have its main effect several years hence.", "example_zh": "这个问题的主要影响将在今后几年内表现出来。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "generalise/-ize",
+      "phonetic": "ˈdʒenərəlaɪz",
+      "senses": [
+        {"pos": "vi.", "def_en": "to form general notions or conclusions", "def_zh": "概括，推断",
+         "example": "It's stupid to generalize and say that all young people are rude.", "example_zh": "泛泛而论说，所有的年轻人都很粗鲁是愚蠢的。"}
+      ],
+      "derivatives": ["generalisation n. 概括,归纳"],
+      "complete": true
+    },
+    {
+      "word": "circular",
+      "phonetic": "ˈsɜːkjulə",
+      "mnemonic": "circul(圆)+ar→圆形的",
+      "senses": [
+        {"pos": "a.", "def_zh": "圆形的",
+         "example": "Most stadiums are circular.", "example_zh": "大多数体育场都是圆形的。"},
+        {"pos": "a.", "def_zh": "循环的",
+         "example": "a circular tour", "example_zh": "环程旅行"},
+        {"pos": "n.", "def_zh": "通知",
+         "example": "Have you seen that circular from the new furniture center?", "example_zh": "你看到那家新开的家具中心的通告了吗？"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "circulate",
+      "phonetic": "ˈsɜːkjuleɪt",
+      "mnemonic": "circul(圆的)+ate(使)→循环",
+      "senses": [
+        {"pos": "v.", "def_en": "to move in or flow through a circle", "def_zh": "(使)循环",
+         "example": "The heart circulates blood round the body. // Blood circulates around the body.", "example_zh": "心脏使血液在身体中循环流动。血液在全身循环。"},
+        {"pos": "v.", "def_en": "to spread widely among persons or places", "def_zh": "散布",
+         "example": "Those who circulate false news should be condemned.", "example_zh": "散布流言者应该受到谴责。"}
+      ],
+      "derivatives": ["circulation n. 循环;流通;流传;发行量"],
+      "complete": true
+    },
+    {
+      "word": "circuit",
+      "phonetic": "ˈsɜːkɪt",
+      "senses": [
+        {"pos": "n.", "def_zh": "电路",
+         "example": "There must be a break in the circuit.", "example_zh": "电路中一定有断路。"},
+        {"pos": "n.", "def_zh": "环行",
+         "example": "We did a circuit of the old city walls.", "example_zh": "我们绕着旧城墙走了一圈。"}
+      ],
+      "derivatives": ["short-circuit v. 短路"],
+      "complete": true
+    }
+  ]
+}

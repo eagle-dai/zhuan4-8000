@@ -1,0 +1,138 @@
+{
+  "page": 77,
+  "continues_from": "judicial",
+  "continues_to": "specify",
+  "entries": [
+    {
+      "word": "judicial",
+      "partial": "tail",
+      "senses": []
+    },
+    {
+      "word": "provision",
+      "phonetic": "prəˈvɪʒən",
+      "mnemonic": "pro(forward)+vis(看)+ion→向前看,未雨绸缪→准备",
+      "senses": [
+        {"pos": "n.", "def_en": "the act of supplying or providing sth.", "def_zh": "供应",
+         "example": "The government is responsible for the provision of education for all the children.", "example_zh": "政府有责任向所有儿童提供教育。"},
+        {"pos": "n.", "def_en": "a preparatory action or measure", "def_zh": "准备",
+         "example": "He did not make any provision for his children's education.", "example_zh": "他没为孩子的教育作任何准备。"},
+        {"pos": "n.", "def_en": "a particular requirement in a law, rule, or agreement", "def_zh": "条款",
+         "example": "They failed to carry out the provisions.", "example_zh": "他们没有按照规定办事。"},
+        {"pos": "n.", "def_zh": "[pl.]给养",
+         "example": "We went into town to stock up on provisions.", "example_zh": "为了储备食物我们进了城。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "preparation",
+      "phonetic": "ˌprepəˈreɪʃən",
+      "mnemonic": "prepare(v. 准备)的名词形式",
+      "senses": [
+        {"pos": "n.", "def_zh": "准备(工作)",
+         "example": "Preparation for a wedding can exhaust a couple.", "example_zh": "婚礼的准备工作可以使一对夫妇筋疲力尽。"},
+        {"pos": "n.", "def_zh": "制剂",
+         "example": "biological preparation", "example_zh": "生物制剂"}
+      ],
+      "derivatives": ["preparatory a. 预备的,筹备的"],
+      "complete": true
+    },
+    {
+      "word": "requirement",
+      "phonetic": "rɪˈkwaɪəmənt",
+      "mnemonic": "require(要求)+ment→要求",
+      "senses": [
+        {"pos": "n.", "def_en": "sth. that is required; a necessity", "def_zh": "要求，必要条件",
+         "example": "A requirement for this job is that the applicants should have experience in a related field.", "example_zh": "这份工作的一个要求是求职者应有相关的经验。"},
+        {"pos": "n.", "def_en": "sth. that is needed or that must be done", "def_zh": "需要的东西",
+         "example": "The refugees' main requirements are food and shelter.", "example_zh": "难民的主要需求是食物和住所。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "particularly",
+      "phonetic": "pəˈtɪkjuləlɪ",
+      "senses": [
+        {"pos": "ad.", "def_zh": "特别，尤其",
+         "example": "Everyone has a moment in history which belongs particularly to him.", "example_zh": "每个人在历史上都有只属于他自己的一刻。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "peculiar",
+      "phonetic": "pɪˈkjuːlɪə",
+      "senses": [
+        {"pos": "a.", "def_en": "not ordinary or usual; odd or strange", "def_zh": "奇怪的",
+         "example": "The fish has a peculiar taste.", "example_zh": "这鱼有股怪味。"},
+        {"pos": "a.", "def_en": "of, relating to, or found in (only one person, thing or place)", "def_zh": "特有的【同 unique】",
+         "example": "be peculiar to... // This is a species of bird peculiar to Asia.", "example_zh": "…独有的；这是一种亚洲独有的鸟。"},
+        {"pos": "n.", "def_zh": "特有财产,特权",
+         "example": "It's the manager's peculiar to use this meeting room.", "example_zh": "使用这间会议室是经理的特权。"}
+      ],
+      "derivatives": ["peculiarity n. 特色;怪癖;特殊的东西"],
+      "complete": true
+    },
+    {
+      "word": "specific",
+      "phonetic": "spɪˈsɪfɪk",
+      "mnemonic": "speci(种类)+fic→某种的→特定的",
+      "senses": [
+        {"pos": "a.", "def_en": "relating to a particular person, situation, etc.", "def_zh": "特定的，特有的",
+         "example": "My research deals with customs specific to West Africa.", "example_zh": "我专门研究西非特有的风俗习惯。"},
+        {"pos": "a.", "def_en": "precise or exact", "def_zh": "明确的，具体的",
+         "example": "Instructions for a nation-wide test must be specific.", "example_zh": "全国统考的考试指令必须详细而明确。"},
+        {"pos": "n.", "def_zh": "[pl.]详情",
+         "example": "Okay, that's the broad plan—let's get down to the specifics.", "example_zh": "好，这是总的计划——下面来谈谈具体细节。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "specialize/-ise",
+      "phonetic": "ˈspeʃəlaɪz",
+      "mnemonic": "special(专门的)+ize→专攻",
+      "senses": [
+        {"pos": "vi.", "def_en": "to pursue a special activity, occupation, or field of study", "def_zh": "专攻",
+         "example": "The doctor specializes in children's illnesses.", "example_zh": "该医生专门研究儿科疾病。"}
+      ],
+      "derivatives": ["specialist n. 专家"],
+      "complete": true
+    },
+    {
+      "word": "specialty/speciality",
+      "phonetic": "ˈspeʃəltɪ; ˌspeʃɪˈælɪtɪ",
+      "senses": [
+        {"pos": "n.", "def_zh": "特产",
+         "example": "Hami melon is a specialty in Xinjiang.", "example_zh": "哈密瓜是新疆的特产。"},
+        {"pos": "n.", "def_zh": "专业,专长",
+         "example": "His academic speciality is language history and change.", "example_zh": "他研究的学术领域是语言史及其演变。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "species",
+      "phonetic": "ˈspiːʃiːz",
+      "senses": [
+        {"pos": "n.", "def_zh": "种,类",
+         "example": "The Origin of Species was one of the most important books published during the 19th century.", "example_zh": "《物种起源》是19世纪出版的最重要的著作之一。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "specify",
+      "partial": "head",
+      "phonetic": "ˈspesɪfaɪ",
+      "mnemonic": "speci(种类)+fy(使)→使明确到种类→明确说明",
+      "senses": [
+        {"pos": "vt.", "def_en": "to state sth. in an exact and detailed way", "def_zh": "明确说明",
+         "example": "The regulations specify that calculators may not be used in the examination.", "example_zh": "规则中明确说明考试时不得使用计算器。"}
+      ],
+      "complete": false
+    }
+  ]
+}

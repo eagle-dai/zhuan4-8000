@@ -1,0 +1,112 @@
+{
+  "page": 61,
+  "continues_from": "pose",
+  "continues_to": null,
+  "entries": [
+    {
+      "word": "signal",
+      "phonetic": "ˈsɪgnəl",
+      "mnemonic": "sign(记号)+al→用特殊的记号表示→信号",
+      "senses": [
+        {"pos": "n.", "def_zh": "信号;标志",
+         "example": "traffic signals // Rapid breathing is a danger signal.", "example_zh": "交通信号；呼吸急促是危险的征兆。"},
+        {"pos": "v.", "def_zh": "发信号",
+         "example": "The ship signaled her position hourly. // signal for help", "example_zh": "该轮船每小时用信号报告她的位置。发求救信号"},
+        {"pos": "v.", "def_zh": "表示",
+         "example": "Both sides have signaled their willingness to start negotiation.", "example_zh": "双方都已表示他们愿意开始谈判。"},
+        {"pos": "a.", "def_zh": "显著的",
+         "example": "People speak of Mark Twain as a signal humorous writer.", "example_zh": "人们称马克·吐温为杰出的幽默作家。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "gesture",
+      "phonetic": "ˈdʒestʃə",
+      "mnemonic": "gest(运载)+ure→承载信息的动作→手势",
+      "senses": [
+        {"pos": "n.", "def_zh": "姿势",
+         "example": "make a rude gesture", "example_zh": "做出粗鲁的手势"},
+        {"pos": "n.", "def_zh": "表示",
+         "example": "The invitation was thought of as a friendly gesture.", "example_zh": "那次邀请被认为是一个友善的表示。"},
+        {"pos": "v.", "def_zh": "做手势",
+         "example": "gesture sb. to do sth // Beckham was fined for gesturing rudely at the football fans.", "example_zh": "做手势要某人做某事；贝克汉姆向球迷做非常粗鲁的手势，因此被罚款。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "label",
+      "phonetic": "ˈleɪbəl",
+      "senses": [
+        {"pos": "n.", "def_zh": "标签",
+         "example": "I attached a label on my luggage.", "example_zh": "我在行李上加了标签。"},
+        {"pos": "n.", "def_zh": "称号",
+         "example": "acquire the label of...", "example_zh": "得了…绰号"},
+        {"pos": "vt.", "def_zh": "贴标签于",
+         "example": "The bottle is labeled \"Poison\".", "example_zh": "瓶上标明\"有毒\"。"},
+        {"pos": "vt.", "def_en": "to describe or classify sb. or sth. often unfairly or incorrectly", "def_zh": "把…称为",
+         "example": "Tom has been labeled \"playboy\" by girls.", "example_zh": "汤姆被女孩们称为\"花花公子\"。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "tag",
+      "phonetic": "tæg",
+      "senses": [
+        {"pos": "n.", "def_zh": "标签【同 label】",
+         "example": "a price tag", "example_zh": "价格标签"},
+        {"pos": "vt.", "def_zh": "给…加上标签",
+         "example": "All his suitcases were tagged with his name and address.", "example_zh": "他所有的手提箱都贴着有他名字和地址的标签。"}
+      ],
+      "derivatives": ["【短语】tag along 尾随,跟随"],
+      "complete": true
+    },
+    {
+      "word": "readily",
+      "phonetic": "ˈredɪlɪ",
+      "mnemonic": "readi(情愿的)+ly→乐意地",
+      "senses": [
+        {"pos": "ad.", "def_en": "without hesitation; willingly", "def_zh": "乐意地",
+         "example": "He readily agreed to help us.", "example_zh": "他欣然同意帮助我们。"},
+        {"pos": "ad.", "def_en": "without difficulty; easily", "def_zh": "容易地;很快地",
+         "example": "Wherever he goes, he readily accommodates to changed conditions.", "example_zh": "不管到哪儿，他都能迅速适应变化了的情况。"}
+      ],
+      "derivatives": ["readiness n. 准备妥当;意愿"],
+      "complete": true
+    },
+    {
+      "word": "prompt",
+      "phonetic": "prɒmpt",
+      "mnemonic": "pro(forward)+mpt(拿)→最先去拿→敏捷的",
+      "senses": [
+        {"pos": "vt.", "def_en": "to move to act; give rise to", "def_zh": "促使",
+         "example": "The poor boy confessed that it was hunger that prompted him to steal the bread. // What prompted that remark?", "example_zh": "可怜的男孩承认他是因为太饿了才偷了面包。那句话是什么事引起的？"},
+        {"pos": "vt.", "def_zh": "提示",
+         "example": "She needed to be occasionally prompted.", "example_zh": "她需要不时给予提示。"},
+        {"pos": "a.", "def_en": "carried out or performed without delay", "def_zh": "敏捷的，及时的",
+         "example": "He is always prompt in answering letters.", "example_zh": "他总是迅速回复各种来信。"},
+        {"pos": "n.", "def_zh": "提词，提示"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "instant",
+      "phonetic": "ˈɪnstənt",
+      "senses": [
+        {"pos": "a.", "def_en": "occurring at once; immediate", "def_zh": "即刻的",
+         "example": "an instant reply", "example_zh": "即时的答复"},
+        {"pos": "a.", "def_en": "imperative; urgent", "def_zh": "紧急的",
+         "example": "The flood victims were in instant need of help.", "example_zh": "水灾难民急需救助。"},
+        {"pos": "a.", "def_zh": "速溶的",
+         "example": "instant coffee", "example_zh": "速溶咖啡"},
+        {"pos": "n.", "def_zh": "瞬间",
+         "example": "I sent you the news the instant (that) I heard it.", "example_zh": "我一听到此消息，便通知你了。"}
+      ],
+      "derivatives": ["instantly ad. 立即，马上"],
+      "complete": true
+    }
+  ]
+}

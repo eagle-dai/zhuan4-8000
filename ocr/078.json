@@ -1,0 +1,117 @@
+{
+  "page": 78,
+  "continues_from": "specify",
+  "continues_to": "economical",
+  "entries": [
+    {
+      "word": "specify",
+      "partial": "tail",
+      "senses": []
+    },
+    {
+      "word": "weary",
+      "phonetic": "ˈwɪərɪ",
+      "senses": [
+        {"pos": "a.", "def_en": "physically or mentally tired", "def_zh": "疲劳的",
+         "example": "a weary day", "example_zh": "劳累的一天"},
+        {"pos": "a.", "def_en": "bored or annoyed by sth.", "def_zh": "令人厌倦的",
+         "example": "The people are growing weary of the war.", "example_zh": "人民对这场战争越来越厌倦了。"},
+        {"pos": "vi.", "def_zh": "(~of)厌烦",
+         "example": "Young people weary of countless restrictions and fetters.", "example_zh": "年轻人对各种清规戒律感到厌烦。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "fatigue",
+      "phonetic": "fəˈtiːg",
+      "mnemonic": "发音:\"肥体格\"→肥胖的人容易累→疲劳",
+      "senses": [
+        {"pos": "n.", "def_en": "physical or mental weariness resulting from effort or activity; very great tiredness", "def_zh": "疲劳",
+         "example": "He was beaten out with fatigue when he got home.", "example_zh": "他回到家里时已是疲惫不堪。"},
+        {"pos": "v.", "def_en": "to tire out; exhaust", "def_zh": "(使)疲劳",
+         "example": "The hustle and bustle of city life fatigues many people. // The patient fatigues easily.", "example_zh": "奔波的城市生活使很多人精疲力竭。病人容易疲劳。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "stress",
+      "phonetic": "stres",
+      "senses": [
+        {"pos": "n.", "def_en": "a condition of extreme difficulty, pressure, or strain", "def_zh": "压力",
+         "example": "She failed to withstand the stresses and strains of public life.", "example_zh": "她承受不了作为一个公众人物的生活压力和紧张。"},
+        {"pos": "n.", "def_en": "importance, significance, or emphasis placed on sth.", "def_zh": "强调",
+         "example": "lay/put stress on // That school lays stress on English.", "example_zh": "着重于，把重点放在…上；那所学校注重英语。"},
+        {"pos": "n.", "def_zh": "重音",
+         "example": "Give stress to the second syllable.", "example_zh": "重读第二个音节。"},
+        {"pos": "n.", "def_zh": "应力",
+         "example": "the stress exerted on an aircraft's wing", "example_zh": "飞机机翼的应力"},
+        {"pos": "vt.", "def_zh": "强调;重读",
+         "example": "In his speech, he stressed that we should be punctual.", "example_zh": "在他的发言中强调的一点是，我们必须准时。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "excitement",
+      "phonetic": "ɪkˈsaɪtmənt",
+      "mnemonic": "ex(out)+cite(叫喊)+ment→\"激动\"得喊出来",
+      "senses": [
+        {"pos": "n.", "def_zh": "激动",
+         "example": "As the end of the game grew nearer, the crowd's excitement increased.", "example_zh": "随着比赛接近尾声，观众越来越激动。"},
+        {"pos": "n.", "def_zh": "令人兴奋的事",
+         "example": "The visiting circus was an excitement to every child in town.", "example_zh": "马戏团的到来使镇上每个孩子都感到兴奋。"}
+      ],
+      "derivatives": ["excited a. 激动的", "excitable a. 易激动的"],
+      "complete": true
+    },
+    {
+      "word": "temper",
+      "phonetic": "ˈtempə",
+      "senses": [
+        {"pos": "n.", "def_zh": "脾气",
+         "example": "ill temper", "example_zh": "坏脾气"},
+        {"pos": "n.", "def_zh": "韧度",
+         "example": "temper of the clay", "example_zh": "粘土的硬度"},
+        {"pos": "vt.", "def_en": "to make sth. less severe or extreme", "def_zh": "调和",
+         "example": "Eventually, Williams taught himself to temper anger with humor.", "example_zh": "最终，威廉斯告诫自己要用幽默来缓解怒气。"},
+        {"pos": "vt.", "def_en": "to harden or strengthen sth. by heating and cooling it", "def_zh": "使回火",
+         "example": "to temper steel by heating and sudden cooling", "example_zh": "通过加热和骤冷来炼钢"}
+      ],
+      "derivatives": ["【短语】lose one's temper 发脾气，发怒：Losing your temper often will add lines to your face. 经常发脾气会让你的脸增添皱纹的。", "bad-tempered a. 脾气坏的"],
+      "complete": true
+    },
+    {
+      "word": "crisis",
+      "phonetic": "ˈkraɪsɪs",
+      "senses": [
+        {"pos": "n.", "def_en": "a difficult or dangerous situation that needs serious attention", "def_zh": "危机;决定性时刻",
+         "example": "Cars lined up for gas during the energy crisis of 1972. // In times of crisis you find out who your real friends are.", "example_zh": "在1972年能源危机期间，汽车排着长队加油。危难关头你就会发现谁是真正的朋友。"}
+      ],
+      "derivatives": ["【用法】复数形式为 crises。"],
+      "complete": true
+    },
+    {
+      "word": "beware",
+      "phonetic": "bɪˈweə",
+      "senses": [
+        {"pos": "v.", "def_zh": "(~of)谨防，当心",
+         "example": "Beware how you handle this dangerous substance. // Beware of pickpockets.", "example_zh": "注意你处理这种危险品的方法。提防扒手。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "economical",
+      "partial": "head",
+      "phonetic": "ˌiːkəˈnɒmɪkəl",
+      "mnemonic": "eco(家)+nom(治理)+ical→勤俭持家的→省俭的,节约的",
+      "senses": [
+        {"pos": "a.", "def_zh": "节约的，经济的【反 wasteful】",
+         "example": "Some villages are equipped with a modern and economical heating system.", "example_zh": "一些村庄里安装了现代化的经济型供暖系统。"}
+      ],
+      "complete": false
+    }
+  ]
+}

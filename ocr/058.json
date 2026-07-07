@@ -1,0 +1,136 @@
+{
+  "page": 58,
+  "continues_from": "debate",
+  "continues_to": "cultivate",
+  "entries": [
+    {
+      "word": "debate",
+      "partial": "tail",
+      "senses": [
+        {"pos": "v.", "def_en": "to dispute or argue about, esp. in a formal manner", "def_zh": "辩论",
+         "example": "The two candidates for mayor will debate environmental issues. // We debated for several hours before taking a vote.", "example_zh": "两位市长候选人将针对环境问题进行辩论。我们辩论了好几个小时才投票。"}
+      ]
+    },
+    {
+      "word": "argument",
+      "phonetic": "ˈɑːgjumənt",
+      "senses": [
+        {"pos": "n.", "def_en": "a situation in which two or more people disagree, often angrily", "def_zh": "争论",
+         "example": "Please write down the terms of the contract to avoid any arguments between the two parties.", "example_zh": "请记下合约的条款，以免双方日后发生争论。"},
+        {"pos": "n.", "def_en": "a fact or statement put forth as proof or evidence", "def_zh": "论据",
+         "example": "state one's argument", "example_zh": "提出论点"},
+        {"pos": "n.", "def_zh": "说理",
+         "example": "We must settle this by argument, not by fighting.", "example_zh": "我们应当通过说理来解决这个问题，而不是通过打架。"}
+      ],
+      "derivatives": ["argumentative a. 好争辩的;议论文的"],
+      "complete": true
+    },
+    {
+      "word": "remarkable",
+      "phonetic": "rɪˈmɑːkəbl",
+      "mnemonic": "re(again)+mark(做标记)+able→一再做标记→值得注意的",
+      "senses": [
+        {"pos": "a.", "def_en": "worthy of notice, esp. for being unusual or extraordinary", "def_zh": "值得注意的;非凡的",
+         "example": "Qian Zhongshu had a remarkable memory; he only needed to read something once before learning it by heart.", "example_zh": "钱锺书有非凡的记忆力，他能过目不忘。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "client",
+      "phonetic": "ˈklaɪənt",
+      "senses": [
+        {"pos": "n.", "def_en": "a customer or sb. who receives services", "def_zh": "委托人，顾客",
+         "example": "He has been a client of our bank for many years.", "example_zh": "他多年来一直是我们银行的客户。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "tenant",
+      "phonetic": "ˈtenənt",
+      "mnemonic": "ten(十)+ant(蚂蚁)→十只蚂蚁成了\"房客\"",
+      "senses": [
+        {"pos": "n.", "def_zh": "房客，佃户",
+         "example": "Tenants of apartments often try to find partners to share it to pay less rent.", "example_zh": "公寓套房的租户常常试图找到合住者以少付些房租。"}
+      ],
+      "derivatives": ["tenancy n. 租赁期限;租用"],
+      "complete": true
+    },
+    {
+      "word": "proprietor",
+      "phonetic": "prəˈpraɪətə",
+      "senses": [
+        {"pos": "n.", "def_en": "one who owns a business; an owner", "def_zh": "所有人，业主",
+         "example": "He is now sole proprietor of the business.", "example_zh": "他现在一个人拥有这家公司。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "scrap",
+      "phonetic": "skræp",
+      "senses": [
+        {"pos": "n.", "def_en": "a small piece or bit", "def_zh": "碎片;少量",
+         "example": "Put the scraps of paper in the wastebasket.", "example_zh": "将碎纸片放到废纸篓里。"},
+        {"pos": "n.", "def_zh": "废金属",
+         "example": "He sold his car for its scrap value.", "example_zh": "他把自己的小汽车当作废铁卖掉了。"},
+        {"pos": "n.", "def_zh": "[pl.]残羹剩饭【同 leftovers】",
+         "example": "He gave scraps of food to the dog.", "example_zh": "剩余的食物他拿去喂狗了。"},
+        {"pos": "vt.", "def_en": "to abandon as useless; cancel", "def_zh": "废弃",
+         "example": "We had to scrap our plans.", "example_zh": "我们不得不放弃我们的计划。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "scrape",
+      "phonetic": "skreɪp",
+      "mnemonic": "scrap(碎屑)+e→碎屑是被刮下来的→刮",
+      "senses": [
+        {"pos": "vt.", "def_zh": "刮，擦",
+         "example": "Please scrape the dish clean. // She scraped the mud off her shoes.", "example_zh": "请把盘子擦干净。她刮去鞋上的泥。"},
+        {"pos": "n.", "def_zh": "刮，擦，刮擦声",
+         "example": "One can only hear the scrape of their pens on paper.", "example_zh": "只听见他们的笔尖在纸上所发出的沙沙声。"}
+      ],
+      "derivatives": ["【短语】scrape together/up 费力地获得 // scrape by/through 勉强通过：Danni just scraped through her exams. 丹妮勉强通过了考试。"],
+      "complete": true
+    },
+    {
+      "word": "slice",
+      "phonetic": "slaɪs",
+      "senses": [
+        {"pos": "n.", "def_zh": "薄片",
+         "example": "a slice of bread", "example_zh": "一片面包"},
+        {"pos": "n.", "def_en": "a portion or share", "def_zh": "一份，部分",
+         "example": "Every company wants to gain a bigger slice of the pie.", "example_zh": "每个公司都想占据更大的市场份额。"},
+        {"pos": "vt.", "def_zh": "切(片)",
+         "example": "Slice the cucumbers and add them to the meat.", "example_zh": "把黄瓜切片，然后加进肉里。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "upbringing",
+      "phonetic": "ˈʌpˌbrɪŋɪŋ",
+      "senses": [
+        {"pos": "n.", "def_en": "the rearing and training received during childhood", "def_zh": "养育，抚育",
+         "example": "He owed his success to the good upbringing he had.", "example_zh": "他的成功归功于他受到的良好教养。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "cultivate",
+      "phonetic": "ˈkʌltɪveɪt",
+      "mnemonic": "cultiv(种植)+ate→种植",
+      "senses": [
+        {"pos": "vt.", "def_zh": "耕作，栽培",
+         "example": "Only one third of the land can be cultivated.", "example_zh": "只有三分之一的土地可以耕种。"},
+        {"pos": "vt.", "def_en": "to acquire or develop sth. such as a skill by education", "def_zh": "培养",
+         "example": "They often take their child to concerts to cultivate a love of music in him.", "example_zh": "他们经常带孩子去听音乐会以培养他对音乐的热爱。"}
+      ],
+      "complete": false
+    }
+  ]
+}

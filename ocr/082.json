@@ -1,0 +1,148 @@
+{
+  "page": 82,
+  "continues_from": "celebrity",
+  "continues_to": "suicide",
+  "entries": [
+    {
+      "word": "celebrity",
+      "partial": "tail",
+      "senses": [
+        {"pos": "n.", "def_zh": "名人",
+         "example": "Lots of celebrities were at the film premiere.", "example_zh": "许多名人出席了电影的首映式。"}
+      ],
+      "derivatives": ["celebrated a. 声誉卓著的"]
+    },
+    {
+      "word": "renowned",
+      "phonetic": "rɪˈnaund",
+      "senses": [
+        {"pos": "a.", "def_zh": "著名的",
+         "example": "The products of that country's mechanical industry are renowned for their high quality.", "example_zh": "那个国家的机械工业产品以高质量闻名。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "fame",
+      "phonetic": "feɪm",
+      "mnemonic": "名字(name)变 n 为 f 就成了名声(fame)",
+      "senses": [
+        {"pos": "n.", "def_en": "the state of being widely known, recognized", "def_zh": "声誉,名声",
+         "example": "Rowling won overnight fame with her novel Harry Potter.", "example_zh": "罗琳的小说《哈利·波特》使她一夜成名。"}
+      ],
+      "derivatives": ["famed a. 有名的,出名的"],
+      "complete": true
+    },
+    {
+      "word": "costume",
+      "phonetic": "ˈkɒstjuːm",
+      "senses": [
+        {"pos": "n.", "def_zh": "服饰",
+         "example": "They are all dressed in national costume.", "example_zh": "他们都穿着民族服装。"},
+        {"pos": "n.", "def_zh": "戏装,成套服装",
+         "example": "academic costume", "example_zh": "学位服"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "costly",
+      "phonetic": "ˈkɒstlɪ",
+      "senses": [
+        {"pos": "a.", "def_zh": "昂贵的",
+         "example": "It would be too costly to repair the car.", "example_zh": "修理这辆汽车要花很多钱。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "crew",
+      "phonetic": "kruː",
+      "senses": [
+        {"pos": "n.", "def_zh": "全体机务人员",
+         "example": "All passengers and crew (members) perished in the Russian TU-154 plane crash.", "example_zh": "所有乘客和机务人员在俄罗斯的TU-154飞机失事中丧生。"},
+        {"pos": "n.", "def_zh": "一队工作人员",
+         "example": "Columbus and his crew set out from Europe in 1492.", "example_zh": "哥伦布和他的船员在1492年从欧洲起航。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "strand",
+      "phonetic": "strænd",
+      "senses": [
+        {"pos": "n.", "def_zh": "(线等的)股，缕",
+         "example": "The strands were twisted together.", "example_zh": "线缠绕在一起。"},
+        {"pos": "n.", "def_en": "one of the parts of a story, problem, idea etc.", "def_zh": "一个组成部分",
+         "example": "He draws all the strands of the argument together at the end.", "example_zh": "他最后把各个论点归结起来。"},
+        {"pos": "vt.", "def_en": "to drive or run sth. ashore; leave in a difficult position", "def_zh": "使搁浅",
+         "example": "The tide had gone out, leaving the boat stranded.", "example_zh": "潮水退了，小船搁浅在礁石上。"},
+        {"pos": "vt.", "def_en": "to bring into a difficulty or helpless position", "def_zh": "使陷入困境",
+         "example": "I was stranded in a strange town without money or friends.", "example_zh": "我被困在一个陌生的城市，既没有钱，又没有朋友。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "remote",
+      "phonetic": "rɪˈməut",
+      "mnemonic": "re(back, away)+mote(移动)→往远处移动→遥远的",
+      "senses": [
+        {"pos": "a.", "def_en": "located far away; distant in space", "def_zh": "遥远的",
+         "example": "Space probes operate in dark, cold, remote parts of the solar system.", "example_zh": "太空探测器在太阳系黑暗、冰冷、遥远的地方进行探测。"},
+        {"pos": "a.", "def_en": "not closely related", "def_zh": "关系疏远的",
+         "example": "a remote relative", "example_zh": "远亲"},
+        {"pos": "a.", "def_en": "very small; slight", "def_zh": "绝少的",
+         "example": "Chances of success are remote.", "example_zh": "成功的可能性微乎其微。"},
+        {"pos": "a.", "def_zh": "孤高的",
+         "example": "She was a silent girl, cool and remote.", "example_zh": "她是一个沉默寡言的女孩，对人冷漠且孤傲。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "isolate",
+      "phonetic": "ˈaɪsəleɪt",
+      "senses": [
+        {"pos": "vt.", "def_en": "to cause to be alone or apart", "def_zh": "使隔离，使孤立",
+         "example": "Should AIDS patients be isolated from others?", "example_zh": "应不应该把艾滋病人和其他人隔离开？"}
+      ],
+      "derivatives": ["isolation n. 隔离,孤立"],
+      "complete": true
+    },
+    {
+      "word": "monarch",
+      "phonetic": "ˈmɒnək",
+      "mnemonic": "mon(单个)+arch(统治)→一个人统治→君主",
+      "senses": [
+        {"pos": "n.", "def_zh": "君主,帝王",
+         "example": "Monarchs ruled England for centuries.", "example_zh": "世袭君主统治英格兰许多世纪。"}
+      ],
+      "derivatives": ["monarchy n. 君主制;君主国"],
+      "complete": true
+    },
+    {
+      "word": "reign",
+      "phonetic": "reɪn",
+      "senses": [
+        {"pos": "vi.", "def_en": "to rule as a king, queen, emperor, etc.", "def_zh": "当政，统治",
+         "example": "He reigned over the country for ten years.", "example_zh": "他统治这个国家长达十年。"},
+        {"pos": "vi.", "def_en": "to be the best or the most powerful or important person or thing", "def_zh": "占主导地位",
+         "example": "After the storm, quietness reigned.", "example_zh": "风暴过后是一片寂静。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "suicide",
+      "partial": "head",
+      "phonetic": "ˈsjuːɪsaɪd",
+      "mnemonic": "sui(自己)+cide(杀)→自杀",
+      "senses": [
+        {"pos": "n.", "def_zh": "自杀",
+         "example": "To commit suicide is a cowardly behavior.", "example_zh": "自杀是懦夫的行为。"}
+      ],
+      "complete": false
+    }
+  ]
+}
