@@ -1,0 +1,44 @@
+{
+  "page": 68,
+  "continues_from": null,
+  "continues_to": null,
+  "entries": [
+    {
+      "word": "marital",
+      "phonetic": "ˈmærɪtl",
+      "senses": [
+        {"pos": "a.", "def_zh": "婚姻的",
+         "example": "He is faced with the fact of an irremediable marital breakdown.", "example_zh": "他面临着婚姻破裂不可挽救的事实。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "divorce",
+      "phonetic": "dɪˈvɔːs",
+      "senses": [
+        {"pos": "n.", "def_zh": "离婚",
+         "example": "divorce rate", "example_zh": "离婚率"},
+        {"pos": "n.", "def_zh": "分离",
+         "example": "They advocated a complete divorce of government and religion.", "example_zh": "他们主张政教完全分离。"},
+        {"pos": "v.", "def_zh": "离婚",
+         "example": "He divorced his wife last week. // The couple divorced.", "example_zh": "他上个星期和妻子离婚了。这对夫妇离婚了。"},
+        {"pos": "v.", "def_en": "to cut off; separate", "def_zh": "分离",
+         "example": "It is difficult to divorce sport from politics.", "example_zh": "运动很难完全脱离政治。"}
+      ],
+      "derivatives": ["【用法】该词可作及物动词,~ sb. 表示\"与某人离婚\",~ ... and... 表示\"(法官)判…与…离婚\"。"],
+      "complete": true
+    },
+    {
+      "word": "spouse",
+      "phonetic": "spaʊz",
+      "mnemonic": "发音:\"死抱死\"→死都要抱在一起死→配偶",
+      "senses": [
+        {"pos": "n.", "def_zh": "配偶",
+         "example": "criteria of choosing spouse", "example_zh": "择偶标准"}
+      ],
+      "derivatives": [],
+      "complete": true
+    }
+  ]
+}

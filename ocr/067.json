@@ -1,0 +1,134 @@
+{
+  "page": 67,
+  "continues_from": null,
+  "continues_to": null,
+  "entries": [
+    {
+      "word": "define",
+      "phonetic": "dɪˈfaɪn",
+      "mnemonic": "de(down)+fine(末端,范围)→定下范围→限定",
+      "senses": [
+        {"pos": "vt.", "def_zh": "给…下定义",
+         "example": "How do you define happiness?", "example_zh": "你怎样定义\"幸福\"？"},
+        {"pos": "vt.", "def_en": "to specify distinctly", "def_zh": "限定",
+         "example": "The section defines the extent of application of the Act.", "example_zh": "该条款用来限定该法令的适用范围。"}
+      ],
+      "derivatives": ["definition n. 定义,限定", "indefinable a. 难下定义的"],
+      "complete": true
+    },
+    {
+      "word": "entry",
+      "phonetic": "ˈentrɪ",
+      "senses": [
+        {"pos": "n.", "def_zh": "参赛的人(或物)",
+         "example": "The winning entry was a short film for France.", "example_zh": "获奖作品是一部法国短片。"},
+        {"pos": "n.", "def_zh": "进入",
+         "example": "The PLA made a triumphant entry into the town.", "example_zh": "解放军凯旋入城。"},
+        {"pos": "n.", "def_zh": "入口处",
+         "example": "You can leave your umbrella in the entry.", "example_zh": "雨伞可放于入口处。"},
+        {"pos": "n.", "def_zh": "登记",
+         "example": "He made an entry in his diary every night.", "example_zh": "他每天晚上记日记。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "sack",
+      "phonetic": "sæk",
+      "mnemonic": "缺少(lack)干劲,被解雇(sack)",
+      "senses": [
+        {"pos": "n.", "def_zh": "麻袋，包",
+         "example": "a sack of flour", "example_zh": "一袋面粉"},
+        {"pos": "n.", "def_zh": "[the~]解雇",
+         "example": "If you don't work harder you'll get the sack.", "example_zh": "如果你不更加卖力工作，就会被炒鱿鱼。"},
+        {"pos": "n.", "def_zh": "[the~]洗劫",
+         "example": "the sack of Rome in 1527", "example_zh": "1527年罗马大洗劫"},
+        {"pos": "vt.", "def_en": "to discharge from employment", "def_zh": "解雇",
+         "example": "He was sacked for being drunk.", "example_zh": "他因酗酒而被解雇。"},
+        {"pos": "vt.", "def_en": "to rob of goods or valuables, esp. after capture", "def_zh": "洗劫",
+         "example": "The invaders sacked the city.", "example_zh": "侵略者把这座城市洗劫一空。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "snack",
+      "phonetic": "snæk",
+      "senses": [
+        {"pos": "n.", "def_zh": "快餐，点心",
+         "example": "Snack bars have become a familiar sight in most big cities.", "example_zh": "快餐店在多数大城市里随处可见。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "steak",
+      "phonetic": "steɪk",
+      "senses": [
+        {"pos": "n.", "def_zh": "牛排",
+         "example": "My steak is so tough that it tastes like shoe leather.", "example_zh": "我的牛排硬得像靴子上的皮革。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "portion",
+      "phonetic": "ˈpɔːʃən",
+      "senses": [
+        {"pos": "n.", "def_zh": "一部分，一份",
+         "example": "A large portion of the company's profit goes straight back into new projects.", "example_zh": "公司的大部分利润直接投入到新的项目中。"},
+        {"pos": "vt.", "def_en": "to divide into parts for distribution (~out)", "def_zh": "分配",
+         "example": "The money was portioned out among them.", "example_zh": "那笔钱被他们分了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "metaphor",
+      "phonetic": "ˈmetəfə",
+      "mnemonic": "meta(over, across)+phor(=fer 搬运)→一个词的含义搬到另一个词上→隐喻",
+      "senses": [
+        {"pos": "n.", "def_zh": "隐喻",
+         "example": "This metaphor is beyond all comprehension.", "example_zh": "这个隐喻难以理解。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "signify",
+      "phonetic": "ˈsɪgnɪfaɪ",
+      "mnemonic": "sign(标记)+ify(做)→做标记→表示…的意思",
+      "senses": [
+        {"pos": "vt.", "def_en": "to denote; be a sign of", "def_zh": "表示…的意思，预示",
+         "example": "What do these marks signify? // A fever usually signifies that there is something wrong with the body.", "example_zh": "这些符号表示什么意思？发烧预示着身体有毛病。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "ancient",
+      "phonetic": "ˈeɪnʃənt",
+      "senses": [
+        {"pos": "a.", "def_zh": "古代的",
+         "example": "This book gives you a good idea of life in ancient Greece.", "example_zh": "这本书使你对古希腊生活有一个清楚的概念。"},
+        {"pos": "a.", "def_zh": "年老的",
+         "example": "That photo makes me look ancient!", "example_zh": "那张照片显得我很老！"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "ancestor",
+      "phonetic": "ˈænsestə",
+      "mnemonic": "an(先)+ces(去)+tor(表人)→先驱",
+      "senses": [
+        {"pos": "n.", "def_zh": "祖先",
+         "example": "His ancestors came to America on the Mayflower.", "example_zh": "他的祖先是乘\"五月花\"号来到美洲的。"},
+        {"pos": "n.", "def_en": "a forerunner or predecessor", "def_zh": "先驱",
+         "example": "Babbage's invention was the ancestor of the modern computer.", "example_zh": "巴比奇的发明是现代计算机的原型。"}
+      ],
+      "derivatives": ["ancestral a. 祖先的", "ancestry n. 祖先"],
+      "complete": true
+    }
+  ]
+}
