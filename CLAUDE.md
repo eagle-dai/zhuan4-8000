@@ -75,7 +75,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 `Word` `Phonetic` `POS` `DefZh` `Example` `ExampleZh` `WordAudio` `ExampleAudio` `Key`
 
-一个 `ocr/NNN.json` 的每个 `senses[]` 元素摊平成一行 note：`word`/`phonetic` 从词条继承，`pos`/`def_zh`/`example`/`example_zh` 取自该义项；`WordAudio`/`ExampleAudio` 是 edge-tts 生成的 `[sound:]` 标签；`Key`（`word|pos|序号`）是稳定唯一键，脚本据此生成 note guid，重导入时更新而非重复。跨页词条（`complete:false`）须先与 tail 页合并补全后再出卡。
+一个 `ocr/NNN.json` 的每个 `senses[]` 元素摊平成一行 note：`word`/`phonetic` 从词条继承，`pos`/`def_zh`/`example`/`example_zh` 取自该义项；`WordAudio`/`ExampleAudio` 是 edge-tts 生成的 `[sound:]` 标签；`Key`（`word|pos|def_zh`，按义项内容而非序号——义项数量/顺序变动不移动已有 key）是稳定唯一键，脚本据此生成 note guid，重导入时更新而非重复。跨页词条（`complete:false`）须先与 tail 页合并补全后再出卡。
+
+**OCR 拆义项的坑**：一个词若某词性只有一个义项但书里给两个例句（`//` 分隔），别拆成两个 sense——`word|pos|def_zh` 相同会撞 key，重复卡互相覆盖。两例句合进同一 sense 的 `example` 字段，用 ` // ` 连。`build_anki.py --check` 的 "key 冲突" 告警能抓到这类拆分错误。
 
 ## 目录内容
 
