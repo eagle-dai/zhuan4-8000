@@ -1,0 +1,131 @@
+{
+  "page": 64,
+  "continues_from": "overthrow",
+  "continues_to": "imitate",
+  "entries": [
+    {
+      "word": "overthrow",
+      "partial": "tail",
+      "senses": []
+    },
+    {
+      "word": "overturn",
+      "phonetic": "ˌəʊvəˈtɜːn",
+      "mnemonic": "由 turn over(翻转)颠倒顺序构成的动词",
+      "senses": [
+        {"pos": "vt.", "def_zh": "使翻转",
+         "example": "He stood up quickly, overturning his chair.", "example_zh": "他猛地站起来，弄翻了椅子。"},
+        {"pos": "vt.", "def_zh": "颠覆【同 overthrow】",
+         "example": "The revolutionist planned to overturn this puppet regime.", "example_zh": "革命者计划推翻傀儡政府。"},
+        {"pos": "vi.", "def_zh": "翻转",
+         "example": "The boat overturned.", "example_zh": "船翻了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "fertile",
+      "phonetic": "ˈfɜːtaɪl",
+      "mnemonic": "fert(结果实)+ile→能产果实的→肥沃的",
+      "senses": [
+        {"pos": "a.", "def_zh": "肥沃的",
+         "example": "There are fertile fields in the Nile Delta.", "example_zh": "尼罗河三角洲土地肥沃。"},
+        {"pos": "a.", "def_zh": "可繁殖的，能生育的",
+         "example": "Most men remain fertile into old age.", "example_zh": "大多数男子直到老年还有生育能力。"},
+        {"pos": "a.", "def_zh": "(想象力)丰富的",
+         "example": "This successful film is the result of the writer's fertile imagination.", "example_zh": "这部成功的电影源自那位作家丰富的想象力。"}
+      ],
+      "derivatives": ["fertilise/-ize v. 使肥沃", "fertilizer n. 化肥,肥料", "infertile a. 不肥沃的;不结果实的;不生育的"],
+      "complete": true
+    },
+    {
+      "word": "component",
+      "phonetic": "kəmˈpəʊnənt",
+      "mnemonic": "com(共同)+pon(放)+ent(表物)→放到一起→成分",
+      "senses": [
+        {"pos": "n.", "def_en": "a constituent element", "def_zh": "成分",
+         "example": "Vitamin C is the major component of many fruits and vegetables.", "example_zh": "维生素C是很多水果和蔬菜中主要的成分。"},
+        {"pos": "n.", "def_en": "a part of a mechanical or electrical complex", "def_zh": "部件，元件",
+         "example": "A computer consists of thousands of components.", "example_zh": "电脑由成千上万个部件组成。"},
+        {"pos": "a.", "def_zh": "组成的",
+         "example": "Can you resolve it into its component elements?", "example_zh": "你能把它分解为组成它的元素吗？"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "product",
+      "phonetic": "ˈprɒdʌkt",
+      "senses": [
+        {"pos": "n.", "def_zh": "产品",
+         "example": "dairy products", "example_zh": "奶制品"},
+        {"pos": "n.", "def_zh": "产物",
+         "example": "He was a typical product of his generation and background.", "example_zh": "他是他那一代人和他那种背景的典型产物。"},
+        {"pos": "n.", "def_zh": "乘积",
+         "example": "The product of 4 multiplied by 5 multiplied by 7 is 140.", "example_zh": "4乘5再乘7的积是140。"}
+      ],
+      "derivatives": ["by-product n. 副产品"],
+      "complete": true
+    },
+    {
+      "word": "reproduce",
+      "phonetic": "ˌriːprəˈdjuːs",
+      "mnemonic": "re(again)+produce(生产)→一再生产→繁殖;复制",
+      "senses": [
+        {"pos": "v.", "def_en": "to make a copy of sth.", "def_zh": "复制",
+         "example": "Photos can be reproduced without negatives now.", "example_zh": "现在没有底片也可以复制相片。"},
+        {"pos": "v.", "def_en": "to produce babies, young animals, new plants, etc.", "def_zh": "繁殖",
+         "example": "Most fish reproduce (themselves) by laying eggs.", "example_zh": "大多数鱼靠产卵繁殖。"}
+      ],
+      "derivatives": ["producer n. 生产者;制片人"],
+      "complete": true
+    },
+    {
+      "word": "productive",
+      "phonetic": "prəˈdʌktɪv",
+      "senses": [
+        {"pos": "a.", "def_en": "producing crops, goods, or services, esp. in abundance", "def_zh": "多产的",
+         "example": "The productive writer cannot produce any more works now.", "example_zh": "此高产作家现在已经是江郎才尽了。"},
+        {"pos": "a.", "def_en": "producing or achieving a lot", "def_zh": "富有成效的",
+         "example": "My time spent in the library was very productive.", "example_zh": "我花在图书馆的时间很有收获。"}
+      ],
+      "derivatives": ["productivity n. 生产率"],
+      "complete": true
+    },
+    {
+      "word": "reflect",
+      "phonetic": "rɪˈflekt",
+      "mnemonic": "re(back)+flect(弯曲)→曲折而回→反射",
+      "senses": [
+        {"pos": "v.", "def_zh": "反映",
+         "example": "It's said that a person's handwriting can reflect his/her character.", "example_zh": "据说，字迹可以反映出人的性格。"},
+        {"pos": "v.", "def_zh": "反射",
+         "example": "The sunlight was reflected in the water.", "example_zh": "日光由水面反射出来。"},
+        {"pos": "v.", "def_zh": "深思",
+         "example": "We are reflecting how to fulfill the task. // I often reflect on the beauty and complexity of life.", "example_zh": "我们正考虑如何完成这项任务。我经常思考人生的美丽与复杂。"}
+      ],
+      "derivatives": ["reflection n. 映像;反射;反映;深思"],
+      "complete": true
+    },
+    {
+      "word": "inner",
+      "phonetic": "ˈɪnə",
+      "senses": [
+        {"pos": "a.", "def_zh": "内部的【反 outer】",
+         "example": "The label is on the inner side of the box.", "example_zh": "标签贴在盒子内侧。"},
+        {"pos": "a.", "def_zh": "内心的",
+         "example": "Yoga gives Sally a sense of inner calm.", "example_zh": "瑜伽使萨莉感到内心平静。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "imitate",
+      "partial": "head",
+      "phonetic": "ˈɪmɪteɪt",
+      "mnemonic": "im+it(它)+ate(吃)→它照着别人的样子吃→模仿",
+      "senses": [],
+      "complete": false
+    }
+  ]
+}

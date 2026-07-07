@@ -1,0 +1,125 @@
+{
+  "page": 65,
+  "continues_from": "imitate",
+  "continues_to": "minimum",
+  "entries": [
+    {
+      "word": "imitate",
+      "partial": "tail",
+      "senses": [
+        {"pos": "vt.", "def_en": "to follow as a model; copy sth. esp. for comic effect", "def_zh": "模仿",
+         "example": "His handwriting is difficult to imitate. // James can imitate his teacher's speech perfectly.", "example_zh": "他的笔迹很难模仿。詹姆斯能惟妙惟肖地模仿他老师的言语。"},
+        {"pos": "vt.", "def_zh": "仿造",
+         "example": "The fabrics are made to imitate silk.", "example_zh": "这种织物是仿丝织物。"}
+      ],
+      "derivatives": ["imitation n. 模仿;仿制品,赝品", "inimitable a. 无法仿效的"]
+    },
+    {
+      "word": "mock",
+      "phonetic": "mɒk",
+      "senses": [
+        {"pos": "vt.", "def_en": "to criticize and laugh at (sb. or sth.) for being bad, worthless, or unimportant", "def_zh": "嘲笑",
+         "example": "She was openly mocked for her skinny body.", "example_zh": "她因身体太瘦而被人公开嘲笑。"},
+        {"pos": "vt.", "def_en": "to imitate in fun", "def_zh": "(为了取笑)模仿",
+         "example": "He made us laugh by mocking the way the teacher spoke.", "example_zh": "他模仿老师说话的样子，把我们逗笑了。"},
+        {"pos": "vi.", "def_zh": "嘲笑",
+         "example": "It's cruel to mock at his misfortune.", "example_zh": "嘲笑他的不幸是很残酷的。"},
+        {"pos": "a.", "def_zh": "模拟的",
+         "example": "a mock interview", "example_zh": "模拟面试"},
+        {"pos": "a.", "def_zh": "假的",
+         "example": "mock leather // mock horror", "example_zh": "人造革；假装的害怕"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "minor",
+      "phonetic": "ˈmaɪnə",
+      "mnemonic": "min(小)+or(表示比较级)→较小的",
+      "senses": [
+        {"pos": "a.", "def_en": "lesser in amount, size, importance, seriousness etc.", "def_zh": "较小的;次要的【反 major】",
+         "example": "The actresses are always given a minor part in the famous movie James Bond.", "example_zh": "名片《007》中的女演员总是扮演次要的角色。"},
+        {"pos": "n.", "def_zh": "未成年人",
+         "example": "This bar does not serve minors.", "example_zh": "这家酒吧不对未成年人开放。"},
+        {"pos": "vi.", "def_zh": "(~in)(大学中)副修",
+         "example": "She majored in English and minored in education.", "example_zh": "她主修英文，副修教育。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "minority",
+      "phonetic": "maɪˈnɒrɪtɪ",
+      "senses": [
+        {"pos": "n.", "def_zh": "少数【反 majority】",
+         "example": "The minority is subordinate to the majority.", "example_zh": "少数服从多数。"},
+        {"pos": "n.", "def_zh": "少数民族",
+         "example": "There have been laws to protect the rights of ethnic minorities.", "example_zh": "现已有各种保护少数民族人民权利的法律。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "scarce",
+      "phonetic": "skeəs",
+      "senses": [
+        {"pos": "a.", "def_en": "insufficient to meet a demand; short in supply", "def_zh": "缺乏的",
+         "example": "Fresh vegetables are no longer scarce in Beijing.", "example_zh": "现在北京的新鲜蔬菜不再匮乏。"},
+        {"pos": "a.", "def_en": "hard to find; rare", "def_zh": "罕见的",
+         "example": "When a thing is scarce, it is precious.", "example_zh": "物以稀为贵。"}
+      ],
+      "derivatives": ["【短语】make oneself scarce 溜走,躲开：She's in a bad mood, so I'll make myself scarce. 她心情不好，我得躲开点。", "scarcity n. 缺乏,匮乏"],
+      "complete": true
+    },
+    {
+      "word": "scarcely",
+      "phonetic": "ˈskeəslɪ",
+      "senses": [
+        {"pos": "ad.", "def_en": "almost not; hardly", "def_zh": "几乎不",
+         "example": "There is scarcely enough food.", "example_zh": "几乎没有足够的食物。"},
+        {"pos": "ad.", "def_zh": "决不",
+         "example": "This can scarcely be true.", "example_zh": "事实决不会是这样的。"},
+        {"pos": "ad.", "def_zh": "刚刚",
+         "example": "Scarcely had I entered the room when the phone rang.", "example_zh": "我一进屋电话就响了。"}
+      ],
+      "derivatives": ["【用法】由 scarcely 开头的句子主谓要部分倒装。"],
+      "complete": true
+    },
+    {
+      "word": "rare",
+      "phonetic": "reə",
+      "senses": [
+        {"pos": "a.", "def_en": "infrequently occurring; uncommon", "def_zh": "稀有的",
+         "example": "Stealing is of rare occurrence in this area.", "example_zh": "盗窃在这个地区很少发生。"},
+        {"pos": "a.", "def_en": "excellent; extraordinary", "def_zh": "珍奇的",
+         "example": "The panda is a rare animal in the world.", "example_zh": "熊猫是世界上一种稀有动物。"},
+        {"pos": "a.", "def_zh": "(空气等)稀薄的",
+         "example": "The higher you climb up the mountain, the rarer the air is.", "example_zh": "越往山上爬，空气越稀薄。"},
+        {"pos": "a.", "def_zh": "煎得嫩的",
+         "example": "Would you like the steak well done or rare?", "example_zh": "你喜欢牛排煎得透一点，还是略生一点？"}
+      ],
+      "derivatives": ["rarely ad. 很少;稀奇地", "rarity n. 罕见;稀有的事物"],
+      "complete": true
+    },
+    {
+      "word": "striking",
+      "phonetic": "ˈstraɪkɪŋ",
+      "senses": [
+        {"pos": "a.", "def_zh": "显著的【同 noticeable】",
+         "example": "He has noticed some striking similarities between the two cultures.", "example_zh": "他注意到两种文化间一些惊人的相似之处。"},
+        {"pos": "a.", "def_zh": "惹人注目的",
+         "example": "She is a very striking young woman.", "example_zh": "她是一位非常引人注目的年轻女子。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "minimum",
+      "partial": "head",
+      "phonetic": "ˈmɪnɪməm",
+      "mnemonic": "mini(小)+mum(表示最高级)→最小量",
+      "senses": [],
+      "complete": false
+    }
+  ]
+}
