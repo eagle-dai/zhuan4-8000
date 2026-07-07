@@ -1,7 +1,7 @@
 {
   "page": 79,
   "continues_from": "economical",
-  "continues_to": "vehicle",
+  "continues_to": null,
   "entries": [
     {
       "word": "economical",
@@ -97,7 +97,6 @@
     },
     {
       "word": "vehicle",
-      "partial": "head",
       "phonetic": "ˈviːɪkl",
       "mnemonic": "vehi(运载)+cle(个体)→车辆",
       "senses": [
@@ -106,7 +105,8 @@
         {"pos": "n.", "def_en": "a medium through which sth. is transmitted, expressed, or accomplished", "def_zh": "传播媒介,工具,手段",
          "example": "Television has become an important vehicle for spreading political ideas.", "example_zh": "电视已成为传播政治思想的重要媒介。"}
       ],
-      "complete": false
+      "derivatives": [],
+      "complete": true
     }
   ]
 }

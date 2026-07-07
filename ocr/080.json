@@ -1,0 +1,126 @@
+{
+  "page": 80,
+  "continues_from": null,
+  "continues_to": "comprise",
+  "entries": [
+    {
+      "word": "frugal",
+      "phonetic": "ˈfruːgəl",
+      "senses": [
+        {"pos": "a.", "def_en": "careful to buy only what is necessary", "def_zh": "节俭的,节约的",
+         "example": "As children we were taught to be frugal and hard-working.", "example_zh": "小时候大人教我们要勤俭。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "thrift",
+      "phonetic": "θrɪft",
+      "senses": [
+        {"pos": "n.", "def_en": "wise and careful use of money, so that none is wasted", "def_zh": "节约",
+         "example": "To practice thrift is a virtue.", "example_zh": "节俭是美德。"}
+      ],
+      "derivatives": ["thrifty a. 节俭的,俭约的"],
+      "complete": true
+    },
+    {
+      "word": "preside",
+      "phonetic": "prɪˈzaɪd",
+      "mnemonic": "pre(before)+side(坐)→坐在前面→主持",
+      "senses": [
+        {"pos": "vi.", "def_en": "to be in charge of sth. (~at, over)", "def_zh": "主持,主管",
+         "example": "Whoever presides at the meeting will need patience and tact.", "example_zh": "无论谁主持会议，都既要有耐性，又要机敏老练。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "introduction",
+      "phonetic": "ˌɪntrəˈdʌkʃən",
+      "mnemonic": "intro(向内)+duct(引导)+ion→引导入内→介绍",
+      "senses": [
+        {"pos": "n.", "def_zh": "介绍",
+         "example": "He was shaking her hand before I could finish the introduction.", "example_zh": "未等我介绍完，他就握住她的手了。"},
+        {"pos": "n.", "def_zh": "引进",
+         "example": "foreign word of recent introduction", "example_zh": "新引进的外来词"},
+        {"pos": "n.", "def_zh": "引言",
+         "example": "an introduction to the book", "example_zh": "书的序言"}
+      ],
+      "derivatives": ["【用法】表示\"对…的介绍,…的引言\"用~ to,表示\"(某事物)的引进\"用~ of。", "introductory a. 引导的,介绍的"],
+      "complete": true
+    },
+    {
+      "word": "dominate",
+      "phonetic": "ˈdɒmɪneɪt",
+      "mnemonic": "domin(统治)+ate→支配",
+      "senses": [
+        {"pos": "v.", "def_en": "to have control of or power over", "def_zh": "支配",
+         "example": "The team has dominated international football for years. // a society in which males dominate", "example_zh": "该球队雄霸国际足坛多年。一个由男性支配一切的社会"},
+        {"pos": "v.", "def_en": "to overlook from a height", "def_zh": "耸立于",
+         "example": "The cathedral dominates the city.", "example_zh": "大教堂高高矗立，俯瞰整个城市。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "dominant",
+      "phonetic": "ˈdɒmɪnənt",
+      "senses": [
+        {"pos": "a.", "def_zh": "占优势的",
+         "example": "P&G is in a dominant position in the market of their daily chemical products.", "example_zh": "宝洁公司在日用化工产品市场上处优势地位。"},
+        {"pos": "a.", "def_zh": "居高临下的",
+         "example": "The castle was built in a dominant position on a hill.", "example_zh": "城堡建在山上一处居高临下的地方。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "welfare",
+      "phonetic": "ˈwelfeə",
+      "mnemonic": "wel(看作well)+fare(费用)→用钱做好事→福利",
+      "senses": [
+        {"pos": "n.", "def_zh": "well-being 福利",
+         "example": "social welfare", "example_zh": "社会福利"},
+        {"pos": "n.", "def_en": "financial or other aid provided, esp. by the government, to people in need", "def_zh": "福利救济",
+         "example": "Most of the families in this neighborhood are on welfare.", "example_zh": "这一带的大多数家庭都领政府的福利救济。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "consist",
+      "phonetic": "kənˈsɪst",
+      "mnemonic": "con(一起)+sist(站)→站在一起→构成",
+      "senses": [
+        {"pos": "vi.", "def_en": "to be formed from two or more things or people (~of)", "def_zh": "构成",
+         "example": "The American Congress consists of the House of Representatives and Senate.", "example_zh": "美国国会由众议院与参议院构成。"},
+        {"pos": "vi.", "def_zh": "(~in)在于",
+         "example": "Happiness does not consist in how many possessions you own.", "example_zh": "是否快乐不在于你拥有多少财产。"}
+      ],
+      "derivatives": ["【用法】由…构成：consist of(主动语态)/ be composed of(被动语态)。"],
+      "complete": true
+    },
+    {
+      "word": "constitute",
+      "phonetic": "ˈkɒnstɪtjuːt",
+      "senses": [
+        {"pos": "vt.", "def_zh": "组成",
+         "example": "Twelve months constitute a year.", "example_zh": "十二个月组成一年。"},
+        {"pos": "vt.", "def_en": "to establish or create an organization, a government, etc.", "def_zh": "设立，任命",
+         "example": "Governments should be constituted by the will of the people.", "example_zh": "政府应当按照人民的意志建立。"}
+      ],
+      "derivatives": ["【用法】constitute 表示\"部分构成整体\",用于主动结构,不用于进行时态。"],
+      "complete": true
+    },
+    {
+      "word": "comprise",
+      "partial": "head",
+      "phonetic": "kəmˈpraɪz",
+      "senses": [
+        {"pos": "vt.", "def_zh": "包含;构成",
+         "example": "The United Kingdom comprises England, Wales, Scotland and Northern Ireland. // Fifty states comprise the United States.", "example_zh": "英国由英格兰、威尔士、苏格兰和北爱尔兰构成。50个州组成美国。"}
+      ],
+      "complete": false
+    }
+  ]
+}
