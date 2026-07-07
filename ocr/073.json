@@ -1,0 +1,131 @@
+{
+  "page": 73,
+  "continues_from": "vibrant",
+  "continues_to": "likewise",
+  "entries": [
+    {
+      "word": "vibrant",
+      "partial": "tail",
+      "senses": []
+    },
+    {
+      "word": "violate",
+      "phonetic": "ˈvaɪəleɪt",
+      "senses": [
+        {"pos": "vt.", "def_en": "to disregard or act in a manner that does not conform to a law, promise, etc.", "def_zh": "违反",
+         "example": "The construction company violated the terms of the contract.", "example_zh": "这家建筑公司违反了合同里的条款。"},
+        {"pos": "vt.", "def_en": "to abuse or show disrespect for", "def_zh": "亵渎",
+         "example": "The soldiers violated the church by using it as a stable.", "example_zh": "士兵们把教堂当马厩用而亵渎了它。"},
+        {"pos": "vt.", "def_zh": "侵犯",
+         "example": "You violated my privacy.", "example_zh": "你侵犯了我的隐私。"}
+      ],
+      "derivatives": ["violation n. 违反;亵渎;干扰"],
+      "complete": true
+    },
+    {
+      "word": "violent",
+      "phonetic": "ˈvaɪələnt",
+      "senses": [
+        {"pos": "a.", "def_zh": "暴力引起的",
+         "example": "a violent film", "example_zh": "暴力影片"},
+        {"pos": "a.", "def_zh": "猛烈的",
+         "example": "English soccer fans were often involved in violent clashes with the police.", "example_zh": "英国足球迷经常卷入和警察的激烈冲突。"}
+      ],
+      "derivatives": ["violence n. 狂暴;暴力"],
+      "complete": true
+    },
+    {
+      "word": "severe",
+      "phonetic": "sɪˈvɪə",
+      "senses": [
+        {"pos": "a.", "def_en": "very bad, serious, or unpleasant", "def_zh": "严重的",
+         "example": "severe shortage/pain/storms // She received severe head injuries in the accident.", "example_zh": "严重短缺/剧痛/狂风暴雨；她在事故中头部受了重伤。"},
+        {"pos": "a.", "def_en": "harsh, strict", "def_zh": "严厉的",
+         "example": "The premier came under severe criticism.", "example_zh": "这位总理遭到严厉的抨击。"},
+        {"pos": "a.", "def_en": "extremely difficult to perform or endure", "def_zh": "严峻的",
+         "example": "They can withstand severe tests.", "example_zh": "他们能经得起严峻的考验。"},
+        {"pos": "a.", "def_zh": "朴素的",
+         "example": "a severe style", "example_zh": "朴素的文体"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "extreme",
+      "phonetic": "ɪkˈstriːm",
+      "mnemonic": "extre(在…之外)+me(我)→在我忍受的极限之外→极端",
+      "senses": [
+        {"pos": "a.", "def_zh": "极度的",
+         "example": "extreme pain // They are living in extreme poverty.", "example_zh": "极度痛苦；他们极其贫困。"},
+        {"pos": "a.", "def_zh": "末端的",
+         "example": "There's a French restaurant at the extreme end of the street.", "example_zh": "在这条街的尽头有一家法国餐馆。"},
+        {"pos": "n.", "def_zh": "极端",
+         "example": "Love and hatred are extremes.", "example_zh": "爱与恨是两个极端。"}
+      ],
+      "derivatives": ["【短语】in the extreme 非常,极其", "go to extremes 走极端：Some people often go to extremes when it comes to politics. 谈及政治，有些人经常走极端。", "extremely ad. 非常,极其", "extremist n. 极端主义者"],
+      "complete": true
+    },
+    {
+      "word": "radical",
+      "phonetic": "ˈrædɪkəl",
+      "mnemonic": "radi(根)+cal→根本的",
+      "senses": [
+        {"pos": "a.", "def_en": "very basic and important", "def_zh": "根本的",
+         "example": "He made a radical change in the plan.", "example_zh": "他对这份计划做了彻底的修改。"},
+        {"pos": "a.", "def_zh": "激进的",
+         "example": "I know you are radical in your thinking, but don't go too far.", "example_zh": "我知道你思想激进，但不要走极端。"},
+        {"pos": "n.", "def_zh": "激进分子"}
+      ],
+      "derivatives": ["radicalism n. 激进主义"],
+      "complete": true
+    },
+    {
+      "word": "bitterly",
+      "phonetic": "ˈbɪtəlɪ",
+      "senses": [
+        {"pos": "ad.", "def_zh": "带有苦味地",
+         "example": "Seldom has an election victory tasted so bitterly of defeat.", "example_zh": "鲜有选举胜利遭受如此苦涩的挫败感。"},
+        {"pos": "ad.", "def_zh": "悲痛地",
+         "example": "She was penniless and wept bitterly at her misfortunes.", "example_zh": "她一贫如洗，为自己的不幸悲痛地哭泣。"},
+        {"pos": "ad.", "def_zh": "非常地",
+         "example": "bitterly cold", "example_zh": "很冷"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "absurd",
+      "phonetic": "əbˈsɜːd",
+      "senses": [
+        {"pos": "a.", "def_en": "completely stupid or unreasonable", "def_zh": "荒谬的",
+         "example": "It's absurd that the number \"13\" brings bad luck.", "example_zh": "认为数字13不吉利太荒唐了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "ridiculous",
+      "phonetic": "rɪˈdɪkjuləs",
+      "mnemonic": "rid(笑)+icul+ous→可笑的",
+      "senses": [
+        {"pos": "a.", "def_en": "very silly or unreasonable", "def_zh": "可笑的，荒谬的",
+         "example": "What a ridiculous suggestion!", "example_zh": "多么荒谬的建议！"}
+      ],
+      "derivatives": ["ridicule n./vt. 嘲笑,讥笑"],
+      "complete": true
+    },
+    {
+      "word": "likewise",
+      "partial": "head",
+      "phonetic": "ˈlaɪkwaɪz",
+      "mnemonic": "like(相同的)+wise(方式)→同样地",
+      "senses": [
+        {"pos": "ad.", "def_zh": "同样地",
+         "example": "I told him to watch me and do likewise.", "example_zh": "我叫他仔细看着我，并且照样做。"},
+        {"pos": "ad.", "def_en": "in addition; also", "def_zh": "也",
+         "example": "It was said that homelessness was increasing. Likewise, unemployment was up.", "example_zh": "据悉无家可归的人在增多，失业人数也在增加。"}
+      ],
+      "complete": false
+    }
+  ]
+}

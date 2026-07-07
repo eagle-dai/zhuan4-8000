@@ -1,0 +1,102 @@
+{
+  "page": 74,
+  "continues_from": "likewise",
+  "continues_to": "proclaim",
+  "entries": [
+    {
+      "word": "likewise",
+      "partial": "tail",
+      "senses": []
+    },
+    {
+      "word": "entertain",
+      "phonetic": "ˌentəˈteɪn",
+      "senses": [
+        {"pos": "v.", "def_zh": "款待",
+         "example": "Mary entertained us to dinner last night. // She entertains a great deal.", "example_zh": "玛丽昨晚设宴款待了我们。她常常请客。"},
+        {"pos": "v.", "def_en": "to hold the attention of sb. with sth. amusing", "def_zh": "给…娱乐",
+         "example": "We hired a magician to entertain the children at the party.", "example_zh": "我们雇了一个魔术师在派对上逗孩子们开心。"}
+      ],
+      "derivatives": ["entertainment n. 款待;娱乐", "entertainer n. 演艺人员;款待者", "entertaining a. 使人得到娱乐的"],
+      "complete": true
+    },
+    {
+      "word": "recreation",
+      "phonetic": "ˌrekrɪˈeɪʃən",
+      "mnemonic": "re(again)+creat(e)(产生)+ion→一再产生乐趣→消遣",
+      "senses": [
+        {"pos": "n.", "def_en": "activities done for enjoyment", "def_zh": "娱乐活动,消遣",
+         "example": "Karaoke is many young people's favorite recreation.", "example_zh": "唱卡拉OK是许多年轻人喜欢的娱乐活动。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "leisure",
+      "phonetic": "ˈleʒə",
+      "senses": [
+        {"pos": "n.", "def_en": "free time when one is not working", "def_zh": "闲暇",
+         "example": "I have no leisure for playing cards.", "example_zh": "我没有闲暇玩牌。"},
+        {"pos": "n.", "def_en": "enjoyable activities that you do when you are not working", "def_zh": "悠闲",
+         "example": "He lived a life of leisure on a handsome income.", "example_zh": "他凭借一笔可观的收入过着悠闲的生活。"}
+      ],
+      "derivatives": ["【短语】at leisure 闲暇时;从容不迫地：He leant on the chair and began his lecture at leisure. 他靠在椅子上开始从容地进行他的演讲了。"],
+      "complete": true
+    },
+    {
+      "word": "claim",
+      "phonetic": "kleɪm",
+      "senses": [
+        {"pos": "vt.", "def_en": "to state to be true, esp. when open to question", "def_zh": "声称【同 declare】",
+         "example": "He claimed that he hadn't done it, but I didn't believe him.", "example_zh": "他声称没有做这件事，可是我不相信他。"},
+        {"pos": "vt.", "def_en": "to demand; ask for", "def_zh": "对…提出要求,索取",
+         "example": "She could have claimed the cost through her insurance.", "example_zh": "她本可以通过保险索赔。"},
+        {"pos": "vt.", "def_zh": "(灾难等)使失踪或死亡",
+         "example": "The accident claimed 32 lives.", "example_zh": "事故夺去了32条生命。"},
+        {"pos": "vt.", "def_en": "to deserve or call for; require", "def_zh": "需要，值得",
+         "example": "The matter claims our attention.", "example_zh": "这事需要我们予以注意。"},
+        {"pos": "n.", "def_zh": "索赔;声称",
+         "example": "claim form", "example_zh": "索赔申请表"}
+      ],
+      "derivatives": ["【短语】lay claim to 声称对…有权利：If the land really belongs to you, why don't you lay claim to it? 如果这块地真正属于你，为什么你不据理力争呢？", "【用法】该词表示\"声称\"时,可跟不定式或 that 从句,也可以用 it 作形式主语(It is claimed that...)。"],
+      "complete": true
+    },
+    {
+      "word": "reclaim",
+      "phonetic": "rɪˈkleɪm",
+      "mnemonic": "re(back)+claim(呼喊)→喊回来→要回",
+      "senses": [
+        {"pos": "vt.", "def_en": "to demand the restoration or return of sth.", "def_zh": "要回",
+         "example": "I have tried to reclaim my money without success.", "example_zh": "我没能把钱要回来。"},
+        {"pos": "vt.", "def_zh": "开垦(荒地)",
+         "example": "A legend goes that Holland reclaims more land from the sea than its original size.", "example_zh": "传说荷兰填海造地获得的土地面积比它原来的国土面积还大。"},
+        {"pos": "vt.", "def_en": "to recycle", "def_zh": "回收",
+         "example": "reclaim valuable materials from wastes", "example_zh": "从废物中回收有价值的材料"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "exclaim",
+      "phonetic": "ɪkˈskleɪm",
+      "mnemonic": "ex(out)+claim(喊)→呼喊",
+      "senses": [
+        {"pos": "v.", "def_en": "to say sth. suddenly and loudly because you are surprised, angry, or excited", "def_zh": "呼喊，惊叫",
+         "example": "The little girl exclaimed in delight when she saw the presents. // He exclaimed that he was hungry.", "example_zh": "小女孩一见到礼物就高兴得叫了起来。他喊说他饿了。"}
+      ],
+      "derivatives": ["exclamation n. 呼喊;惊叹,感叹词"],
+      "complete": true
+    },
+    {
+      "word": "proclaim",
+      "partial": "head",
+      "phonetic": "prəˈkleɪm",
+      "mnemonic": "pro(before)+claim(呼喊)→在众人前面大叫→宣告",
+      "senses": [
+        {"pos": "vt.", "def_en": "to announce officially and publicly; declare", "def_zh": "宣告",
+         "example": "The government proclaimed a state of emergency.", "example_zh": "政府宣布了紧急状态。"}
+      ],
+      "complete": false
+    }
+  ]
+}
