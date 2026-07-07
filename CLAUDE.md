@@ -11,8 +11,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 `pages/`（扫描原件）→ OCR/解析 → `ocr/`（结构化 JSON）→ `anki/`（卡片）
 
 1. **`pages/`** —— 词汇书的扫描原件，JPG 格式，按页码命名（如 `057.jpg`）。**内容是增量的**：当前只有部分页，后续会陆续补充；页码也不连续（部分页缺失，如 069–071）。别假设某个页码一定存在或范围连续——每次处理前先 `ls pages/` 看实际有哪些。这是唯一可信来源，难以重建——绝不原地修改，只在副本上操作。
-2. **`ocr/`** —— 每页一个 `NNN.json`（页码对齐 `pages/NNN.jpg`），存 OCR 解析出的结构化词条。尚未创建。**增量、不重复解析**：OCR 前先对比 `pages/` 与 `ocr/`，只处理 `ocr/` 里还没有对应 `NNN.json` 的新页，已解析过的页直接跳过（除非明确要求重做某页）。
-3. **`anki/`** —— 最终产物：从 `ocr/` 合并生成的卡片。尚未创建。
+2. **`ocr/`** —— 每页一个 `NNN.json`（页码对齐 `pages/NNN.jpg`），存 OCR 解析出的结构化词条。
+   - **增量、不重复解析**：OCR 前先对比 `pages/` 与 `ocr/`，只处理 `ocr/` 里还没有对应 `NNN.json` 的新页，已解析过的页直接跳过（除非明确要求重做某页）。
+   - **核对后才入库**：OCR 结果须经人工核对确认正确后，才写入 `ocr/`。别把未核对的解析直接落地——扫描件识别易错（音标、义项、例句），错的 JSON 会传播成错的卡片。可先产出待核对稿给用户确认，通过后再写 `ocr/NNN.json`。
+3. **`anki/`** —— 最终产物：从 `ocr/` 合并生成的卡片（`scripts/build_anki.py` 生成 `.apkg`）。
 
 ## 版面结构（OCR 时须知）
 
@@ -65,23 +67,37 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - **粒度**：**每义项一张卡**。一个词有几个义项（词性×序号）就出几张卡，各带自己的例句。exhaust（vt.×3 + n.×2）→ 5 张。
 - **方向**：只 **英→中**（认词）。正面给词，背面给中文释义。
-- **读音**：用 Anki **TTS 标签**，零音频文件。模板里 `{{tts en_US:Word}}` 读单词、`{{tts en_US:Example}}` 读例句。
+- **读音**：用 **edge-tts**（微软免费神经网络语音，美音 `en-US-AriaNeural`）在构建时**预生成 mp3**，打包进 apkg，卡面用 `[sound:xxx.mp3]` 播放。单词、例句都读。mp3 按文本内容 hash 命名去重，**只进 apkg 不入库**。
 - **正面**：单词 + 音标 + 读单词。
 - **背面**：单词 + 音标 + 词性 + 中文释义 + 英文例句 + 中文翻译 + 读例句。（助记 mnemonic 暂不放卡面。）
 
 ### Anki 字段（一张卡 = 一个义项 = 一行 note）
 
-`Word` `Phonetic` `POS` `DefZh` `Example` `ExampleZh`
+`Word` `Phonetic` `POS` `DefZh` `Example` `ExampleZh` `WordAudio` `ExampleAudio` `Key`
 
-一个 `ocr/NNN.json` 的每个 `senses[]` 元素摊平成一行 note：`word`/`phonetic` 从词条继承，`pos`/`def_zh`/`example`/`example_zh` 取自该义项。跨页词条（`complete:false`）须先与 tail 页合并补全后再出卡。
+一个 `ocr/NNN.json` 的每个 `senses[]` 元素摊平成一行 note：`word`/`phonetic` 从词条继承，`pos`/`def_zh`/`example`/`example_zh` 取自该义项；`WordAudio`/`ExampleAudio` 是 edge-tts 生成的 `[sound:]` 标签；`Key`（`word|pos|序号`）是稳定唯一键，脚本据此生成 note guid，重导入时更新而非重复。跨页词条（`complete:false`）须先与 tail 页合并补全后再出卡。
 
 ## 目录内容
 
 - `README.md` —— 面向人的项目说明（是什么、目录、用法）。实现细节（schema、版面、接续规则）只写在本文件，README 不重复。
 - `anki/sample-card.html` —— 卡片设计定稿的可视样卡（浏览器预览，用 Web Speech 模拟 TTS）。
 
+## 构建 Anki
+
+```bash
+uv run scripts/build_anki.py --check    # 只校验+统计（页数/词条/卡片/音频数、跨页警告），不生成
+uv run scripts/build_anki.py            # 生成 anki/zhuan4.apkg（含 edge-tts 音频，需联网）
+uv run scripts/build_anki.py --no-audio # 生成 apkg 但跳过音频（快速测试，无需联网）
+```
+
+`scripts/build_anki.py`（uv PEP 723 inline 依赖：genanki + edge-tts）读 `ocr/*.json` → 跨页合并被切词条 → 每义项一张 note → edge-tts 生成 mp3 → 打包成 `.apkg`。要点：
+
+- **跨页合并**：`complete:false` 的 head 词条须在下一页找到 `partial:tail` 的同词头 tail 才拼全出卡；配不上（如下一页还没 OCR）则**跳过并告警**，不出残缺卡。
+- **稳定 ID/guid**：MODEL_ID、DECK_ID、note 的 guid（按 `word|pos|序号` 生成）都固定，重复导入是**更新**不是新建重复卡。
+- **音频**：edge-tts 联网生成，按文本 hash 命名去重（多张卡同词只生成一个词音频）。生成的 mp3 在临时目录，打包进 apkg 后清理，不落地不入库。
+- `.apkg` 是构建产物（zip 二进制），`.gitignore` 已忽略，不入库。
+
 ## 在本仓库工作时
 
-- 没有 build/lint/test 命令，不要尝试运行。
 - 图片处理（裁剪、缩放、OCR、格式转换）用 `ffmpeg`、ImageMagick 或 OCR 工具，针对 `pages/` 里的文件。
 - 跨阶段保持页码命名对应（某页的 OCR 文档要能映射回它的 `pages/NNN.jpg`）。页码缺口是有意为之（源缺页），不是需要"修复"的错误。

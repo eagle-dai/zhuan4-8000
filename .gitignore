@@ -1,0 +1,7 @@
+# Anki 构建产物（由 scripts/build_anki.py 生成，不入库）
+anki/*.apkg
+
+# Python
+__pycache__/
+*.pyc
+.venv/
