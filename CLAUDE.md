@@ -59,9 +59,26 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 }
 ```
 
+## Anki 卡片设计
+
+目标产物。设计已定稿（样卡见 `anki/sample-card.html`），遵循最小信息原则：
+
+- **粒度**：**每义项一张卡**。一个词有几个义项（词性×序号）就出几张卡，各带自己的例句。exhaust（vt.×3 + n.×2）→ 5 张。
+- **方向**：只 **英→中**（认词）。正面给词，背面给中文释义。
+- **读音**：用 Anki **TTS 标签**，零音频文件。模板里 `{{tts en_US:Word}}` 读单词、`{{tts en_US:Example}}` 读例句。
+- **正面**：单词 + 音标 + 读单词。
+- **背面**：单词 + 音标 + 词性 + 中文释义 + 英文例句 + 中文翻译 + 读例句。（助记 mnemonic 暂不放卡面。）
+
+### Anki 字段（一张卡 = 一个义项 = 一行 note）
+
+`Word` `Phonetic` `POS` `DefZh` `Example` `ExampleZh`
+
+一个 `ocr/NNN.json` 的每个 `senses[]` 元素摊平成一行 note：`word`/`phonetic` 从词条继承，`pos`/`def_zh`/`example`/`example_zh` 取自该义项。跨页词条（`complete:false`）须先与 tail 页合并补全后再出卡。
+
 ## 目录内容
 
 - `README.md` —— 面向人的项目说明（是什么、目录、用法）。实现细节（schema、版面、接续规则）只写在本文件，README 不重复。
+- `anki/sample-card.html` —— 卡片设计定稿的可视样卡（浏览器预览，用 Web Speech 模拟 TTS）。
 
 ## 在本仓库工作时
 

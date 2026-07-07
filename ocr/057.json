@@ -1,0 +1,60 @@
+{
+  "page": 57,
+  "continues_from": null,
+  "continues_to": "debate",
+  "entries": [
+    {
+      "word": "exhaust",
+      "phonetic": "ɪɡˈzɔːst",
+      "mnemonic": "ex(出)+haust(拉)→力气全被拉出来→使筋疲力尽",
+      "senses": [
+        {"pos": "vt.", "def_en": "to make extremely weary; wear out", "def_zh": "使筋疲力尽",
+         "example": "We are all exhausted after a long cycle ride.", "example_zh": "长途骑车后我们都筋疲力尽了。"},
+        {"pos": "vt.", "def_en": "to use up completely", "def_zh": "用光",
+         "example": "My patience is exhausted.", "example_zh": "我没有耐性了。"},
+        {"pos": "vt.", "def_en": "to discuss completely; cover thoroughly", "def_zh": "详尽论述",
+         "example": "We've exhausted this subject; let's go on to the next.", "example_zh": "我们已经详尽地讨论了这一问题，接着谈下一个吧。"},
+        {"pos": "n.", "def_zh": "排气装置", "example": "jet exhaust", "example_zh": "喷气口"},
+        {"pos": "n.", "def_zh": "废气", "example": "the smell of the exhaust", "example_zh": "排出的废气气味"}
+      ],
+      "derivatives": ["exhaustive a. 消耗的;详尽的", "inexhaustible a. 用不完的;不知疲倦的"],
+      "complete": true
+    },
+    {
+      "word": "exploit",
+      "phonetic": "ɪkˈsplɔɪt",
+      "senses": [
+        {"pos": "vt.", "def_en": "to make use of selfishly or unethically", "def_zh": "剥削",
+         "example": "The capitalists exploit the workers in order to maximize profits.", "example_zh": "资本家剥削工人是为了使利润最大化。"},
+        {"pos": "vt.", "def_en": "to employ to the greatest possible advantage", "def_zh": "利用，开发",
+         "example": "The social freshmen should exploit every opportunity to enrich their experience.", "example_zh": "刚踏入社会的人必须利用每一个机会积累经验。"},
+        {"pos": "n.", "def_zh": "[常 pl.]业绩",
+         "example": "Their heroic exploits will go down in history.", "example_zh": "他们的英雄业绩将被载入史册。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "controversy",
+      "phonetic": "ˈkɒntrəvɜːsɪ, kənˈtrɒvəsɪ",
+      "mnemonic": "contro(against)+vers(转)+y→意见在相反的方向之间转→争论",
+      "senses": [
+        {"pos": "n.", "def_en": "a serious argument about sth. that involves many people and continues for a long time", "def_zh": "争论",
+         "example": "Several near disasters give rise to much controversy on the safety of nuclear energy.", "example_zh": "几次近乎大灾难的事故引起了许多关于原子能安全问题的争论。"}
+      ],
+      "derivatives": ["controversial a. 有争议的"],
+      "complete": true
+    },
+    {
+      "word": "debate",
+      "partial": "head",
+      "phonetic": "dɪˈbeɪt",
+      "mnemonic": "de(down)+bate(打)→用言语将对方打倒→辩论",
+      "senses": [
+        {"pos": "n.", "def_zh": "辩论", "example": "have a debate (with sb.)", "example_zh": "（与某人）进行辩论"},
+        {"pos": "v.", "def_en": "to dispute or argue about, esp. in a formal", "def_zh": null, "example": null, "example_zh": null}
+      ],
+      "complete": false
+    }
+  ]
+}
