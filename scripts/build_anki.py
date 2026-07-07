@@ -35,7 +35,10 @@ VOICE = "en-US-AriaNeural"  # 美音女声
 TTS_CONCURRENCY = 8         # 并发调 edge-tts 的上限
 
 # 稳定 ID：固定值，保证重复导入更新同一 deck/model 而非新建。
-MODEL_ID = 1607392311
+# MODEL_ID 换过一次（旧 1607392311 → 现值）：字段布局从「每义项 8 字段」
+# 改为「每词 6 字段」，是全新 notetype。沿用旧 ID 会让 Anki 报 schema 冲突、
+# 且旧 guid（word|pos|def_zh）与新 guid（word）无重叠导致旧卡残留，故换新 ID。
+MODEL_ID = 1607392312
 DECK_ID = 2059400110
 
 MODEL = genanki.Model(
