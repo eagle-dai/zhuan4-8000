@@ -4,7 +4,7 @@
 # ///
 """把 ocr/*.json 构建成 Anki .apkg。
 
-流程：读所有页 → 跨页合并被切词条 → 每义项摊平成一张 note（英→中）
+流程：读所有页 → 跨页合并被切词条 → 每词一张 note（英→中，背面列全部义项）
      → edge-tts 生成单词/例句读音 mp3 → 打包进 .apkg。
 
 读音用微软 edge-tts（免费、神经网络语音、美音），构建时预生成 mp3 存入卡片，
@@ -44,13 +44,10 @@ MODEL = genanki.Model(
     fields=[
         {"name": "Word"},
         {"name": "Phonetic"},
-        {"name": "POS"},
-        {"name": "DefZh"},
-        {"name": "Example"},
-        {"name": "ExampleZh"},
+        {"name": "Senses"},         # 预渲染 HTML：该词所有义项（pos+释义+例句）
         {"name": "WordAudio"},      # [sound:xxx.mp3]
-        {"name": "ExampleAudio"},   # [sound:xxx.mp3]
-        {"name": "Key"},            # 唯一键，用于去重/更新
+        {"name": "ExampleAudio"},   # 所有例句的 [sound:] 顺序拼接
+        {"name": "Key"},            # 唯一键（= word），用于去重/更新
     ],
     templates=[
         {
@@ -63,26 +60,52 @@ MODEL = genanki.Model(
             "afmt": """
 {{FrontSide}}
 <hr id="answer">
-<div class="def"><span class="pos">{{POS}}</span>{{DefZh}}</div>
-{{#Example}}
-<div class="ex"><i>{{Example}}</i></div>
-<div class="ex-zh">{{ExampleZh}}</div>
+<div class="senses">{{Senses}}</div>
 {{ExampleAudio}}
-{{/Example}}
 """,
         }
     ],
     css="""
-.card { font-family: -apple-system, "Segoe UI", "Noto Sans CJK SC", sans-serif;
-        text-align: center; color: #1c1c1e; background: #fff; }
-.word { font-size: 40px; font-weight: 700; }
-.phon { font-size: 20px; color: #8e8e93; font-style: italic; margin-top: 6px; }
-.pos  { color: #ff9500; font-weight: 700; margin-right: 6px; }
-.def  { font-size: 26px; font-weight: 600; margin: 14px 0; }
-.ex   { font-size: 19px; line-height: 1.5; }
-.ex-zh{ font-size: 16px; color: #8e8e93; margin-top: 8px; }
+/* 背单词卡：克制、干净，视觉为记忆服务。焦点=单词与中文释义，其余弱化。
+   词头区居中（正面焦点），义项区左对齐（多条并列信息，左对齐利于纵向扫读）。 */
+.card {
+  font-family: -apple-system, "Segoe UI", "Noto Sans CJK SC", "PingFang SC", sans-serif;
+  color: #1c1c1e; background: #f2f2f7;
+  -webkit-font-smoothing: antialiased; line-height: 1.5;
+}
+/* 卡片本体：白底圆角，居中一栏，两侧留白 */
+.card > * { max-width: 460px; margin-left: auto; margin-right: auto; }
+
+.word { font-size: 42px; font-weight: 700; letter-spacing: -0.01em; text-align: center;
+        margin-top: 8px; }
+.phon { font-size: 19px; color: #8e8e93; margin-top: 4px; text-align: center; }
+
+hr#answer { border: none; border-top: 1px solid #e5e5ea; margin: 22px auto; max-width: 460px; }
+
+/* 义项区：左对齐，义项间细线分隔 */
+.senses { text-align: left; }
+.sense  { padding: 14px 0; border-top: 1px solid #f0f0f3; }
+.sense:first-child { border-top: none; padding-top: 4px; }
+
+.pos  { color: #ff9500; font-weight: 700; margin-right: 8px;
+        font-size: 15px; letter-spacing: 0.02em; }
+.def  { font-size: 22px; font-weight: 600; margin: 0 0 8px; }   /* 认词要记的：加粗 */
+.ex   { font-size: 17px; color: #48484a; line-height: 1.55; }   /* 例句：正常，略弱 */
+.ex i { font-style: italic; }
+.ex-zh{ font-size: 14px; color: #8e8e93; margin-top: 3px; }
+
+@media (prefers-color-scheme: dark) {
+  .card { color: #f2f2f7; background: #1c1c1e; }
+  .phon, .ex-zh { color: #8e8e93; }
+  .ex { color: #c7c7cc; }
+  hr#answer { border-top-color: #38383a; }
+  .sense { border-top-color: #2c2c2e; }
+}
 """,
 )
+
+# 同一词性下多义项的圆圈序号（纯展示，不进 Key）。
+CIRCLED = "①②③④⑤⑥⑦⑧⑨⑩⑪⑫"
 
 
 def load_pages() -> list[dict]:
@@ -179,8 +202,43 @@ def _audio_name(text: str) -> str:
     return f"tem4-{h}.mp3"
 
 
+def _esc(s: str) -> str:
+    """HTML 转义，避免释义/例句里的 < & 等破坏卡面。"""
+    return (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+
+
+def _render_senses(senses: list[dict]) -> str:
+    """把该词所有义项渲染成一段背面 HTML。
+
+    同一词性内多义项加圆圈序号（①②③，纯展示）；单义项不加。有例句才渲染例句块。
+    """
+    # 先按词性分组统计，决定是否加序号
+    pos_count: dict[str, int] = {}
+    for s in senses:
+        pos = s.get("pos", "") or ""
+        pos_count[pos] = pos_count.get(pos, 0) + 1
+
+    blocks: list[str] = []
+    pos_idx: dict[str, int] = {}
+    for s in senses:
+        pos = s.get("pos", "") or ""
+        def_zh = s.get("def_zh", "") or ""
+        ex = s.get("example", "") or ""
+        ex_zh = s.get("example_zh", "") or ""
+        i = pos_idx.get(pos, 0)
+        pos_idx[pos] = i + 1
+        num = CIRCLED[i] if pos_count[pos] > 1 and i < len(CIRCLED) else ""
+        parts = [f'<div class="def"><span class="pos">{_esc(pos)}</span>{num}{_esc(def_zh)}</div>']
+        if ex:
+            parts.append(f'<div class="ex"><i>{_esc(ex)}</i></div>')
+        if ex_zh:
+            parts.append(f'<div class="ex-zh">{_esc(ex_zh)}</div>')
+        blocks.append(f'<div class="sense">{"".join(parts)}</div>')
+    return "\n".join(blocks)
+
+
 def flatten_notes(entries: list[dict]) -> tuple[list[dict], list[str]]:
-    """每义项 → 一条 note 数据（dict，含待生成音频的原文）。返回 (rows, 警告)。"""
+    """每词 → 一条 note 数据（背面含全部义项）。返回 (rows, 警告)。"""
     rows = []
     warnings: list[str] = []
     for e in entries:
@@ -190,29 +248,20 @@ def flatten_notes(entries: list[dict]) -> tuple[list[dict], list[str]]:
         if not senses:
             warnings.append(f"词条 '{word}' 没有 senses，不出卡（检查 OCR/合并）。")
             continue
-        for s in senses:
-            pos = s.get("pos", "") or ""
-            def_zh = s.get("def_zh", "") or ""
-            ex = s.get("example", "") or ""
-            # 稳定 key：按义项内容（词+词性+中文释义）生成，而非序号。
-            # 义项顺序或数量变化（如后补 tail）不会移动已有义项的 key，重导入才能正确更新。
-            key = f"{word}|{pos}|{def_zh}"
-            rows.append({
-                "word": word,
-                "phon": phon,
-                "pos": pos,
-                "def_zh": def_zh,
-                "example": ex,
-                "example_zh": s.get("example_zh", "") or "",
-                "key": key,
-            })
-    # key 冲突检测（同词同词性同释义重复）
+        rows.append({
+            "word": word,
+            "phon": phon,
+            "senses_html": _render_senses(senses),
+            "examples": [s["example"] for s in senses if s.get("example")],
+            "key": word,  # 一词一卡，词本身即唯一键
+        })
+    # 重复检测：同一个 word 出现多个词条（跨页 head/tail 未合并、或 OCR 重复解析同词）
     seen: dict[str, int] = {}
     for r in rows:
         seen[r["key"]] = seen.get(r["key"], 0) + 1
     for k, cnt in seen.items():
         if cnt > 1:
-            warnings.append(f"key 冲突 '{k}' 出现 {cnt} 次，重复卡会互相覆盖。")
+            warnings.append(f"同词多条目 '{k}' 出现 {cnt} 次，卡片会互相覆盖（查跨页合并/OCR 重复）。")
     return rows, warnings
 
 
@@ -234,12 +283,13 @@ async def generate_audio(rows: list[dict], media_dir: Path) -> int:
         wname = _audio_name(r["word"])
         uniq[r["word"]] = wname
         r["word_audio"] = f"[sound:{wname}]"
-        if r["example"]:
-            ename = _audio_name(r["example"])
-            uniq[r["example"]] = ename
-            r["example_audio"] = f"[sound:{ename}]"
-        else:
-            r["example_audio"] = ""
+        # 该词所有例句：各生成 mp3（hash 去重），[sound:] 顺序拼接 → Anki 依次播放
+        tags = []
+        for ex in r["examples"]:
+            ename = _audio_name(ex)
+            uniq[ex] = ename
+            tags.append(f"[sound:{ename}]")
+        r["example_audio"] = "".join(tags)
 
     sem = asyncio.Semaphore(TTS_CONCURRENCY)
     tasks = [_gen_one(text, media_dir / name, sem) for text, name in uniq.items()]
@@ -253,12 +303,11 @@ def build_notes(rows: list[dict]) -> list[genanki.Note]:
         notes.append(genanki.Note(
             model=MODEL,
             fields=[
-                r["word"], r["phon"], r["pos"], r["def_zh"],
-                r["example"], r["example_zh"],
+                r["word"], r["phon"], r["senses_html"],
                 r.get("word_audio", ""), r.get("example_audio", ""),
                 r["key"],
             ],
-            guid=genanki.guid_for(r["key"]),  # 稳定 guid → 重导入更新而非重复
+            guid=genanki.guid_for(r["key"]),  # 稳定 guid（按 word）→ 重导入更新而非重复
         ))
     return notes
 
@@ -283,7 +332,7 @@ def main() -> int:
     warnings += flat_warnings
 
     # 音频去重后的实际文件数：唯一单词 + 唯一例句
-    uniq_audio = {r["word"] for r in rows} | {r["example"] for r in rows if r["example"]}
+    uniq_audio = {r["word"] for r in rows} | {ex for r in rows for ex in r["examples"]}
     n_audio = 0 if args.no_audio else len(uniq_audio)
     print(f"页数 {len(pages)}｜完整词条 {len(entries)}｜卡片 {len(rows)}｜音频 {n_audio} 个")
     for w in warnings:

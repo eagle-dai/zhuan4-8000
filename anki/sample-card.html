@@ -14,16 +14,23 @@
           box-shadow: 0 2px 12px rgba(0,0,0,.08); color: #1c1c1e; }
   @media (prefers-color-scheme: dark) { .card { background: #2c2c2e; color: #f2f2f7; } }
   .label { font-size: 12px; letter-spacing: .08em; color: #8e8e93; text-transform: uppercase; margin-bottom: 14px; }
-  .word { font-size: 40px; font-weight: 700; }
-  .phon { font-size: 20px; color: #8e8e93; margin-top: 6px; font-style: italic; }
-  .pos { color: #ff9500; font-weight: 700; margin-right: 6px; }
-  .def-zh { font-size: 26px; font-weight: 600; margin: 4px 0 20px; }
-  .ex { font-size: 19px; line-height: 1.5; }
-  .ex-zh { font-size: 16px; color: #8e8e93; margin-top: 8px; }
+  .word { font-size: 42px; font-weight: 700; letter-spacing: -.01em; }
+  .phon { font-size: 19px; color: #8e8e93; margin-top: 4px; }
+  /* 义项区左对齐（多条并列信息，左对齐利于纵向扫读中文释义） */
+  .senses { text-align: left; }
+  .sense { padding: 14px 0; border-top: 1px solid #f0f0f3; }
+  .sense:first-child { border-top: none; padding-top: 4px; }
+  @media (prefers-color-scheme: dark) { .sense { border-top-color: #38383a; } }
+  .pos { color: #ff9500; font-weight: 700; margin-right: 8px; font-size: 15px; letter-spacing: .02em; }
+  .def-zh { font-size: 22px; font-weight: 600; margin: 0 0 8px; }
+  .ex { font-size: 17px; color: #48484a; line-height: 1.55; }
+  .ex em { font-style: italic; }
+  @media (prefers-color-scheme: dark) { .ex { color: #c7c7cc; } }
+  .ex-zh { font-size: 14px; color: #8e8e93; margin-top: 3px; }
   hr { border: none; border-top: 1px solid #e5e5ea; margin: 20px 0; }
-  @media (prefers-color-scheme: dark) { hr { border-top-color: #3a3a3c; } }
+  @media (prefers-color-scheme: dark) { hr { border-top-color: #38383a; } }
   .spk { cursor: pointer; background: #007aff; color: #fff; border: none; border-radius: 20px;
-         padding: 8px 18px; font-size: 15px; margin-top: 16px; }
+         padding: 9px 20px; font-size: 15px; margin-top: 18px; }
   .hint { font-size: 12px; color: #8e8e93; text-align: center; margin-top: 4px; }
 </style>
 </head>
@@ -38,21 +45,46 @@
     <button class="spk" onclick="say('exhaust')">🔊 读单词</button>
   </div>
 
-  <!-- 背面：释义 + 例句 + 例句读音 -->
+  <!-- 背面：全部义项 + 各例句 + 顺序读全部例句 -->
   <div class="card">
     <div class="label">背面 Back</div>
     <div class="word">exhaust</div>
     <div class="phon">/ɪɡˈzɔːst/</div>
     <hr>
-    <div class="def-zh"><span class="pos">vt.</span>使筋疲力尽</div>
-    <div class="ex"><em>We are all exhausted after a long cycle ride.</em></div>
-    <div class="ex-zh">长途骑车后我们都筋疲力尽了。</div>
-    <button class="spk" onclick="say('We are all exhausted after a long cycle ride.')">🔊 读例句</button>
+    <div class="senses">
+      <div class="sense">
+        <div class="def-zh"><span class="pos">vt.</span>①使筋疲力尽</div>
+        <div class="ex"><em>We are all exhausted after a long cycle ride.</em></div>
+        <div class="ex-zh">长途骑车后我们都筋疲力尽了。</div>
+      </div>
+      <div class="sense">
+        <div class="def-zh"><span class="pos">vt.</span>②用光</div>
+        <div class="ex"><em>My patience is exhausted.</em></div>
+        <div class="ex-zh">我没有耐性了。</div>
+      </div>
+      <div class="sense">
+        <div class="def-zh"><span class="pos">vt.</span>③详尽论述</div>
+        <div class="ex"><em>We've exhausted this subject; let's go on to the next.</em></div>
+        <div class="ex-zh">我们已经详尽地讨论了这一问题，接着谈下一个吧。</div>
+      </div>
+      <div class="sense">
+        <div class="def-zh"><span class="pos">n.</span>①排气装置</div>
+        <div class="ex"><em>jet exhaust</em></div>
+        <div class="ex-zh">喷气口</div>
+      </div>
+      <div class="sense">
+        <div class="def-zh"><span class="pos">n.</span>②废气</div>
+        <div class="ex"><em>the smell of the exhaust</em></div>
+        <div class="ex-zh">排出的废气气味</div>
+      </div>
+    </div>
+    <button class="spk" onclick="sayAllBack()">🔊 读全部例句</button>
   </div>
 
   <div class="hint">
     此 HTML 用浏览器 Web Speech 模拟 Anki 的 {{tts}} 读音。<br>
-    真卡在 Anki 里用 <code>{{tts en_US:Word}}</code> / <code>{{tts en_US:Example}}</code>，自动朗读。
+    真卡：一词一张卡，背面列全部义项；正面读单词，背面顺序读所有例句
+    （edge-tts 预生成 mp3，<code>ExampleAudio</code> 里多个 <code>[sound:]</code> 依次播放）。
   </div>
 
 </div>
@@ -62,6 +94,16 @@ function say(text) {
   const u = new SpeechSynthesisUtterance(text);
   u.lang = 'en-US'; u.rate = 0.95;
   speechSynthesis.cancel(); speechSynthesis.speak(u);
+}
+// 顺序读背面所有例句（从卡面 .ex 元素取文本，避免在 onclick 里拼含引号的字符串）
+function sayAllBack() {
+  if (!window.speechSynthesis) { alert('浏览器不支持语音'); return; }
+  speechSynthesis.cancel();
+  document.querySelectorAll('.card .ex').forEach(function (el) {
+    const u = new SpeechSynthesisUtterance(el.textContent);
+    u.lang = 'en-US'; u.rate = 0.95;
+    speechSynthesis.speak(u);  // 排队依次播放
+  });
 }
 </script>
 </body>
