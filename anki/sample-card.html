@@ -28,8 +28,8 @@
   .word { font-size: 46px; font-weight: 700; letter-spacing: -0.005em; }
   .phon { font-size: 19px; color: #6b6459; margin-top: 6px; font-style: italic; }
 
-  /* signature：朱红规线，替代灰 hr——老词典词目分隔线 */
-  hr, .rule { border: none; border-top: 2px solid #9e2b25; margin: 20px auto; max-width: 200px; }
+  /* signature：朱红规线，替代灰 hr——老词典词目分隔线（类名 hr#answer 对齐真卡 afmt） */
+  hr#answer { border: none; border-top: 2px solid #9e2b25; margin: 20px auto; max-width: 200px; }
 
   /* 义项区左对齐（多条并列信息，纵向扫读中文释义） */
   .senses { text-align: left; }
@@ -39,9 +39,9 @@
   /* 词性标签：朱红小型大写，词典 pos 标记 */
   .pos  { color: #9e2b25; font-weight: 700; margin-right: 10px;
           font-size: 13px; letter-spacing: .08em; text-transform: uppercase; }
-  /* 中文释义：宋体加粗，认词核心 */
-  .def-zh { font-family: "Songti SC", "STSong", "Noto Serif CJK SC", serif;
-            font-size: 22px; font-weight: 600; margin: 0 0 8px; color: #1f1b16; }
+  /* 中文释义：宋体加粗，认词核心（类名 .def 对齐真卡 afmt） */
+  .def  { font-family: "Songti SC", "STSong", "Noto Serif CJK SC", serif;
+          font-size: 22px; font-weight: 600; margin: 0 0 8px; color: #1f1b16; }
   /* 英文例句：衬线斜体 */
   .ex   { font-size: 17px; color: #4a4438; line-height: 1.55; }
   .ex em { font-style: italic; }
@@ -50,11 +50,11 @@
           font-size: 14px; color: #6b6459; margin-top: 3px; }
 
   @media (prefers-color-scheme: dark) {
-    .card .word, .card .def-zh { color: #f2ede2; }
-    .card .phon, .card .ex-zh { color: #a89f8f; }
-    .card .ex { color: #cfc7b6; }
-    .card .pos { color: #d4776f; }
-    hr, .rule { border-top-color: #d4776f; }
+    .word, .def { color: #f2ede2; }
+    .phon, .ex-zh { color: #a89f8f; }
+    .ex { color: #cfc7b6; }
+    .pos { color: #d4776f; }
+    hr#answer { border-top-color: #d4776f; }
     .sense { border-top-color: #3a342b; }
   }
 
@@ -86,30 +86,30 @@
     <div class="label">背面 Back</div>
     <div class="word">exhaust</div>
     <div class="phon">/ɪɡˈzɔːst/</div>
-    <hr class="rule">
+    <hr id="answer">
     <div class="senses">
       <div class="sense">
-        <div class="def-zh"><span class="pos">vt.</span>①使筋疲力尽</div>
+        <div class="def"><span class="pos">vt.</span>①使筋疲力尽</div>
         <div class="ex"><em>We are all exhausted after a long cycle ride.</em></div>
         <div class="ex-zh">长途骑车后我们都筋疲力尽了。</div>
       </div>
       <div class="sense">
-        <div class="def-zh"><span class="pos">vt.</span>②用光</div>
+        <div class="def"><span class="pos">vt.</span>②用光</div>
         <div class="ex"><em>My patience is exhausted.</em></div>
         <div class="ex-zh">我没有耐性了。</div>
       </div>
       <div class="sense">
-        <div class="def-zh"><span class="pos">vt.</span>③详尽论述</div>
+        <div class="def"><span class="pos">vt.</span>③详尽论述</div>
         <div class="ex"><em>We've exhausted this subject; let's go on to the next.</em></div>
         <div class="ex-zh">我们已经详尽地讨论了这一问题，接着谈下一个吧。</div>
       </div>
       <div class="sense">
-        <div class="def-zh"><span class="pos">n.</span>①排气装置</div>
+        <div class="def"><span class="pos">n.</span>①排气装置</div>
         <div class="ex"><em>jet exhaust</em></div>
         <div class="ex-zh">喷气口</div>
       </div>
       <div class="sense">
-        <div class="def-zh"><span class="pos">n.</span>②废气</div>
+        <div class="def"><span class="pos">n.</span>②废气</div>
         <div class="ex"><em>the smell of the exhaust</em></div>
         <div class="ex-zh">排出的废气气味</div>
       </div>
