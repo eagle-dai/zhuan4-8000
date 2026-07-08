@@ -1,0 +1,115 @@
+{
+  "page": 5,
+  "continues_from": "resign",
+  "continues_to": null,
+  "extras": [
+    {"type": "真题", "title": null, "content": "Similar advances with other crops have released people from hard and boring jobs for more creative work, whilst machines harvest crops more efficiently with less waste. 译文:对其他农作物所做的类似改进使得人们可以远离脏活累活，从而转向那些更富有创造性的工作，同时由机器收割庄稼可以提高效率、降低损耗。"}
+  ],
+  "entries": [
+    {
+      "word": "resign",
+      "partial": "tail",
+      "phonetic": "rɪˈzaɪn",
+      "senses": [
+        {"pos": "v.", "def_en": "to give up (a job or position) in a formal or official way", "def_zh": "辞职，放弃",
+         "example": "I resigned because of the low salary.", "example_zh": "因为工资太低，我辞职了。"},
+        {"pos": "v.", "def_en": "to make yourself accept sth. that is bad but cannot be changed (~to)", "def_zh": "使顺从",
+         "example": "resign oneself to one's fate", "example_zh": "听天由命"}
+      ],
+      "derivatives": ["resignation n. 辞职;顺从"],
+      "complete": false
+    },
+    {
+      "word": "surrender",
+      "phonetic": "səˈrendə",
+      "mnemonic": "sur(upon)+render(给予)→交出，放弃",
+      "senses": [
+        {"pos": "vi.", "def_zh": "投降",
+         "example": "They surrendered to the enemy.", "example_zh": "他们向敌人投降了。"},
+        {"pos": "vi.", "def_zh": "(~to)屈服(于)，听任(感情、习惯等)摆布",
+         "example": "surrender to temptation", "example_zh": "屈服于诱惑"},
+        {"pos": "n.", "def_zh": "投降，放弃",
+         "example": "No surrender to the fascists!", "example_zh": "决不向法西斯分子投降！"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "release",
+      "phonetic": "rɪˈliːs",
+      "mnemonic": "re+lease(放松)→放开",
+      "senses": [
+        {"pos": "vt.", "def_en": "to let sb. go free; to let a substance flow out", "def_zh": "释放",
+         "example": "release the hostages // Plastic releases poisonous chemicals when it burns.", "example_zh": "释放人质 // 塑料燃烧时释放出有毒物质。"},
+        {"pos": "vt.", "def_en": "to free (sb.) from a duty, responsibility, etc.", "def_zh": "解除，解雇",
+         "example": "The club is releasing some of its older players.", "example_zh": "俱乐部正在解聘一些老队员。"},
+        {"pos": "vt.", "def_en": "to stop holding (sb. or sth.)", "def_zh": "放开，松开",
+         "example": "He refused to release her arm.", "example_zh": "他不肯放开她的手臂。"},
+        {"pos": "vt.", "def_en": "to make (sth.) available to the public", "def_zh": "发布，公布",
+         "example": "The names of the delegates were not released to the press.", "example_zh": "代表们的名字没有向报界公布。"},
+        {"pos": "n.", "def_zh": "释放",
+         "example": "the release of the prisoners // the release of carbon dioxide", "example_zh": "释放囚犯 // 二氧化碳的排放"},
+        {"pos": "n.", "def_zh": "解除，解脱",
+         "example": "Crying gave some emotional release.", "example_zh": "哭泣缓解了些痛苦的情绪。"},
+        {"pos": "n.", "def_zh": "发布",
+         "example": "October 22nd is the date set for the report's release.", "example_zh": "定于10月22日发布该报告。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "discharge",
+      "phonetic": "dɪsˈtʃɑːdʒ",
+      "mnemonic": "dis(away)+charge(装载)→释放",
+      "senses": [
+        {"pos": "v.", "def_en": "to allow sb. to leave a hospital, prison, etc.", "def_zh": "允许…离开",
+         "example": "The judge discharged the prisoner.", "example_zh": "法官把囚犯释放了。"},
+        {"pos": "v.", "def_en": "to send out (a liquid, gas or waste material)", "def_zh": "排出;流出",
+         "example": "Some factories in this region still discharge waste water into the river. // The river discharges into the sea.", "example_zh": "这一地区有些工厂仍把废水排入河中。// 那条河注入大海。"},
+        {"pos": "v.", "def_zh": "卸(货)",
+         "example": "The aircraft discharged its passengers.", "example_zh": "飞机卸下乘客。"},
+        {"pos": "v.", "def_zh": "放电",
+         "example": "Lightning is caused by clouds discharging electricity.", "example_zh": "闪电是由云层放电造成的。"},
+        {"pos": "n.", "def_zh": "允许…离开",
+         "example": "Patients' needs after discharge from hospital will be monitored.", "example_zh": "出院后病人的需求将得到监控。"},
+        {"pos": "n.", "def_zh": "排出",
+         "example": "the discharge of toxic waste into the sea", "example_zh": "有毒废物向海里排放"},
+        {"pos": "n.", "def_zh": "卸(货);放电", "example": null, "example_zh": null}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "dismiss",
+      "phonetic": "dɪsˈmɪs",
+      "mnemonic": "dis(away)+miss(送)→送走→解雇;解散",
+      "senses": [
+        {"pos": "vt.", "def_en": "to decide not to think about or consider (sth. or sb.)", "def_zh": "不再考虑",
+         "example": "A good few people dismiss the idea as sheer nonsense.", "example_zh": "不少人认为这种想法是胡说八道。"},
+        {"pos": "vt.", "def_en": "to end the employment or service of sb.", "def_zh": "解雇",
+         "example": "Bryant claims he was unfairly dismissed from his post.", "example_zh": "布赖恩特声称自己被无理免职。"},
+        {"pos": "vt.", "def_en": "to send (sb.) away or allow them to leave", "def_zh": "解散，遣散",
+         "example": "The chairman dismissed the meeting.", "example_zh": "主席宣布散会。"},
+        {"pos": "vt.", "def_zh": "驳回，不受理",
+         "example": "The justice dismissed his evidence out of hand.", "example_zh": "法官当即驳回了他的证据。"}
+      ],
+      "derivatives": ["dismissal n. 解散;解雇;不予考虑"],
+      "complete": true
+    },
+    {
+      "word": "expel",
+      "phonetic": "ɪkˈspel",
+      "mnemonic": "ex(out)+pel(推)→将…推出去→把…开除",
+      "senses": [
+        {"pos": "vt.", "def_en": "to officially force sb. to leave a school or organization", "def_zh": "把…开除",
+         "example": "The pupil was expelled for stealing.", "example_zh": "那学生因偷窃被开除了。"},
+        {"pos": "vt.", "def_en": "to force or drive out", "def_zh": "驱逐",
+         "example": "Russia lately expelled a US diplomat from its land.", "example_zh": "俄罗斯最近驱逐了一名美国外交官。"},
+        {"pos": "vt.", "def_zh": "排出",
+         "example": "The lungs expel carbon dioxide when we exhale.", "example_zh": "当我们呼气时，肺排出了二氧化碳。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    }
+  ]
+}

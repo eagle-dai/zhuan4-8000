@@ -1,0 +1,61 @@
+{
+  "page": 28,
+  "continues_from": null,
+  "continues_to": "relevant",
+  "entries": [
+    {
+      "word": "consistent",
+      "phonetic": "kənˈsɪstənt",
+      "mnemonic": "con(一起)+sist(站)+ent→站在一起的→一致的",
+      "senses": [
+        {"pos": "a.", "def_en": "always acting or behaving in the same way", "def_zh": "坚持的,一贯的", "example": "Data from recent experiments show consistent results.", "example_zh": "最近的实验数据显示一贯的结果。"},
+        {"pos": "a.", "def_en": "having parts that agree with each other", "def_zh": "一致的", "example": "The witness's testimony is not consistent with what he said earlier.", "example_zh": "证人的证词和之前说过的不一致。"}
+      ],
+      "derivatives": ["consistency n. 前后一致;(液体的)浓度", "inconsistent a. 不一致的;前后矛盾的;(行为等)反复无常的"],
+      "complete": true
+    },
+    {
+      "word": "vary",
+      "phonetic": "ˈveərɪ",
+      "senses": [
+        {"pos": "vi.", "def_en": "to undergo or show change", "def_zh": "变化", "example": "Opinions on what success is vary from person to person.", "example_zh": "关于什么是成功,人人观点不一。"},
+        {"pos": "vt.", "def_en": "to make diverse", "def_zh": "使不同", "example": "You should vary your diet.", "example_zh": "你应该使你的饮食多样化。"}
+      ],
+      "derivatives": ["variation n. 变化;变体;变奏(曲)"],
+      "complete": true
+    },
+    {
+      "word": "variable",
+      "phonetic": "ˈveərɪəbl",
+      "mnemonic": "vari(改变)+able→能改变的→可变的",
+      "senses": [
+        {"pos": "a.", "def_en": "likely to change", "def_zh": "易变的", "example": "His mood is as variable as the weather.", "example_zh": "他的情绪如天气般反复无常。"},
+        {"pos": "a.", "def_zh": "可变的", "example": "The speed of the windscreen wipers is variable.", "example_zh": "(汽车)挡风玻璃上刮水器的速度是可调节的。"},
+        {"pos": "n.", "def_zh": "可变因素", "example": "There are too many variables in the experiment to predict the result accurately.", "example_zh": "实验中可变因素太多,难以准确预测结果。"}
+      ],
+      "derivatives": ["invariable a. 不变的;常数的 n. 常数;不变的东西"],
+      "complete": true
+    },
+    {
+      "word": "misfortune",
+      "phonetic": "mɪsˈfɔːtʃən",
+      "mnemonic": "mis(bad)+fortune(运气)→不幸,逆境",
+      "senses": [
+        {"pos": "n.", "def_zh": "不幸,逆境;不幸事故", "example": "Misfortunes never come alone.", "example_zh": "[谚]祸不单行。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "relevant",
+      "partial": "head",
+      "phonetic": "ˈrelɪvənt",
+      "mnemonic": "re(again)+lev(提出)+ant→“相关的”问题被再次提出来",
+      "senses": [
+        {"pos": "a.", "def_en": "having connection with the matter at hand", "def_zh": "有关的,切题的", "example": "It's said that a person's fate is relevant to his character.", "example_zh": "据说人的命运与性格有关。"}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": []
+}

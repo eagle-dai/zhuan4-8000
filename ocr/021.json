@@ -1,0 +1,118 @@
+{
+  "page": 21,
+  "continues_from": null,
+  "continues_to": "benefit",
+  "entries": [
+    {
+      "word": "abound",
+      "phonetic": "əˈbaund",
+      "senses": [
+        {"pos": "vi.", "def_en": "to exist or occur in large numbers (~in, with)", "def_zh": "充满,富于;大量存在", "example": "Oranges abound here all the year round. // The country abounds in valuable minerals.", "example_zh": "这里一年到头都有很多橙子。// 这个国家蕴藏的重要矿物非常丰富。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "sufficient",
+      "phonetic": "səˈfɪʃnt",
+      "senses": [
+        {"pos": "a.", "def_en": "being as much as is needed; adequate; enough", "def_zh": "足够的,充分的", "example": "Many people working and living in the city don't have sufficient sleep.", "example_zh": "很多在城市工作和居住的人睡眠都不充足。"}
+      ],
+      "derivatives": ["sufficiency n. 充足", "self-sufficient a. 自给自足的;傲慢的"],
+      "complete": true
+    },
+    {
+      "word": "adequate",
+      "phonetic": "ˈædɪkwɪt",
+      "mnemonic": "ad(to)+equ(相等的)+ate→等同于所需的→充足的",
+      "senses": [
+        {"pos": "a.", "def_zh": "充足的", "example": "Employees in a chemical plant should be given adequate training in safety precautions.", "example_zh": "化工厂的雇员应有足够的安全防范培训。"},
+        {"pos": "a.", "def_zh": "胜任的", "example": "be adequate to the job", "example_zh": "能胜任工作"}
+      ],
+      "derivatives": ["inadequacy n. 不足;不胜任", "inadequate a. 不充分的,不能胜任的,不适宜的"],
+      "complete": true
+    },
+    {
+      "word": "wholesome",
+      "phonetic": "ˈhəulsəm",
+      "senses": [
+        {"pos": "a.", "def_en": "indicative of good health or well-being", "def_zh": "有益于健康的;健康的", "example": "wholesome food", "example_zh": "有益健康的食物"},
+        {"pos": "a.", "def_en": "considered to have a good moral effect", "def_zh": "有益的", "example": "You should read some wholesome books.", "example_zh": "你应当读些有益的书。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "conducive",
+      "phonetic": "kənˈdjuːsɪv",
+      "senses": [
+        {"pos": "a.", "def_en": "making it easy, possible, or likely for sth. to happen or exist", "def_zh": "有助于…的,促成…的", "example": "Fresh air is conducive to health.", "example_zh": "新鲜空气有益健康。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "appreciate",
+      "phonetic": "əˈpriːʃɪeɪt",
+      "mnemonic": "ap(to) + preci(价值)+ate→对价值给予肯定→赏识,欣赏",
+      "senses": [
+        {"pos": "vt.", "def_en": "to recognize the good qualities of sb. or sth.", "def_zh": "重视,欣赏", "example": "Teachers are highly appreciated in our country.", "example_zh": "在我们国家,教师受到高度重视。"},
+        {"pos": "vt.", "def_en": "to be thankful or grateful for", "def_zh": "为…表示感激", "example": "I deeply appreciated your thoughtfulness.", "example_zh": "我对你的体贴周到深表谢意。"},
+        {"pos": "vt.", "def_en": "to be aware of sth.", "def_zh": "领会", "example": "I am afraid you have not appreciated the urgency of the matter.", "example_zh": "恐怕你还没有意识到这件事的紧迫性。"},
+        {"pos": "vi.", "def_zh": "增值", "example": "Gold has recently appreciated.", "example_zh": "黄金最近涨价了。"}
+      ],
+      "derivatives": ["appreciation n. 欣赏;感谢", "appreciative a. 有欣赏力的;感激的"],
+      "complete": true
+    },
+    {
+      "word": "criterion",
+      "phonetic": "kraɪˈtɪərɪən",
+      "mnemonic": "crit(判断)+erion→判断的依据→标准",
+      "senses": [
+        {"pos": "n.", "def_en": "a standard or rule on which a judgment or decision can be based", "def_zh": "标准", "example": "It is unacceptable to say popularity is the only criterion of a good novel.", "example_zh": "把是否流行作为判断一本好小说的唯一标准是让人难以接受的。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "standardize",
+      "phonetic": "ˈstændədaɪz",
+      "senses": [
+        {"pos": "vt.", "def_en": "to make all the things of one particular type the same as each other", "def_zh": "使(某事物)标准化", "example": "Efforts to standardize English spelling haven't been successful.", "example_zh": "英语拼写标准化的努力并不成功。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "handy",
+      "phonetic": "ˈhændɪ",
+      "senses": [
+        {"pos": "a.", "def_zh": "方便的", "example": "This manual of college English vocabulary is a handy reference book.", "example_zh": "这本大学英语词汇手册是一本使用简易方便的参考书。"},
+        {"pos": "a.", "def_zh": "手边的", "example": "Keep a dictionary handy while studying.", "example_zh": "学习的时候手边应备有一本字典。"},
+        {"pos": "a.", "def_zh": "手巧的", "example": "The girl is handy with needle and thread.", "example_zh": "那女孩巧于针线活儿。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "convenience",
+      "phonetic": "kənˈviːnɪəns",
+      "senses": [
+        {"pos": "n.", "def_zh": "方便", "example": "Would it be possible for you to join us at your convenience?", "example_zh": "方便的话能否光临?"},
+        {"pos": "n.", "def_zh": "便利设施", "example": "modern conveniences", "example_zh": "现代化的便利设施"}
+      ],
+      "derivatives": ["inconvenience n./v. (给…带来)不便,打扰"],
+      "complete": true
+    },
+    {
+      "word": "benefit",
+      "partial": "head",
+      "phonetic": "ˈbenɪfɪt",
+      "senses": [
+        {"pos": "n.", "def_en": "sth. that gives you advantages or improves your life in some way", "def_zh": "益处", "example": "Equality and mutual benefit is one of China's five principles of peaceful coexistence in foreign policy.", "example_zh": "平等互利是中国外交和平共处五项基本原则之一。"}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": []
+}

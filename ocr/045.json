@@ -1,0 +1,131 @@
+{
+  "page": 45,
+  "continues_from": "counter",
+  "continues_to": "spectator",
+  "entries": [
+    {
+      "word": "counter",
+      "partial": "tail",
+      "phonetic": "ˈkaʊntə",
+      "senses": [
+        {"pos": "ad.", "def_en": "in a way that goes against", "def_zh": "反方向地",
+         "example": "The demands they put forward run counter to the will of most people.", "example_zh": "他们提出的要求违背大多数人的意愿。"}
+      ],
+      "complete": false
+    },
+    {
+      "word": "conflict",
+      "phonetic": "ˈkɒnflɪkt",
+      "senses": [
+        {"pos": "n.", "def_en": "a state of disagreement between persons or ideas", "def_zh": "冲突",
+         "example": "serious political conflict", "example_zh": "严重的政治冲突"},
+        {"pos": "n.", "def_en": "a battle or war", "def_zh": "战争",
+         "example": "Military conflicts are very frequent in the west bank of Jordan River and Gaza zone.", "example_zh": "约旦河西岸与加沙地带武装冲突频繁。"},
+        {"pos": "vi.", "def_zh": "冲突，抵触",
+         "example": "Do American immigration laws conflict with any international laws?", "example_zh": "美国的移民法与国际法有抵触吗？"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "confront",
+      "phonetic": "kənˈfrʌnt",
+      "mnemonic": "con+front(前面)→在前面出现→迎面遇到",
+      "senses": [
+        {"pos": "vt.", "def_en": "(of a problem, difficulty etc.) to appear and needed to be dealt with", "def_zh": "迎面遇到",
+         "example": "The new company was confronted with many difficulties.", "example_zh": "这家新成立的公司面临许多困难。"},
+        {"pos": "vt.", "def_zh": "正视，勇敢地面对",
+         "example": "The movie star couldn't confront the rumors fabricated by people.", "example_zh": "那个影星无法面对人们捏造出来的谣言。"},
+        {"pos": "vt.", "def_zh": "使对质，使当面对证",
+         "example": "When the police confronted her with the evidence, she admitted that she was guilty.", "example_zh": "当警察拿出证据与她当面对质时，她承认了自己是有罪的。"}
+      ],
+      "derivatives": ["confrontation n. 对抗，对峙"],
+      "complete": true
+    },
+    {
+      "word": "compete",
+      "phonetic": "kəmˈpiːt",
+      "mnemonic": "com(共同)+pete(追求)→共同追求一个目标→竞争",
+      "senses": [
+        {"pos": "vi.", "def_en": "to strive against others to attain a goal", "def_zh": "竞争",
+         "example": "Several companies are competing with each other for the contract.", "example_zh": "几家公司正为一份合同而互相竞争。"}
+      ],
+      "derivatives": ["competition n. 比赛；竞争 // competitor n. 竞争者，对手"],
+      "complete": true
+    },
+    {
+      "word": "competitive",
+      "phonetic": "kəmˈpetətɪv",
+      "senses": [
+        {"pos": "a.", "def_zh": "竞争的",
+         "example": "Nobody can entirely keep away from this competitive world.", "example_zh": "没有人能够完全远离这个竞争社会。"},
+        {"pos": "a.", "def_zh": "好竞争的",
+         "example": "a competitive person", "example_zh": "天性好强的人"},
+        {"pos": "a.", "def_en": "as good as or better than others of the same kind", "def_zh": "有竞争力的",
+         "example": "Our offer is competitive and we can't lower the price any more.", "example_zh": "我方的报价是有竞争力的，我方不能再降价了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "fierce",
+      "phonetic": "fɪəs",
+      "senses": [
+        {"pos": "a.", "def_zh": "凶猛的",
+         "example": "The lioness is a better hunter than the male, more fierce and more active.", "example_zh": "母狮是比雄狮更好的猎手，更凶猛也更活跃。"},
+        {"pos": "a.", "def_en": "intense in activity or feeling", "def_zh": "狂热的，强烈的",
+         "example": "Fierce resentment was aroused by this injustice.", "example_zh": "这种不公引起了强烈的不满。"},
+        {"pos": "a.", "def_en": "extremely powerful or destructive", "def_zh": "猛烈的",
+         "example": "fierce winds/storms", "example_zh": "狂风/狂风暴雨"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "capitalize",
+      "phonetic": "ˈkæpɪtəlaɪz",
+      "senses": [
+        {"pos": "vt.", "def_zh": "用大写字母写",
+         "example": "capitalized letter", "example_zh": "大写字母"},
+        {"pos": "vt.", "def_en": "to supply with capital or investment funds", "def_zh": "为……提供资金",
+         "example": "They're seeking investors to capitalize the business.", "example_zh": "他们正在寻找资方为企业提供资金。"}
+      ],
+      "derivatives": ["capitalist n. 资本家 a. 资本主义的 // capitalism n. 资本主义"],
+      "complete": true
+    },
+    {
+      "word": "conference",
+      "phonetic": "ˈkɒnfərəns",
+      "senses": [
+        {"pos": "n.", "def_zh": "会议",
+         "example": "Many international conferences are held in Geneva.", "example_zh": "许多国际会议在日内瓦举行。"},
+        {"pos": "n.", "def_zh": "商谈",
+         "example": "have a conference with", "example_zh": "和……商议"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "participate",
+      "phonetic": "pɑːˈtɪsɪpeɪt",
+      "senses": [
+        {"pos": "vi.", "def_en": "to be involved in sth.; take part (~in)", "def_zh": "参加",
+         "example": "College students are expected to participate in discussions in the class.", "example_zh": "大学课堂上希望学生参加讨论。"}
+      ],
+      "derivatives": ["participant n. 参与者"],
+      "complete": true
+    },
+    {
+      "word": "spectator",
+      "partial": "head",
+      "phonetic": "spekˈteɪtə",
+      "mnemonic": "spect(看)+ator(表人)→观众",
+      "senses": [],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "短语", "title": null, "content": "capitalize on 利用 We should capitalize on every chance to improve our English. 我们应该充分利用一切机会来提高英语水平。"},
+    {"type": "真题", "title": null, "content": "The machine would participate in interesting conversation that could continue from previous discussions. 译文：这种机器会参与到从上一次讨论中延续下来的有趣的交谈。"}
+  ]
+}

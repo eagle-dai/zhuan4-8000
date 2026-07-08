@@ -1,0 +1,134 @@
+{
+  "page": 52,
+  "continues_from": "amount",
+  "continues_to": "premise",
+  "entries": [
+    {
+      "word": "amount",
+      "partial": "tail",
+      "phonetic": "əˈmaʊnt",
+      "senses": [
+        {"pos": "vi.", "def_en": "to be the same in meaning or effect as (sth.)", "def_zh": "(在意义、价值等方面)等同，接近",
+         "example": "In fact, your ambiguous words amount to a refusal.", "example_zh": "实际上，你说的那些模棱两可的话等于是拒绝。"}
+      ],
+      "complete": false
+    },
+    {
+      "word": "mount",
+      "phonetic": "maʊnt",
+      "senses": [
+        {"pos": "vt.", "def_zh": "骑上；登上",
+         "example": "We mounted some stone steps to a gallery. 我们登上几级石阶，来到一间陈列室。 // Mr. Rochester mounted his horse and rode off.", "example_zh": "罗切斯特先生上了马，疾驰而去。"},
+        {"pos": "vt.", "def_zh": "发起",
+         "example": "He is mounting a campaign against drunk drivers.", "example_zh": "他正在发起一场反对酒后驾车的运动。"},
+        {"pos": "vt.", "def_zh": "安放",
+         "example": "A compass was mounted on the dashboard.", "example_zh": "一架罗盘安装在仪表上。"},
+        {"pos": "vi.", "def_zh": "增加",
+         "example": "Prices are mounting.", "example_zh": "物价在上涨。"},
+        {"pos": "n.", "def_zh": "[M-](用于山名前)山",
+         "example": "Mount Everest", "example_zh": "珠穆朗玛峰"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "exceed",
+      "phonetic": "ɪkˈsiːd",
+      "mnemonic": "ex(out)+ceed(走)→走出界限→超过",
+      "senses": [
+        {"pos": "vt.", "def_en": "to go beyond the limits of; surpass", "def_zh": "超过",
+         "example": "Exceeding the speed limit in urban areas will be fined. 在市区内超速驾车会被罚款。 // His success exceeds his hope.", "example_zh": "他的成功超过自己所望。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "exceedingly",
+      "phonetic": "ɪkˈsiːdɪŋlɪ",
+      "senses": [
+        {"pos": "ad.", "def_zh": "极其",
+         "example": "The team played exceedingly well.", "example_zh": "这支球队打得非常出色。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "excess",
+      "phonetic": "ɪkˈses",
+      "senses": [
+        {"pos": "n.", "def_en": "an amount beyond what is sufficient", "def_zh": "过度",
+         "example": "An excess of fat in one's diet can lead to heart disease.", "example_zh": "食物中脂肪过多可能导致心脏病。"},
+        {"pos": "n.", "def_en": "more than a particular amount", "def_zh": "超越",
+         "example": "The car reached speeds in excess of 100 miles per hour.", "example_zh": "这辆汽车的时速超过了 100 英里。"},
+        {"pos": "a.", "def_zh": "额外的",
+         "example": "Your parcel is too heavy and you must pay the excess postal charge.", "example_zh": "你的邮包超重，你必须支付超重邮资。"}
+      ],
+      "derivatives": ["excessive a. 过度的"],
+      "complete": true
+    },
+    {
+      "word": "underline",
+      "phonetic": "ˌʌndəˈlaɪn",
+      "mnemonic": "under(在……下面)+line(划线)→在……下面划线做“强调”",
+      "senses": [
+        {"pos": "vt.", "def_en": "to draw a line under sth.", "def_zh": "在……下面划线",
+         "example": "When you are reading, underline the important points.", "example_zh": "阅读时，把要点划出来。"},
+        {"pos": "vt.", "def_en": "to emphasize", "def_zh": "强调",
+         "example": "The crisis underlines the embarrassing problem the government faces.", "example_zh": "这场危机使政府面临的问题更为突出。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "underlie",
+      "phonetic": "ˌʌndəˈlaɪ",
+      "mnemonic": "under(在……下)+lie(位于)→构成……的基础",
+      "senses": [
+        {"pos": "vt.", "def_en": "to be the basis of; account for", "def_zh": "构成……的基础(或起因)",
+         "example": "The social problems underlying these crises remain unsolved.", "example_zh": "引起这些危机的社会问题尚未解决。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "utilize",
+      "phonetic": "ˈjuːtɪlaɪz",
+      "mnemonic": "uti(使用)+lize→利用",
+      "senses": [
+        {"pos": "vt.", "def_en": "to put to use, esp. to make effective use of", "def_zh": "利用",
+         "example": "The Romans were the first to utilize concrete as a building material.", "example_zh": "罗马人首先使用混凝土做建筑材料。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "utility",
+      "phonetic": "juːˈtɪlɪtɪ",
+      "senses": [
+        {"pos": "n.", "def_en": "usefulness", "def_zh": "功用，效用",
+         "example": "This computer is of low utility for the home user.", "example_zh": "这台计算机对家庭用户用处不大。"},
+        {"pos": "n.", "def_zh": "[常 pl.] 公用事业",
+         "example": "Railroads, bus lines, gas and electric companies are public utilities.", "example_zh": "铁路、公共汽车、煤气和电力公司都是公用事业。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "premise",
+      "partial": "head",
+      "phonetic": "ˈpremɪs",
+      "mnemonic": "pre(before)+mise(送)→预先给出→前提",
+      "senses": [
+        {"pos": "n.", "def_zh": "[pl.] 经营场址",
+         "example": "The company is moving to new premises.", "example_zh": "该公司打算迁入新址。"},
+        {"pos": "n.", "def_en": "a statement or idea that is accepted as being true and that is used as the basis of an argument", "def_zh": "前提", "example": null, "example_zh": null}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "真题", "title": null, "content": "Isn't that like trying to maintain a smile at your wedding reception while some relative gives a toast that amounts to “marriage is hard work”? 译文：这不就像在自己婚宴上听某个亲戚给你讲“婚姻不易”之类的祝酒辞，却还不得不努力保持笑容一样难受吗？"},
+    {"type": "短语", "title": null, "content": "in excess of 超过 // to excess 过度，过分，过量 He is optimistic to excess. 他过于乐观了。"},
+    {"type": "真题", "title": null, "content": "He utilizes the facts he observes to the fullest extent. 译文：他总是最充分地利用他观察到的事实。"}
+  ]
+}

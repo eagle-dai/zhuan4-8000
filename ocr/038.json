@@ -1,0 +1,118 @@
+{
+  "page": 38,
+  "continues_from": "retail",
+  "continues_to": "disorder",
+  "entries": [
+    {
+      "word": "retail",
+      "partial": "tail",
+      "senses": [
+        {"pos": "v.", "def_en": "to sell in small quantities directly to consumers", "def_zh": "零售", "example": "These shoes retail at $10. // the difficulties in retailing the new products", "example_zh": "这些鞋的零售价为每双 10 美元。// 零售新产品的困难"},
+        {"pos": "n.", "def_zh": "零售", "example": "a retail merchant", "example_zh": "零售商"},
+        {"pos": "ad.", "def_zh": "零售", "example": "Many big department stores profit from buying wholesale and selling retail.", "example_zh": "许多大型百货商场整买零卖从中获利。"}
+      ],
+      "derivatives": ["retailer n. 零售商"],
+      "complete": false
+    },
+    {
+      "word": "comb",
+      "phonetic": "kəum",
+      "senses": [
+        {"pos": "n.", "def_zh": "梳子", "example": "small-tooth comb", "example_zh": "细齿梳"},
+        {"pos": "vt.", "def_en": "to search thoroughly; look through", "def_zh": "彻底搜查", "example": "He combed through the files searching for evidence of fraud.", "example_zh": "他详查档案,寻找欺诈行为的证据。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "coarse",
+      "phonetic": "kɔːs",
+      "mnemonic": "原材料在加工过程(course)中从粗糙(coarse)变精致",
+      "senses": [
+        {"pos": "a.", "def_zh": "粗糙的", "example": "His skin was coarse from years of working outdoors.", "example_zh": "由于常年在户外工作,他的皮肤很粗糙。"},
+        {"pos": "a.", "def_zh": "粗劣的", "example": "A stand-up comedian is performing a coarse imitation of President Bush.", "example_zh": "一位滑稽说笑的喜剧演员正粗劣地模仿布什总统。"},
+        {"pos": "a.", "def_zh": "粗俗的", "example": "coarse jokes", "example_zh": "粗俗的笑话"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "vulgar",
+      "phonetic": "ˈvʌlgə",
+      "senses": [
+        {"pos": "a.", "def_zh": "粗野的;粗俗的", "example": "Putting food into one's mouth with a knife is considered a vulgar act in England.", "example_zh": "按英国规矩,用餐刀将食物送入口中算是失仪。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "summarize",
+      "phonetic": "ˈsʌməraɪz",
+      "mnemonic": "summ(总)+ar+ize→总结",
+      "senses": [
+        {"pos": "vt.", "def_en": "to tell again using fewer words", "def_zh": "概括,总结", "example": "I wrote a letter summarizing the main points we had discussed.", "example_zh": "我写了一封信,总结了我们讨论的要点。"}
+      ],
+      "derivatives": ["summary n. 摘要 a. 简明的"],
+      "complete": true
+    },
+    {
+      "word": "sum",
+      "phonetic": "sʌm",
+      "senses": [
+        {"pos": "n.", "def_zh": "总数", "example": "The sum of 3 and 4 is 7.", "example_zh": "3 和 4 之和是 7。"},
+        {"pos": "n.", "def_zh": "金额", "example": "Bill wants to spend a large sum on modernizing the farm.", "example_zh": "比尔打算花一大笔钱使农场适应现代化的需要。"},
+        {"pos": "n.", "def_zh": "算术", "example": "be good at sums", "example_zh": "长于算术"},
+        {"pos": "vi.", "def_zh": "共计", "example": "We should sum up the costs of production.", "example_zh": "我们应当计算出生产成本。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "overtime",
+      "phonetic": "ˈəuvətaɪm",
+      "senses": [
+        {"pos": "n.", "def_zh": "超时工作", "example": "Assembly workers were striking for all improvement in their overtime earnings.", "example_zh": "流水线上的工人们正为提高超时工作的工资而罢工。"},
+        {"pos": "n.", "def_zh": "加班费", "example": "They pay £58 a day plus overtime.", "example_zh": "报酬为每天 58 英镑,外加加班费。"},
+        {"pos": "ad.", "def_zh": "加班", "example": "There are a few people working overtime.", "example_zh": "有些人正在加班。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "discontent",
+      "phonetic": "ˌdɪskənˈtent",
+      "mnemonic": "dis(not)+content(满意)→不满",
+      "senses": [
+        {"pos": "n.", "def_en": "dissatisfaction", "def_zh": "不满,不满足", "example": "There were murmurs of discontent from the workforce.", "example_zh": "工人不满,颇有微词。"}
+      ],
+      "derivatives": ["contented a. 满意的,知足的"],
+      "complete": true
+    },
+    {
+      "word": "disregard",
+      "phonetic": "ˌdɪsrɪˈgɑːd",
+      "mnemonic": "dis(not)+re(一再)+gard(留意)→不再留意→漠视",
+      "senses": [
+        {"pos": "vt.", "def_en": "to ignore or treat as unimportant", "def_zh": "漠视", "example": "He utterly disregarded my warnings and met with an accident.", "example_zh": "他全然不听我的警告,结果出了事故。"},
+        {"pos": "n.", "def_zh": "漠视", "example": "She shows a total disregard for other people's feelings.", "example_zh": "她丝毫不顾及别人的感受。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "disorder",
+      "partial": "head",
+      "phonetic": "dɪsˈɔːdə",
+      "mnemonic": "dis(not)+order(秩序)→无秩序→混乱",
+      "senses": [
+        {"pos": "n.", "def_zh": "混乱,凌乱", "example": "The room is in disorder. It's time to tidy it up.", "example_zh": "房间很乱,该收拾一下了。"},
+        {"pos": "n.", "def_zh": "骚乱", "example": "The prison abuse scandal caused social disorder in Iraq when it was revealed by press.", "example_zh": "虐俘丑闻被媒体披露后在伊拉克引起了社会骚乱。"},
+        {"pos": "n.", "def_zh": "(身心、机能的)失调", "example": "a disorder of the digestive system", "example_zh": "消化系统失调"}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "真题", "title": null, "content": "We should, therefore, learn to choose our words carefully and use them accurately, or they will make our speech or writing silly and vulgar. 译文:因此,我们应该学会审慎选词并准确地运用,否则就会使我们言词无聊而又粗俗难听。"}
+  ]
+}

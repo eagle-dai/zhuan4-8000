@@ -1,0 +1,150 @@
+{
+  "page": 7,
+  "continues_from": "rehearsal",
+  "continues_to": null,
+  "extras": [
+    {"type": "短语", "title": null, "content": "dress rehearsal 彩排"}
+  ],
+  "entries": [
+    {
+      "word": "rehearsal",
+      "partial": "tail",
+      "phonetic": "rɪˈhɜːsəl",
+      "senses": [
+        {"pos": "n.", "def_zh": "排练，排演",
+         "example": "Our new production of Romeo and Juliet is currently in rehearsal.", "example_zh": "我们的新版《罗密欧与朱丽叶》正在排练之中。"}
+      ],
+      "derivatives": ["rehearse v. 排演;背诵;(通过排演)训练"],
+      "complete": false
+    },
+    {
+      "word": "restore",
+      "phonetic": "rɪˈstɔː",
+      "mnemonic": "re(again)+store(储存)→一再储备能量才能恢复体能→恢复",
+      "senses": [
+        {"pos": "vt.", "def_en": "to bring back to an original or normal condition", "def_zh": "恢复;修复",
+         "example": "I feel quite restored (to health) after my holiday. // It's hard to restore a broken mirror.", "example_zh": "休假后我感觉恢复了健康。// 破镜难圆。"},
+        {"pos": "vt.", "def_en": "to give back (sb. or sth. that was lost or taken)", "def_zh": "归还",
+         "example": "The stolen property must be restored to its owner.", "example_zh": "赃物必须物归原主。"}
+      ],
+      "derivatives": ["restoration n. 归还原主;恢复;修复"],
+      "complete": true
+    },
+    {
+      "word": "refresh",
+      "phonetic": "rɪˈfreʃ",
+      "mnemonic": "re(again)+fresh(有活力的)→(使)精神振作",
+      "senses": [
+        {"pos": "v.", "def_zh": "(使)振作精神，(使)恢复活力",
+         "example": "Enough time should be left for sleep because that will help one become refreshed.", "example_zh": "应该留足够的时间睡觉，因为那有助于恢复精力。"}
+      ],
+      "derivatives": ["refreshing a. 使精神振作的", "refreshment n. [pl.]茶点;恢复"],
+      "complete": true
+    },
+    {
+      "word": "renovate",
+      "phonetic": "ˈrenəveɪt",
+      "mnemonic": "re(again)+nov(新的)+ate(使)→更新",
+      "senses": [
+        {"pos": "vt.", "def_en": "to repair a building or old furniture so that it is in good condition again", "def_zh": "修复，翻新",
+         "example": "The hotel has been renovated and redecorated.", "example_zh": "这家宾馆已经翻新并重新装修了。"}
+      ],
+      "derivatives": ["renovation n. 整修;更新,使恢复元气"],
+      "complete": true
+    },
+    {
+      "word": "recovery",
+      "phonetic": "rɪˈkʌvərɪ",
+      "mnemonic": "re(again)+cover(掩盖)+y→恢复",
+      "senses": [
+        {"pos": "n.", "def_zh": "恢复，痊愈",
+         "example": "She made a quick recovery from her illness.", "example_zh": "她很快病愈。"},
+        {"pos": "n.", "def_zh": "复苏，恢复",
+         "example": "economic recovery", "example_zh": "经济复苏"},
+        {"pos": "n.", "def_zh": "追回，寻回",
+         "example": "The owner has offered a reward for the recovery of the stolen goods.", "example_zh": "失主已经悬赏寻找被窃物品。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "regain",
+      "phonetic": "rɪˈɡeɪn",
+      "mnemonic": "re(again)+gain(获得)→取回",
+      "senses": [
+        {"pos": "vt.", "def_en": "to get back sth. that you lost", "def_zh": "取回，恢复",
+         "example": "A good name lost is hard to regain.", "example_zh": "名誉一失难复得。"},
+        {"pos": "vt.", "def_zh": "返回(某地)，重回",
+         "example": "regain the shore", "example_zh": "重回岸边"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "revive",
+      "phonetic": "rɪˈvaɪv",
+      "mnemonic": "re(again)+vive(活)→再活过来→(使)复苏",
+      "senses": [
+        {"pos": "v.", "def_en": "to make (sb./sth.) strong, healthy, or active again", "def_zh": "使复苏，恢复",
+         "example": "Hot coffee revived me; I had been cold and tired. // The roses revived after the rain.", "example_zh": "热咖啡使又冷又累的我恢复了精力。// 雨后玫瑰花恢复了娇艳。"}
+      ],
+      "derivatives": ["revival n. 更新,重新开始"],
+      "complete": true
+    },
+    {
+      "word": "attain",
+      "phonetic": "əˈteɪn",
+      "mnemonic": "at(to)+tain(触到)→触摸到了→达到",
+      "senses": [
+        {"pos": "vt.", "def_en": "to succeed in achieving sth. after trying for a long time", "def_zh": "达到",
+         "example": "We have to make sustaining efforts to attain our goal.", "example_zh": "为了达到目标，我们必须做出不懈的努力。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "achievement",
+      "phonetic": "əˈtʃiːvmənt",
+      "mnemonic": "achieve(v. 达到)的名词",
+      "senses": [
+        {"pos": "n.", "def_en": "sth. important that you succeed in doing by your own efforts", "def_zh": "成就",
+         "example": "Even a small success gives you a sense of achievement.", "example_zh": "即便是小小的成功也给人一种成就感。"},
+        {"pos": "n.", "def_zh": "实现，完成，达到",
+         "example": "Such a goal is impossible of achievement.", "example_zh": "这样的一个目标是不可能完成的。"}
+      ],
+      "derivatives": ["underachieve v. 成绩不理想"],
+      "complete": true
+    },
+    {
+      "word": "breakthrough",
+      "phonetic": "ˈbreɪkθruː",
+      "mnemonic": "break(打破)+through(从始至终)→打破从始至终的禁锢→突破",
+      "senses": [
+        {"pos": "n.", "def_zh": "突破",
+         "example": "There was an exciting new breakthrough in the treatment of heart disease.", "example_zh": "心脏病治疗取得了令人兴奋的新突破。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "historical",
+      "phonetic": "hɪˈstɒrɪkəl",
+      "senses": [
+        {"pos": "a.", "def_zh": "历史(上)的",
+         "example": "The legend of John Henry is based on a real, historical figure.", "example_zh": "约翰·亨利的传说是基于一位真实的历史人物。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "historic",
+      "phonetic": "hɪˈstɒrɪk",
+      "senses": [
+        {"pos": "a.", "def_zh": "历史上著名的，具有重大历史意义的",
+         "example": "The two nations signed a historic peace treaty.", "example_zh": "两国签订了一项具有历史意义的和平条约。"}
+      ],
+      "derivatives": ["historian n. 历史学家"],
+      "complete": true
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "page": 16,
+  "continues_from": null,
+  "continues_to": "distinction",
+  "extras": [
+    {"type": "短语", "title": null, "content": "in proportion to... 与…成比例 Tax is then calculated in proportion to what you earn. 所得税则是根据你的收入按比例计算的。"},
+    {"type": "短语", "title": null, "content": "by/in comparison 相比之下 // in comparison with 与…比较起来 This painting is impressive in comparison with that one. 同那幅画相比，这幅画给人的印象更深刻。"},
+    {"type": "一言辨异", "title": "friends, associates", "content": "They are not friends but associates in crime. 他们不是朋友，是共犯。"}
+  ],
+  "entries": [
+    {
+      "word": "percentage",
+      "phonetic": "pəˈsentɪdʒ",
+      "mnemonic": "per(每)+cent(百)+age→每一百→百分比",
+      "senses": [
+        {"pos": "n.", "def_zh": "百分比",
+         "example": "The numbers are small in percentage terms, but significant.", "example_zh": "按百分比来说，这些数目并不大，但意义重大。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "proportion",
+      "phonetic": "prəˈpɔːʃən",
+      "mnemonic": "pro+portion(部分)→比例;部分",
+      "senses": [
+        {"pos": "n.", "def_zh": "比例",
+         "example": "The proportion of boys to girls is usually about four to one in science and engineering colleges.", "example_zh": "理工大学的男女生比例通常是4:1。"},
+        {"pos": "n.", "def_en": "an amount that is a part of a whole", "def_zh": "部分",
+         "example": "A large proportion of the students were sick because of the severe cold.", "example_zh": "由于严寒大部分学生都生病了。"},
+        {"pos": "n.", "def_zh": "均衡，相称",
+         "example": "His expenditure is out of proportion to his income.", "example_zh": "他入不敷出。"}
+      ],
+      "derivatives": ["proportional a. 成比例的"],
+      "complete": true
+    },
+    {
+      "word": "comparison",
+      "phonetic": "kəmˈpærɪsən",
+      "mnemonic": "com(with)+par(相等的)+ison→比较",
+      "senses": [
+        {"pos": "n.", "def_zh": "比较",
+         "example": "My garden doesn't stand comparison with his.", "example_zh": "我的花园无法与他的相比。"},
+        {"pos": "n.", "def_zh": "比拟",
+         "example": "His comparison of the heart to a pump helped the children understand its action.", "example_zh": "他将心脏比作打气筒有助于孩子们了解心脏的运作。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "comparable",
+      "phonetic": "ˈkɒmpərəbl",
+      "senses": [
+        {"pos": "a.", "def_zh": "(~with, to)可比较的",
+         "example": "This dinner is comparable to the best French cooking.", "example_zh": "这餐饭可与最好的法国烹饪媲美。"},
+        {"pos": "a.", "def_zh": "比得上",
+         "example": "No horse has a speed comparable to that of his.", "example_zh": "没有一匹马的速度能比得上他的马。"}
+      ],
+      "derivatives": ["incomparable a. 无比的,无双的,不可比拟的"],
+      "complete": true
+    },
+    {
+      "word": "comparative",
+      "phonetic": "kəmˈpærətɪv",
+      "senses": [
+        {"pos": "a.", "def_zh": "比较的，相对的",
+         "example": "Let's make a comparative study of the two languages. // Now I'm living in comparative comfort.", "example_zh": "让我们对这两种语言做一个比较研究吧。// 我现在生活相对舒适。"}
+      ],
+      "derivatives": ["comparatively ad. 比较地"],
+      "complete": true
+    },
+    {
+      "word": "associate",
+      "phonetic": "əˈsəʊʃɪeɪt, əˈsəʊʃɪɪt",
+      "mnemonic": "as(to)+soci(交往)+ate→交往",
+      "senses": [
+        {"pos": "v.", "def_en": "to connect in thought, memory, or imagination", "def_zh": "把…联系在一起",
+         "example": "Whisky is usually associated with Scotland.", "example_zh": "人们常把威士忌同苏格兰联系起来。"},
+        {"pos": "v.", "def_en": "to spend time socially; keep company", "def_zh": "交往",
+         "example": "We have to associate with different kinds of people.", "example_zh": "我们要和各种各样的人交往。"},
+        {"pos": "n.", "def_zh": "伙伴",
+         "example": "business associates", "example_zh": "业务伙伴"},
+        {"pos": "a.", "def_zh": "副的",
+         "example": "associate editor", "example_zh": "[美]副主编"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "association",
+      "phonetic": "əˌsəʊsɪˈeɪʃən",
+      "senses": [
+        {"pos": "n.", "def_zh": "协会",
+         "example": "American Automobile Association", "example_zh": "美国汽车协会"},
+        {"pos": "n.", "def_zh": "交往",
+         "example": "Having an association with English native speakers is one way to improve oral English.", "example_zh": "与母语是英语的人交往是提高英语口语的一种途径。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "calculate",
+      "phonetic": "ˈkælkjuleɪt",
+      "senses": [
+        {"pos": "vt.", "def_zh": "计算",
+         "example": "We haven't really calculated the cost of the vacation yet.", "example_zh": "我们还没有确切地计算出度假要花多少钱。"},
+        {"pos": "vt.", "def_en": "to guess sth. using as many facts as you can find", "def_zh": "估计，推测",
+         "example": "calculate the cost/effect", "example_zh": "计算成本/估算影响"},
+        {"pos": "vt.", "def_en": "to be intended to have a particular effect", "def_zh": "计划",
+         "example": "This advertisement is calculated to attract the attention of housewives.", "example_zh": "这广告是为引起家庭主妇们的注意而设计的。"}
+      ],
+      "derivatives": ["calculator n. 计算器", "calculation n. 计算;深思熟虑", "miscalculate v. 失算"],
+      "complete": true
+    },
+    {
+      "word": "distinction",
+      "partial": "head",
+      "phonetic": "dɪsˈtɪŋkʃən",
+      "senses": [
+        {"pos": "n.", "def_en": "a clear difference between two similar things", "def_zh": "差别，不同",
+         "example": "What is the distinction between butterflies and moths?", "example_zh": "蝴蝶与飞蛾有什么不同之处？"},
+        {"pos": "n.", "def_en": "the separation of people or things into different groups", "def_zh": null, "example": null, "example_zh": null}
+      ],
+      "complete": false
+    }
+  ]
+}

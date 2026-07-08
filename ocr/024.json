@@ -1,0 +1,106 @@
+{
+  "page": 24,
+  "continues_from": "bruise",
+  "continues_to": "cabinet",
+  "entries": [
+    {
+      "word": "bruise",
+      "partial": "tail",
+      "senses": [
+        {"pos": "v.", "def_en": "to hurt, esp. psychologically", "def_zh": "挫伤", "example": "His ego was badly bruised when he lost the race.", "example_zh": "在比赛中失利,他的自尊心受到极大伤害。"}
+      ],
+      "derivatives": [],
+      "complete": false
+    },
+    {
+      "word": "sprain",
+      "phonetic": "spreɪn",
+      "senses": [
+        {"pos": "n./vt.", "def_zh": "扭,扭伤", "example": "He got a foot sprain in his ankle. // sprain one's wrist", "example_zh": "他的脚踝扭伤了。// 扭伤了手腕"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "scratch",
+      "phonetic": "skrætʃ",
+      "senses": [
+        {"pos": "v.", "def_zh": "抓,搔", "example": "Scratching the rash will make it worse. // The dog is always scratching.", "example_zh": "抓搔皮疹会使它更严重。// 那只狗老是搔痒。"},
+        {"pos": "v.", "def_zh": "刮擦,刻画", "example": "Mind you don't scratch the table with those scissors!", "example_zh": "小心别用剪刀划坏桌面!"},
+        {"pos": "n.", "def_zh": "抓;抓痕", "example": "a scratch on a car door", "example_zh": "车门上的刮痕"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "pace",
+      "phonetic": "peɪs",
+      "senses": [
+        {"pos": "n.", "def_zh": "(一)步", "example": "I moved forward a couple of paces.", "example_zh": "我向前移动了几步。"},
+        {"pos": "n.", "def_zh": "速度", "example": "I cannot walk at that pace.", "example_zh": "我无法以那种速度行走。"},
+        {"pos": "vi.", "def_en": "to walk or stride back and forth across", "def_zh": "踱步", "example": "She paced up and down the room, waiting for the phone to ring.", "example_zh": "她在房里踱来踱去,等着电话响。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "absence",
+      "phonetic": "ˈæbsəns",
+      "senses": [
+        {"pos": "n.", "def_en": "the state of being away", "def_zh": "缺席", "example": "Absence sharpens love between lovers.", "example_zh": "小别加深恋人间的感情。"},
+        {"pos": "n.", "def_en": "the lack of sth.", "def_zh": "缺乏", "example": "Darkness is the absence of light.", "example_zh": "黑暗就是缺乏光亮。"}
+      ],
+      "derivatives": ["absent a. 缺席的;心不在焉的", "absent-minded a. 心不在焉的"],
+      "complete": true
+    },
+    {
+      "word": "presence",
+      "phonetic": "ˈprezəns",
+      "senses": [
+        {"pos": "n.", "def_zh": "出席,存在", "example": "The concert will be performed in the presence of the Queen.", "example_zh": "女王将出席音乐会。"},
+        {"pos": "n.", "def_zh": "仪表,仪态", "example": "She has a nice voice but absolutely no stage presence.", "example_zh": "她声音不错,但毫无台风。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "presentation",
+      "phonetic": "ˌprezənˈteɪʃən",
+      "senses": [
+        {"pos": "n.", "def_en": "the act of showing sb. sth. so that it can be checked or considered", "def_zh": "提供", "example": "The check is payable on presentation.", "example_zh": "此支票交银行即可兑现。"},
+        {"pos": "n.", "def_en": "the way in which sth. is said, offered, shown, explained etc. to others", "def_zh": "外观", "example": "The presentation of food can be as important as the taste.", "example_zh": "食物的外观和味道同样重要。"},
+        {"pos": "n.", "def_en": "the act of giving sb. a prize or present at a formal ceremony", "def_zh": "授予", "example": "The mayor will be on hand to make the presentations.", "example_zh": "市长将亲临现场颁奖。"},
+        {"pos": "n.", "def_en": "an event at which a new product or idea is described and explained", "def_zh": "报告,介绍", "example": "The charts and graphs helped me understand the presentation.", "example_zh": "图表有助我理解报告的内容。"},
+        {"pos": "n.", "def_en": "the performance of a play", "def_zh": "表演", "example": "There is a presentation of a new play tonight.", "example_zh": "今晚有一场新戏演出。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "parliament",
+      "phonetic": "ˈpɑːləmənt",
+      "mnemonic": "parlia(说话)+ment→“议会”是谈论政事的地方",
+      "senses": [
+        {"pos": "n.", "def_zh": "议会,国会", "example": "The Parliament decided to impeach the President.", "example_zh": "国会决定弹劾总统。"}
+      ],
+      "derivatives": ["parliamentary a. 议会的,国会的"],
+      "complete": true
+    },
+    {
+      "word": "cabinet",
+      "partial": "head",
+      "phonetic": "ˈkæbɪnɪt",
+      "senses": [
+        {"pos": "n.", "def_zh": "内阁", "example": "In Britain, members of the Cabinet are chosen by the Prime Minister.", "example_zh": "在英国,内阁成员是由首相挑选的。"},
+        {"pos": "n.", "def_zh": "陈列柜", "example": "a file cabinet", "example_zh": "文件柜"}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "短语", "title": "scratch", "content": "up to scratch 合格,处于良好状态 // from scratch 从零开始,从头做起 He lost all his money and had to start again completely from scratch. 他损失了所有的钱,只好再从头做起。"},
+    {"type": "短语", "title": "pace", "content": "set the pace 起带头作用 // keep pace (with) (与…)齐步前进 She found it hard to keep pace with him as he strode off. 他大步走开了,她感到很难跟上他。"},
+    {"type": "短语", "title": "presence", "content": "presence of mind 镇定自若 // in sb.'s presence 当着某人的面,有某人在场 John never seemed at ease in my presence. 约翰在我面前总是显得不自在。"},
+    {"type": "真题", "title": null, "content": "How are we to know that it wasn't you who made the scratch? 译文:我们怎么知道这划痕不是你造成的呢?"}
+  ]
+}

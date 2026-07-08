@@ -1,0 +1,141 @@
+{
+  "page": 9,
+  "continues_from": "essential",
+  "continues_to": "owing",
+  "extras": [
+    {"type": "用法", "title": null, "content": "it is/was essential that... 后接的从句用虚拟语气。"},
+    {"type": "一言辨异", "title": "continuous, continual", "content": "I've been working for 14 continuous hours and got so tired, but still there are continual interruptions. 我连续工作14小时，已经感到很疲惫了，但仍不断有人来打扰我。 注意:continuous 指某事连续发生，中间无间歇;continual 指有间歇性的连续，常指恼人的连续"},
+    {"type": "用法", "title": null, "content": "avoid 后接名词或动名词。"},
+    {"type": "短语", "title": null, "content": "owing to 由于，因为 The flight was delayed, owing to..."}
+  ],
+  "entries": [
+    {
+      "word": "essential",
+      "partial": "tail",
+      "phonetic": "ɪˈsenʃəl",
+      "senses": [
+        {"pos": "n.", "def_zh": "[常 pl.]要素，要点",
+         "example": "the essentials of grammar", "example_zh": "语法要点"},
+        {"pos": "n.", "def_zh": "必需品",
+         "example": "I only had time to pack the bare essentials.", "example_zh": "我只来得及打包最基本的用品。"}
+      ],
+      "complete": false
+    },
+    {
+      "word": "continual",
+      "phonetic": "kənˈtɪnjuəl",
+      "mnemonic": "con(with)+tin(保持)+ual→一直保持着的→不停的",
+      "senses": [
+        {"pos": "a.", "def_zh": "不间断的",
+         "example": "continual rain/lightning", "example_zh": "不停的雨/频繁的闪电"},
+        {"pos": "a.", "def_zh": "频频的",
+         "example": "Recently the young couple have continual arguments with each other for trifles.", "example_zh": "近来这对年轻夫妇为了一些小事接连不断地发生争吵。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "continuous",
+      "phonetic": "kənˈtɪnjuəs",
+      "senses": [
+        {"pos": "a.", "def_zh": "连续不断的",
+         "example": "The brain needs a continuous supply of blood.", "example_zh": "大脑需要不断地供血。"}
+      ],
+      "derivatives": ["continuity n. 连续(性)"],
+      "complete": true
+    },
+    {
+      "word": "suspend",
+      "phonetic": "səˈspend",
+      "mnemonic": "sus(under)+pend(悬挂)→吊着",
+      "senses": [
+        {"pos": "vt.", "def_en": "to officially stop sth. from continuing, esp. for a short time", "def_zh": "暂停",
+         "example": "Sales of this drug have been suspended until more tests have been performed. // He was suspended from playing football for a year after calling the referee names.", "example_zh": "这种药品在完成进一步的检验之前暂停销售。// 在辱骂裁判后，他被禁赛一年。"},
+        {"pos": "vt.", "def_zh": "悬，吊",
+         "example": "The lamp was suspended from the ceiling.", "example_zh": "灯吊在天花板上。"}
+      ],
+      "derivatives": ["suspender n. 女用吊袜带", "suspension n. 暂停;悬架;悬,吊"],
+      "complete": true
+    },
+    {
+      "word": "suspense",
+      "phonetic": "səˈspens",
+      "senses": [
+        {"pos": "n.", "def_zh": "悬疑，焦虑，悬念",
+         "example": "Suspense adds interest to a story.", "example_zh": "故事中的悬疑情节更加引人入胜。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "halt",
+      "phonetic": "hɔːlt",
+      "mnemonic": "暂停(halt)盐(salt)的销售",
+      "senses": [
+        {"pos": "n.", "def_zh": "停住，暂停",
+         "example": "bring to a halt // The car came to a halt just in time to prevent an accident.", "example_zh": "使停止 // 汽车及时停下，避免了一场车祸。"},
+        {"pos": "v.", "def_en": "to stop moving", "def_zh": "(使)停住",
+         "example": "No one can halt the advance of history. // The parade halted by a busy corner.", "example_zh": "谁也阻挡不了历史的前进。// 游行队伍在一个热闹的拐角处停下了。"}
+      ],
+      "derivatives": ["halting a. 踌躇的,欲言又止的"],
+      "complete": true
+    },
+    {
+      "word": "cease",
+      "phonetic": "siːs",
+      "senses": [
+        {"pos": "v.", "def_en": "to stop doing sth. or stop happening", "def_zh": "停止",
+         "example": "The factory ceased production for lack of capital. // It rained all day without ceasing.", "example_zh": "工厂由于缺乏资金而停产了。// 雨不停地下了一整天。"},
+        {"pos": "n.", "def_zh": "停止",
+         "example": "without cease", "example_zh": "持续地，不停地"}
+      ],
+      "derivatives": ["ceaseless a. 不停的,不断的"],
+      "complete": true
+    },
+    {
+      "word": "repel",
+      "phonetic": "rɪˈpel",
+      "mnemonic": "re(back)+pel(驱使)→驱使…返回→击退",
+      "senses": [
+        {"pos": "vt.", "def_en": "to drive away (as if) by force", "def_zh": "逐退，驱逐",
+         "example": "repel an attack", "example_zh": "击退进攻"},
+        {"pos": "vt.", "def_en": "to cause sb. to feel disgust", "def_zh": "使厌恶，使反感",
+         "example": "Her heavy make-up and cheap scent repelled him.", "example_zh": "她的浓妆和廉价香水味使他感到厌恶。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "prohibit",
+      "phonetic": "prəˈhɪbɪt",
+      "mnemonic": "pro(forward)+hibit(拿住)→提前拿下→禁止",
+      "senses": [
+        {"pos": "vt.", "def_en": "to forbid by law or rule", "def_zh": "禁止",
+         "example": "The government introduced a law to prohibit tobacco commercials on TV.", "example_zh": "政府采用新法律来禁止电视上播放烟草广告。"}
+      ],
+      "derivatives": ["prohibition n. 禁止;禁令"],
+      "complete": true
+    },
+    {
+      "word": "avoid",
+      "phonetic": "əˈvɔɪd",
+      "mnemonic": "a(out)+void(空)→“避免”扑空",
+      "senses": [
+        {"pos": "vt.", "def_zh": "避免",
+         "example": "It is difficult to avoid an arrow in the dark.", "example_zh": "暗箭难防。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "owing",
+      "partial": "head",
+      "phonetic": "ˈəʊɪŋ",
+      "senses": [
+        {"pos": "a.", "def_zh": "应付的",
+         "example": "There's still over $100 owing to the bank.", "example_zh": "还欠着银行100多美元。"}
+      ],
+      "complete": false
+    }
+  ]
+}

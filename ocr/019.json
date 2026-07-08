@@ -1,0 +1,132 @@
+{
+  "page": 19,
+  "continues_from": null,
+  "continues_to": "apply",
+  "extras": [
+    {"type": "用法", "title": null, "content": "过去式、过去分词 upset。"}
+  ],
+  "entries": [
+    {
+      "word": "resent",
+      "phonetic": "rɪˈzent",
+      "senses": [
+        {"pos": "vt.", "def_en": "to be angry or upset about (sb. or sth. that you think is unfair)", "def_zh": "对…表示忿恨",
+         "example": "Jenna resented having to ask her parents' permission in everything she did.", "example_zh": "事事都得征求父母的许可，詹娜很不高兴。"}
+      ],
+      "derivatives": ["resentful a. 憎恨的", "resentment n. 愤恨,怨恨"],
+      "complete": true
+    },
+    {
+      "word": "irritate",
+      "phonetic": "ˈɪrɪteɪt",
+      "senses": [
+        {"pos": "vt.", "def_en": "to make sb. feel impatient, angry, or annoyed", "def_zh": "使恼怒",
+         "example": "His disloyalty irritated his wife, who resolutely left home.", "example_zh": "他的不忠激怒了他的妻子，她毅然离开了这个家。"},
+        {"pos": "vt.", "def_zh": "使(身体某部分)不适",
+         "example": "If you get bits of hair down on the back of your neck, they will irritate you.", "example_zh": "如果头发碎屑落在你脖子后面，你会感到很不舒服。"}
+      ],
+      "derivatives": ["irritable a. 易怒的;过敏的", "irritating a. 恼人的", "irritation n. 激怒;恼人事"],
+      "complete": true
+    },
+    {
+      "word": "upset",
+      "phonetic": "ʌpˈset",
+      "mnemonic": "up(上)+set(放置)→把下面的放在上面了→弄翻",
+      "senses": [
+        {"pos": "vt.", "def_en": "to make sb. unhappy, worried, etc.", "def_zh": "使心烦意乱",
+         "example": "The news completely upset them.", "example_zh": "这消息使他们极为心烦。"},
+        {"pos": "vt.", "def_en": "to disturb the functioning, order, or course of", "def_zh": "打乱",
+         "example": "Our arrangements for the weekend were upset by her visit.", "example_zh": "她一来把我们周末的安排给打乱了。"},
+        {"pos": "vt.", "def_zh": "弄翻，打翻",
+         "example": "A large wave upset the boat.", "example_zh": "一个巨浪打翻了船。"},
+        {"pos": "n.", "def_zh": "(肠胃等)不适",
+         "example": "He has a stomach upset.", "example_zh": "他的胃不舒服。"},
+        {"pos": "a.", "def_zh": "心烦的",
+         "example": "James was upset because his wallet was stolen.", "example_zh": "詹姆斯很烦躁，因为他的钱包被偷了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "revise",
+      "phonetic": "rɪˈvaɪz",
+      "mnemonic": "re(again)+vise(看)→再看一次→校订",
+      "senses": [
+        {"pos": "v.", "def_en": "to make changes esp. to correct or improve sth.", "def_zh": "修订",
+         "example": "I'd like you to read my story once I've revised it.", "example_zh": "我把故事修改完后，想请你看一遍。"},
+        {"pos": "v.", "def_zh": "复习",
+         "example": "She's revising her notes for the exams. // revise for the examination", "example_zh": "为了准备考试她正在复习笔记。// 温课迎考"}
+      ],
+      "derivatives": ["revision n. 修订;修订稿"],
+      "complete": true
+    },
+    {
+      "word": "manuscript",
+      "phonetic": "ˈmænjuskrɪpt",
+      "mnemonic": "manu(手)+script(稿子)→手稿",
+      "senses": [
+        {"pos": "n.", "def_zh": "手稿",
+         "example": "Unfortunately, parts of the original manuscript were lost in the fire.", "example_zh": "不幸的是，部分原稿在大火中被烧毁了。"},
+        {"pos": "n.", "def_zh": "手写本",
+         "example": "This is a valuable medieval manuscript.", "example_zh": "这是一本有价值的中世纪手抄本。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "edit",
+      "phonetic": "ˈedɪt",
+      "senses": [
+        {"pos": "vt.", "def_en": "to prepare for publication or presentation by correcting, revising, or adapting", "def_zh": "编辑，校订",
+         "example": "It is not yet decided who will edit it.", "example_zh": "由谁校订未决。"},
+        {"pos": "vt.", "def_zh": "主编",
+         "example": "She used to edit the Washington Post.", "example_zh": "她曾主编过《华盛顿邮报》。"},
+        {"pos": "vt.", "def_zh": "剪辑",
+         "example": "The edited film is a selected assembly of all kinds of \"bits and pieces\".", "example_zh": "剪辑片是选用形形色色的“片断和点滴”汇编而成的。"}
+      ],
+      "derivatives": ["editor n. 编辑,校订者"],
+      "complete": true
+    },
+    {
+      "word": "edition",
+      "phonetic": "ɪˈdɪʃən",
+      "mnemonic": "发音:“一爹生”→一部作品可生成多个“版本”",
+      "senses": [
+        {"pos": "n.", "def_zh": "版，版本",
+         "example": "A paperback edition of a book is much cheaper than a deluxe edition.", "example_zh": "平装本的书比精装本的书要便宜很多。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "editorial",
+      "phonetic": "ˌedɪˈtɔːrɪəl",
+      "senses": [
+        {"pos": "a.", "def_zh": "编辑的",
+         "example": "editorial office/work", "example_zh": "编辑部/编辑工作"},
+        {"pos": "a.", "def_zh": "社论的",
+         "example": "an editorial article", "example_zh": "社论"},
+        {"pos": "n.", "def_zh": "社论",
+         "example": "He writes editorials for the newspaper.", "example_zh": "他为这家报纸撰写社论。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "apply",
+      "partial": "head",
+      "phonetic": "əˈplaɪ",
+      "senses": [
+        {"pos": "vi.", "def_en": "to ask formally for sth. usu. in writing", "def_zh": "申请",
+         "example": "I want to apply for the job.", "example_zh": "我想申请这项工作。"},
+        {"pos": "vi.", "def_en": "to have an effect on sb. or sth.", "def_zh": "适用",
+         "example": "The rule doesn't apply to this case.", "example_zh": "这条规则不适用于这种情形。"},
+        {"pos": "vt.", "def_en": "to use (an idea, method, law, etc.) in a particular situation", "def_zh": "使用，运用，实施",
+         "example": "New technology is being applied to almost every industrial process.", "example_zh": "几乎所有的工业生产都采用新技术。"},
+        {"pos": "vt.", "def_zh": "涂，敷",
+         "example": "You needn't apply so much make-up", "example_zh": null}
+      ],
+      "complete": false
+    }
+  ]
+}

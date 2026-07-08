@@ -1,0 +1,132 @@
+{
+  "page": 2,
+  "continues_from": "entail",
+  "continues_to": null,
+  "extras": [
+    {"type": "用法", "title": null, "content": "assure 表示“使确信”时,常用于~ sb. that.../sb. be ~d that...或~ sb. of sth.;表示“确保”时与 ensure 同义。"},
+    {"type": "短语", "title": null, "content": "in confidence 私下地 // take... into one's confidence 把…作为知己 // have confidence in 信任"},
+    {"type": "用法", "title": null, "content": "resist 表示“抵抗”,后只能接名词或动名词作宾语,但不能接不定式。"}
+  ],
+  "entries": [
+    {
+      "word": "entail",
+      "partial": "tail",
+      "phonetic": "ɪnˈteɪl",
+      "senses": [
+        {"pos": "vt.", "def_zh": "使承担，需要",
+         "example": "The construction of the Three Gorges Project entails large migration.", "example_zh": "三峡工程建设需要大规模移民。"}
+      ],
+      "complete": false
+    },
+    {
+      "word": "bewilder",
+      "phonetic": "bɪˈwɪldə",
+      "senses": [
+        {"pos": "vt.", "def_en": "to confuse sb.", "def_zh": "使迷惑",
+         "example": "Some unclear and confusing road signs bewildered drivers.", "example_zh": "一些含糊不清的路标使司机一头雾水。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "assure",
+      "phonetic": "əˈʃuə",
+      "mnemonic": "as(to)+sure(肯定的)→一再肯定→使确信",
+      "senses": [
+        {"pos": "vt.", "def_en": "to tell (sb.) positively or confidently", "def_zh": "使确信",
+         "example": "The dentist's confident manner assured me that I was in safe hands.", "example_zh": "牙医自信的态度使我确信我正由可靠的医生诊治。"},
+        {"pos": "vt.", "def_zh": "确保",
+         "example": "Nothing can assure permanent happiness.", "example_zh": "没有什么东西能确保永久的幸福。"}
+      ],
+      "derivatives": ["assuredly ad. 确定地", "self-assured a. 自信的", "assurance n. 信心;保证;保险"],
+      "complete": true
+    },
+    {
+      "word": "timid",
+      "phonetic": "ˈtɪmɪd",
+      "mnemonic": "tim(害怕)+id→羞怯的",
+      "senses": [
+        {"pos": "a.", "def_en": "easily frightened; shy", "def_zh": "胆小的;羞怯的",
+         "example": "You are every inch as timid as a mouse. // He was timid about saying this.", "example_zh": "你真是十足地胆小如鼠。// 此事他羞于启齿。"}
+      ],
+      "derivatives": ["timidity n. 羞怯,胆怯"],
+      "complete": true
+    },
+    {
+      "word": "confidence",
+      "phonetic": "ˈkɒnfɪdəns",
+      "mnemonic": "con+fid(相信)+ence→信心",
+      "senses": [
+        {"pos": "n.", "def_en": "trust or faith in a person or thing", "def_zh": "信任",
+         "example": "She took him into her confidence and told him the truth.", "example_zh": "她把他当作知心朋友，把真相全告诉了他。"},
+        {"pos": "n.", "def_en": "a feeling or belief that you can do sth. well", "def_zh": "信心",
+         "example": "Most Chinese students lack self-confidence when speaking English.", "example_zh": "大多数中国学生在说英语时缺乏自信心。"}
+      ],
+      "derivatives": ["confident a. 确信的;有信心的", "self-confidence n. 自信"],
+      "complete": true
+    },
+    {
+      "word": "confidential",
+      "phonetic": "ˌkɒnfɪˈdenʃəl",
+      "senses": [
+        {"pos": "a.", "def_zh": "秘密的",
+         "example": "Remember to keep this information confidential.", "example_zh": "记住对这个情报要保密。"},
+        {"pos": "a.", "def_zh": "表示信任的",
+         "example": "Don't become too confidential with strangers.", "example_zh": "对陌生人不能太信任。"},
+        {"pos": "a.", "def_zh": "担任机密工作的",
+         "example": "a confidential secretary", "example_zh": "机要秘书"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "resist",
+      "phonetic": "rɪˈzɪst",
+      "mnemonic": "re(against)+sist(站)→站在对立面→抵抗",
+      "senses": [
+        {"pos": "v.", "def_en": "to oppose; fight against (sth.)", "def_zh": "抵抗",
+         "example": "They are determined to resist invasion.", "example_zh": "他们决定抵抗入侵。"},
+        {"pos": "v.", "def_en": "to remain unchanged or unharmed by", "def_zh": "抗（病等）",
+         "example": "This coating is designed to resist rust and the weather.", "example_zh": "涂上这一层，是为了防锈，让它经得起风吹雨打。"},
+        {"pos": "v.", "def_en": "to prevent yourself from doing sth. that you want to do", "def_zh": "忍住",
+         "example": "Jill couldn't resist making jokes about his baldness.", "example_zh": "吉尔忍不住拿他的秃顶开玩笑。"}
+      ],
+      "derivatives": ["resistance n. 抵抗;阻力;敌对", "resistor n. 电阻器", "irresistible a. 不可抗拒的"],
+      "complete": true
+    },
+    {
+      "word": "resistant",
+      "phonetic": "rɪˈzɪstənt",
+      "senses": [
+        {"pos": "a.", "def_zh": "抵抗的，耐…的",
+         "example": "I prefer the plants that are resistant to bad climate.", "example_zh": "我比较喜欢那些能抵抗恶劣气候的植物。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "restrain",
+      "phonetic": "rɪˈstreɪn",
+      "mnemonic": "re(back)+strain(拉紧)→拉回来→抑制",
+      "senses": [
+        {"pos": "vt.", "def_en": "to prevent sb. from doing sth. or acting in a certain way", "def_zh": "阻止",
+         "example": "The police had difficulty in restraining the crowd from rushing on to the pitch.", "example_zh": "警方难以阻止人群涌入球场。"},
+        {"pos": "vt.", "def_en": "to hold back or keep in control", "def_zh": "抑制",
+         "example": "I can't restrain my anger when I hear of people being cruel to animals.", "example_zh": "当听到有人残酷地对待动物的时候，我就抑制不住愤怒。"}
+      ],
+      "derivatives": ["restraint n. 抑制;约束措施"],
+      "complete": true
+    },
+    {
+      "word": "refrain",
+      "phonetic": "rɪˈfreɪn",
+      "senses": [
+        {"pos": "vi.", "def_en": "to keep oneself from doing sth. (~from)", "def_zh": "抑制，戒除",
+         "example": "They appealed to the protesters to refrain from violence.", "example_zh": "他们呼吁抗议者们不要采取暴力行动。"},
+        {"pos": "n.", "def_zh": "(诗歌的)叠句", "example": null, "example_zh": null}
+      ],
+      "derivatives": [],
+      "complete": true
+    }
+  ]
+}

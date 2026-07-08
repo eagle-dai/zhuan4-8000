@@ -1,0 +1,116 @@
+{
+  "page": 37,
+  "continues_from": "secure",
+  "continues_to": "retail",
+  "entries": [
+    {
+      "word": "secure",
+      "partial": "tail",
+      "senses": [
+        {"pos": "vt.", "def_en": "to get possession of; acquire", "def_zh": "得到", "example": "Can you secure me two tickets for the concert?", "example_zh": "你能为我弄到两张音乐会门票吗?"},
+        {"pos": "vt.", "def_en": "to guard from danger or risk of loss", "def_zh": "使安全", "example": "Our missiles and bombers secure us from attack.", "example_zh": "我们的导弹和轰炸机保卫我们免遭攻击。"},
+        {"pos": "vt.", "def_zh": "缚牢", "example": "She secured the boat with a rope.", "example_zh": "她用绳子把船拴住了。"}
+      ],
+      "derivatives": ["security n. 安全;抵押品;[pl.]证券"],
+      "complete": false
+    },
+    {
+      "word": "protection",
+      "phonetic": "prəˈtekʃən",
+      "mnemonic": "pro(before)+tect(掩盖)+ion→在前面掩盖→保护",
+      "senses": [
+        {"pos": "n.", "def_zh": "保护", "example": "Our medical insurance offers protection for the whole family in the event of illness.", "example_zh": "我们的医疗保险可为任何家庭成员在生病的情况下提供保障。"}
+      ],
+      "derivatives": ["protective a. 保护的;保护贸易的"],
+      "complete": true
+    },
+    {
+      "word": "shelter",
+      "phonetic": "ˈʃeltə",
+      "senses": [
+        {"pos": "n.", "def_zh": "掩蔽处", "example": "a shelter for the homeless", "example_zh": "无家可归者的收容所"},
+        {"pos": "n.", "def_zh": "住所", "example": "Food, clothing and shelter are all basic necessities of life.", "example_zh": "衣、食、住所是生活的基本必需品。"},
+        {"pos": "n.", "def_zh": "掩蔽", "example": "Don't take shelter from the rain under a tree when there is thunder and lightning.", "example_zh": "有雷电时不要在树下避雨。"},
+        {"pos": "vt.", "def_en": "to provide cover or protection for", "def_zh": "掩蔽,庇护", "example": "You can't shelter your brother from blame in the accident.", "example_zh": "你不可以庇护你的兄弟、使其免受事故的责难。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "resident",
+      "phonetic": "ˈrezɪdənt",
+      "senses": [
+        {"pos": "n.", "def_zh": "居民", "example": "It is reported that rats outnumber residents in New York by 9 to 1.", "example_zh": "据报道,纽约的老鼠的数量是其居民的 9 倍。"},
+        {"pos": "n.", "def_zh": "住院医生", "example": "the neurosurgery resident", "example_zh": "神经外科住院医师"},
+        {"pos": "a.", "def_zh": "居住的", "example": "I've been resident in this hotel for five years.", "example_zh": "我住在这家旅馆 5 年了。"},
+        {"pos": "a.", "def_zh": "住校的,住院的", "example": "resident doctor/student", "example_zh": "住院医生/住校学生"}
+      ],
+      "derivatives": ["residential a. 住宅的;与居住有关的"],
+      "complete": true
+    },
+    {
+      "word": "reside",
+      "phonetic": "rɪˈzaɪd",
+      "mnemonic": "re(back)+side(坐)→返回坐下,不再离开→定居",
+      "senses": [
+        {"pos": "vi.", "def_en": "to live in a place permanently or for an extended period", "def_zh": "居住,定居", "example": "He has resided abroad for many years.", "example_zh": "他在国外居住了多年。"},
+        {"pos": "vi.", "def_en": "to exist or be present (~in)", "def_zh": "(性质等)存在", "example": "Memory has been shown to reside in some metals.", "example_zh": "已经证实,记忆存在于某些金属中。"}
+      ],
+      "derivatives": ["residence n. 住处;居住"],
+      "complete": true
+    },
+    {
+      "word": "dwell",
+      "phonetic": "dwel",
+      "senses": [
+        {"pos": "vi.", "def_en": "literary to live in a particular place", "def_zh": "居住", "example": "We dwell in the country but work in the city.", "example_zh": "我们住在乡下,但在城里工作。"}
+      ],
+      "derivatives": ["dweller n. 居民,居住者", "dwelling n. 住宅"],
+      "complete": true
+    },
+    {
+      "word": "monopoly",
+      "phonetic": "məˈnɒpəlɪ",
+      "mnemonic": "mono(单独)+poly(卖)→垄断,专卖",
+      "senses": [
+        {"pos": "n.", "def_zh": "垄断", "example": "monopoly enterprise", "example_zh": "垄断企业"},
+        {"pos": "n.", "def_zh": "垄断商品", "example": "In many countries tobacco is a government monopoly.", "example_zh": "在许多国家,烟草是政府的垄断商品。"}
+      ],
+      "derivatives": ["monopolise/-ize v. 垄断,独占"],
+      "complete": true
+    },
+    {
+      "word": "monotonous",
+      "phonetic": "məˈnɒtənəs",
+      "mnemonic": "mono(单个)+ton(声音)+ous→一个声音的→单调的",
+      "senses": [
+        {"pos": "a.", "def_en": "tediously repetitious or lacking in variety", "def_zh": "单调的,枯燥的", "example": "He spoilt the poem by reading it in a monotonous voice.", "example_zh": "他单调的朗读糟蹋了这首诗。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "route",
+      "phonetic": "ruːt",
+      "senses": [
+        {"pos": "n.", "def_zh": "路线,路程", "example": "This is the shortest route from Boston to New York.", "example_zh": "这是从波士顿到纽约的最短路线。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "retail",
+      "partial": "head",
+      "phonetic": "rɪˈteɪl, ˈriːteɪl",
+      "mnemonic": "re(back)+tail(切割)→割成小块卖→零售",
+      "senses": [
+        {"pos": "v.", "def_en": "to sell in small quantities directly to consumers", "def_zh": "零售", "example": "These shoes retail at $10.", "example_zh": "这些鞋"}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "辨析", "title": "表示“居住”的动词", "content": "reside:个人或一家人永久、固定、合法居住在某处。live:住在某处并从事自己的活动。dwell:与 reside, live 近义,但更常见于文学语言中。"},
+    {"type": "短语", "title": "dwell", "content": "dwell on/upon 老是想着,详述 Let bygones be bygones. Don't dwell on the past too much. 让过去的事情过去吧,不要沉湎于过去。"}
+  ]
+}

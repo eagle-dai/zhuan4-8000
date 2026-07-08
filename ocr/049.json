@@ -1,0 +1,125 @@
+{
+  "page": 49,
+  "continues_from": "detail",
+  "continues_to": "disgrace",
+  "entries": [
+    {
+      "word": "detail",
+      "partial": "tail",
+      "phonetic": "ˈdiːteɪl",
+      "senses": [
+        {"pos": "vt.", "def_en": "to list things or give all the facts or information about sth.", "def_zh": "详述；列举",
+         "example": "Please detail all your expenses on this form.", "example_zh": "请把你的所有开支详细地列在这张表上。"}
+      ],
+      "complete": false
+    },
+    {
+      "word": "comment",
+      "phonetic": "ˈkɒment",
+      "mnemonic": "com(完全)+ment(思考)→彻底思考后再做评论→评论",
+      "senses": [
+        {"pos": "n.", "def_en": "a remark that expresses a personal reaction or attitude", "def_zh": "评论",
+         "example": "No comment. 无可奉告。 // This idea deserves more than passing comment.", "example_zh": "这个想法值得慎重考虑。"},
+        {"pos": "n.", "def_en": "talk; gossip", "def_zh": "闲话",
+         "example": "Her strange behavior caused a good deal of comment.", "example_zh": "她的反常行为引起了不少闲话。"},
+        {"pos": "vt.", "def_zh": "评论",
+         "example": "The discovery is hardly commented by the press.", "example_zh": "这个发现很少为报界所评论。"}
+      ],
+      "derivatives": ["commentator n. 解说者；新闻广播员 // commentary n. 实况报道；评论"],
+      "complete": true
+    },
+    {
+      "word": "react",
+      "phonetic": "rɪˈækt",
+      "mnemonic": "re(back)+act(起作用)→反应",
+      "senses": [
+        {"pos": "vi.", "def_en": "to act in response to", "def_zh": "反应",
+         "example": "Local residents have reacted angrily to the news.", "example_zh": "当地居民对这一消息表示愤怒。"},
+        {"pos": "vi.", "def_en": "to act in opposition to", "def_zh": "反对",
+         "example": "Feminists reacted against the limitations of women's traditional roles.", "example_zh": "女权主义者反抗妇女传统角色的局限。"},
+        {"pos": "vi.", "def_zh": "(~with) 起化学反应",
+         "example": "Acids react with bases to form salts.", "example_zh": "酸与碱反应生成盐。"},
+        {"pos": "vi.", "def_zh": "(~on, upon) 影响",
+         "example": "react on each other", "example_zh": "相互起作用"}
+      ],
+      "derivatives": ["reactor n. 反应器；反应物"],
+      "complete": true
+    },
+    {
+      "word": "reaction",
+      "phonetic": "rɪˈækʃən",
+      "senses": [
+        {"pos": "n.", "def_zh": "反应，反作用",
+         "example": "What's your reaction to the rumors about you? 你对有关你的谣言有何反应？ // chain/nuclear reaction 连锁反应/(原子)核反应", "example_zh": null},
+        {"pos": "n.", "def_zh": "反动",
+         "example": "The revolution was defeated by the forces of reaction.", "example_zh": "这场革命被反动势力打败了。"}
+      ],
+      "derivatives": ["reactionary a. 反动的 n. 反动分子"],
+      "complete": true
+    },
+    {
+      "word": "impress",
+      "phonetic": "ɪmˈpres",
+      "mnemonic": "im(upon)+press(压)→压在心上→使铭记",
+      "senses": [
+        {"pos": "vt.", "def_en": "to produce a vivid impression or image of", "def_zh": "给……以深刻的印象，使铭记",
+         "example": "The scenery of the Lugu Lake is strongly impressed on my memory.", "example_zh": "泸沽湖的景色给我留下了深刻的印象。"},
+        {"pos": "vt.", "def_zh": "印，压印",
+         "example": "The design was impressed on the cloth.", "example_zh": "图案被印在布上。"}
+      ],
+      "derivatives": ["impression n. 印象；印记 // impressive a. 给人印象深刻的"],
+      "complete": true
+    },
+    {
+      "word": "grace",
+      "phonetic": "greɪs",
+      "senses": [
+        {"pos": "n.", "def_en": "seemingly effortless beauty of movement etc.", "def_zh": "优美",
+         "example": "The gymnast performed on the balance beam with an easy grace.", "example_zh": "体操运动员在平衡木上表演得优美自如。"},
+        {"pos": "n.", "def_zh": "[常 pl.] 风度",
+         "example": "Every lover sees a thousand graces in the beloved object.", "example_zh": "情人眼里出西施。"},
+        {"pos": "n.", "def_zh": "宽限",
+         "example": "Payment is due today, but I gave her a week's grace.", "example_zh": "今天付款到期，但我给了她一个星期的宽限。"},
+        {"pos": "vt.", "def_zh": "使优美",
+         "example": "Fine paintings graced the walls of the room.", "example_zh": "这些精美的绘画使四壁生辉。"}
+      ],
+      "derivatives": ["graceful a. 优美的；得体的"],
+      "complete": true
+    },
+    {
+      "word": "gracious",
+      "phonetic": "ˈgreɪʃəs",
+      "senses": [
+        {"pos": "a.", "def_zh": "和蔼的",
+         "example": "The queen always appears in the public with a gracious smile.", "example_zh": "女王在公共场合出现时总是面带和蔼的笑容。"},
+        {"pos": "a.", "def_zh": "优美的，雍容华贵的",
+         "example": "gracious living", "example_zh": "安逸的生活"},
+        {"pos": "int.", "def_zh": "天哪！",
+         "example": "My Gracious!", "example_zh": "天哪！"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "disgrace",
+      "partial": "head",
+      "phonetic": "dɪsˈgreɪs",
+      "mnemonic": "dis(away)+grace(优雅)→耻辱",
+      "senses": [
+        {"pos": "n.", "def_en": "loss of honor, respect, or reputation; shame", "def_zh": "耻辱",
+         "example": "You will bring disgrace on yourself by doing this.", "example_zh": "你这样做会给自己带来耻辱。"},
+        {"pos": "vt.", "def_zh": "使失宠，使失去权力",
+         "example": "He has been publicly disgraced for offences for which he was not guilty.", "example_zh": "他为莫须有的过错而被当众免职。"},
+        {"pos": "vt.", "def_zh": "使蒙羞",
+         "example": "The family was disgraced by the scandal.", "example_zh": "那件丑闻使全家人蒙羞。"}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "短语", "title": null, "content": "go into detail(s) 详细叙述，逐一说明 // in detail 详细地"},
+    {"type": "真题", "title": null, "content": "People are tired of seeing their acts of kindness and service pass without comment. 译文：自己的善行和帮助没能得到回馈，这让人们很厌烦。"},
+    {"type": "用法", "title": null, "content": "impress 常用于被动语态，不用于进行式。"},
+    {"type": "短语", "title": null, "content": "with good grace 欣然地 You must learn to accept defeat with good grace. 你必须学会欣然接受失败。"}
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "page": 10,
+  "continues_from": "owing",
+  "continues_to": "smuggle",
+  "extras": [
+    {"type": "真题", "title": null, "content": "Her lucky moment came, strangely enough, after she was nominated in 1992 to be on the McDonald's bun committee. 译文:说也奇怪，在1992年被任命为麦当劳面包委员会委员后，她真的时来运转了。"}
+  ],
+  "entries": [
+    {
+      "word": "owing",
+      "partial": "tail",
+      "phonetic": "ˈəʊɪŋ",
+      "senses": [
+        {"pos": "a.", "def_zh": "应付的",
+         "example": "There's still over $100 owing to the bank.", "example_zh": "还欠着银行100多美元。"}
+      ],
+      "derivatives": [],
+      "complete": false
+    },
+    {
+      "word": "overall",
+      "phonetic": "ˈəʊvərɔːl, ˌəʊvərˈɔːl",
+      "mnemonic": "over(across)+all(所有的)→全部的,总体的",
+      "senses": [
+        {"pos": "a.", "def_zh": "总体的",
+         "example": "My overall impression of Shanghai was favorable.", "example_zh": "我对上海的总体印象是很好的。"},
+        {"pos": "a.", "def_zh": "全部的",
+         "example": "the overall costs of medical care", "example_zh": "医疗保健的总花销"},
+        {"pos": "ad.", "def_zh": "总的来说",
+         "example": "Overall, prices are rising.", "example_zh": "总的来说，物价仍在上涨。"},
+        {"pos": "n.", "def_zh": "[pl.]工装裤", "example": null, "example_zh": null}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "delegate",
+      "phonetic": "ˈdelɪɡɪt, ˈdelɪɡeɪt",
+      "mnemonic": "de(离开)+legate(派出使节)→代表",
+      "senses": [
+        {"pos": "n.", "def_zh": "代表",
+         "example": "a delegate to a conference", "example_zh": "赴会的代表"},
+        {"pos": "vt.", "def_en": "to choose sb. to do sth.", "def_zh": "委派…为代表",
+         "example": "I've been delegated to organize the weekly meeting.", "example_zh": "我受委派组织每周的会议。"},
+        {"pos": "vt.", "def_en": "to give control, responsibility, authority, etc. to sb.", "def_zh": "授(权)",
+         "example": "The Chinese people delegate their power to the People's Congress.", "example_zh": "中国人民授权给人民代表大会。"}
+      ],
+      "derivatives": ["delegation n. 代表团,委派"],
+      "complete": true
+    },
+    {
+      "word": "nominate",
+      "phonetic": "ˈnɒmɪneɪt",
+      "mnemonic": "nomin(名字)+ate(使)→提名",
+      "senses": [
+        {"pos": "vt.", "def_en": "to officially suggest sb. or sth. for an important position, duty, or prize", "def_zh": "提名",
+         "example": "The film was nominated for several Oscars.", "example_zh": "那部影片被提名好几项奥斯卡奖。"},
+        {"pos": "vt.", "def_en": "to give sb. a particular job", "def_zh": "任命",
+         "example": "The prime minister has nominated the former defense minister as the new foreign minister.", "example_zh": "首相已任命前国防部长为新任外交部长。"}
+      ],
+      "derivatives": ["nomination n. 提名,任命"],
+      "complete": true
+    },
+    {
+      "word": "feast",
+      "phonetic": "fiːst",
+      "senses": [
+        {"pos": "n.", "def_zh": "盛宴",
+         "example": "A great feast was held in Columbus' honour.", "example_zh": "为纪念哥伦布举行了盛大的宴会。"},
+        {"pos": "n.", "def_zh": "节日",
+         "example": "immovable feasts", "example_zh": "固定日期节日"},
+        {"pos": "vi.", "def_zh": "(~on)尽情地吃",
+         "example": "The children feasted on chicken and coconuts.", "example_zh": "孩子们尽情地吃着鸡肉和椰子。"},
+        {"pos": "vi.", "def_zh": "参加宴会",
+         "example": "The poor starve and the rich feast.", "example_zh": "穷人挨饿，富人吃喝。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "query",
+      "phonetic": "ˈkwɪərɪ",
+      "senses": [
+        {"pos": "n.", "def_zh": "质问，疑问",
+         "example": "Your interesting report raises several important queries.", "example_zh": "你的精彩报告引发了几个重要问题。"},
+        {"pos": "vt.", "def_en": "to ask questions or express doubt about sth.", "def_zh": "质问，疑问",
+         "example": "He queried whether she could sing.", "example_zh": "他问她是否会唱歌。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "inquest",
+      "phonetic": "ˈɪnkwest",
+      "senses": [
+        {"pos": "n.", "def_en": "an official investigation to find the reason for sth. (such as a person's death)", "def_zh": "审问，审查",
+         "example": "An inquest found that the deceased had died of drug overdose.", "example_zh": "经审查发现，死者因用药过量致死。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "sue",
+      "phonetic": "sjuː",
+      "senses": [
+        {"pos": "vi.", "def_zh": "控告",
+         "example": "sue at (the) law", "example_zh": "起诉"},
+        {"pos": "vi.", "def_en": "to formally ask for sth., esp. in court (~for)", "def_zh": "请求，要求",
+         "example": "The rebels were forced to sue for peace. // sue for divorce", "example_zh": "反叛分子被迫要求和解。// 起诉要求离婚"},
+        {"pos": "vt.", "def_zh": "控告",
+         "example": "sue sb. for negligence // She decided to sue her employer for wrongful dismissal.", "example_zh": "控告某人玩忽职守 // 她决定起诉雇主非法解雇她。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "clarify",
+      "phonetic": "ˈklærɪfaɪ",
+      "mnemonic": "clari(清楚)+fy(使…)→阐明",
+      "senses": [
+        {"pos": "vt.", "def_zh": "阐明",
+         "example": "The government has time and again clarified its position on equal pay for women.", "example_zh": "政府已经反复阐明其对男女同工同酬的立场。"}
+      ],
+      "derivatives": ["clarity n. 清楚"],
+      "complete": true
+    },
+    {
+      "word": "military",
+      "phonetic": "ˈmɪlɪtərɪ",
+      "mnemonic": "milit(战斗)+ary→军事的;军队",
+      "senses": [
+        {"pos": "a.", "def_zh": "军事的",
+         "example": "He advocates reducing military spending.", "example_zh": "他主张削减军费开支。"},
+        {"pos": "n.", "def_zh": "[the~]军队",
+         "example": "My brother is in the military.", "example_zh": "我兄弟在部队服役。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "smuggle",
+      "partial": "head",
+      "phonetic": "ˈsmʌɡl",
+      "mnemonic": "不断进行反走私(smuggle)的斗争(struggle)",
+      "senses": [
+        {"pos": "vt.", "def_en": "to move sth. from one country into another illegally and secretly", "def_zh": "走私",
+         "example": "Smuggling is", "example_zh": null}
+      ],
+      "complete": false
+    }
+  ]
+}

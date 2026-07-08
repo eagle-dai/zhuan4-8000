@@ -1,0 +1,72 @@
+{
+  "page": 42,
+  "continues_from": null,
+  "continues_to": null,
+  "entries": [
+    {
+      "word": "basis",
+      "phonetic": "ˈbeɪsɪs",
+      "senses": [
+        {"pos": "n.", "def_en": "the facts, ideas, or things from which sth. can be developed", "def_zh": "基础",
+         "example": "A good scenario is the basis of a successful movie.", "example_zh": "一个好剧本是一部电影成功的基础。"}
+      ],
+      "derivatives": ["basically ad. 基本上"],
+      "complete": true
+    },
+    {
+      "word": "basics",
+      "phonetic": "ˈbeɪsɪks",
+      "senses": [
+        {"pos": "n.", "def_en": "the simplest and most important parts of sth.", "def_zh": "基本因素，基本原理，概要",
+         "example": "I learned the basics of first aid on a weekend course.", "example_zh": "我在一个周末班上学会了急救的基本知识。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "element",
+      "phonetic": "ˈelɪmənt",
+      "senses": [
+        {"pos": "n.", "def_zh": "元素",
+         "example": "Both hydrogen and oxygen are elements, but water is not.", "example_zh": "氢和氧都是化学元素，但水不是。"},
+        {"pos": "n.", "def_en": "a particular part of sth.", "def_zh": "成分",
+         "example": "Words are the elements of a sentence. // Is money an element of happiness?", "example_zh": "词是句子的组成部分。 // 金钱是幸福的一个要素吗？"},
+        {"pos": "n.", "def_en": "the most basic parts of a subject", "def_zh": "基础，原理",
+         "example": "The elements of calculus are difficult to grasp.", "example_zh": "微积分的基础原理很难掌握。"},
+        {"pos": "n.", "def_en": "the forces that constitute the weather, esp. severe weather", "def_zh": "自然力",
+         "example": "These trees are exposed to the elements.", "example_zh": "这些树经受着风吹雨打。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "elementary",
+      "phonetic": "ˌelɪˈmentərɪ",
+      "mnemonic": "element(基础)+ary→基本的",
+      "senses": [
+        {"pos": "a.", "def_en": "basic and simple", "def_zh": "基本的",
+         "example": "elementary knowledge", "example_zh": "基本知识"},
+        {"pos": "a.", "def_zh": "基础的，初级的",
+         "example": "The questions were so elementary that he easily passed the test.", "example_zh": "题目很简单，他轻而易举就通过了考试。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "fundamental",
+      "phonetic": "ˌfʌndəˈmentl",
+      "mnemonic": "fund(资金)+a+mental(精神的)→物质和精神是社会的根基→基本的",
+      "senses": [
+        {"pos": "a.", "def_en": "relating to the most basic and important parts of sth.", "def_zh": "基本的",
+         "example": "There are fundamental differences between your outlook on life and mine.", "example_zh": "我和你的人生观有着本质的不同。"},
+        {"pos": "n.", "def_en": "the most important ideas, rules etc. that sth. is based upon", "def_zh": "基本原则",
+         "example": "Knowledge of the fundamentals of the trade is necessary.", "example_zh": "对本行业基本原则的了解是必要的。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    }
+  ],
+  "extras": [
+    {"type": "用法", "title": null, "content": "basis 复数为 bases。"}
+  ]
+}

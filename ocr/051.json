@@ -1,0 +1,141 @@
+{
+  "page": 51,
+  "continues_from": null,
+  "continues_to": "amount",
+  "entries": [
+    {
+      "word": "inclusive",
+      "phonetic": "ɪnˈkluːsɪv",
+      "mnemonic": "in+clus(关闭)+ive→关闭在内的→包括的",
+      "senses": [
+        {"pos": "a.", "def_en": "covering or including everything", "def_zh": "包括一切的",
+         "example": "The Chinese Football Team consists of 30 people, inclusive of the doctors and the interpreter.", "example_zh": "中国足球队包括队医和翻译在内共由 30 人组成。"}
+      ],
+      "derivatives": ["inclusion n. 包含，包括"],
+      "complete": true
+    },
+    {
+      "word": "eradicate",
+      "phonetic": "ɪˈrædɪkeɪt",
+      "mnemonic": "e(out)+radi(根)+cate→从根部拔出→根除",
+      "senses": [
+        {"pos": "vt.", "def_en": "to get rid of; eliminate", "def_zh": "根除，消灭，杜绝",
+         "example": "This problem has now been completely eradicated.", "example_zh": "这个难题现在已经完全根除了。"}
+      ],
+      "derivatives": ["eradication n. 根除"],
+      "complete": true
+    },
+    {
+      "word": "intense",
+      "phonetic": "ɪnˈtens",
+      "mnemonic": "in+tense(伸展)→注意力向内伸展→专注的",
+      "senses": [
+        {"pos": "a.", "def_en": "extreme in degree, strength, or size", "def_zh": "强烈的，紧张的",
+         "example": "The fracture caused him intense pain.", "example_zh": "骨折给他造成了剧烈的疼痛。"},
+        {"pos": "a.", "def_en": "involving extreme effort", "def_zh": "专注的",
+         "example": "Intense study was done on the origin of human beings.", "example_zh": "人们对人类起源进行了认真的研究。"},
+        {"pos": "a.", "def_zh": "热情的",
+         "example": "an intense young lady", "example_zh": "热情的少女"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "intensify",
+      "phonetic": "ɪnˈtensɪfaɪ",
+      "senses": [
+        {"pos": "v.", "def_en": "to make intense or more intense", "def_zh": "增强",
+         "example": "The drought has intensified. 旱情加剧了。 // Police have now intensified the search for the lost child.", "example_zh": "警方已加紧寻找那个失踪的孩子。"}
+      ],
+      "derivatives": ["intensity n. 强烈；强度"],
+      "complete": true
+    },
+    {
+      "word": "intensive",
+      "phonetic": "ɪnˈtensɪv",
+      "senses": [
+        {"pos": "a.", "def_en": "involving a lot of activity, effort, or careful attention in a short period of time", "def_zh": "加强的",
+         "example": "Intensive care in hospitals is given to the seriously ill.", "example_zh": "在医院里危重病人得到加强护理。"},
+        {"pos": "a.", "def_zh": "精工细作的",
+         "example": "deep ploughing and intensive cultivation", "example_zh": "深耕细作"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "concentrate",
+      "phonetic": "ˈkɒnsəntreɪt",
+      "senses": [
+        {"pos": "vi.", "def_en": "to direct one's thoughts or attention", "def_zh": "全神贯注",
+         "example": "Can you still concentrate on your reading with the TV on?", "example_zh": "开着电视你还能集中精神看书吗？"},
+        {"pos": "vi.", "def_en": "to be present in large numbers or amounts somewhere", "def_zh": "集中",
+         "example": "Birds concentrate where food is abundant.", "example_zh": "鸟聚集在食物丰盛的地方。"},
+        {"pos": "vt.", "def_zh": "集中",
+         "example": "We must concentrate our efforts on improving the system.", "example_zh": "我们得致力于改进该制度。"},
+        {"pos": "vt.", "def_zh": "浓缩",
+         "example": "concentrate a liquid", "example_zh": "把液体浓缩"},
+        {"pos": "n.", "def_zh": "浓缩物",
+         "example": "apple juice concentrate", "example_zh": "浓缩苹果汁"}
+      ],
+      "derivatives": ["concentration n. 专注；集中；浓缩"],
+      "complete": true
+    },
+    {
+      "word": "grave",
+      "phonetic": "greɪv",
+      "senses": [
+        {"pos": "n.", "def_zh": "坟墓",
+         "example": "from the cradle to the grave", "example_zh": "从生到死"},
+        {"pos": "a.", "def_en": "very serious; requiring serious thought or concern", "def_zh": "严重的",
+         "example": "The situation poses a grave threat to world peace.", "example_zh": "这局势对世界和平构成了严重的威胁。"},
+        {"pos": "a.", "def_en": "serious and formal in appearance or manner", "def_zh": "严肃的",
+         "example": "as grave as a judge", "example_zh": "非常严肃"}
+      ],
+      "derivatives": ["graveyard n. 墓地，坟墓"],
+      "complete": true
+    },
+    {
+      "word": "gravity",
+      "phonetic": "ˈgrævətɪ",
+      "mnemonic": "grav(重)+ity(表性质)→重力",
+      "senses": [
+        {"pos": "n.", "def_zh": "重力",
+         "example": "Enormous energy is needed to launch a spacecraft against (the force of) gravity.", "example_zh": "发射飞船需要巨大的能量来摆脱地心引力。"},
+        {"pos": "n.", "def_zh": "严重",
+         "example": "I could not hide from her the gravity of the situation.", "example_zh": "我无法向她隐瞒事态的严重性。"},
+        {"pos": "n.", "def_zh": "严肃",
+         "example": "He could hardly keep his gravity.", "example_zh": "他忍不住要笑出来。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "solemn",
+      "phonetic": "ˈsɒləm",
+      "senses": [
+        {"pos": "a.", "def_zh": "严肃的",
+         "example": "That solemn girl never smiles.", "example_zh": "那个严肃的姑娘从来不笑。"},
+        {"pos": "a.", "def_en": "performed in a very serious way", "def_zh": "庄严的",
+         "example": "Every day in the Tian'anmen Square the hoist of our national flag is a solemn ceremony.", "example_zh": "每天在天安门广场的升国旗是个庄严的仪式。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "amount",
+      "partial": "head",
+      "phonetic": "əˈmaʊnt",
+      "senses": [
+        {"pos": "n.", "def_zh": "数量",
+         "example": "Try to reduce the amount of fat in your diet.", "example_zh": "你要减少饮食中的油脂含量。"},
+        {"pos": "n.", "def_en": "a sum", "def_zh": "总数",
+         "example": "What is the amount of this?", "example_zh": "这总共是多少？"},
+        {"pos": "vi.", "def_en": "to add up in number or quantity (~to)", "def_zh": "合计",
+         "example": "Nationally, deaths from smoking-related illnesses amount to 30 people each day.", "example_zh": "全国每天共计有 30 人死于与吸烟有关的疾病。"},
+        {"pos": "vi.", "def_en": "to be the same in meaning or effect as (sth.)", "def_zh": "(在意义、价值等方面)等同，接近", "example": null, "example_zh": null}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": []
+}

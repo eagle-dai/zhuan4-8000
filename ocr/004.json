@@ -1,0 +1,124 @@
+{
+  "page": 4,
+  "continues_from": "bonus",
+  "continues_to": "resign",
+  "extras": [
+    {"type": "真题", "title": null, "content": "The more I read and discussed these practices, the more I realized this would help not only our budget but also our health. 译文:对这些了解、探讨得越多，我就越意识到这不但能够解决家庭开支，还有益健康。"},
+    {"type": "短语", "title": null, "content": "abandon oneself to 沉溺于 They abandon themselves to drinking. 他们沉湎于饮酒。"}
+  ],
+  "entries": [
+    {
+      "word": "bonus",
+      "partial": "tail",
+      "phonetic": "ˈbəʊnəs",
+      "senses": [
+        {"pos": "n.", "def_zh": "奖金",
+         "example": "To some degree bonus is an effective way to motivate the workers.", "example_zh": "从某种程度上来说，奖金是调动工作积极性的一种有效方法。"},
+        {"pos": "n.", "def_zh": "额外给予的东西",
+         "example": "The win on the pools was a real bonus.", "example_zh": "赌博赢钱真是意外收获。"}
+      ],
+      "complete": false
+    },
+    {
+      "word": "enlarge",
+      "phonetic": "ɪnˈlɑːdʒ",
+      "mnemonic": "en(使)+large(大的)→扩大;放大",
+      "senses": [
+        {"pos": "v.", "def_zh": "扩大，扩充",
+         "example": "Reading more can help to enlarge one's vocabulary. // The balloon enlarged as we pumped air into it.", "example_zh": "多阅读有助于扩大词汇量。// 随着我们往里充气，气球渐渐变大。"},
+        {"pos": "v.", "def_zh": "放大",
+         "example": "I planned to enlarge this photograph.", "example_zh": "我计划放大这张照片。"}
+      ],
+      "derivatives": ["enlargement n. 扩大,扩建部分"],
+      "complete": true
+    },
+    {
+      "word": "budget",
+      "phonetic": "ˈbʌdʒɪt",
+      "senses": [
+        {"pos": "n.", "def_zh": "预算",
+         "example": "A shrewd housewife should be good at planning the family budget.", "example_zh": "精明的主妇应擅长计划家庭预算。"},
+        {"pos": "v.", "def_en": "to make plans for the careful use of (money, time, etc.)", "def_zh": "做安排",
+         "example": "We couldn't budget for every emergency. // She's learned how to budget her time carefully.", "example_zh": "我们不可能为每个紧急事件做好安排。// 她已经学会了怎样精心安排自己的时间。"},
+        {"pos": "a.", "def_zh": "低廉的",
+         "example": "a budget flight", "example_zh": "低价航班"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "disclose",
+      "phonetic": "dɪsˈkləʊz",
+      "mnemonic": "dis(not)+close(关闭)→不关闭→透露",
+      "senses": [
+        {"pos": "vt.", "def_en": "to make sth. publicly known", "def_zh": "透露",
+         "example": "Most movie stars are not willing to disclose their true age.", "example_zh": "大多数电影明星不愿透露其真实年龄。"}
+      ],
+      "derivatives": ["disclosure n. 揭发,透露"],
+      "complete": true
+    },
+    {
+      "word": "expose",
+      "phonetic": "ɪkˈspəʊz",
+      "mnemonic": "ex(out)+pose(放置)→摆放出来→暴露",
+      "senses": [
+        {"pos": "vt.", "def_en": "to show sth. that is usually covered or hidden", "def_zh": "暴露",
+         "example": "Keep indoors and don't expose your skin to the sun.", "example_zh": "待在室内，不要把皮肤暴露在阳光下。"},
+        {"pos": "vt.", "def_en": "to make it possible for sb. to experience new ideas, ways of life etc. (~to)", "def_zh": "使处于…作用之下",
+         "example": "His books exposed people to new ideas.", "example_zh": "他的书使人们接触了新思潮。"},
+        {"pos": "vt.", "def_en": "to reveal the crimes or faults", "def_zh": "揭露",
+         "example": "The reporter was killed because he tried to expose a plot.", "example_zh": "这名记者因为试图揭露一个阴谋而被杀害。"}
+      ],
+      "derivatives": ["exposure n. 暴露;揭发;曝光"],
+      "complete": true
+    },
+    {
+      "word": "uncover",
+      "phonetic": "ʌnˈkʌvə",
+      "mnemonic": "un(not)+cover(掩盖)→不掩盖→揭露",
+      "senses": [
+        {"pos": "vt.", "def_en": "to find out about sth. that has been kept secret", "def_zh": "揭露",
+         "example": "Customs officials uncovered a plot to smuggle weapons into the country.", "example_zh": "海关官员发现了一个往国内走私武器的阴谋。"},
+        {"pos": "vt.", "def_zh": "揭开…的盖子",
+         "example": "Uncover the bottle when you heat the milk in the microwave oven.", "example_zh": "用微波炉加热牛奶时要把瓶盖打开。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "abandon",
+      "phonetic": "əˈbændən",
+      "senses": [
+        {"pos": "vt.", "def_en": "to leave sb., esp. sb. you are responsible for", "def_zh": "抛弃",
+         "example": "The heartless man abandoned his disabled wife.", "example_zh": "那个没良心的男人抛弃了残疾的妻子。"},
+        {"pos": "vt.", "def_en": "to stop doing sth. because there are too many problems and it is impossible to continue", "def_zh": "放弃",
+         "example": "They abandoned the attempt to search for the child when the night came.", "example_zh": "天色已晚，他们放弃了寻找孩子的企图。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "quit",
+      "phonetic": "kwɪt",
+      "senses": [
+        {"pos": "v.", "def_en": "to stop doing (an action or activity)", "def_zh": "停止，放弃",
+         "example": "It's not easy to quit smoking and drinking.", "example_zh": "戒烟戒酒并非易事。"},
+        {"pos": "v.", "def_en": "to leave (a job, school, career, etc.)", "def_zh": "离开",
+         "example": "He quit his job due to his health problem. // I'm tired of being treated like this. I quit.", "example_zh": "由于健康问题，他辞去了工作。// 我厌倦了别人这样对待我，我不干了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "resign",
+      "partial": "head",
+      "phonetic": "rɪˈzaɪn",
+      "mnemonic": "re(back)+sign(签署)→不再签到→辞职",
+      "senses": [
+        {"pos": "v.", "def_en": "to give up (a job or position) in a formal or official way", "def_zh": "辞职，放弃",
+         "example": "I resigned because of", "example_zh": null}
+      ],
+      "complete": false
+    }
+  ]
+}

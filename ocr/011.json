@@ -1,0 +1,112 @@
+{
+  "page": 11,
+  "continues_from": "smuggle",
+  "continues_to": null,
+  "extras": [
+    {"type": "短语", "title": null, "content": "take sb. into custody 将某人拘捕"},
+    {"type": "真题", "title": null, "content": "Every year thousands of people are arrested and taken to court for shop-lifting. 译文:每年有成千上万的人因入店行窃而被捕并走上法庭。"}
+  ],
+  "entries": [
+    {
+      "word": "smuggle",
+      "partial": "tail",
+      "phonetic": "ˈsmʌɡl",
+      "senses": [
+        {"pos": "vt.", "def_en": "to move sth. from one country into another illegally and secretly", "def_zh": "走私",
+         "example": "Smuggling is prohibited because it will make countries suffer losses in customs duties.", "example_zh": "禁止走私，因为它会减少国家不少关税。"},
+        {"pos": "vt.", "def_en": "to take or bring sth. secretly", "def_zh": "偷运",
+         "example": "He managed to smuggle his notes into the examination.", "example_zh": "他设法偷偷把笔记带进考场。"}
+      ],
+      "derivatives": [],
+      "complete": false
+    },
+    {
+      "word": "combat",
+      "phonetic": "ˈkɒmbæt",
+      "mnemonic": "com(共同)+bat(打)→互相打→战斗",
+      "senses": [
+        {"pos": "n.", "def_zh": "战斗，斗争",
+         "example": "The two men were locked in mortal combat.", "example_zh": "那两人在进行生死决斗。"},
+        {"pos": "vt.", "def_en": "to fight or struggle against; try to defeat", "def_zh": "战斗，斗争",
+         "example": "The police are now using computers to help combat crime.", "example_zh": "警方现在用计算机来帮助打击犯罪。"}
+      ],
+      "derivatives": ["combatant n. 参加战斗者"],
+      "complete": true
+    },
+    {
+      "word": "custody",
+      "phonetic": "ˈkʌstədɪ",
+      "senses": [
+        {"pos": "n.", "def_zh": "监护权，监管",
+         "example": "When her parents died, she was placed in the custody of her aunt.", "example_zh": "她的父母去世以后，她就交由姑妈照管。"},
+        {"pos": "n.", "def_zh": "扣留，监禁",
+         "example": "He is in custody awaiting trial.", "example_zh": "他已被拘留候审。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "arrest",
+      "phonetic": "əˈrest",
+      "mnemonic": "ar(to)+rest(休息)→强制休息→逮捕",
+      "senses": [
+        {"pos": "vt.", "def_zh": "逮捕",
+         "example": "He was arrested for shooting on campus.", "example_zh": "他因在校园开枪伤人而被逮捕。"},
+        {"pos": "vt.", "def_en": "to stop the progress or movement of (sth.)", "def_zh": "阻止",
+         "example": "They failed to arrest the company's decline.", "example_zh": "他们未能阻止公司的衰落。"},
+        {"pos": "vt.", "def_en": "to attract and hold the attention of sb./sth.", "def_zh": "吸引",
+         "example": "An unusual painting arrested his attention.", "example_zh": "一幅异乎寻常的画引起了他的注意。"},
+        {"pos": "n.", "def_zh": "逮捕",
+         "example": "place/put sb. under arrest", "example_zh": "逮捕某人"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "given",
+      "phonetic": "ˈɡɪvən",
+      "senses": [
+        {"pos": "a.", "def_zh": "规定的",
+         "example": "You have to finish the work within the given time.", "example_zh": "你们必须在规定时间内完成这项工作。"},
+        {"pos": "a.", "def_zh": "假设的，已知的",
+         "example": "given value", "example_zh": "已知值"},
+        {"pos": "a.", "def_zh": "(~to)有癖好的",
+         "example": "He is given to boasting.", "example_zh": "他喜欢吹牛。"},
+        {"pos": "prep.", "def_zh": "考虑到",
+         "example": "Given their inexperience, they've done a good job.", "example_zh": "考虑到他们没有经验，这项工作做得已经不错了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "review",
+      "phonetic": "rɪˈvjuː",
+      "mnemonic": "re(back)+view(看)→再次查看→回顾",
+      "senses": [
+        {"pos": "n.", "def_zh": "复查",
+         "example": "The terms of the contract are subject to review.", "example_zh": "合同的条款有待复查决定。"},
+        {"pos": "n.", "def_zh": "回顾，检讨",
+         "example": "a review of progress in technology", "example_zh": "回顾科技取得的进步"},
+        {"pos": "n.", "def_zh": "书评等",
+         "example": "Her latest novel got good reviews in the press.", "example_zh": "她的最新小说得到了报界的好评。"},
+        {"pos": "vt.", "def_en": "to consider and judge carefully", "def_zh": "仔细审度",
+         "example": "Government spending has been reviewed to try and reduce the budget deficit.", "example_zh": "对政府开支进行了审核，以争取减少预算赤字。"},
+        {"pos": "vt.", "def_en": "to report on or judge the quality of a book, show, etc.", "def_zh": "写评论",
+         "example": "be well reviewed", "example_zh": "受到好评"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "category",
+      "phonetic": "ˈkætɪɡərɪ",
+      "mnemonic": "cat(down)+egory(集合)→集合在一起→种类",
+      "senses": [
+        {"pos": "n.", "def_zh": "种类，类",
+         "example": "Books are placed in categories in libraries and bookstores.", "example_zh": "图书馆和书店的书是分门别类摆放的。"}
+      ],
+      "derivatives": ["categorize v. 将…分(归)类"],
+      "complete": true
+    }
+  ]
+}

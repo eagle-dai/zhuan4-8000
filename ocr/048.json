@@ -1,0 +1,134 @@
+{
+  "page": 48,
+  "continues_from": "prominent",
+  "continues_to": "detail",
+  "entries": [
+    {
+      "word": "prominent",
+      "partial": "tail",
+      "phonetic": "ˈprɒmɪnənt",
+      "senses": [
+        {"pos": "a.", "def_en": "widely known and important", "def_zh": "突出的，杰出的",
+         "example": "The mayor has played a prominent part in public life.", "example_zh": "市长在公共事务中起了重要的作用。"},
+        {"pos": "a.", "def_en": "sticking out in a way that is easily seen or noticed", "def_zh": "突起的",
+         "example": "His prominent paunch left me a strong impression.", "example_zh": "他的罗汉肚给我留下了深刻印象。"}
+      ],
+      "complete": false
+    },
+    {
+      "word": "outstanding",
+      "phonetic": "aʊtˈstændɪŋ",
+      "mnemonic": "out(出来)+stand(站)+ing→站出来的→杰出的",
+      "senses": [
+        {"pos": "a.", "def_en": "excellent or exceptionally good", "def_zh": "杰出的",
+         "example": "Beautiful landscapes favor the birth of outstanding persons.", "example_zh": "人杰地灵。"},
+        {"pos": "a.", "def_en": "not settled or resolved", "def_zh": "未解决的",
+         "example": "We've got quite a few debts still outstanding.", "example_zh": "我们还有好多欠债未曾偿还。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "eminent",
+      "phonetic": "ˈemɪnənt",
+      "mnemonic": "e(out)+min(上升)+ent→卓越的",
+      "senses": [
+        {"pos": "a.", "def_en": "well-known and respected, esp. for achievement in a particular field", "def_zh": "卓越的",
+         "example": "Churchill was one of the world's most eminent statesmen.", "example_zh": "邱吉尔是世界上最卓越的政治家之一。"}
+      ],
+      "derivatives": ["eminence n. 卓越，杰出"],
+      "complete": true
+    },
+    {
+      "word": "excel",
+      "phonetic": "ɪkˈsel",
+      "senses": [
+        {"pos": "vi.", "def_zh": "突出",
+         "example": "Rick has always excelled at foreign languages.", "example_zh": "里克的外语从来都是出类拔萃的。"},
+        {"pos": "vt.", "def_en": "to do or be better than; surpass", "def_zh": "胜过",
+         "example": "He excels all other composers of his period.", "example_zh": "他胜过同时代的所有其他作曲家。"}
+      ],
+      "derivatives": ["excellence n. 优秀；优点"],
+      "complete": true
+    },
+    {
+      "word": "proficient",
+      "phonetic": "prəˈfɪʃənt",
+      "senses": [
+        {"pos": "a.", "def_en": "having an advanced degree of competence, as in an art, profession etc.", "def_zh": "熟练的，精通的",
+         "example": "After reading this book, you will be proficient in writing.", "example_zh": "读完这本书，你会精于写作。"}
+      ],
+      "derivatives": ["proficiency n. 精通，熟练"],
+      "complete": true
+    },
+    {
+      "word": "conspicuous",
+      "phonetic": "kənˈspɪkjuəs",
+      "mnemonic": "con(完全)+spic(看)+uous→能够完全看清楚→显眼的",
+      "senses": [
+        {"pos": "a.", "def_en": "very easy to notice; attracting attention", "def_zh": "显眼的；引人注目的",
+         "example": "conspicuous mistakes 明显的错误 // She's always conspicuous because of her bright clothes and queer hair style.", "example_zh": "因为她衣着鲜艳，发型古怪，所以总是惹人注目。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "noticeable",
+      "phonetic": "ˈnəʊtɪsəbl",
+      "mnemonic": "notice(注意)+able(能……的)→能注意到的→显而易见的",
+      "senses": [
+        {"pos": "a.", "def_en": "evident; observable", "def_zh": "显而易见的",
+         "example": "There's been a noticeable improvement in his handwriting.", "example_zh": "他的书法有了明显的进步。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "remark",
+      "phonetic": "rɪˈmɑːk",
+      "mnemonic": "re(again)+mark(做标记)→评论时一再做标记→评论",
+      "senses": [
+        {"pos": "vt.", "def_en": "to say sth., esp. about sth. you have just noticed", "def_zh": "说，评论说",
+         "example": "The little boy remarked that it was time to leave.", "example_zh": "小男孩说该走了。"},
+        {"pos": "vi.", "def_zh": "谈论，评论",
+         "example": "All the friends remarked on the change in him since his marriage.", "example_zh": "所有的朋友都注意到他结婚后的变化，对此议论纷纷。"},
+        {"pos": "n.", "def_zh": "评论，话语",
+         "example": "He was fired for making racist remarks during an interview.", "example_zh": "他在一次面谈时说了种族歧视的话，因而被解雇。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "insult",
+      "phonetic": "ɪnˈsʌlt, ˈɪnsʌlt",
+      "mnemonic": "in+sult(看作 salt 盐)→在别人伤口里撒盐→侮辱",
+      "senses": [
+        {"pos": "vt.", "def_en": "to do or say sth. that is offensive to sb.", "def_zh": "侮辱",
+         "example": "You insult a person by calling him an idiot.", "example_zh": "称一个人为白痴是对他的一种侮辱。"},
+        {"pos": "n.", "def_zh": "侮辱",
+         "example": "Carol will take it as an insult if you don't come to the party.", "example_zh": "你要是不来参加聚会，卡罗尔会认为是对她的不敬。"}
+      ],
+      "derivatives": ["insulting a. 侮辱的；伤害人的"],
+      "complete": true
+    },
+    {
+      "word": "detail",
+      "partial": "head",
+      "phonetic": "ˈdiːteɪl",
+      "mnemonic": "de(fully)+tail(cut)→切得很细→详述",
+      "senses": [
+        {"pos": "n.", "def_zh": "细节",
+         "example": "Give me all the details of the accident.", "example_zh": "给我说说事故发生的详情。"},
+        {"pos": "n.", "def_zh": "枝节",
+         "example": "in minute detail", "example_zh": "细枝末节"},
+        {"pos": "vt.", "def_en": "to list things or give all the facts or information about sth.", "def_zh": "详述；列举",
+         "example": "Please detail all your expenses on this form.", "example_zh": null}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "真题", "title": null, "content": "And, every year, the media report some of these speakers' wise remarks. 译文：每年媒体也都会报道这些致辞人的一些智慧之语。"},
+    {"type": "短语", "title": null, "content": "add insult to injury 雪上加霜，更糟的是"}
+  ]
+}

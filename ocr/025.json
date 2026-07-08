@@ -1,0 +1,59 @@
+{
+  "page": 25,
+  "continues_from": null,
+  "continues_to": null,
+  "entries": [
+    {
+      "word": "holy",
+      "phonetic": "ˈhəulɪ",
+      "senses": [
+        {"pos": "a.", "def_en": "connected to a god or a religion", "def_zh": "神圣的", "example": "Jerusalem was regarded as the holy place by the Christians.", "example_zh": "耶路撒冷被基督徒们视为圣地。"},
+        {"pos": "a.", "def_zh": "虔诚的", "example": "the holy followers of Buddha", "example_zh": "虔诚的佛教信徒"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "sacred",
+      "phonetic": "ˈseɪkrɪd",
+      "senses": [
+        {"pos": "a.", "def_en": "greatly respected. or believed to be holy", "def_zh": "神圣的", "example": "Cows are sacred to Hindus. // Indira Gandhi considered it a sacred duty to fulfill her dead father's wishes.", "example_zh": "对印度人来说,牛是神圣的。// 英迪拉·甘地认为完成她已故父亲的遗愿是她神圣的职责。"},
+        {"pos": "a.", "def_zh": "宗教(性)的", "example": "Sacred Song", "example_zh": "圣歌"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "bless",
+      "phonetic": "bles",
+      "senses": [
+        {"pos": "vt.", "def_en": "to endow, as with talent, health, etc.", "def_zh": "使有幸得到", "example": "Fortunately we're both blessed with good health.", "example_zh": "幸运的是我们俩都有健康的身体。"},
+        {"pos": "vt.", "def_zh": "为…祈神赐福(或保佑)", "example": "The farmers are blessing propitious winds and rains.", "example_zh": "农民们正在祈求风调雨顺。"}
+      ],
+      "derivatives": ["blessed a. 受上帝恩宠的;带来愉快的", "blessing n. 祷告;祝福;幸事"],
+      "complete": true
+    },
+    {
+      "word": "institute",
+      "phonetic": "ˈɪnstɪtjuːt",
+      "senses": [
+        {"pos": "n.", "def_en": "an organization created for a particular purpose (such as research or education)", "def_zh": "学院", "example": "Massachusetts Institute of Technology in the US is one of the top universities in the world.", "example_zh": "美国的麻省理工学院是世界顶级大学之一。"},
+        {"pos": "vt.", "def_en": "to introduce or start a system, rule, legal process etc.", "def_zh": "建立", "example": "The manager institutes a reform against bureaucracy in the company.", "example_zh": "经理推行改革以消除公司内的官僚作风。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "institution",
+      "phonetic": "ˌɪnstɪˈtjuːʃən",
+      "senses": [
+        {"pos": "n.", "def_en": "an established organization, esp. one dedicated to education, public service, or culture", "def_zh": "社会公共机构", "example": "I haven't decided which educational institutions to apply for.", "example_zh": "我还没有决定向哪所大学提交申请。"},
+        {"pos": "n.", "def_zh": "制度,习俗", "example": "Marriage became an institution in ancient societies.", "example_zh": "婚姻在古代社会就已经成为一种制度。"},
+        {"pos": "n.", "def_zh": "设立,创立", "example": "The institution of laws is critical to the stability of a society.", "example_zh": "法律的制订对于社会的稳定很关键。"}
+      ],
+      "derivatives": ["institutional a. 由来已久的;公共机构的"],
+      "complete": true
+    }
+  ],
+  "extras": []
+}

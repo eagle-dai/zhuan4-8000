@@ -1,0 +1,119 @@
+{
+  "page": 18,
+  "continues_from": "distinguish",
+  "continues_to": null,
+  "extras": [
+    {"type": "一言辨异", "title": "considerate, considerable", "content": "It's very considerate of you to send me a Christmas gift at considerable expense every year. 你每年都花很多钱给我买圣诞礼物，真是考虑周到。"},
+    {"type": "用法", "title": null, "content": "该词可跟名词或 that 和 wh-词引导的名词性从句。"},
+    {"type": "短语", "title": null, "content": "in consideration of 考虑到;作为对…的报酬 // take into consideration 考虑到"},
+    {"type": "短语", "title": null, "content": "be aware of 意识到"}
+  ],
+  "entries": [
+    {
+      "word": "distinguish",
+      "partial": "tail",
+      "phonetic": "dɪsˈtɪŋgwɪʃ",
+      "senses": [
+        {"pos": "vt.", "def_en": "to see or hear clearly", "def_zh": "看清",
+         "example": "Can you distinguish those distant objects?", "example_zh": "你能看清远处的那些物体吗？"},
+        {"pos": "vt.", "def_zh": "(~oneself)使杰出",
+         "example": "He distinguished himself in the examination.", "example_zh": "他考试成绩突出。"}
+      ],
+      "derivatives": ["distinguishable a. 可区分的", "distinguished a. 卓越的"],
+      "complete": false
+    },
+    {
+      "word": "considerable",
+      "phonetic": "kənˈsɪdərəbl",
+      "senses": [
+        {"pos": "a.", "def_en": "large in size, amount, or quantity", "def_zh": "相当大(或多)的",
+         "example": "I have given considerable thought to the matter.", "example_zh": "这件事我已经考虑得相当充分了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "considerate",
+      "phonetic": "kənˈsɪdərɪt",
+      "senses": [
+        {"pos": "a.", "def_en": "showing regard for the needs or feelings of others", "def_zh": "体贴的",
+         "example": "It is considerate of you to send me a postcard.", "example_zh": "寄给我明信片，你真是细心周到。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "considering",
+      "phonetic": "kənˈsɪdərɪŋ",
+      "senses": [
+        {"pos": "prep.", "def_zh": "就…来说",
+         "example": "You did quite well in your exams, considering how little you studied.", "example_zh": "就你平时这么少学习来说，你已考得不错了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "consideration",
+      "phonetic": "kənˌsɪdəˈreɪʃən",
+      "senses": [
+        {"pos": "n.", "def_zh": "考虑",
+         "example": "I leave it entirely to your kind consideration.", "example_zh": "这事全拜托你了。"},
+        {"pos": "n.", "def_zh": "体贴",
+         "example": "Jeff never shows any consideration for his mother's feelings.", "example_zh": "杰夫从来不体谅他母亲的感受。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "aware",
+      "phonetic": "əˈweə",
+      "senses": [
+        {"pos": "a.", "def_en": "knowing that sth. (such as a situation, problem) exists", "def_zh": "意识到的",
+         "example": "Most people are aware of the risk when they invest in stocks and shares.", "example_zh": "大多数人在投资证券的时候是意识到风险的。"}
+      ],
+      "derivatives": ["awareness n. 察觉,意识到"],
+      "complete": true
+    },
+    {
+      "word": "conscious",
+      "phonetic": "ˈkɒnʃəs",
+      "mnemonic": "con+sci(知道)+ous→意识到的",
+      "senses": [
+        {"pos": "a.", "def_zh": "aware of sth.(such as a fact or feeling)意识到的",
+         "example": "The greatest of faults is to be conscious of none.", "example_zh": "最严重的缺点是意识不到自己的缺点。"},
+        {"pos": "a.", "def_en": "awake and able to understand what is happening around you", "def_zh": "神志清醒的",
+         "example": "The driver was still conscious when the ambulance reached the scene of the accident.", "example_zh": "当救护车赶到事故现场时，司机仍然神志清醒。"},
+        {"pos": "a.", "def_zh": "有意的",
+         "example": "I had to make a conscious effort not to be rude to her.", "example_zh": "我得刻意约束自己不要对她粗鲁。"}
+      ],
+      "derivatives": ["consciousness n. 意识,知觉", "unconscious a. 失去知觉的;无意地说出或做出的"],
+      "complete": true
+    },
+    {
+      "word": "offend",
+      "phonetic": "əˈfend",
+      "mnemonic": "off(离开)+end(最后)→感情受到“冒犯”，最后离开了",
+      "senses": [
+        {"pos": "vt.", "def_en": "to cause displeasure, anger, or wounded feelings in", "def_zh": "冒犯，伤害…的感情",
+         "example": "Don't be offended. I am just fooling around.", "example_zh": "别恼火，我只是在开玩笑。"},
+        {"pos": "vt.", "def_en": "to be displeasing or disagreeable to", "def_zh": "使厌恶，使不舒服",
+         "example": "Some music offends rather than pleases the ear.", "example_zh": "有些音乐不是悦耳，而是刺耳。"},
+        {"pos": "vt.", "def_en": "to be against what people believe is morally right", "def_zh": "违反，违背",
+         "example": "These comments offend against people's religious beliefs.", "example_zh": "这些评论有悖于人们的宗教信仰。"}
+      ],
+      "derivatives": ["offender n. 冒犯者,犯罪者", "offence n. 犯规;冒犯"],
+      "complete": true
+    },
+    {
+      "word": "annoy",
+      "phonetic": "əˈnɔɪ",
+      "mnemonic": "发音:“暗恼”→使烦恼",
+      "senses": [
+        {"pos": "vt.", "def_en": "to cause sb. to feel slightly angry", "def_zh": "使烦恼，烦扰，打搅",
+         "example": "What annoys me is the way he won't even listen to other people's suggestions. // The mosquitoes annoyed me so much that I couldn't sleep.", "example_zh": "让我恼火的是他那不肯听别人建议的样子。// 蚊子搅得我无法入睡。"}
+      ],
+      "derivatives": ["annoyance n. 烦恼事"],
+      "complete": true
+    }
+  ]
+}

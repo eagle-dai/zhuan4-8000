@@ -1,0 +1,70 @@
+{
+  "page": 14,
+  "continues_from": null,
+  "continues_to": "infinite",
+  "extras": [
+    {"type": "短语", "title": null, "content": "deny sb. nothing 对某人百依百顺 // there is no denying that... 不可否认的是 There's no denying that this is a serious blow. 无可否认这是个严重的打击。"}
+  ],
+  "entries": [
+    {
+      "word": "reject",
+      "phonetic": "rɪˈdʒekt, ˈriːdʒekt",
+      "mnemonic": "re(back)+ject(扔)→扔回来→拒绝，拒纳",
+      "senses": [
+        {"pos": "vt.", "def_zh": "拒绝",
+         "example": "Some people who have strong self-respect often reject others' offers for help.", "example_zh": "有些自尊心强的人经常拒绝别人提供的帮助。"},
+        {"pos": "vt.", "def_zh": "拒纳",
+         "example": "We rejected his idea for a music club, and decided to have an art club instead.", "example_zh": "我们没有采纳他关于成立音乐俱乐部的想法，而是决定成立艺术俱乐部。"},
+        {"pos": "n.", "def_zh": "被拒货品，不合格产品",
+         "example": "a reject tire", "example_zh": "劣质轮胎"}
+      ],
+      "derivatives": ["rejection n. 拒绝;废弃物"],
+      "complete": true
+    },
+    {
+      "word": "forbid",
+      "phonetic": "fəˈbɪd",
+      "senses": [
+        {"pos": "vt.", "def_en": "to order (sb.) not to do sth.", "def_zh": "禁止",
+         "example": "The dormitory supervisor forbade the boarders to play loud music.", "example_zh": "宿舍管理员不准住校生把音乐放得太大声。"}
+      ],
+      "derivatives": ["forbidden a. 被禁止的"],
+      "complete": true
+    },
+    {
+      "word": "exclude",
+      "phonetic": "ɪkˈskluːd",
+      "mnemonic": "ex(out)+clude(关闭)→关在门外→把…排除在外",
+      "senses": [
+        {"pos": "vt.", "def_en": "to prevent from entering; keep out", "def_zh": "把…排斥在外",
+         "example": "Some places of entertainment exclude people under 18.", "example_zh": "一些娱乐场所禁止18岁以下的未成年人进入。"}
+      ],
+      "derivatives": ["excluding prep. 除…外,不包括"],
+      "complete": true
+    },
+    {
+      "word": "deny",
+      "phonetic": "dɪˈnaɪ",
+      "mnemonic": "发音:“抵赖”→否认",
+      "senses": [
+        {"pos": "vt.", "def_en": "to declare untrue; refuse to admit", "def_zh": "否认",
+         "example": "Denying a fault doubles it.", "example_zh": "否认错误就是加倍错误。"},
+        {"pos": "vt.", "def_en": "to refuse to give (sth.) to sb.", "def_zh": "拒绝给予",
+         "example": "Some students are denied the chance of going to university because they are poor.", "example_zh": "有些学生因为穷而得不到上大学的机会。"}
+      ],
+      "derivatives": ["denial n. 否认;拒绝;抛弃"],
+      "complete": true
+    },
+    {
+      "word": "infinite",
+      "partial": "head",
+      "phonetic": "ˈɪnfɪnɪt",
+      "mnemonic": "in(not)+fin(界限)+ite→没有界限的→无限的",
+      "senses": [
+        {"pos": "a.", "def_en": "without limits in space or time", "def_zh": "无限的",
+         "example": "Indulging in computer games all day may do infinite harm to students.", "example_zh": null}
+      ],
+      "complete": false
+    }
+  ]
+}

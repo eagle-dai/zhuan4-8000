@@ -1,0 +1,106 @@
+{
+  "page": 44,
+  "continues_from": null,
+  "continues_to": "counter",
+  "entries": [
+    {
+      "word": "initiate",
+      "phonetic": "ɪˈnɪʃɪeɪt",
+      "senses": [
+        {"pos": "vt.", "def_en": "to set going by taking the first step; begin", "def_zh": "开始",
+         "example": "The small sparkle often initiates a large flame.", "example_zh": "星火燎原。"},
+        {"pos": "vt.", "def_en": "to introduce to a new field, skill, activity etc.", "def_zh": "使初步了解",
+         "example": "I shall initiate you into our business methods.", "example_zh": "我将把我们的营业方法介绍给你。"},
+        {"pos": "vt.", "def_en": "to admit sb. into membership", "def_zh": "接纳",
+         "example": "The club will initiate a new group of members on Tuesday.", "example_zh": "该俱乐部将于星期二接纳一批新成员。"},
+        {"pos": "n.", "def_zh": "新加入组织的人",
+         "example": "These secrets are known only to a small group of initiates.", "example_zh": "只有小部分新加入的成员知道这些内幕。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "necessarily",
+      "phonetic": "ˈnesɪsərɪlɪ",
+      "senses": [
+        {"pos": "ad.", "def_zh": "必要地",
+         "example": "You don't necessarily have to go.", "example_zh": "你不一定要去。"},
+        {"pos": "ad.", "def_en": "inevitably", "def_zh": "必然地",
+         "example": "Study is necessarily difficult, but it pays off.", "example_zh": "学习的过程必然是苦的，但果实却是甜的。"}
+      ],
+      "derivatives": ["unnecessary a. 不需要的"],
+      "complete": true
+    },
+    {
+      "word": "necessity",
+      "phonetic": "nɪˈsesɪtɪ",
+      "senses": [
+        {"pos": "n.", "def_en": "sth. that you must have or do", "def_zh": "必需品；必要",
+         "example": "Food and water are the necessities of life. // He seemed to feel the necessity of some slight explanation.", "example_zh": "食品和水是生活的必需品。 // 他似乎感到有必要略做解释。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "protest",
+      "phonetic": "ˈprəʊtest, prəˈtest",
+      "mnemonic": "pro(forward)+test(考试)→提前考试，会遭到学生“反对”",
+      "senses": [
+        {"pos": "n.", "def_zh": "抗议，反对",
+         "example": "The region is open to tourists over environmentalists' protest.", "example_zh": "尽管环保主义者反对，这一地区仍向旅游者开放。"},
+        {"pos": "v.", "def_en": "to express a strong objection to sth.", "def_zh": "抗议，反对",
+         "example": "There was a large crowd in the square, protesting (against) the war.", "example_zh": "广场上聚集了一大群反对这场战争的人。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "contradict",
+      "phonetic": "ˌkɒntrəˈdɪkt",
+      "mnemonic": "contra(相反)+dict(说话)→说相反的话→反驳",
+      "senses": [
+        {"pos": "vt.", "def_en": "to disagree with sth., esp. by saying that the opposite is true", "def_zh": "反驳",
+         "example": "It's difficult to contradict someone politely.", "example_zh": "彬彬有礼地驳斥别人是难以做到的。"},
+        {"pos": "vt.", "def_en": "to be contrary to; be inconsistent with", "def_zh": "与……发生矛盾",
+         "example": "The two statements contradict each other.", "example_zh": "两种说法相互抵触。"}
+      ],
+      "derivatives": ["contradiction n. 矛盾；否认 // contradictory a. 对立的；爱反驳别人的 // self-contradictory a. 自相矛盾的"],
+      "complete": true
+    },
+    {
+      "word": "reform",
+      "phonetic": "rɪˈfɔːm",
+      "mnemonic": "re(again)+form(形成)→重新形成→改革",
+      "senses": [
+        {"pos": "v.", "def_en": "to improve by alteration, correction of error, etc.", "def_zh": "改革，改良",
+         "example": "plans to reform the tax system", "example_zh": "改革税收制度的计划"},
+        {"pos": "v.", "def_en": "to persuade sb. to give up harmful or immoral practices", "def_zh": "改正，改过自新",
+         "example": "try to reform wrong-doers 设法使做坏事的人改过自新 // You have had every chance to reform.", "example_zh": "你是一直有改过自新的机会的。"},
+        {"pos": "n.", "def_zh": "改革，改良",
+         "example": "Tax reforms did not benefit the middle class.", "example_zh": "税制改革对中产阶级没有好处。"},
+        {"pos": "n.", "def_zh": "改正",
+         "example": "The family rejoiced in the drunkard's reform.", "example_zh": "一家人对那个酒鬼的改过自新深感高兴。"}
+      ],
+      "derivatives": ["reformer n. 改革者"],
+      "complete": true
+    },
+    {
+      "word": "counter",
+      "partial": "head",
+      "phonetic": "ˈkaʊntə",
+      "senses": [
+        {"pos": "n.", "def_zh": "柜台",
+         "example": "I asked the girl behind the counter if they had any postcards.", "example_zh": "我问柜台后的女营业员是否有明信片卖。"},
+        {"pos": "n.", "def_zh": "计数器",
+         "example": "The bank teller used a mechanical counter to count the pennies.", "example_zh": "银行出纳员用机械计数器点硬币。"},
+        {"pos": "n.", "def_zh": "筹码", "example": null, "example_zh": null},
+        {"pos": "vt.", "def_en": "to say sth. in order to try to prove that what sb. said was not true or as a reply to sth.", "def_zh": "反驳",
+         "example": "I countered her arguments by pointing out the advantages of my plan.", "example_zh": "我指出自己所做计划的优点以反驳她的论点。"}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "短语", "title": null, "content": "of necessity 无法避免地，必定 The summary of his findings is, of necessity, very brief. 他研究成果的总结必定很简短。"}
+  ]
+}

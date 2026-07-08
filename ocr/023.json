@@ -1,0 +1,104 @@
+{
+  "page": 23,
+  "continues_from": "emotion",
+  "continues_to": "bruise",
+  "entries": [
+    {
+      "word": "emotion",
+      "partial": "tail",
+      "senses": [],
+      "derivatives": ["emotive a. (激起)感情的", "emotional a. 令人动情的;感情的"],
+      "complete": false
+    },
+    {
+      "word": "nerve",
+      "phonetic": "nɜːv",
+      "senses": [
+        {"pos": "n.", "def_zh": "神经", "example": "Don't get on my nerves!", "example_zh": "别把我惹毛了!"},
+        {"pos": "n.", "def_zh": "勇气", "example": "It takes a bit of nerve to cross these chain bridges.", "example_zh": "过这种铁索桥要有点胆量才行。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "strain",
+      "phonetic": "streɪn",
+      "senses": [
+        {"pos": "n.", "def_zh": "拉紧;张力", "example": "The rope broke under the strain.", "example_zh": "绳索在张力之下断了。"},
+        {"pos": "n.", "def_zh": "极度紧张", "example": "Many students are under severe strain during the college entrance exams.", "example_zh": "高考期间,许多学生都处于极度紧张之中。"},
+        {"pos": "n.", "def_zh": "扭伤", "example": "a back strain", "example_zh": "背部扭伤"},
+        {"pos": "n.", "def_zh": "[常 pl.]旋律;品种;气质", "example": null, "example_zh": null},
+        {"pos": "v.", "def_en": "to injure by too much tension or use", "def_zh": "扭伤", "example": "I strained my back when I lifted the box.", "example_zh": "我抬箱子的时候扭了背。"},
+        {"pos": "v.", "def_en": "to pull, draw, or stretch tight", "def_zh": "拉紧", "example": "Too heavy a load will strain the rope to its breaking point.", "example_zh": "负载过重会把绳子拉紧到崩断的地步。"},
+        {"pos": "v.", "def_en": "an effort to do sth. using all your mental or physical strength", "def_zh": "尽力,用尽全力", "example": "I strained to remember where I had met him before. // Don't strain yourself! You need to rest more.", "example_zh": "我努力回想在哪儿见过他。// 别累坏自己!你需要更多的休息。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "aftermath",
+      "phonetic": "ˈɑːftəmæθ",
+      "senses": [
+        {"pos": "n.", "def_en": "a period of time following a disastrous event", "def_zh": "(指不幸的)事件的余波,后果", "example": "How does a country cope with the aftermath of war?", "example_zh": "一个国家如何妥善处理战后问题?"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "outcome",
+      "phonetic": "ˈautkʌm",
+      "mnemonic": "由词 come out(出来)颠倒顺序构成的名词",
+      "senses": [
+        {"pos": "n.", "def_en": "the final result of a meeting, discussion, war etc. used esp. when no one knows what it will be until it actually happens", "def_zh": "结果", "example": "Chance usually governs the outcome of the game.", "example_zh": "运气经常操纵比赛的结果。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "consequence",
+      "phonetic": "ˈkɒnsɪkwəns",
+      "mnemonic": "con(一起)+sequ(跟随)+ence→跟随其后→结果",
+      "senses": [
+        {"pos": "n.", "def_en": "sth. that happens as a result of a particular action or set of conditions", "def_zh": "后果", "example": "If you don't pay your bills you'll have to take the consequences.", "example_zh": "你如果不把账给付了,就得承担一切后果。"},
+        {"pos": "n.", "def_en": "significance; importance", "def_zh": "重要(性)", "example": "Your opinion is of little consequence to me.", "example_zh": "你的意见对我而言不重要。"}
+      ],
+      "derivatives": ["consequent a. 作为结果的"],
+      "complete": true
+    },
+    {
+      "word": "consequently",
+      "phonetic": "ˈkɒnsɪkwəntlɪ",
+      "senses": [
+        {"pos": "ad.", "def_zh": "所以", "example": "There was no fighting and consequently no casualties.", "example_zh": "没有发生战斗,因此没有人员伤亡。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "muscle",
+      "phonetic": "ˈmʌsl",
+      "senses": [
+        {"pos": "n.", "def_zh": "肌肉", "example": "The soldiers on guard of Tian'anmen Square stand without moving a muscle.", "example_zh": "天安门广场的战士站岗时纹丝不动。"},
+        {"pos": "n.", "def_en": "physical strength", "def_zh": "力量", "example": "It took us a lot of muscle to get that piano up those stairs.", "example_zh": "把那架钢琴沿着那些楼梯搬上去费了我们很大的力气。"}
+      ],
+      "derivatives": ["muscular a. 肌肉的;肌肉发达的"],
+      "complete": true
+    },
+    {
+      "word": "bruise",
+      "partial": "head",
+      "phonetic": "bruːz",
+      "senses": [
+        {"pos": "n.", "def_zh": "青肿;(水果等的)伤痕", "example": "The pear had bruises of dark spots.", "example_zh": "梨子上有擦伤的黑点。"},
+        {"pos": "v.", "def_zh": "使受淤伤;碰伤", "example": "It is strange that girls are much easier to bruise their skin than boys. // Soft fruit bruises easily.", "example_zh": "很奇怪,女孩子的皮肤总是比男孩子更容易被碰青肿。// 细嫩的水果容易碰损。"}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "短语", "title": "nerve", "content": "get on sb.'s nerves 惹得某人心烦"},
+    {"type": "短语", "title": "consequence", "content": "in consequence 因此,结果 // in consequence of 因为…的缘故 In consequence of his bad work, I was forced to dismiss him. 由于他工作表现不好,我只好把他辞退。"},
+    {"type": "用法", "title": "consequently", "content": "相当于 as a result,可放在句首或与 and 连接两个并列句。"},
+    {"type": "真题", "title": null, "content": "Consequently, the age of 63 (the product of nine and seven) was thought to be a very perilous time for him. 译文:因此,63 岁(7 和 9 相乘的得数)被认为是他非常危险的一段时间。"}
+  ]
+}

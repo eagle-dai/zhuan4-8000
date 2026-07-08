@@ -1,0 +1,68 @@
+{
+  "page": 1,
+  "continues_from": null,
+  "continues_to": "entail",
+  "extras": [
+    {"type": "辨析", "title": "表示“完成”的动词", "content": "accomplish:指成功地完成预期的计划、任务等 achieve:指完成伟大功业"},
+    {"type": "归类卡片", "title": "表示“禁止,阻止”多用~ ... from doing sth.的结构,常见动词有:", "content": "discourage hinder inhibit preclude prevent prohibit"}
+  ],
+  "entries": [
+    {
+      "word": "accomplish",
+      "phonetic": "əˈkʌmplɪʃ",
+      "senses": [
+        {"pos": "vt.", "def_en": "to succeed in doing sth.", "def_zh": "完成，实现（计划、诺言等）",
+         "example": "Are you content to be a person who will never accomplish anything?", "example_zh": "你甘心做一个永远一事无成的人吗？"}
+      ],
+      "derivatives": ["accomplished a. 实现的;有造诣的", "accomplishment n. 实现;成就;造诣"],
+      "complete": true
+    },
+    {
+      "word": "frustrate",
+      "phonetic": "frʌˈstreɪt",
+      "senses": [
+        {"pos": "vt.", "def_en": "to cause feelings of discouragement", "def_zh": "使沮丧",
+         "example": "The child is frustrated by the problems that are hard to solve.", "example_zh": "孩子被太难解决的问题弄得很沮丧。"},
+        {"pos": "vt.", "def_en": "to prevent sb.'s plans, efforts, or attempts from succeeding", "def_zh": "挫败",
+         "example": "The bad weather frustrated our hopes of going out.", "example_zh": "恶劣的天气使我们外出的愿望无法实现。"}
+      ],
+      "derivatives": ["frustration n. 挫折"],
+      "complete": true
+    },
+    {
+      "word": "disrupt",
+      "phonetic": "dɪsˈrʌpt",
+      "mnemonic": "dis(apart)+rupt(断裂)→使中断",
+      "senses": [
+        {"pos": "vt.", "def_en": "to cause sth. to be unable to continue in the normal way", "def_zh": "使中断，扰乱",
+         "example": "The heavy storm has disrupted telephone service.", "example_zh": "暴风雨使电话中断了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "discourage",
+      "phonetic": "dɪsˈkʌrɪdʒ",
+      "mnemonic": "dis(away)+courage(勇气)→失去勇气→使泄气",
+      "senses": [
+        {"pos": "vt.", "def_en": "to make sb. less determined or hopeful", "def_zh": "使泄气",
+         "example": "Don't let one failure discourage you.", "example_zh": "不要因为一次失败就气馁。"},
+        {"pos": "vt.", "def_en": "to try to prevent by expressing disapproval or raising objections", "def_zh": "阻止",
+         "example": "I tried to discourage him from going alone.", "example_zh": "我设法劝他不要独自去。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "entail",
+      "partial": "head",
+      "phonetic": "ɪnˈteɪl",
+      "mnemonic": "en(into)+tail(切割)→使负责切割→使承担",
+      "senses": [
+        {"pos": "vt.", "def_en": "to involve sth. as a necessary part or result", "def_zh": "使承担，需要",
+         "example": "The construction of the Three Gorges Project entails large migration.", "example_zh": null}
+      ],
+      "complete": false
+    }
+  ]
+}

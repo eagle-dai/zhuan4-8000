@@ -1,0 +1,113 @@
+{
+  "page": 35,
+  "continues_from": "decisive",
+  "continues_to": "dependent",
+  "entries": [
+    {
+      "word": "decisive",
+      "partial": "tail",
+      "senses": [],
+      "derivatives": ["indecisive a. 犹豫不决的;非决定性的"],
+      "complete": false
+    },
+    {
+      "word": "determination",
+      "phonetic": "dɪˌtɜːmɪˈneɪʃən",
+      "mnemonic": "de(down)+termin(边界)+ation→在心里定下边界→决心",
+      "senses": [
+        {"pos": "n.", "def_en": "firmness of purpose; resolution", "def_zh": "决心,决定", "example": "Determination is one of the factors in a person's success.", "example_zh": "决心是一个人成功的要素之一。"},
+        {"pos": "n.", "def_en": "the act of finding the exact level, amount, or causes of sth.", "def_zh": "确定,测定", "example": "a determination of the ship's longitude // determination of the cause of death", "example_zh": "测定船只所处的经度 // 死亡原因的确定"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "defensive",
+      "phonetic": "dɪˈfensɪv",
+      "senses": [
+        {"pos": "a.", "def_en": "protective", "def_zh": "防御性的", "example": "defensive weapons", "example_zh": "防御性武器"},
+        {"pos": "a.", "def_en": "protecting oneself from criticism, exposure of one's shortcomings, etc.", "def_zh": "自卫的,时刻防备的", "example": "There's no need to be so defensive; I just asked how old you are!", "example_zh": "你不必这么大戒心,我只是问你多大年龄!"}
+      ],
+      "derivatives": ["defensible a. 可防御的;能辩护的", "indefensible a. 无法防御的;无法辩护的"],
+      "complete": true
+    },
+    {
+      "word": "defendant",
+      "phonetic": "dɪˈfendənt",
+      "mnemonic": "de(down)+fend(打击)+ant→原告想打倒的一方→被告",
+      "senses": [
+        {"pos": "n.", "def_zh": "被告", "example": "In the trial, the defendant, Hu Changqing is accused of committing bribery.", "example_zh": "被告人胡长清在审判中被指控犯有受贿罪。"}
+      ],
+      "derivatives": ["defender n. 保卫者;辩护人"],
+      "complete": true
+    },
+    {
+      "word": "demanding",
+      "phonetic": "dɪˈmɑːndɪŋ",
+      "senses": [
+        {"pos": "a.", "def_en": "requiring much effort or attention", "def_zh": "要求高的,费力(心)的", "example": "The work is physically demanding.", "example_zh": "这工作需要有很好的体力。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "convince",
+      "phonetic": "kənˈvɪns",
+      "mnemonic": "con+vince(征服)→使信服",
+      "senses": [
+        {"pos": "vt.", "def_en": "to cause sb. to believe sth. by the use of argument or evidence", "def_zh": "使确信,使信服", "example": "He finally convinced us of his innocence.", "example_zh": "他终于使我们相信他是清白的。"}
+      ],
+      "derivatives": ["convincing a. 有说服力的"],
+      "complete": true
+    },
+    {
+      "word": "involve",
+      "phonetic": "ɪnˈvɒlv",
+      "mnemonic": "in(into)+volve(卷)→使卷入;牵涉",
+      "senses": [
+        {"pos": "vt.", "def_en": "to include sth. as a part", "def_zh": "包含", "example": "Inventions typically involve minor improvements in technology.", "example_zh": "发明创造往往包括技术上的小改进。"},
+        {"pos": "vt.", "def_en": "to cause sb. to become connected or concerned", "def_zh": "使卷入", "example": "I hate to get involved in other people's quarrels.", "example_zh": "我讨厌参与别人的争吵。"},
+        {"pos": "vt.", "def_en": "to ask or allow sb. to take part in sth.", "def_zh": "涉及,使参与", "example": "Try to involve as many children as possible in the game.", "example_zh": "尽量让多些孩子参与游戏。"}
+      ],
+      "derivatives": ["involved a. 复杂的;有关的"],
+      "complete": true
+    },
+    {
+      "word": "concern",
+      "phonetic": "kənˈsɜːn",
+      "mnemonic": "con(一起)+cern(分离)→把分开的东西联系起来→关系",
+      "senses": [
+        {"pos": "n.", "def_zh": "关切的事", "example": "a matter of the utmost concern", "example_zh": "关系重大的事,头等大事"},
+        {"pos": "n.", "def_zh": "关心,担心", "example": "Thanks for the concern.", "example_zh": "让您费心了,谢谢。"},
+        {"pos": "n.", "def_zh": "关系,关联", "example": "What concern is it of yours?", "example_zh": "此事与你何干?"},
+        {"pos": "n.", "def_zh": "公司", "example": "a going concern", "example_zh": "生意兴隆的公司"},
+        {"pos": "vt.", "def_en": "to have to do with or relate to", "def_zh": "有关于", "example": "Where money is concerned, I always try to be careful.", "example_zh": "在有关钱的问题上,我总是尽量小心谨慎。"},
+        {"pos": "vt.", "def_en": "to be of interest or importance to", "def_zh": "使关心", "example": "More and more people are concerning themselves with environmental problems.", "example_zh": "越来越多的人关心起环境问题。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "concerning",
+      "phonetic": "kənˈsɜːnɪŋ",
+      "senses": [
+        {"pos": "prep.", "def_en": "in reference to", "def_zh": "关于", "example": "What do you know concerning this?", "example_zh": "关于这事你知道些什么?"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "dependent",
+      "partial": "head",
+      "phonetic": "dɪˈpendənt",
+      "senses": [
+        {"pos": "a.", "def_en": "requiring the aid of another (~on, upon)", "def_zh": "依", "example": null, "example_zh": null}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "辨析", "title": "表示“说服”的动词", "content": "convince:着重指“用事实和证据使对方信服”。persuade:着重指“通过劝说使对方同意做或不做某事”,一般不用于“使某人相信”。"},
+    {"type": "短语", "title": "concern", "content": "as/so far as... be concerned 就…而言 As far as I'm concerned, the whole idea is crazy. 在我看来,这一想法十分荒唐。"}
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "page": 3,
+  "continues_from": null,
+  "continues_to": "bonus",
+  "extras": [
+    {"type": "真题", "title": null, "content": "For the less fortunate, house rules may restrict the freedom to invite friends to visit. 译文:对那些不太幸运的人来说，房东制定的规则限制你邀请朋友来访的自由。"}
+  ],
+  "entries": [
+    {
+      "word": "setback",
+      "phonetic": "ˈsetbæk",
+      "mnemonic": "由 set back(使退步)构成的名词",
+      "senses": [
+        {"pos": "n.", "def_zh": "挫折，倒退",
+         "example": "The team suffered a major setback when their best player was injured.", "example_zh": "最优秀的队员受了伤，使得这支队伍的实力大打折扣。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "limitation",
+      "phonetic": "ˌlɪmɪˈteɪʃən",
+      "mnemonic": "limit(限度)+ation→局限",
+      "senses": [
+        {"pos": "n.", "def_zh": "限制",
+         "example": "The government has imposed limitation on imports.", "example_zh": "政府已经对进口加以了限制。"},
+        {"pos": "n.", "def_en": "a shortcoming or defect", "def_zh": "[常 pl.]局限",
+         "example": "He is a brilliant professor but has his limitations as an administrator.", "example_zh": "他是一位出色的教授，但作为管理者他有不足之处。"}
+      ],
+      "derivatives": ["limited a. 有限的", "unlimited a. 无限的"],
+      "complete": true
+    },
+    {
+      "word": "confine",
+      "phonetic": "kənˈfaɪn",
+      "mnemonic": "con(共同)+fine(边界)→共同的边界→界限",
+      "senses": [
+        {"pos": "vt.", "def_en": "to keep sb. or sth. within the limits of a particular activity or subject", "def_zh": "限制",
+         "example": "Please confine your remarks to the subject under discussion.", "example_zh": "请将你的发言限制于我们所讨论的主题上。"},
+        {"pos": "vt.", "def_en": "to restrict in movement", "def_zh": "使不外出",
+         "example": "You should be confined to the house if you haven't finished the homework!", "example_zh": "不做完功课不准出门！"},
+        {"pos": "n.", "def_zh": "[pl.]界限，范围",
+         "example": "Many places are worth visiting within the confines of China.", "example_zh": "中国境内有很多地方值得游览。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "restrict",
+      "phonetic": "rɪˈstrɪkt",
+      "mnemonic": "re(again)+strict(严格的)→一再严格“限制”",
+      "senses": [
+        {"pos": "vt.", "def_en": "to limit or control the size, amount, or range of sth.; to limit sb.'s actions or movements", "def_zh": "限制，约束",
+         "example": "Speed is restricted to 30 mph in towns. // Having small children tends to restrict your freedom.", "example_zh": "市内车速每小时不得超过30英里。// 有了小孩往往会限制你的自由。"}
+      ],
+      "derivatives": ["restrictive a. 限制的;(语法)限定性的"],
+      "complete": true
+    },
+    {
+      "word": "expand",
+      "phonetic": "ɪkˈspænd",
+      "mnemonic": "ex(out)+pand(伸展)→(向外)扩张",
+      "senses": [
+        {"pos": "v.", "def_en": "to become larger in size, number, or amount", "def_zh": "扩张",
+         "example": "The Nokia company wants to expand its market in Asia.", "example_zh": "诺基亚公司想扩大其在亚洲的市场。"},
+        {"pos": "v.", "def_zh": "膨胀",
+         "example": "Water expands as it freezes.", "example_zh": "水结冰时体积会膨胀。"}
+      ],
+      "derivatives": ["expanse n. 广阔的区域"],
+      "complete": true
+    },
+    {
+      "word": "expansion",
+      "phonetic": "ɪkˈspænʃən",
+      "senses": [
+        {"pos": "n.", "def_zh": "扩展",
+         "example": "We had made huge profits due to the expansion of business.", "example_zh": "由于业务扩展，我们获得了巨额利润。"},
+        {"pos": "n.", "def_zh": "膨胀",
+         "example": "Heat causes the expansion of gases.", "example_zh": "热使气体膨胀。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "stretch",
+      "phonetic": "stretʃ",
+      "senses": [
+        {"pos": "v.", "def_zh": "伸展，延伸",
+         "example": "I stretched to relax after working a full day. // The desert stretches for hundreds of miles.", "example_zh": "工作了一整天，我伸了个懒腰放松一下。// 沙漠绵延数百英里。"},
+        {"pos": "v.", "def_zh": "拉长，拉紧",
+         "example": "The rope is stretched tight.", "example_zh": "绳子拉得很紧。"},
+        {"pos": "v.", "def_zh": "使倾注全力",
+         "example": "She stretched herself to provide for the family.", "example_zh": "她竭尽全力养家糊口。"},
+        {"pos": "n.", "def_zh": "一段时间;伸展，延伸",
+         "example": "a stretch of time // a beautiful stretch of countryside", "example_zh": "一段时间 // 一片乡村美景"}
+      ],
+      "derivatives": ["stretcher n. 担架"],
+      "complete": true
+    },
+    {
+      "word": "finance",
+      "phonetic": "ˈfaɪnæns",
+      "senses": [
+        {"pos": "n.", "def_zh": "财政",
+         "example": "an expert in finance", "example_zh": "财政专家"},
+        {"pos": "n.", "def_zh": "[常 pl.]资金",
+         "example": "Finances can consist of a combination of stocks, bonds, and properties.", "example_zh": "资金可以是股票、债券和财产的结合。"},
+        {"pos": "vt.", "def_en": "to provide money, especially a lot, to pay for sth.", "def_zh": "为…提供资金",
+         "example": "These concerts are financed by the Arts Council.", "example_zh": "这些音乐会是由艺术委员会资助的。"}
+      ],
+      "derivatives": ["financial a. 财政的", "financier n. 金融家"],
+      "complete": true
+    },
+    {
+      "word": "bonus",
+      "partial": "head",
+      "phonetic": "ˈbəʊnəs",
+      "senses": [
+        {"pos": "n.", "def_zh": "奖金",
+         "example": "To some degree bonus is an effective way to motivate the workers.", "example_zh": null}
+      ],
+      "complete": false
+    }
+  ]
+}

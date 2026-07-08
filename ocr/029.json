@@ -1,0 +1,112 @@
+{
+  "page": 29,
+  "continues_from": "relevant",
+  "continues_to": "crude",
+  "entries": [
+    {
+      "word": "relevant",
+      "partial": "tail",
+      "senses": [],
+      "derivatives": ["relevance n. 相关,切题"],
+      "complete": false
+    },
+    {
+      "word": "simultaneous",
+      "phonetic": "ˌsɪməlˈteɪnɪəs",
+      "mnemonic": "simul(相同)+taneous→相同时间发生的→同时的",
+      "senses": [
+        {"pos": "a.", "def_en": "happening at the same time", "def_zh": "同时发生的", "example": "There will be a simultaneous broadcast of the game on TV and radio.", "example_zh": "比赛将同时在电视和广播中进行转播。"}
+      ],
+      "derivatives": ["simultaneously ad. 同时发生地"],
+      "complete": true
+    },
+    {
+      "word": "impractical",
+      "phonetic": "ɪmˈpræktɪkəl",
+      "senses": [
+        {"pos": "a.", "def_zh": "不现实的,不切实际的", "example": "Peter was a foolish man, full of impractical plans.", "example_zh": "彼特是一个蠢人,满脑子都是不切实际的想法。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "obvious",
+      "phonetic": "ˈɒbvɪəs",
+      "mnemonic": "ob(near)+vi(道路)+ous→靠近路边,容易看见→明显的",
+      "senses": [
+        {"pos": "a.", "def_en": "easily perceived or understood; apparent", "def_zh": "明显的", "example": "It was obvious that he was drunk.", "example_zh": "很明显他醉了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "spontaneous",
+      "phonetic": "spɒnˈteɪnɪəs",
+      "mnemonic": "sponta(发自内心的)+neous→自发的",
+      "senses": [
+        {"pos": "a.", "def_en": "done or said in a natural and often sudden way and without a lot of thought or planning", "def_zh": "自发的,无意识的", "example": "He made a spontaneous offer of help.", "example_zh": "他主动提供帮助。"},
+        {"pos": "a.", "def_zh": "天真率直的", "example": "a spontaneous personality", "example_zh": "天真的个性"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "substance",
+      "phonetic": "ˈsʌbstəns",
+      "mnemonic": "sub(under)+stan(站)+ce→立于表象之下的东西→实质",
+      "senses": [
+        {"pos": "n.", "def_zh": "物质", "example": "Celery contains a valuable chemical substance that helps lower blood pressure.", "example_zh": "芹菜里含有一种宝贵的能帮助降低血压的化学物质。"},
+        {"pos": "n.", "def_en": "significance or importance", "def_zh": "实质", "example": "There is no substance in your argument.", "example_zh": "你的争论没有实质性内容。"},
+        {"pos": "n.", "def_en": "the most important ideas contained in an argument or piece of writing", "def_zh": "大意", "example": "the substance of a speech", "example_zh": "讲话的要旨"},
+        {"pos": "n.", "def_zh": "根据", "example": "The commission's report gives substance to these allegations.", "example_zh": "委员会的报告为这些说法提供了事实根据。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "substantial",
+      "phonetic": "səbˈstænʃəl",
+      "senses": [
+        {"pos": "a.", "def_en": "considerable in importance, value, degree, amount, or extent", "def_zh": "大量的,充足的", "example": "substantial reasons // We will place an order with substantial amount on this item.", "example_zh": "充足的理由 // 我方将下订单大量订购这项产品。"},
+        {"pos": "a.", "def_en": "solidly built; strong", "def_zh": "牢固的", "example": "The house is substantial to last a hundred years.", "example_zh": "这幢房子非常坚实,足够使用一百年。"},
+        {"pos": "a.", "def_zh": "实质的", "example": "substantial modification", "example_zh": "实质性的修改"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "synthetic",
+      "phonetic": "sɪnˈθetɪk",
+      "senses": [
+        {"pos": "a.", "def_zh": "合成的,人造的", "example": "The scientists plan to make synthetic genes and reassemble them to design new species.", "example_zh": "科学家计划合成基因后将其重组以产生新物种。"},
+        {"pos": "a.", "def_zh": "虚假的", "example": "synthetic friendliness", "example_zh": "虚情假意"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "synthesis",
+      "phonetic": "ˈsɪnθɪsɪs",
+      "mnemonic": "syn(together)+thesis(放)→放在一起→综合,合成",
+      "senses": [
+        {"pos": "n.", "def_en": "sth. that is made by combining different things", "def_zh": "综合", "example": "Their beliefs are a synthesis of Eastern and Western religions.", "example_zh": "他们的信仰是东西方宗教的综合体。"},
+        {"pos": "n.", "def_zh": "(化学中的)合成", "example": "Humans need some sunlight for the synthesis of vitamin D which takes place in the skin.", "example_zh": "人需要阳光才能在皮肤里合成维生素 D。"}
+      ],
+      "derivatives": ["synthesize v. 用合成法制造;合成"],
+      "complete": true
+    },
+    {
+      "word": "crude",
+      "partial": "head",
+      "phonetic": "kruːd",
+      "senses": [
+        {"pos": "a.", "def_en": "offensive or rude, esp. in a sexual way", "def_zh": "粗鲁的", "example": "Don't make such crude jokes.", "example_zh": "不要开这些粗俗的玩笑。"},
+        {"pos": "a.", "def_en": "being in an unrefined or natural state", "def_zh": "天然", "example": null, "example_zh": null}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "真题", "title": null, "content": "Nearly all college texts and many high school and junior high books will be tied to Internet sites that provide source material, study exercises, and relevant news articles to aid in learning. 译文:几乎所有的大学课文和许多初高中课本都将联网。那些网址会提供学习材料、练习、相关的新闻报道以促进学习。"}
+  ]
+}

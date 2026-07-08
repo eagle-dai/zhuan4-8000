@@ -1,0 +1,112 @@
+{
+  "page": 43,
+  "continues_from": null,
+  "continues_to": null,
+  "entries": [
+    {
+      "word": "principal",
+      "phonetic": "ˈprɪnsɪpəl",
+      "mnemonic": "prin(第一，首要)+cip(取)+al→选取“主要的”",
+      "senses": [
+        {"pos": "a.", "def_en": "most important; main", "def_zh": "主要的",
+         "example": "Coffee is Brazil's principal export.", "example_zh": "咖啡是巴西主要的出口产品。"},
+        {"pos": "n.", "def_zh": "校长",
+         "example": "the principal of a college", "example_zh": "院长"},
+        {"pos": "n.", "def_zh": "资本，本金",
+         "example": "repay principal and interest", "example_zh": "付还本金和利息"},
+        {"pos": "n.", "def_zh": "主角",
+         "example": "She was the principal in the ballet.", "example_zh": "她在这个芭蕾舞中担任主角。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "principle",
+      "phonetic": "ˈprɪnsɪpəl",
+      "senses": [
+        {"pos": "n.", "def_en": "the basic idea that a plan or system is based on", "def_zh": "原则",
+         "example": "I believe in the principle of equal opportunity for everyone.", "example_zh": "我相信机会人人均等这个基本原则。"},
+        {"pos": "n.", "def_en": "a moral rule that helps you know what is right and wrong and that influences your actions", "def_zh": "基本信念，信条",
+         "example": "It is against my principles to lie.", "example_zh": "撒谎违背我的准则。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "cardinal",
+      "phonetic": "ˈkɑːdɪnəl",
+      "senses": [
+        {"pos": "a.", "def_en": "very important or basic", "def_zh": "主要的，基本的",
+         "example": "Having clean hands is one of the cardinal rules when preparing food.", "example_zh": "做饭时最基本的规矩之一是要把手洗干净。"},
+        {"pos": "a.", "def_zh": "深红的",
+         "example": "She is wearing a cardinal sweater today.", "example_zh": "今天她穿了件鲜红的毛衣。"},
+        {"pos": "n.", "def_zh": "深红色；基数；红衣主教",
+         "example": "The Pope appointed two new cardinals this year.", "example_zh": "今年教皇新任命了两位红衣主教。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "primary",
+      "phonetic": "ˈpraɪmərɪ",
+      "mnemonic": "prim(第一，首要)+ary→最初的；首要的",
+      "senses": [
+        {"pos": "a.", "def_en": "first in rank or importance; principal", "def_zh": "首要的",
+         "example": "Laziness is the primary cause of our failure.", "example_zh": "懒惰是我们失败的主要原因。"},
+        {"pos": "a.", "def_en": "occurring first in time or sequence; earliest", "def_zh": "最初的",
+         "example": "The disease is still in its primary stage.", "example_zh": "疾病仍然在初发阶段。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "prime",
+      "phonetic": "praɪm",
+      "senses": [
+        {"pos": "a.", "def_zh": "首要的",
+         "example": "Prime Minister // Smoking is the prime cause of heart disease.", "example_zh": "首相 // 抽烟是引发心脏病的首要原因。"},
+        {"pos": "a.", "def_en": "of the very best quality or kind", "def_zh": "最好的",
+         "example": "Spring is the prime time for planting trees.", "example_zh": "春天是植树的最好时间。"},
+        {"pos": "n.", "def_zh": "青春；全盛时期",
+         "example": "be in one's prime // He was a great pitcher once, but he's past his prime.", "example_zh": "处于全盛时期 // 他是个很了不起的棒球投手，但他的鼎盛时期已经过去了。"},
+        {"pos": "vt.", "def_en": "to make ready; prepare", "def_zh": "使准备好",
+         "example": "She was ready and primed for action.", "example_zh": "她已胸有成竹，跃跃欲试了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "initial",
+      "phonetic": "ɪˈnɪʃəl",
+      "mnemonic": "in(into)+it(走)+ial→刚走进去→开始的",
+      "senses": [
+        {"pos": "a.", "def_en": "occurring at the beginning of sth.", "def_zh": "开始的",
+         "example": "We have to admit that man's research into space is still in its initial stage.", "example_zh": "我们不得不承认，人类对宇宙的研究仍然处于初始阶段。"},
+        {"pos": "n.", "def_zh": "[常 pl.] 首字母",
+         "example": "This is a letter paper personalized with his initials.", "example_zh": "这是一张有他姓名首字母的信纸。"}
+      ],
+      "derivatives": ["initially ad. 最初，开头"],
+      "complete": true
+    },
+    {
+      "word": "initiative",
+      "phonetic": "ɪˈnɪʃətɪv",
+      "senses": [
+        {"pos": "n.", "def_en": "the power or ability to begin energetically with a plan or task", "def_zh": "主动性",
+         "example": "He did not have the initiative to start his own business.", "example_zh": "他没有自己创业的积极性。"},
+        {"pos": "n.", "def_zh": "倡议",
+         "example": "take the initiative 带头，倡导 // The peace initiative was welcomed by both sides.", "example_zh": "这项和平倡议受到了双方的欢迎。"},
+        {"pos": "n.", "def_zh": "主动权",
+         "example": "In the negotiation, both sides attempted to seize the initiative.", "example_zh": "双方在谈判过程中都试图争取主动权。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    }
+  ],
+  "extras": [
+    {"type": "真题", "title": null, "content": "These all testify to the fundamental role that movement plays in our lives. 译文：这些都证明了音乐在我们生命中所发挥的基本作用。"},
+    {"type": "短语", "title": null, "content": "in principle 原则上，大体上 The scheme seems OK in principle, but I'd like to know more details. 这项计划大体上好像是可以，但我想知道更多的细节。"},
+    {"type": "词源", "title": null, "content": "cardinal 源于拉丁语 cardo“铰链”。由于铰链对机器、门窗等所起的关键作用，因此 cardinal 最早就有“主要的”之义。在罗马天主教的教皇选举中，其结果取决于红衣主教，因此用 cardinal 来喻指“红衣主教”。"},
+    {"type": "真题", "title": null, "content": "The machine would not be a passive participant but would add its own suggestions, information, and opinions; it would sometimes take the initiative in developing or changing the topic and would have a personality of its own. 译文：这种机器不会是被动的参与者，而是会提出自己的建议、信息和意见；它有时会主动深入或改变话题，并且具有它自己的个性。"}
+  ]
+}

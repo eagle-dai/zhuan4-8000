@@ -1,0 +1,48 @@
+{
+  "page": 39,
+  "continues_from": "disorder",
+  "continues_to": null,
+  "entries": [
+    {
+      "word": "disorder",
+      "partial": "tail",
+      "senses": [],
+      "derivatives": [],
+      "complete": false
+    },
+    {
+      "word": "abnormal",
+      "phonetic": "æbˈnɔːməl",
+      "mnemonic": "ab(away)+normal(正常的)→反常的",
+      "senses": [
+        {"pos": "a.", "def_zh": "反常的", "example": "El Nino has resulted in the abnormal weather in many parts of the world.", "example_zh": "厄尔尼诺现象已经导致世界很多地区气候反常。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "physical",
+      "phonetic": "ˈfɪzɪkəl",
+      "senses": [
+        {"pos": "a.", "def_zh": "身体的", "example": "physical exercises", "example_zh": "体育锻炼"},
+        {"pos": "a.", "def_zh": "物理的", "example": "physical change", "example_zh": "物理变化"},
+        {"pos": "a.", "def_zh": "物质的", "example": "the physical world", "example_zh": "物质世界"},
+        {"pos": "n.", "def_zh": "体检", "example": "Bob failed his physical.", "example_zh": "鲍勃没有通过体格检查。"}
+      ],
+      "derivatives": ["physicist n. 物理学家"],
+      "complete": true
+    },
+    {
+      "word": "ecology",
+      "phonetic": "ɪˈkɒlədʒɪ",
+      "mnemonic": "eco(生态)+logy(学科)→生态学",
+      "senses": [
+        {"pos": "n.", "def_zh": "生态", "example": "When the ecology of a region is disturbed, it takes years to return to normal.", "example_zh": "如果一个地方的生态被破坏,往往要多年才能恢复正常。"},
+        {"pos": "n.", "def_zh": "生态学", "example": "applied ecology", "example_zh": "应用生态学"}
+      ],
+      "derivatives": ["ecological a. 生态的", "ecologist n. 生态学家"],
+      "complete": true
+    }
+  ],
+  "extras": []
+}

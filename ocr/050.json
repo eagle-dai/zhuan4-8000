@@ -1,0 +1,112 @@
+{
+  "page": 50,
+  "continues_from": "disgrace",
+  "continues_to": null,
+  "entries": [
+    {
+      "word": "disgrace",
+      "partial": "tail",
+      "phonetic": "dɪsˈgreɪs",
+      "senses": [],
+      "derivatives": ["disgraceful a. 丢脸的，可耻的"],
+      "complete": false
+    },
+    {
+      "word": "comprehend",
+      "phonetic": "ˌkɒmprɪˈhend",
+      "mnemonic": "com(完全)+prehend(抓住)→完全抓住意思→理解，了解",
+      "senses": [
+        {"pos": "v.", "def_en": "to take in the meaning, nature, or importance of", "def_zh": "理解",
+         "example": "The infinite distances of space are too great for the human mind to comprehend. 太空的无垠距离遥远得让人类的大脑无法理解。 // Even scientists do not comprehend these phenomena.", "example_zh": "即使是科学家也不理解这些现象。"}
+      ],
+      "derivatives": ["comprehension n. 理解；理解力测验 // comprehensible a. 能理解的 // incomprehensible a. 难懂的"],
+      "complete": true
+    },
+    {
+      "word": "comprehensive",
+      "phonetic": "ˌkɒmprɪˈhensɪv",
+      "senses": [
+        {"pos": "a.", "def_en": "so large in scope or content as to include much", "def_zh": "综合的",
+         "example": "The reporter has made a comprehensive report on this event.", "example_zh": "记者已对此事做了全面的报道。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "extend",
+      "phonetic": "ɪkˈstend",
+      "mnemonic": "ex(out)+tend(伸展)→伸展出去→延长，延伸",
+      "senses": [
+        {"pos": "vt.", "def_en": "to cause sth. to straighten out; or to make sth. longer, wider, or cover more area", "def_zh": "延伸，延长",
+         "example": "a bird soaring on extended wings 展翅高飞的鸟 // Management have agreed to extend the deadline.", "example_zh": "资方已同意延长最后期限。"},
+        {"pos": "vt.", "def_en": "to enlarge the scope or effect of", "def_zh": "扩展，扩大",
+         "example": "He is extending his eyes with radar.", "example_zh": "他借助雷达来扩大自己的视野。"},
+        {"pos": "vt.", "def_zh": "提供",
+         "example": "The bank has promised to extend your company credit.", "example_zh": "银行已经答应向你们公司提供信用贷款。"},
+        {"pos": "vi.", "def_zh": "延伸",
+         "example": "The Great Wall extends as far as the Jiayu Pass.", "example_zh": "长城一直延伸到嘉峪关。"},
+        {"pos": "vi.", "def_zh": "达到",
+         "example": "Behind and ahead, as far as visibility extended, were other vehicles.", "example_zh": "前前后后，目所能及的地方全是其他车辆。"}
+      ],
+      "derivatives": ["extension n. 伸展；扩大部分；电话分机"],
+      "complete": true
+    },
+    {
+      "word": "extent",
+      "phonetic": "ɪkˈstent",
+      "senses": [
+        {"pos": "n.", "def_zh": "程度，范围",
+         "example": "I don't know to what extent his debt is.", "example_zh": "我不知道他负债的程度。"},
+        {"pos": "n.", "def_zh": "广度",
+         "example": "We are amazed at the extent of his knowledge.", "example_zh": "我们对他广博的知识感到惊奇。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "extensive",
+      "phonetic": "ɪkˈstensɪv",
+      "senses": [
+        {"pos": "a.", "def_en": "large in extent, range, or amount", "def_zh": "广阔的；广泛的",
+         "example": "The river irrigates extensive areas of the countryside. 这条河灌溉了农村大片土地。 // Forests were destroyed due to extensive logging.", "example_zh": "由于大面积的伐木，森林遭到了破坏。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "exclusion",
+      "phonetic": "ɪkˈskluːʒən",
+      "mnemonic": "ex(out)+clus(关闭)+ion→关出去→排斥",
+      "senses": [
+        {"pos": "n.", "def_zh": "排除在外，排斥",
+         "example": "His exclusion from the club hurt him very much.", "example_zh": "被俱乐部赶出来，他很伤心。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "exclusive",
+      "phonetic": "ɪkˈskluːsɪv",
+      "senses": [
+        {"pos": "a.", "def_zh": "奢华的",
+         "example": "an exclusive school", "example_zh": "一所贵族学校"},
+        {"pos": "a.", "def_zh": "独有的",
+         "example": "This offer is exclusive to readers of The Sun.", "example_zh": "只有《太阳报》的读者才能获此优待。"},
+        {"pos": "a.", "def_zh": "排斥的",
+         "example": "mutually exclusive", "example_zh": "互斥的"},
+        {"pos": "a.", "def_zh": "(~of) 不包括……的",
+         "example": "The hotel charges $70 a day, exclusive of meals.", "example_zh": "这旅馆一天收费 70 美元，膳食除外。"},
+        {"pos": "n.", "def_zh": "独家新闻",
+         "example": "Some journalists are willing to get the exclusive at any cost.", "example_zh": "有的记者愿意不惜一切代价获取独家新闻。"}
+      ],
+      "derivatives": ["exclusively ad. 排他地；专门地"],
+      "complete": true
+    }
+  ],
+  "extras": [
+    {"type": "短语", "title": null, "content": "disgrace oneself 使自己出了丑 // in disgrace 受蔑视"},
+    {"type": "短语", "title": null, "content": "to a certain extent 在一定程度上 I agree with you to a certain extent. 我在某种程度上同意你的观点。"},
+    {"type": "真题", "title": null, "content": "Our present concern is with how easily and to what extent this cycle can be modified. 译文：目前我们关心的是人的这一作息规律是否很容易或者能在多大程度上得以改变。"},
+    {"type": "短语", "title": null, "content": "to the exclusion of... 排除(其他的一切) A leading member should never concentrate all his attention on one or two problems, to the exclusion of others. 一个领导人不能把全部注意力只集中在一两个问题上而不顾其他问题。"}
+  ]
+}

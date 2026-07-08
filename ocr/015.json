@@ -1,0 +1,121 @@
+{
+  "page": 15,
+  "continues_from": "infinite",
+  "continues_to": null,
+  "extras": [
+    {"type": "辨析", "title": "表示“减少”的动词", "content": "diminish:使人感到原物明显减少,但并未完全消失 decrease:强调数目逐渐地、不断地减少 dwindle:强调变得越来越少,终至全无"},
+    {"type": "短语", "title": null, "content": "at this rate 照这种情形,既然这样 // at any rate 无论如何,至少"},
+    {"type": "辨析", "title": "表示“比率”的名词", "content": "rate:指部分相对整体形成的比率,如:divorce rate 离婚率 ratio:指两个数值之间的比值,该词所涉及的两个比较项必须同时出现"}
+  ],
+  "entries": [
+    {
+      "word": "infinite",
+      "partial": "tail",
+      "phonetic": "ˈɪnfɪnɪt",
+      "senses": [
+        {"pos": "a.", "def_en": "without limits in space or time", "def_zh": "无限的",
+         "example": "Indulging in computer games all day may do infinite harm to students.", "example_zh": "终日沉溺于电脑游戏可能会对学生危害无穷。"}
+      ],
+      "derivatives": ["infinity n. 无穷,无限"],
+      "complete": false
+    },
+    {
+      "word": "eternal",
+      "phonetic": "ɪˈtɜːnəl",
+      "senses": [
+        {"pos": "a.", "def_en": "lasting for ever", "def_zh": "永恒的",
+         "example": "Do you believe in eternal love?", "example_zh": "你相信有永恒的爱吗？"},
+        {"pos": "a.", "def_en": "seeming endless", "def_zh": "没完没了的",
+         "example": "I am tired of your eternal arguments.", "example_zh": "我讨厌你那没完没了的争论。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "moreover",
+      "phonetic": "mɔːrˈəʊvə",
+      "senses": [
+        {"pos": "ad.", "def_en": "in addition", "def_zh": "而且，此外",
+         "example": "The layout of the house is not good; Moreover, it's too expensive.", "example_zh": "这幢房子的布局不好，另外，价钱也太高了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "diminish",
+      "phonetic": "dɪˈmɪnɪʃ",
+      "mnemonic": "di+mini(小的)+sh(使)→变小",
+      "senses": [
+        {"pos": "v.", "def_en": "to make smaller or less; reduce or lessen", "def_zh": "变少，变小，降低",
+         "example": "The heat diminished after the heavy rain. // These drugs diminish blood flow to the brain.", "example_zh": "一场大雨后，温度降了下来。// 这些药物会减少流向大脑的血液量。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "decrease",
+      "phonetic": "dɪˈkriːs",
+      "mnemonic": "de(down)+crease(生长)→生长速度下降→减少",
+      "senses": [
+        {"pos": "v.", "def_en": "to become less or smaller, as in number, amount, or intensity", "def_zh": "减小，减少",
+         "example": "They are making efforts to decrease the military spending. // The population of the area has decreased radically.", "example_zh": "他们正在努力减少军费开支。// 该地区的人口急速下降。"},
+        {"pos": "n.", "def_zh": "减少，减小",
+         "example": "There has been a steady decrease in population in this city.", "example_zh": "这个城市的人口在持续下降。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "dwindle",
+      "phonetic": "ˈdwɪndl",
+      "senses": [
+        {"pos": "vi.", "def_en": "to become gradually less until little remains", "def_zh": "渐渐减少(缩小)，衰落",
+         "example": "The number of wild animals on the earth is dwindling.", "example_zh": "地球上野生动物的数量正日渐减少。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "rate",
+      "phonetic": "reɪt",
+      "senses": [
+        {"pos": "n.", "def_en": "the speed at which sth. happens over a period of time", "def_zh": "速度",
+         "example": "We drove at a steady rate. // the rate of economic growth", "example_zh": "我们以平稳的速度开车。// 经济增长的速度"},
+        {"pos": "n.", "def_en": "a measure of a part with respect to a whole", "def_zh": "比率，率",
+         "example": "You'll find our current interest rate very competitive.", "example_zh": "你会发现我们目前的利率很具竞争力。"},
+        {"pos": "n.", "def_en": "an amount that is paid", "def_zh": "价格",
+         "example": "Call your family at night, for night telephone rates are cheaper than day rates.", "example_zh": "晚上给家里打电话吧，因为晚上的电话费比白天便宜。"},
+        {"pos": "vt.", "def_en": "to estimate the value of sth./sb.", "def_zh": "评估",
+         "example": "How do you rate yourself as a professional?", "example_zh": "作为一位专业人士，你如何评估自己？"},
+        {"pos": "vt.", "def_en": "to state that a film, movie, etc. is suitable for a particular audience", "def_zh": "给…定级",
+         "example": "The movie is rated G for general audiences.", "example_zh": "影片定为G级，即老少皆宜。"},
+        {"pos": "vt.", "def_zh": "值得",
+         "example": "That joke didn't rate a laugh.", "example_zh": "那个笑话不值得一笑。"}
+      ],
+      "derivatives": ["first-rate a. 第一流的", "second-rate a. 二流的,劣质的", "ratepayer n. 纳税人"],
+      "complete": true
+    },
+    {
+      "word": "rating",
+      "phonetic": "ˈreɪtɪŋ",
+      "senses": [
+        {"pos": "n.", "def_zh": "等级，评定结果",
+         "example": "The university scored a top rating among students.", "example_zh": "这所大学在学生中最受欢迎。"},
+        {"pos": "n.", "def_zh": "[pl.]收视率",
+         "example": "NBC executives are waiting to see how the show fares in the ratings.", "example_zh": "(美国)全国广播公司的经理们正在等着瞧这档节目会得到怎样的收视率。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "ratio",
+      "phonetic": "ˈreɪʃɪəʊ",
+      "senses": [
+        {"pos": "n.", "def_en": "relation in degree or number between two similar things", "def_zh": "比率",
+         "example": "The ratio of hydrogen to oxygen in water is 2 to 1.", "example_zh": "水中氢和氧的比例是2:1。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    }
+  ]
+}

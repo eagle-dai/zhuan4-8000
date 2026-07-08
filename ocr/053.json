@@ -1,0 +1,160 @@
+{
+  "page": 53,
+  "continues_from": "premise",
+  "continues_to": "organize",
+  "entries": [
+    {
+      "word": "premise",
+      "partial": "tail",
+      "phonetic": "ˈpremɪs",
+      "senses": [
+        {"pos": "n.", "def_en": "a statement or idea that is accepted as being true and that is used as the basis of an argument", "def_zh": "前提",
+         "example": "The law is based on the premise that people are innocent until they are proved to be guilty.", "example_zh": "该法规的前提是人在被证明有罪之前是无辜的。"}
+      ],
+      "complete": false
+    },
+    {
+      "word": "hypothesis",
+      "phonetic": "haɪˈpɒθəsɪs",
+      "mnemonic": "hypo(under)+thesis(放)→放在下面→前提",
+      "senses": [
+        {"pos": "n.", "def_en": "an idea or theory that is not proven but that leads to further study or discussion", "def_zh": "假说，前提",
+         "example": "This is only a sort of scientific hypothesis which has not been proved by experiments.", "example_zh": "这仅仅是一个尚未被实验证明的科学假说。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "phenomenon",
+      "phonetic": "fɪˈnɒmɪnən",
+      "mnemonic": "phen(出现)+omenon→现象",
+      "senses": [
+        {"pos": "n.", "def_zh": "现象",
+         "example": "Lightning and thunder are natural phenomena.", "example_zh": "闪电打雷是自然现象。"},
+        {"pos": "n.", "def_zh": "非凡的人",
+         "example": "They were phenomena in the history of music.", "example_zh": "他们是音乐史上的杰出人物。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "marvelous",
+      "phonetic": "ˈmɑːvələs",
+      "mnemonic": "发音：“马虎了事”→马虎做事就难有“惊人的”成就",
+      "senses": [
+        {"pos": "a.", "def_en": "causing wonder or astonishment", "def_zh": "惊人的",
+         "example": "Migrating birds have marvelous directional sense.", "example_zh": "候鸟有非凡的方向辨别力。"}
+      ],
+      "derivatives": ["marvel n. 令人惊奇的事物 v. 惊奇"],
+      "complete": true
+    },
+    {
+      "word": "dedicate",
+      "phonetic": "ˈdedɪkeɪt",
+      "mnemonic": "de(down)+dic(说)+ate→宣誓处于对方之下→把……献给",
+      "senses": [
+        {"pos": "vt.", "def_zh": "题献词于……上",
+         "example": "This book is dedicated to my parents.", "example_zh": "谨以此书献给我的父母。"},
+        {"pos": "vt.", "def_zh": "(~to) 把……献给",
+         "example": "She dedicates herself to her work.", "example_zh": "她献身于自己的工作。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "toast",
+      "phonetic": "təʊst",
+      "senses": [
+        {"pos": "n.", "def_zh": "烤面包",
+         "example": "We had toast for breakfast.", "example_zh": "我们早餐吃的是烤面包片。"},
+        {"pos": "n.", "def_zh": "祝酒辞",
+         "example": "exchange toasts", "example_zh": "相互敬酒"},
+        {"pos": "vt.", "def_zh": "烘，烤",
+         "example": "She put two pieces of beef under the grill to toast.", "example_zh": "她把两片牛肉放到烤架下烘烤。"},
+        {"pos": "vt.", "def_zh": "为……干杯",
+         "example": "Let's toast our friendship!", "example_zh": "让我们为友谊干杯！"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "memorial",
+      "phonetic": "mɪˈmɔːrɪəl",
+      "senses": [
+        {"pos": "a.", "def_zh": "纪念的",
+         "example": "a memorial speech", "example_zh": "悼词"},
+        {"pos": "n.", "def_zh": "纪念碑",
+         "example": "This statue is a memorial to a great statesman.", "example_zh": "这尊雕像是为纪念一位伟大的政治家。"}
+      ],
+      "derivatives": ["memorable a. 值得纪念的"],
+      "complete": true
+    },
+    {
+      "word": "memorise/-ize",
+      "phonetic": "ˈmeməraɪz",
+      "mnemonic": "memor(记住)+ize(动词词尾)→记住",
+      "senses": [
+        {"pos": "vt.", "def_en": "to learn by heart", "def_zh": "记住",
+         "example": "No actor can do a play without memorizing the lines.", "example_zh": "没有一个演员能够不记台词就演戏的。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "wisdom",
+      "phonetic": "ˈwɪzdəm",
+      "mnemonic": "wis(e)(聪明的)+dom(表性质)→智慧",
+      "senses": [
+        {"pos": "n.", "def_zh": "明智",
+         "example": "I have doubts about the wisdom of the move.", "example_zh": "这一行动是否明智，我表示怀疑。"},
+        {"pos": "n.", "def_zh": "智慧",
+         "example": "Silence is not always a sign of wisdom. (Benjamin Franklin)", "example_zh": "沉默少言并不总是智慧的象征。(本杰明·富兰克林)"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "wit",
+      "phonetic": "wɪt",
+      "senses": [
+        {"pos": "n.", "def_zh": "风趣",
+         "example": "This book is full of conversations sparkling with wit.", "example_zh": "这本书中充满了妙趣横生的对话。"},
+        {"pos": "n.", "def_zh": "[常 pl.] 智力，才智",
+         "example": "He is a boy of quick wits.", "example_zh": "他是一个机敏的孩子。"}
+      ],
+      "derivatives": ["witty a. 机智的，诙谐的"],
+      "complete": true
+    },
+    {
+      "word": "organ",
+      "phonetic": "ˈɔːgən",
+      "senses": [
+        {"pos": "n.", "def_zh": "器官",
+         "example": "an organ transplant", "example_zh": "器官移植"},
+        {"pos": "n.", "def_zh": "机构",
+         "example": "The US FBI (Federal Bureau of Investigation) is an organ of the Justice Department.", "example_zh": "美国联邦调查局是司法部的一个机关。"},
+        {"pos": "n.", "def_zh": "新闻媒介",
+         "example": "a government organ", "example_zh": "政府机关报"},
+        {"pos": "n.", "def_zh": "风琴", "example": null, "example_zh": null}
+      ],
+      "derivatives": ["organic a. 器官的；有机物的"],
+      "complete": true
+    },
+    {
+      "word": "organize/-ise",
+      "partial": "head",
+      "phonetic": "ˈɔːgənaɪz",
+      "mnemonic": "organ(器官)+ize→“组织”就像器官一样，运作不息",
+      "senses": [
+        {"pos": "vt.", "def_en": "to arrange or prepare for an activity", "def_zh": "组织", "example": null, "example_zh": null}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "用法", "title": null, "content": "hypothesis 复数为 hypotheses。"},
+    {"type": "用法", "title": null, "content": "phenomenon 复数为 phenomena。"},
+    {"type": "短语", "title": null, "content": "at one's wits' end 智穷计尽 I'm at my wits' end worrying about how to pay the bills. 我真没了主意，不知如何才能付清这些账。"},
+    {"type": "词源", "title": null, "content": "toast 源自拉丁语 tostus“烤过的”。莎士比亚时代英国人饮酒时喜欢把一块有香料的烤面包片加入酒中，据说可以使酒味更香醇。所以 toast 既有“烤面包片”的意思，还有“祝酒”的意思。"}
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "page": 32,
+  "continues_from": "sense",
+  "continues_to": null,
+  "entries": [
+    {
+      "word": "sense",
+      "partial": "tail",
+      "senses": [
+        {"pos": "n.", "def_zh": "判断力", "example": "You should have had the sense to turn off the electricity before touching the wires.", "example_zh": "你本该懂得在触摸电线之前先切断电源。"},
+        {"pos": "vt.", "def_en": "to become aware of; perceive", "def_zh": "感知,理会", "example": "He sensed that his proposals were unwelcome.", "example_zh": "他觉得他的建议不受欢迎。"}
+      ],
+      "derivatives": ["senseless a. 无意义的;无感觉的"],
+      "complete": false
+    },
+    {
+      "word": "sensible",
+      "phonetic": "ˈsensəbl",
+      "senses": [
+        {"pos": "a.", "def_en": "reasonable", "def_zh": "明智的", "example": "It is sensible of her to stay at home on such a raining evening.", "example_zh": "在这样下雨的夜晚她待在家里是明智的。"},
+        {"pos": "a.", "def_en": "having a perception of sth.", "def_zh": "察觉的", "example": "He is sensible of the danger of his position.", "example_zh": "他发觉他处境危险。"}
+      ],
+      "derivatives": ["sensibility n. 敏感性;感情", "insensibility n. 无知觉;冷淡"],
+      "complete": true
+    },
+    {
+      "word": "sensitive",
+      "phonetic": "ˈsensɪtɪv",
+      "senses": [
+        {"pos": "a.", "def_zh": "敏感的;灵敏度高的", "example": "a sensitive issue // Photographic paper is highly sensitive to light.", "example_zh": "敏感的问题 // 感光纸(相纸)对光十分敏感。"},
+        {"pos": "a.", "def_zh": "神经过敏的,容易生气的", "example": "Belinda is sensitive to whatever people speak of her.", "example_zh": "贝琳达对别人谈到她的任何事情都很敏感。"},
+        {"pos": "a.", "def_zh": "(尤对疼痛)易感受的,易受伤害的", "example": "a sensitive skin // be sensitive to cold", "example_zh": "易受伤的皮肤 // 对寒冷敏感的"}
+      ],
+      "derivatives": ["sensitivity n. 敏感性,灵敏度", "insensitive a. 不顾他人感受的;无知觉的;感觉迟钝的"],
+      "complete": true
+    },
+    {
+      "word": "efficient",
+      "phonetic": "ɪˈfɪʃnt",
+      "senses": [
+        {"pos": "a.", "def_en": "capable of producing desired results without wasting materials, time, or energy", "def_zh": "效率高的", "example": "Efficient management is one of the factors which will lower production cost.", "example_zh": "高效的管理是降低生产成本的因素之一。"}
+      ],
+      "derivatives": ["efficiency n. 效率"],
+      "complete": true
+    },
+    {
+      "word": "allergy",
+      "phonetic": "ˈælədʒɪ",
+      "senses": [
+        {"pos": "n.", "def_zh": "(因食物等引起的)过敏症", "example": "I have an allergy to penicillin.", "example_zh": "我对青霉素有过敏反应。"}
+      ],
+      "derivatives": ["allergic a. 过敏性的"],
+      "complete": true
+    },
+    {
+      "word": "infect",
+      "phonetic": "ɪnˈfekt",
+      "mnemonic": "in+fect(make)→向内部扩散→影响;感染",
+      "senses": [
+        {"pos": "vt.", "def_en": "to give sb. a disease", "def_zh": "传染", "example": "In India, more than 5.7 million people are infected with AIDS.", "example_zh": "在印度,有 570 多万人感染了艾滋病。"},
+        {"pos": "vt.", "def_en": "to make sb. share a particular feeling", "def_zh": "感染,影响", "example": "Mary's high spirits infected all the girls in the class.", "example_zh": "玛丽振奋的精神感染了班上所有的女孩子。"}
+      ],
+      "derivatives": ["infection n. 感染;影响", "infectious a. 传染的;有感染力的"],
+      "complete": true
+    },
+    {
+      "word": "disinfect",
+      "phonetic": "ˌdɪsɪnˈfekt",
+      "mnemonic": "dis(away)+infect(感染)→去除感染→消毒",
+      "senses": [
+        {"pos": "vt.", "def_zh": "杀菌(消毒)", "example": "The wound needs to be disinfected.", "example_zh": "伤口需要消毒。"}
+      ],
+      "derivatives": ["disinfectant a. 消毒的 n. 消毒剂"],
+      "complete": true
+    },
+    {
+      "word": "epidemic",
+      "phonetic": "ˌepɪˈdemɪk",
+      "mnemonic": "epi(among)+dem(人们)+ic→在人们中间盛行的→流传极广的",
+      "senses": [
+        {"pos": "n.", "def_zh": "流行病", "example": "Doctors warn that a flu epidemic may be on the way.", "example_zh": "医生警告说可能要发生流感。"},
+        {"pos": "n.", "def_zh": "流传", "example": "When tennis became a fashion, there was an epidemic of white socks and canvas shoe.", "example_zh": "当网球运动成为一种时尚时,白色短袜和帆布运动鞋也流行起来。"},
+        {"pos": "a.", "def_en": "widely prevalent", "def_zh": "流传极广的", "example": "Buying goods on the installment plan has become epidemic in recent years.", "example_zh": "近几年来,用分期付款的办法购物十分流行。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "contagious",
+      "phonetic": "kənˈteɪdʒəs",
+      "senses": [
+        {"pos": "a.", "def_en": "able to be passed from one person or animal to another by touching", "def_zh": "(接触)传染的", "example": "It's a highly contagious infection, so don't let anyone else use your towel.", "example_zh": "这种病极易传染,所以别让任何人用你的毛巾。"},
+        {"pos": "a.", "def_zh": "(情绪等)有感染力的", "example": "Nothing is so contagious as enthusiasm.", "example_zh": "热情是最富有感染力的。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    }
+  ],
+  "extras": [
+    {"type": "短语", "title": "sense", "content": "in a sense 从某种意义上说 // out of one's senses 心智不健全的 // make sense 有意义 Don't waste time in the nonsense. Please make sense. 别浪费时间尽说废话,说话请言之有理。"}
+  ]
+}
