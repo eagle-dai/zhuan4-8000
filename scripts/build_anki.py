@@ -74,40 +74,54 @@ MODEL = genanki.Model(
         }
     ],
     css="""
-/* 背单词卡：克制、干净，视觉为记忆服务。焦点=单词与中文释义，其余弱化。
-   词头区居中（正面焦点），义项区左对齐（多条并列信息，左对齐利于纵向扫读）。 */
+/* 视觉方向：老派英汉词典的「纸墨 + 朱批」——红黑双色印刷传统。
+   纸=浅牛皮纸暖底，墨=暖黑，朱红=词性标签与规线（signature）。
+   词头衬线有笔锋，中文宋体呼应辞书感；焦点=单词与中文释义，其余弱化。 */
 .card {
-  font-family: -apple-system, "Segoe UI", "Noto Sans CJK SC", "PingFang SC", sans-serif;
-  color: #1c1c1e; background: #f2f2f7;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  color: #1f1b16; background: #f4f1ea;
   -webkit-font-smoothing: antialiased; line-height: 1.5;
 }
-/* 卡片本体：白底圆角，居中一栏，两侧留白 */
+/* 卡片本体：居中一栏，两侧留白 */
 .card > * { max-width: 460px; margin-left: auto; margin-right: auto; }
 
-.word { font-size: 42px; font-weight: 700; letter-spacing: -0.01em; text-align: center;
-        margin-top: 8px; }
-.phon { font-size: 19px; color: #8e8e93; margin-top: 4px; text-align: center; }
+/* 词头：衬线大字，微紧字距，像词典红头字下的黑体词目 */
+.word { font-size: 46px; font-weight: 700; letter-spacing: -0.005em; text-align: center;
+        margin-top: 10px; }
+/* 音标：暖灰，衬线小字 */
+.phon { font-size: 19px; color: #6b6459; margin-top: 6px; text-align: center;
+        font-style: italic; }
 
-hr#answer { border: none; border-top: 1px solid #e5e5ea; margin: 22px auto; max-width: 460px; }
+/* signature：朱红规线，替代灰 hr——老词典正文与词目间的红分隔线 */
+hr#answer { border: none; border-top: 2px solid #9e2b25; margin: 20px auto; max-width: 200px; }
 
-/* 义项区：左对齐，义项间细线分隔 */
+/* 义项区：左对齐，义项间暖调细线分隔 */
 .senses { text-align: left; }
-.sense  { padding: 14px 0; border-top: 1px solid #f0f0f3; }
+.sense  { padding: 14px 0; border-top: 1px solid #d8d2c4; }
 .sense:first-child { border-top: none; padding-top: 4px; }
 
-.pos  { color: #ff9500; font-weight: 700; margin-right: 8px;
-        font-size: 15px; letter-spacing: 0.02em; }
-.def  { font-size: 22px; font-weight: 600; margin: 0 0 8px; }   /* 认词要记的：加粗 */
-.ex   { font-size: 17px; color: #48484a; line-height: 1.55; }   /* 例句：正常，略弱 */
+/* 词性标签：朱红小型大写，词典 pos 标记传统 */
+.pos  { color: #9e2b25; font-weight: 700; margin-right: 10px;
+        font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; }
+/* 中文释义：宋体加粗，认词要记的核心 */
+.def  { font-family: "Songti SC", "STSong", "Noto Serif CJK SC", serif;
+        font-size: 22px; font-weight: 600; margin: 0 0 8px; color: #1f1b16; }
+/* 英文例句：衬线斜体，略弱 */
+.ex   { font-size: 17px; color: #4a4438; line-height: 1.55; }
 .ex i { font-style: italic; }
-.ex-zh{ font-size: 14px; color: #8e8e93; margin-top: 3px; }
+/* 中文译文：宋体暖灰小字 */
+.ex-zh{ font-family: "Songti SC", "STSong", "Noto Serif CJK SC", serif;
+        font-size: 14px; color: #6b6459; margin-top: 3px; }
 
+/* 深色：纸墨翻成暖深褐底 + 米字，朱红保留（略提亮以在深底可读） */
 @media (prefers-color-scheme: dark) {
-  .card { color: #f2f2f7; background: #1c1c1e; }
-  .phon, .ex-zh { color: #8e8e93; }
-  .ex { color: #c7c7cc; }
-  hr#answer { border-top-color: #38383a; }
-  .sense { border-top-color: #2c2c2e; }
+  .card { color: #ebe4d6; background: #211c16; }
+  .word, .def { color: #f2ede2; }
+  .phon, .ex-zh { color: #a89f8f; }
+  .ex { color: #cfc7b6; }
+  .pos { color: #d4776f; }
+  hr#answer { border-top-color: #d4776f; }
+  .sense { border-top-color: #3a342b; }
 }
 """,
 )
