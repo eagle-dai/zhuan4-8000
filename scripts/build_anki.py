@@ -293,9 +293,14 @@ def _download_word(word: str, out_path: Path, session: requests.Session) -> None
     ctype = resp.headers.get("Content-Type", "")
     if "audio" not in ctype:  # 有道失败时返回 application/json
         raise RuntimeError(f"有道未返回音频（Content-Type={ctype!r}）：{resp.text[:120]}")
-    with out_path.open("wb") as fh:
-        for chunk in resp.iter_content(1024):
-            fh.write(chunk)
+    try:
+        with out_path.open("wb") as fh:
+            for chunk in resp.iter_content(1024):
+                fh.write(chunk)
+    except Exception:
+        # 中途断连会留下截断的 mp3，会被 glob 打包进 apkg（半损音频）——删掉再抛
+        out_path.unlink(missing_ok=True)
+        raise
 
 
 def generate_audio(rows: list[dict], media_dir: Path) -> tuple[int, list[str]]:
@@ -304,11 +309,13 @@ def generate_audio(rows: list[dict], media_dir: Path) -> tuple[int, list[str]]:
     只给单词配音（有道拉不到整句），例句音频恒空。按 word 去重，每个唯一词只下一次。
     串行 + TTS_DELAY 限频，避免猛打公共服务。返回 (成功文件数, 警告列表)。
     """
-    # 收集唯一 (词 → 文件名)，同时给每行填 [sound:] 标签
+    # 收集唯一 (词 → 文件名) + (词 → 该词所有 row)，同时给每行填 [sound:] 标签
     uniq: dict[str, str] = {}
+    rows_by_word: dict[str, list[dict]] = {}
     for r in rows:
         wname = _audio_name(r["word"])
         uniq[r["word"]] = wname
+        rows_by_word.setdefault(r["word"], []).append(r)
         r["word_audio"] = f"[sound:{wname}]"
         r["example_audio"] = ""  # 例句暂不配音
 
@@ -327,6 +334,9 @@ def generate_audio(rows: list[dict], media_dir: Path) -> tuple[int, list[str]]:
             ok += 1
         except Exception as exc:  # 单词失败不中断整批，记警告
             warnings.append(f"单词 '{word}' 音频下载失败：{exc}")
+            # 清空该词 [sound:] 标签，否则卡面会引用不存在的 mp3（坏播放按钮）
+            for r in rows_by_word.get(word, []):
+                r["word_audio"] = ""
         time.sleep(TTS_DELAY)
     return ok, warnings
 
