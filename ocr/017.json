@@ -1,0 +1,122 @@
+{
+  "page": 17,
+  "continues_from": "distinction",
+  "continues_to": "distinguish",
+  "extras": [
+    {"type": "短语", "title": null, "content": "without distinction 无差别地 // draw a distinction between 对…加以区别 He draws a distinction between art and culture. 他区分了艺术和文化的不同。"},
+    {"type": "真题", "title": null, "content": "As a result of this and also of the fact that workers' jobs were generally much less secure, distinct differences in life-styles and attitudes came into existence. 译文:因此，也因为劳动阶层的工作缺少稳定性，就产生了生活方式和态度上的鲜明的差异性。"}
+  ],
+  "entries": [
+    {
+      "word": "distinction",
+      "partial": "tail",
+      "phonetic": "dɪsˈtɪŋkʃən",
+      "senses": [
+        {"pos": "n.", "def_en": "the separation of people or things into different groups", "def_zh": "区分，区别对待",
+         "example": "The school makes no distinction between male and female students.", "example_zh": "学校并没有对男女学生区别对待。"},
+        {"pos": "n.", "def_zh": "优秀，杰出",
+         "example": "Wordsworth is a poet of distinction.", "example_zh": "华兹华斯是位卓越的诗人。"},
+        {"pos": "n.", "def_zh": "荣誉",
+         "example": "win/gain a distinction for...", "example_zh": "因…而获得荣誉或奖励"}
+      ],
+      "complete": false
+    },
+    {
+      "word": "distinctive",
+      "phonetic": "dɪsˈtɪŋktɪv",
+      "senses": [
+        {"pos": "a.", "def_en": "having a special quality, character, etc. that is different and easy to recognize", "def_zh": "有特色的，区别性的",
+         "example": "The beer impressed me with its distinctive taste.", "example_zh": "这种啤酒以它独特的口味给我留下了深刻的印象。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "distinct",
+      "phonetic": "dɪsˈtɪŋkt",
+      "senses": [
+        {"pos": "a.", "def_en": "clearly different or belonging to a different type", "def_zh": "有区别的",
+         "example": "Mozart's style is quite distinct from Haydn's.", "example_zh": "莫扎特的风格与海顿的风格截然不同。"},
+        {"pos": "a.", "def_en": "easily or clearly heard, seen, felt, etc.", "def_zh": "清楚的",
+         "example": "The outline of the ship became more distinct.", "example_zh": "船的轮廓变得更加清晰了。"},
+        {"pos": "a.", "def_zh": "明确的，显著的",
+         "example": "distinct improvement", "example_zh": "显著的进步"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "division",
+      "phonetic": "dɪˈvɪʒən",
+      "mnemonic": "divis(分)+ion→分配",
+      "senses": [
+        {"pos": "n.", "def_zh": "分;分配",
+         "example": "Division of labour is important in industry today.", "example_zh": "劳动分工在今天的企业中很重要。"},
+        {"pos": "n.", "def_zh": "分歧",
+         "example": "There are signs of growing division about the strategy to adopt.", "example_zh": "有迹象表明采取何种策略分歧越来越大。"},
+        {"pos": "n.", "def_zh": "除(法)",
+         "example": "processes of division", "example_zh": "除法的运算"},
+        {"pos": "n.", "def_zh": "部门",
+         "example": "division of business", "example_zh": "营业部"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "separate",
+      "phonetic": "ˈsepəreɪt, ˈsepərɪt",
+      "senses": [
+        {"pos": "a.", "def_zh": "分离的",
+         "example": "Are they joined together or separate?", "example_zh": "它们是合在一起还是分开的？"},
+        {"pos": "a.", "def_zh": "各自的",
+         "example": "The children all sleep in separate beds.", "example_zh": "孩子们各睡各人的床。"},
+        {"pos": "v.", "def_zh": "(使)分离",
+         "example": "Theory should by no means be separated from practice. // When did they separate last night?", "example_zh": "理论绝不应脱离实际。// 昨晚他们什么时候分开的？"},
+        {"pos": "v.", "def_zh": "区分",
+         "example": "It's not always easy to separate cause from effect.", "example_zh": "因果关系并不总是容易区分的。"},
+        {"pos": "v.", "def_zh": "(夫妻)分居",
+         "example": "It's the children who suffer when their parents separate.", "example_zh": "父母分居时受罪的是子女。"}
+      ],
+      "derivatives": ["separately ad. 分别地", "separation n. 分离;分居", "separatist n. 分离主义者"],
+      "complete": true
+    },
+    {
+      "word": "interview",
+      "phonetic": "ˈɪntəvjuː",
+      "mnemonic": "inter(between)+view(看)→会见",
+      "senses": [
+        {"pos": "n.", "def_zh": "会见;面试",
+         "example": "The ambassador refused to give any interviews to journalists or TV men.", "example_zh": "大使拒绝任何新闻或电视记者的采访。"},
+        {"pos": "vt.", "def_zh": "会见;面试",
+         "example": "She has interviewed most of the applicants for the job.", "example_zh": "她已和大部分申请这份工作的人面谈过。"}
+      ],
+      "derivatives": ["interviewee n. 被采访者", "interviewer n. 采访者"],
+      "complete": true
+    },
+    {
+      "word": "discriminate",
+      "phonetic": "dɪˈskrɪmɪneɪt",
+      "mnemonic": "dis(apart)+crim(罪行)+inate→把人区别对待的一种罪行→歧视",
+      "senses": [
+        {"pos": "vi.", "def_en": "to recognize a difference between things (~between)", "def_zh": "区别",
+         "example": "The law discriminates between accidental and intentional killing.", "example_zh": "意外杀人和故意杀人在法律上是有区别的。"},
+        {"pos": "vi.", "def_en": "to treat differently on the basis of sex or race (~against)", "def_zh": "歧视",
+         "example": "Society still discriminates against women.", "example_zh": "社会上仍然歧视女性。"}
+      ],
+      "derivatives": ["discrimination n. 歧视;辨别力"],
+      "complete": true
+    },
+    {
+      "word": "distinguish",
+      "partial": "head",
+      "phonetic": "dɪsˈtɪŋgwɪʃ",
+      "senses": [
+        {"pos": "vt.", "def_en": "to be able to recognize and understand the difference between two similar things or people", "def_zh": "区分",
+         "example": "A common person usually can't distinguish a genuine antique from a fake one.", "example_zh": "常人一般不会区分真古董和赝品。"},
+        {"pos": "vt.", "def_en": "to see or hear clearly", "def_zh": "看清",
+         "example": "Can you distinguish those distant objects?", "example_zh": null}
+      ],
+      "complete": false
+    }
+  ]
+}

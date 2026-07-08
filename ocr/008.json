@@ -1,0 +1,147 @@
+{
+  "page": 8,
+  "continues_from": null,
+  "continues_to": "essential",
+  "extras": [
+    {"type": "辨析", "title": "同根词 historical, historic", "content": "historical:历史的,修饰的人或事都是过去的真人真事 historic:具有重大历史意义的,用来修饰一些重大的、有特殊历史意义的人或事"},
+    {"type": "用法", "title": null, "content": "表达“学到、获得知识”要用 acquire/gain knowledge,而不应说成 learn knowledge。"},
+    {"type": "用法", "title": null, "content": "该词的前面通常要用 can 或 be able to。"}
+  ],
+  "entries": [
+    {
+      "word": "approach",
+      "phonetic": "əˈprəʊtʃ",
+      "mnemonic": "ap(to)+proach(接近)→一再接近→靠近",
+      "senses": [
+        {"pos": "v.", "def_en": "to come near to sb. or sth. in distance or time", "def_zh": "靠近",
+         "example": "As the TEM-4 approaches, I become nervous. // As they approached the wood a rabbit ran out of the trees.", "example_zh": "随着英语专业四级考试的来临，我变得紧张起来。// 他们走近树林的时候，一只兔子从树林里跑了出来。"},
+        {"pos": "n.", "def_zh": "靠近，临近",
+         "example": "the approach of night", "example_zh": "夜幕降临"},
+        {"pos": "n.", "def_zh": "途径，方法",
+         "example": "You seem to have a good approach to the problem.", "example_zh": "你好像有解决该问题的好办法。"}
+      ],
+      "derivatives": ["approachable a. 可接近的"],
+      "complete": true
+    },
+    {
+      "word": "acquire",
+      "phonetic": "əˈkwaɪə",
+      "mnemonic": "ac(to)+quire(追求)→不断追求才能获得→获得",
+      "senses": [
+        {"pos": "vt.", "def_zh": "获得",
+         "example": "To acquire great success, you must work hard.", "example_zh": "要获得成功，必须努力。"},
+        {"pos": "vt.", "def_zh": "学到",
+         "example": "He spent years acquiring his skills as a surgeon.", "example_zh": "他花了几年时间学到了外科技术。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "acquisition",
+      "phonetic": "ˌækwɪˈzɪʃən",
+      "mnemonic": "acquire(v. 获得)的名词",
+      "senses": [
+        {"pos": "n.", "def_zh": "取得，获得，习得",
+         "example": "Students ought to devote their time to the acquisition of knowledge.", "example_zh": "学生们应该把时间都花在求知上。"},
+        {"pos": "n.", "def_zh": "获得物",
+         "example": "This painting is my latest acquisition.", "example_zh": "这幅画是我最近得到的。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "decent",
+      "phonetic": "ˈdiːsənt",
+      "senses": [
+        {"pos": "a.", "def_zh": "体面的",
+         "example": "Most university graduates consider white-collared positions as decent jobs.", "example_zh": "绝大多数大学毕业生都认为白领是体面的工作。"},
+        {"pos": "a.", "def_zh": "宽厚的",
+         "example": "a decent old man", "example_zh": "一位宽厚的老人"},
+        {"pos": "a.", "def_zh": "得体的",
+         "example": "decent language and behavior", "example_zh": "得体的谈吐和行为"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "respectable",
+      "phonetic": "rɪˈspektəbl",
+      "senses": [
+        {"pos": "a.", "def_zh": "可敬的，高尚的，体面的",
+         "example": "It's not respectable to be drunk on the street.", "example_zh": "在大街上醉倒是不体面的。"},
+        {"pos": "a.", "def_en": "fairly good", "def_zh": "相当不错的",
+         "example": "Her exam results were respectable, although not brilliant.", "example_zh": "她的考试成绩不错，尽管并不优秀。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "admirable",
+      "phonetic": "ˈædmərəbl",
+      "mnemonic": "ad(to)+mir(赞赏)+able→令人赞叹的",
+      "senses": [
+        {"pos": "a.", "def_zh": "令人赞叹的，令人钦佩的",
+         "example": "This essay is admirable in all respects.", "example_zh": "这篇文章在各方面都很值得欣赏。"}
+      ],
+      "derivatives": ["admiration n. 赞赏,钦佩"],
+      "complete": true
+    },
+    {
+      "word": "fee",
+      "phonetic": "fiː",
+      "senses": [
+        {"pos": "n.", "def_zh": "费，酬金",
+         "example": "Nothing will dispel enthusiasm like a small admission fee.", "example_zh": "没有什么能像小小的会费一样令人热情顿失的了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "tuition",
+      "phonetic": "tjuːˈɪʃən",
+      "senses": [
+        {"pos": "n.", "def_en": "instruction; teaching", "def_zh": "教学",
+         "example": "individual tuition", "example_zh": "个别讲授"},
+        {"pos": "n.", "def_en": "a fee for instruction, esp. at a university, private school", "def_zh": "学费",
+         "example": "The tuition of higher education in the US is much higher than that in China.", "example_zh": "美国高校的学费比中国要高许多。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "afford",
+      "phonetic": "əˈfɔːd",
+      "senses": [
+        {"pos": "vt.", "def_zh": "有足够的时间(金钱)去(做某事)",
+         "example": "The firm could not afford to pay such large salaries.", "example_zh": "公司无法支付如此巨额的工资。"}
+      ],
+      "derivatives": ["affordable a. 买得起的;担得起…风险的"],
+      "complete": true
+    },
+    {
+      "word": "payment",
+      "phonetic": "ˈpeɪmənt",
+      "mnemonic": "pay(支付)+ment→支付的款项",
+      "senses": [
+        {"pos": "n.", "def_zh": "支付的款项",
+         "example": "The payment of the goods is payable in installments.", "example_zh": "货款可以分期支付。"},
+        {"pos": "n.", "def_zh": "支付",
+         "example": "Payment may be made by credit card.", "example_zh": "付款可用信用卡。"}
+      ],
+      "derivatives": ["payable a. 应付的"],
+      "complete": true
+    },
+    {
+      "word": "essential",
+      "partial": "head",
+      "phonetic": "ɪˈsenʃəl",
+      "senses": [
+        {"pos": "a.", "def_en": "extremely important and necessary", "def_zh": "必不可少的",
+         "example": "Food, clothing, shelter and transportation are essential to life.", "example_zh": "衣、食、住、行是生活中必不可少的。"},
+        {"pos": "a.", "def_en": "very basic", "def_zh": "本质的",
+         "example": "What is the essential difference between the market economy and the planned economy?", "example_zh": "市场经济和计划经济的本质区别是什么？"}
+      ],
+      "complete": false
+    }
+  ]
+}

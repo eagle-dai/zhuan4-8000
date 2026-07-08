@@ -15,7 +15,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 `pages/`（扫描原件）→ OCR/解析 → `ocr/`（结构化 JSON）→ `anki/`（卡片）
 
-1. **`pages/`** —— 词汇书的扫描原件，JPG 格式，按页码命名（如 `057.jpg`）。**内容是增量的**：当前只有部分页，后续会陆续补充；页码也不连续（部分页缺失，如 069–071）。别假设某个页码一定存在或范围连续——每次处理前先 `ls pages/` 看实际有哪些。这是唯一可信来源，难以重建——绝不原地修改，只在副本上操作。
+1. **`pages/`** —— 词汇书的扫描原件，JPG 格式，按页码命名（`pages/` 里可能补零也可能不补零，如 `057.jpg` 或 `1.jpg`；均指书页页码）。**`ocr/` 输出一律补零成三位** `NNN.json`（`1.jpg`→`001.json`、`57.jpg`→`057.json`），保证排序整齐。**内容是增量的**：当前只有部分页，后续会陆续补充；页码也不连续（部分页缺失，如 069–071）。别假设某个页码一定存在或范围连续——每次处理前先 `ls pages/` 看实际有哪些。这是唯一可信来源，难以重建——绝不原地修改，只在副本上操作。
 2. **`ocr/`** —— 每页一个 `NNN.json`（页码对齐 `pages/NNN.jpg`），存 OCR 解析出的结构化词条。
    - **增量、不重复解析**：OCR 前先对比 `pages/` 与 `ocr/`，只处理 `ocr/` 里还没有对应 `NNN.json` 的新页，已解析过的页直接跳过（除非明确要求重做某页）。
    - **核对后才入库**：OCR 结果须经人工核对确认正确后，才写入 `ocr/`。别把未核对的解析直接落地——扫描件识别易错（音标、义项、例句），错的 JSON 会传播成错的卡片。可先产出待核对稿给用户确认，通过后再写 `ocr/NNN.json`。
@@ -29,6 +29,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `【助记】`：词根拆解记忆法
 - 词性块：`vt.`/`n.`/`v.` 等 + `①②③` 义项，每义项含 英文释义 + 中文释义 + 斜体英文例句 + 中文翻译
 - `【派生】`：派生词（可多个，`//` 分隔）
+- **非词条框**：`【辨析】`（近义词区分）、`【专四真题】`、`【归类卡片】`（同类词归纳）、`【短语】`、`【用法】`、`【词源】`、`【一言辨异】`等——不是词条，存进页级 `extras[]`（见 schema），不进 `entries`、不出卡（build_anki 只读 entries，extras 被忽略、不影响构建）。
 
 ## 接续问题（关键）
 
@@ -62,9 +63,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
     },
     {"word": "debate", "partial": "head", "phonetic": "dɪˈbeɪt", "mnemonic": "de(down)+bate(打)→用言语将对方打倒→辩论",
      "senses": [{"pos": "n.", "def_zh": "辩论", "example": "have a debate (with sb.)", "example_zh": "（与某人）进行辩论"}]}
+  ],
+  "extras": [
+    {"type": "辨析", "title": "表示"完成"的动词", "content": "accomplish:指成功地完成预期的计划、任务等 achieve:指完成伟大功业"}
   ]
 }
 ```
+
+页级 `extras[]`：收录版面上的非词条框（`辨析`/`真题`/`归类卡片`/`短语`/`用法`/`词源` 等，`type` 为框名去方括号、`专四真题`→`真题`）。每项 `{type, title, content}`（无小标题则 `title:null`）；无框则 `[]`。**纯留存**，build_anki 不读、不出卡、不影响构建。
 
 ## Anki 卡片设计
 

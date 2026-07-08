@@ -1,0 +1,130 @@
+{
+  "page": 46,
+  "continues_from": "spectator",
+  "continues_to": "overlook",
+  "entries": [
+    {
+      "word": "spectator",
+      "partial": "tail",
+      "phonetic": "spekˈteɪtə",
+      "senses": [
+        {"pos": "n.", "def_en": "an observer of an event, esp. a sports contest", "def_zh": "观众，旁观者",
+         "example": "Football draws crowds of spectators around the world.", "example_zh": "足球吸引了全世界众多的观众。"}
+      ],
+      "complete": false
+    },
+    {
+      "word": "view",
+      "phonetic": "vjuː",
+      "senses": [
+        {"pos": "n.", "def_en": "an individual and personal judgment; an opinion", "def_zh": "看法",
+         "example": "What are your views on globalization?", "example_zh": "你对全球化有何高见？"},
+        {"pos": "n.", "def_zh": "观察，视域",
+         "example": "The aircraft has disappeared from view.", "example_zh": "飞机从视野中消失了。"},
+        {"pos": "n.", "def_zh": "景色",
+         "example": "a room with view", "example_zh": "能看见美丽风景的房间"},
+        {"pos": "vt.", "def_en": "to think of sth. in a particular way; regard", "def_zh": "看待，估量",
+         "example": "Has the matter been viewed from the taxpayers' standpoint?", "example_zh": "这个问题是否从纳税人的立场上考虑过？"}
+      ],
+      "derivatives": ["viewer n. 观众"],
+      "complete": true
+    },
+    {
+      "word": "onlooker",
+      "phonetic": "ˈɒnlʊkə",
+      "senses": [
+        {"pos": "n.", "def_zh": "旁观者",
+         "example": "The onlooker affirmed the fact to be true.", "example_zh": "这位旁观者断言这是事实。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "audience",
+      "phonetic": "ˈɔːdɪəns",
+      "senses": [
+        {"pos": "n.", "def_zh": "听众，观众",
+         "example": "It is always the latest song that an audience applauds the most. (Homer)", "example_zh": "听众掌声最热烈的，总是最后一曲。(荷马)"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "observe",
+      "phonetic": "əbˈzɜːv",
+      "mnemonic": "ob(to)+serve(服务)→侍候在(主人)面前，以察言观色→观察",
+      "senses": [
+        {"pos": "vt.", "def_en": "to see and notice sth.", "def_zh": "注意到",
+         "example": "It is easy to observe the great changes in the city.", "example_zh": "这个城市的巨大变化显而易见。"},
+        {"pos": "vt.", "def_en": "to watch sb. or sth. carefully", "def_zh": "观察",
+         "example": "He observes carefully but says little.", "example_zh": "他总是仔细观察，很少说话。"},
+        {"pos": "vt.", "def_en": "to say or write what you have notice about a situation", "def_zh": "评说",
+         "example": "Keynes observed that humans fall into two classes.", "example_zh": "凯恩斯说人类分为两个阶级。"},
+        {"pos": "vt.", "def_en": "to do what a custom, rule, law, etc., says you should do", "def_zh": "遵守",
+         "example": "The UN has called on both sides to observe the ceasefire.", "example_zh": "联合国已要求双方遵守停火协议。"}
+      ],
+      "derivatives": ["observer n. 观察者；评论者 // observation n. 观察；言论；观察力"],
+      "complete": true
+    },
+    {
+      "word": "performance",
+      "phonetic": "pəˈfɔːməns",
+      "senses": [
+        {"pos": "n.", "def_zh": "表演",
+         "example": "an amateur performance", "example_zh": "业余表演"},
+        {"pos": "n.", "def_en": "the act of performing a work or role", "def_zh": "履行",
+         "example": "He is very conscientious in the performance of his duties.", "example_zh": "他非常认真地履行职责。"},
+        {"pos": "n.", "def_zh": "表现",
+         "example": "Andy's performance in the exams was disappointing.", "example_zh": "安迪的考试成绩令人失望。"}
+      ],
+      "derivatives": ["performer n. 表演者，演奏者"],
+      "complete": true
+    },
+    {
+      "word": "skim",
+      "phonetic": "skɪm",
+      "senses": [
+        {"pos": "vt.", "def_zh": "撇",
+         "example": "After simmering the meat and vegetables skim the fat from the surface.", "example_zh": "把肉和蔬菜炖好后，再撇去表面的油脂。"},
+        {"pos": "vt.", "def_zh": "掠过",
+         "example": "seagulls skimming the waves", "example_zh": "掠过浪尖的海鸥"},
+        {"pos": "vt.", "def_en": "to read or glance through quickly or superficially", "def_zh": "浏览",
+         "example": "She skimmed the sports page to find out who had won the game.", "example_zh": "她浏览体育新闻版，想知道谁赢了那场比赛。"},
+        {"pos": "vi.", "def_zh": "浏览，略读",
+         "example": "Give me a moment to skim through these memos before the meeting.", "example_zh": "开会前给我片刻时间浏览一下这些备忘录。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "scan",
+      "phonetic": "skæn",
+      "mnemonic": "发音：“四看”→四处看→扫描",
+      "senses": [
+        {"pos": "vt.", "def_en": "to look at carefully, esp. in search of sth.", "def_zh": "细看",
+         "example": "He scanned the doctor's face for a sign of hope.", "example_zh": "他细察医生的神色看是否还有希望。"},
+        {"pos": "vt.", "def_zh": "扫描",
+         "example": "All luggage has to be scanned at the airport.", "example_zh": "所有行李在飞机场都得接受扫描检查。"},
+        {"pos": "vt.", "def_zh": "浏览",
+         "example": "Many people like to scan the newspaper while having breakfast.", "example_zh": "许多人喜欢在吃早餐的时候浏览一下报纸。"},
+        {"pos": "n.", "def_zh": "扫描",
+         "example": "a body/brain scan", "example_zh": "全身/脑扫描"}
+      ],
+      "derivatives": ["scanner n. 扫描仪"],
+      "complete": true
+    },
+    {
+      "word": "overlook",
+      "partial": "head",
+      "phonetic": "ˌəʊvəˈlʊk",
+      "mnemonic": "over(beyond)+look(看)→跳过了该看的东西→忽视",
+      "senses": [
+        {"pos": "vt.", "def_en": "to fail to notice; ignore deliberately", "def_zh": "忽略", "example": null, "example_zh": null}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "短语", "title": null, "content": "with a view to 为了，为的是 // in view of 鉴于，考虑到 In view of our long-standing business relation, we'll make special effort to fill your order. 考虑到我们长期的业务关系，我们将尽力供足贵方订货。"}
+  ]
+}

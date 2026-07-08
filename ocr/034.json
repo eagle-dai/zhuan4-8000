@@ -1,0 +1,97 @@
+{
+  "page": 34,
+  "continues_from": "pursue",
+  "continues_to": "decisive",
+  "entries": [
+    {
+      "word": "pursue",
+      "partial": "tail",
+      "senses": [
+        {"pos": "vt.", "def_en": "to follow in an effort to overtake or capture; chase", "def_zh": "追赶", "example": "The police pursued the stolen vehicle along the motorway.", "example_zh": "警察在高速公路上追赶被盗的车辆。"},
+        {"pos": "vt.", "def_en": "to strive to gain or accomplish", "def_zh": "追求", "example": "Everyone has the freedom to pursue their dreams.", "example_zh": "每个人都有追求各自梦想的自由。"}
+      ],
+      "derivatives": [],
+      "complete": false
+    },
+    {
+      "word": "pursuit",
+      "phonetic": "pəˈsjuːt",
+      "senses": [
+        {"pos": "n.", "def_zh": "追求", "example": "The pursuit of profit was the main reason for the changes.", "example_zh": "做出这些改变主要是为了追求利润。"},
+        {"pos": "n.", "def_zh": "追赶", "example": "He was captured without much pursuit.", "example_zh": "没有经过多少追捕就把他捉住了。"},
+        {"pos": "n.", "def_zh": "[常 pl.]嗜好", "example": "What's your favorite pursuit?", "example_zh": "你的爱好是什么?"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "theft",
+      "phonetic": "θeft",
+      "senses": [
+        {"pos": "n.", "def_en": "the unlawful taking of the property of another", "def_zh": "偷窃,失窃", "example": "I reported the theft of my wallet to the police.", "example_zh": "我向警察报告钱包被盗了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "burglar",
+      "phonetic": "ˈbɜːglə",
+      "senses": [
+        {"pos": "n.", "def_zh": "窃贼", "example": "He said I should have more adequate protection than a burglar alarm.", "example_zh": "他说我应该加强保护措施,而不能只依赖一个防盗警铃。"}
+      ],
+      "derivatives": ["burglary n. 夜盗行为,盗窃"],
+      "complete": true
+    },
+    {
+      "word": "engage",
+      "phonetic": "ɪnˈgeɪdʒ",
+      "mnemonic": "en(in)+gage(保证)→保证会去做→从事于",
+      "senses": [
+        {"pos": "vt.", "def_en": "to attract and hold the attention of", "def_zh": "吸引,占用", "example": "The new toy didn't engage the child's interest for long.", "example_zh": "这个新玩具对孩子的吸引力没有维持多久。"},
+        {"pos": "vt.", "def_en": "to involve oneself or become occupied (~in)", "def_zh": "使从事,使参与", "example": "Do you want to be engaged in politics or business?", "example_zh": "你想从政还是从商?"},
+        {"pos": "vt.", "def_zh": "雇", "example": "We must engage a lawyer to argue our case in the court.", "example_zh": "我们必须聘请律师出庭为我们辩护。"},
+        {"pos": "vt.", "def_en": "to pledge or promise, esp. to marry", "def_zh": "使订婚", "example": "Tom is engaged to Anne.", "example_zh": "汤姆已与安妮订婚。"},
+        {"pos": "vi.", "def_zh": "从事于", "example": "I have never engaged in drug trafficking.", "example_zh": "我从来没有从事过贩毒。"}
+      ],
+      "derivatives": ["engaged a. 已订婚的;忙的,被占用的;预订的", "engagement n. 订婚;约会"],
+      "complete": true
+    },
+    {
+      "word": "indulge",
+      "phonetic": "ɪnˈdʌldʒ",
+      "mnemonic": "in(towards)+dulge(温和的)→对孩子过于温和地对待→纵容",
+      "senses": [
+        {"pos": "vt.", "def_en": "to allow (yourself) to have or do sth. as a special pleasure", "def_zh": "使沉溺于", "example": "He no longer indulged himself in smoking.", "example_zh": "他不再过度吸烟了。"},
+        {"pos": "vt.", "def_en": "to allow (sb.) to have or do sth. even though it may not be proper, healthy, appropriate, etc.", "def_zh": "纵容", "example": "The mother indulges her children too much.", "example_zh": "这位妈妈对她的孩子太放任了。"},
+        {"pos": "vi.", "def_zh": "(~ in) 沉溺", "example": "The bitter taste of disappointed love made him indulge in his own daydreams.", "example_zh": "苦涩的失恋滋味使他成天沉浸在自己编织的白日梦之中。"}
+      ],
+      "derivatives": ["indulgence n. 放纵;爱好;特赦", "indulgent a. 纵容的"],
+      "complete": true
+    },
+    {
+      "word": "action",
+      "phonetic": "ˈækʃən",
+      "senses": [
+        {"pos": "n.", "def_zh": "行动", "example": "To occupy the market of E-business in China, rapid action is needed.", "example_zh": "要占领中国的电子商务市场,就要迅速行动。"},
+        {"pos": "n.", "def_zh": "作用", "example": "The action of salt on ice causes it to melt.", "example_zh": "盐作用于冰而使其融化。"},
+        {"pos": "n.", "def_zh": "情节", "example": "In Scene 1, the action takes place in an expensive restaurant.", "example_zh": "在第一个场景中,故事情节在一家昂贵的餐厅展开。"}
+      ],
+      "derivatives": ["inaction n. 不活跃,懒散"],
+      "complete": true
+    },
+    {
+      "word": "decisive",
+      "partial": "head",
+      "phonetic": "dɪˈsaɪsɪv",
+      "senses": [
+        {"pos": "a.", "def_en": "determining what the result of sth. will be", "def_zh": "决定性的", "example": "Waterloo was the decisive battle of the whole war.", "example_zh": "滑铁卢一役左右了整个战局。"},
+        {"pos": "a.", "def_en": "able to make choices quickly and confidently", "def_zh": "坚定的", "example": "A decisive person is needed to deal with the situation.", "example_zh": "应付这一局面需要一个坚决果断的人。"}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "归类卡片", "title": "“犯罪”种种", "content": "robbery 抢劫 // murder 谋杀 // burglary 入室偷窃 // car theft 偷车 // terrorism 恐怖主义 // shoplifting 顺手牵羊"},
+    {"type": "短语", "title": "action", "content": "out of action 不起作用,不运转 This machine is out of action. 这台机器出了故障。"}
+  ]
+}

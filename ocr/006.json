@@ -1,0 +1,154 @@
+{
+  "page": 6,
+  "continues_from": null,
+  "continues_to": "rehearsal",
+  "extras": [
+    {"type": "短语", "title": null, "content": "qualify as... 具有…资格 // qualify for... 胜任…"},
+    {"type": "真题", "title": null, "content": "What should you do to relieve rage? 译文:你应该做什么来缓解愤怒呢？"}
+  ],
+  "entries": [
+    {
+      "word": "qualify",
+      "phonetic": "ˈkwɒlɪfaɪ",
+      "senses": [
+        {"pos": "v.", "def_zh": "(使)胜任，(使)具有资格",
+         "example": "I finally qualified as a pilot. // Our four-week course will qualify you to teach English overseas.", "example_zh": "我终于具有了飞行员资格。// 我们为期4周的课程将使你有资格在国外教英语。"}
+      ],
+      "derivatives": ["qualified a. 有资格的,胜任的", "unqualified a. 不合格的"],
+      "complete": true
+    },
+    {
+      "word": "qualification",
+      "phonetic": "ˌkwɒlɪfɪˈkeɪʃən",
+      "senses": [
+        {"pos": "n.", "def_zh": "资格，合格证书",
+         "example": "Do you have any teaching qualifications?", "example_zh": "你有任何教学方面的文凭吗？"},
+        {"pos": "n.", "def_zh": "限制，限定条件",
+         "example": "I agree, with qualifications.", "example_zh": "我赞成，但有所保留。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "license/-ence",
+      "phonetic": "ˈlaɪsəns",
+      "senses": [
+        {"pos": "n.", "def_zh": "执照，许可",
+         "example": "Drivers who violate traffic regulations will be fined and their licence will be suspended.", "example_zh": "违反交通规则的司机会被罚款并扣留驾驶执照。"},
+        {"pos": "vt.", "def_zh": "给…发许可证",
+         "example": "A doctor is licensed to practice medicine.", "example_zh": "医生行医需要获得许可。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "favo(u)rable",
+      "phonetic": "ˈfeɪvərəbl",
+      "senses": [
+        {"pos": "a.", "def_zh": "称赞的",
+         "example": "The film received favorable reviews.", "example_zh": "这部影片得到了好评。"},
+        {"pos": "a.", "def_zh": "有利的",
+         "example": "favorable weather for working outside", "example_zh": "有利于室外工作的天气"}
+      ],
+      "derivatives": ["favo(u)rite a./n. 特别喜爱的(人或物)"],
+      "complete": true
+    },
+    {
+      "word": "disperse",
+      "phonetic": "dɪˈspɜːs",
+      "mnemonic": "di(apart)+sperse(散开)→分散",
+      "senses": [
+        {"pos": "v.", "def_en": "to go or move in different directions; to spread apart", "def_zh": "分散;消散",
+         "example": "The police used tear gas to disperse the crowd.", "example_zh": "警察用催泪弹驱散人群。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "dispel",
+      "phonetic": "dɪsˈpel",
+      "senses": [
+        {"pos": "vt.", "def_en": "to make sth.(such as a belief, or idea) go away", "def_zh": "驱散，消除",
+         "example": "How can we dispel their doubt?", "example_zh": "我们怎么才能驱散他们的疑虑呢？"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "objection",
+      "phonetic": "əbˈdʒekʃən",
+      "mnemonic": "ob(against)+ject(扔)+ion→反向扔→反对",
+      "senses": [
+        {"pos": "n.", "def_zh": "反对",
+         "example": "have (no) objection to (doing) sth.", "example_zh": "(不)反对(做)某事"},
+        {"pos": "n.", "def_zh": "反对的理由",
+         "example": "Please present your objection to the plan.", "example_zh": "请提出你反对这个计划的理由。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "objective",
+      "phonetic": "əbˈdʒektɪv",
+      "senses": [
+        {"pos": "n.", "def_zh": "目标",
+         "example": "The main objective of this policy is to reduce unemployment.", "example_zh": "这项政策的主要目的是减少失业。"},
+        {"pos": "a.", "def_zh": "客观的",
+         "example": "A jury's decision in a court case must be objective.", "example_zh": "陪审团裁定案件必须客观。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "subjective",
+      "phonetic": "səbˈdʒektɪv",
+      "senses": [
+        {"pos": "a.", "def_zh": "主观(上)的",
+         "example": "This is a very subjective judgement of her abilities.", "example_zh": "这是对她能力的一个非常主观的评价。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "renew",
+      "phonetic": "rɪˈnjuː",
+      "mnemonic": "re(again)+new(新的)→再次变新→更新",
+      "senses": [
+        {"pos": "vt.", "def_zh": "重新开始",
+         "example": "The annual dinner is a chance to renew acquaintance with old friends.", "example_zh": "一年一度的聚餐会是与老朋友叙旧的好机会。"},
+        {"pos": "vt.", "def_zh": "(使)更新",
+         "example": "The trees renew their foliage every year.", "example_zh": "树木每年都重新长出叶子。"},
+        {"pos": "vt.", "def_zh": "延长(…的)有效期",
+         "example": "Remember to renew the books if you can't finish them on time.", "example_zh": "如果你不能按时读完这些书，记得要去图书馆续借。"}
+      ],
+      "derivatives": ["renewal n. 更新;延期"],
+      "complete": true
+    },
+    {
+      "word": "relieve",
+      "phonetic": "rɪˈliːv",
+      "mnemonic": "re(again)+lieve(轻)→一再减轻→使轻松",
+      "senses": [
+        {"pos": "vt.", "def_en": "to reduce sb.'s pain or unpleasant feelings", "def_zh": "使轻松;减轻",
+         "example": "The painkillers can only relieve your pain. // relieve stress", "example_zh": "止痛药只能减轻疼痛。// 减轻压力"},
+        {"pos": "vt.", "def_en": "to make sth. less dull and boring", "def_zh": "使得到调剂",
+         "example": "I went for a walk to relieve the boredom of the day.", "example_zh": "一天下来无聊得很，我去散步调剂一下。"},
+        {"pos": "vt.", "def_en": "to take the place of", "def_zh": "接替",
+         "example": "Robots can relieve people of dull and repetitive work.", "example_zh": "单调重复的工作，机器人可以代劳。"}
+      ],
+      "derivatives": ["relief n. 轻松;缓解;接替"],
+      "complete": true
+    },
+    {
+      "word": "rehearsal",
+      "partial": "head",
+      "phonetic": "rɪˈhɜːsəl",
+      "mnemonic": "re(again)+hear(听)+sal→反复听自己唱歌→排练",
+      "senses": [
+        {"pos": "n.", "def_zh": "排练，排演",
+         "example": "Our new production of Romeo and", "example_zh": null}
+      ],
+      "complete": false
+    }
+  ]
+}

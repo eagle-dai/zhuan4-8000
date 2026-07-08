@@ -1,0 +1,125 @@
+{
+  "page": 47,
+  "continues_from": "overlook",
+  "continues_to": "prominent",
+  "entries": [
+    {
+      "word": "overlook",
+      "partial": "tail",
+      "phonetic": "ˌəʊvəˈlʊk",
+      "senses": [
+        {"pos": "vt.", "def_en": "to fail to notice; ignore deliberately", "def_zh": "忽略",
+         "example": "The art of being wise is the art of knowing what to overlook.", "example_zh": "做聪明人的诀窍，就是要懂得该忽略什么。"},
+        {"pos": "vt.", "def_zh": "宽恕",
+         "example": "He has been kind enough to overlook my fault.", "example_zh": "他很宽容，原谅了我的过错。"},
+        {"pos": "vt.", "def_zh": "俯瞰",
+         "example": "We overlook the church from our house.", "example_zh": "我们可从家中俯瞰教堂。"}
+      ],
+      "complete": false
+    },
+    {
+      "word": "glimpse",
+      "phonetic": "glɪmps",
+      "senses": [
+        {"pos": "n.", "def_en": "a quick look at sb. or sth. that does not allow you to see them clearly", "def_zh": "一瞥",
+         "example": "I caught only a glimpse of the president's car.", "example_zh": "我只瞥见了总统的汽车。"},
+        {"pos": "vt.", "def_zh": "瞥见，看一眼",
+         "example": "I glimpsed her face in the crowd, but then she was gone.", "example_zh": "我在人群中瞥见她的脸，但随即她就消失了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "glare",
+      "phonetic": "gleə",
+      "senses": [
+        {"pos": "vi.", "def_en": "to stare fixedly and angrily (~at)", "def_zh": "怒视",
+         "example": "The old gentleman just stood there glaring at the pickpocket and did not say a word.", "example_zh": "这位老先生只是站在那里对那个扒手怒目而视，一句话也没有说。"},
+        {"pos": "vi.", "def_zh": "发出刺眼的光线",
+         "example": "The sun glared out of the blue sky.", "example_zh": "太阳在蓝天上发出强烈的光。"},
+        {"pos": "n.", "def_en": "a bright unpleasant light which hurts your eyes", "def_zh": "强光",
+         "example": "To avoid the glare of the sun, you had better wear a pair of sunglasses.", "example_zh": "为避免耀眼的阳光(照射)，最好戴上墨镜。"},
+        {"pos": "n.", "def_zh": "怒视",
+         "example": "She gave him an icy glare.", "example_zh": "她以冷冰冰的目光怒视着他。"},
+        {"pos": "n.", "def_zh": "炫耀",
+         "example": "They were in the full glare of publicity.", "example_zh": "他们大肆炫耀。"}
+      ],
+      "derivatives": ["glaring a. 耀眼的；显眼的；怒目而视的"],
+      "complete": true
+    },
+    {
+      "word": "gleam",
+      "phonetic": "gliːm",
+      "senses": [
+        {"pos": "vi.", "def_en": "to shine softly", "def_zh": "闪亮",
+         "example": "We saw the lights of the little town gleaming in the distance.", "example_zh": "我们看见远处小镇的灯光在闪烁。"},
+        {"pos": "vi.", "def_en": "(of an emotion) to appear or show through sb.'s eyes or expression (~with)", "def_zh": "闪现，流露",
+         "example": "The groom's eyes are gleaming with excitement.", "example_zh": "新郎的眼睛流露着激动的神情。"},
+        {"pos": "n.", "def_en": "a small pale light, esp. one that shines for a short time", "def_zh": "闪亮，微光",
+         "example": "They saw the gleam of a lamp ahead.", "example_zh": "他们看到前面一盏灯的微光。"},
+        {"pos": "n.", "def_zh": "闪现，流露",
+         "example": "A gleam of satisfaction crossed her face.", "example_zh": "她脸上闪现出满足的神情。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "glitter",
+      "phonetic": "ˈglɪtə",
+      "mnemonic": "glitt(发光)+er(表示反复动作)→闪耀",
+      "senses": [
+        {"pos": "vi.", "def_en": "to shine brightly with flashing points of light", "def_zh": "闪耀",
+         "example": "All that glitters is not gold.", "example_zh": "[谚]闪光的不都是金子。"},
+        {"pos": "n.", "def_zh": "闪光；耀眼，辉煌",
+         "example": "The child was attracted by the glitter of the Christmas tree decorations.", "example_zh": "这孩子被圣诞树上闪闪发光的装饰品吸引住了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "glow",
+      "phonetic": "gləʊ",
+      "senses": [
+        {"pos": "n.", "def_en": "a soft steady light", "def_zh": "光亮",
+         "example": "The glow of the setting sun is splendid; it is a pity that the dusk is fast approaching.", "example_zh": "夕阳无限好，只是近黄昏。"},
+        {"pos": "n.", "def_en": "a pink color in your face from exercising, being excited, healthy, etc.", "def_zh": "脸红",
+         "example": "Her face has the glow of health.", "example_zh": "她脸色红润。"},
+        {"pos": "n.", "def_zh": "激情，热烈",
+         "example": "She felt a glow of satisfaction at her son's achievements.", "example_zh": "儿子的成就让她感到心满意足。"},
+        {"pos": "vi.", "def_en": "to shine brightly and steadily, esp. without a flame", "def_zh": "灼热",
+         "example": "The metal glowed in the furnace.", "example_zh": "金属在熔炉里发出灼热的光。"},
+        {"pos": "vi.", "def_en": "to have a warm, reddish color from exercise, emotion, etc.", "def_zh": "(脸)红",
+         "example": "Her face was glowing with embarrassment.", "example_zh": "她尴尬得脸都红了。"},
+        {"pos": "vi.", "def_zh": "洋溢",
+         "example": "He is glowing with enthusiasm.", "example_zh": "他热情洋溢。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "glimmer",
+      "phonetic": "ˈglɪmə",
+      "senses": [
+        {"pos": "vi.", "def_en": "to shine with a light that is not very bright", "def_zh": "发出闪烁的微光",
+         "example": "There are some lights faintly glimmering in the distance.", "example_zh": "远处有几处明灭不定的微光。"},
+        {"pos": "n.", "def_en": "a light that is not very bright", "def_zh": "微光，微弱的闪光",
+         "example": "The sky was pink with the first glimmer of the dawn.", "example_zh": "清晨的第一缕曙光使天空呈现出淡红色。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "prominent",
+      "partial": "head",
+      "phonetic": "ˈprɒmɪnənt",
+      "mnemonic": "pro(forward)+min(伸出，突出)+ent→突出的",
+      "senses": [
+        {"pos": "a.", "def_en": "widely known and important", "def_zh": "突出的，杰出的", "example": null, "example_zh": null}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "辨析", "title": "表示“一瞥”的动词", "content": "glance：匆匆看一眼或粗略扫一眼，强调动作 glimpse：指“瞥见”，强调结果，是 glance 的结果"}
+  ]
+}

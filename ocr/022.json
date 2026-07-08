@@ -1,0 +1,125 @@
+{
+  "page": 22,
+  "continues_from": "benefit",
+  "continues_to": "emotion",
+  "entries": [
+    {
+      "word": "benefit",
+      "partial": "tail",
+      "senses": [
+        {"pos": "n.", "def_zh": "救济金", "example": "medical/unemployment benefit", "example_zh": "医疗/失业津贴"},
+        {"pos": "v.", "def_en": "to be useful or helpful to", "def_zh": "有益于,得益", "example": "The plants benefited from the rain. // a trade agreement that will greatly benefit the developing world", "example_zh": "植物得益于这场雨。// 对发展中国家十分有利的一项贸易协定"}
+      ],
+      "derivatives": [],
+      "complete": false
+    },
+    {
+      "word": "beneficial",
+      "phonetic": "ˌbenɪˈfɪʃl",
+      "senses": [
+        {"pos": "a.", "def_zh": "有益的", "example": "A balanced diet and a moderate amount of sports are beneficial to health.", "example_zh": "均衡的饮食和适度的运动有益于健康。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "available",
+      "phonetic": "əˈveɪləbl",
+      "senses": [
+        {"pos": "a.", "def_en": "present and ready for use; easy or possible to get or use", "def_zh": "现成可使用的;可得到的", "example": "All the available money has been used. // I'm not available in the office now.", "example_zh": "手头上所有的钱都用完了。// 我现在不在办公室。"}
+      ],
+      "derivatives": ["availability n. 可用性"],
+      "complete": true
+    },
+    {
+      "word": "feasible",
+      "phonetic": "ˈfiːzəbl",
+      "senses": [
+        {"pos": "a.", "def_en": "capable of being accomplished; possible", "def_zh": "可行的", "example": "It is feasible to apply the computer to language teaching.", "example_zh": "将计算机应用到语言教学是可行的。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "emphatic",
+      "phonetic": "ɪmˈfætɪk",
+      "senses": [
+        {"pos": "a.", "def_zh": "强调的,加强语气的", "example": "Wilde was emphatic about the importance of being punctual.", "example_zh": "王尔德强调严守时间的重要性。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "emphasis",
+      "phonetic": "ˈemfəsɪs",
+      "mnemonic": "em(in)+pha(表示)+sis→明白地表示→强调",
+      "senses": [
+        {"pos": "n.", "def_zh": "强调,重点", "example": "His report places emphasis on the need for better working conditions.", "example_zh": "他的报告强调需要更好的工作条件。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "emphasize/-ise",
+      "phonetic": "ˈemfəsaɪz",
+      "senses": [
+        {"pos": "vt.", "def_en": "to give special attention to; stress", "def_zh": "强调", "example": "He emphasized the need for hard work.", "example_zh": "他强调了苦干的必要。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "eloquent",
+      "phonetic": "ˈeləkwənt",
+      "senses": [
+        {"pos": "a.", "def_en": "showing the ability to use language clearly and effectively", "def_zh": "雄辩的", "example": "Martin Luther King's eloquent speeches have moved men throughout the US.", "example_zh": "马丁·路德·金雄辩的演讲感动了全美国的人。"},
+        {"pos": "a.", "def_en": "showing a feeling or meaning without using words", "def_zh": "明白显示出的", "example": "The photographs are an eloquent reminder of the horrors of war.", "example_zh": "这些照片形象地提醒人们不要忘记战争的恐怖。"}
+      ],
+      "derivatives": ["eloquence n. 雄辩,口才"],
+      "complete": true
+    },
+    {
+      "word": "fluent",
+      "phonetic": "ˈfluːənt",
+      "senses": [
+        {"pos": "a.", "def_en": "able to speak a language very well", "def_zh": "流利的", "example": "An interpreter must be fluent in at least two languages.", "example_zh": "一名口译人员必须至少能流利地讲两门语言。"}
+      ],
+      "derivatives": ["fluency n. 流利,流畅"],
+      "complete": true
+    },
+    {
+      "word": "effective",
+      "phonetic": "ɪˈfektɪv",
+      "senses": [
+        {"pos": "a.", "def_en": "having an intended or expected effect", "def_zh": "有效的", "example": "We hope the government will take effective measures to reduce pollution.", "example_zh": "我们希望政府采取有效措施减少污染。"},
+        {"pos": "a.", "def_zh": "给人印象深刻的", "example": "He gave an effective performance as Othello.", "example_zh": "他演的奥赛罗令人印象深刻。"},
+        {"pos": "a.", "def_zh": "实际的", "example": "There is a decline in the effective demand.", "example_zh": "实际需求有所下降。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "aftereffect",
+      "phonetic": "ˈɑːftərɪˌfekt",
+      "senses": [
+        {"pos": "n.", "def_en": "an unpleasant effect that remains for a long time after the condition or event that caused it", "def_zh": "(不良的)后果,副作用", "example": "Some drugs are avoided because of their harmful aftereffects.", "example_zh": "有些药物避免使用,因为有副作用。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "emotion",
+      "partial": "head",
+      "phonetic": "ɪˈməuʃən",
+      "mnemonic": "e(out)+mot(动)+ion→动出(感情)",
+      "senses": [
+        {"pos": "n.", "def_zh": "情感,感情", "example": "The very essence of literature is the war between emotion and intellect.", "example_zh": "文学的本质是情感与理智的斗争。"}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "辨析", "title": "表示“益处”的名词", "content": "benefit:指某项政策、活动给人们带来的实际好处,但不能指“利润”。profit:可指金钱或其他方面的利益。"},
+    {"type": "真题", "title": null, "content": "Children often sleep with parents, and brothers or sisters share a bed, emphasizing familial interdependence. 译文:孩子们常常和父母一起睡,兄弟或姐妹睡一张床,突出家庭内部的相互依赖性。"}
+  ]
+}

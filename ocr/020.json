@@ -1,0 +1,97 @@
+{
+  "page": 20,
+  "continues_from": "apply",
+  "continues_to": null,
+  "entries": [
+    {
+      "word": "apply",
+      "partial": "tail",
+      "senses": [
+        {"pos": null, "def_zh": null, "example": "You don't have to apply so much make-up to your face.", "example_zh": "你不必在脸上涂那么多化妆品。"}
+      ],
+      "derivatives": ["reapply v. 重新申请", "application n. 申请;应用;敷用", "applicant n. 申请人"],
+      "complete": false
+    },
+    {
+      "word": "applicable",
+      "phonetic": "ˈæplɪkəbl",
+      "mnemonic": "appli(应用)+c+able(可…的)→可应用的",
+      "senses": [
+        {"pos": "a.", "def_zh": "可应用的", "example": "This part of the form is not applicable to foreign students.", "example_zh": "表格中的这一部分不适用于外国学生。"},
+        {"pos": "a.", "def_zh": "合适的", "example": "The rule \"Look before you leap\" is always applicable.", "example_zh": "“三思而后行”这一准则几乎任何时候都适用。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "appliance",
+      "phonetic": "əˈplaɪəns",
+      "senses": [
+        {"pos": "n.", "def_zh": "器具", "example": "Household electrical appliances made in China are very popular.", "example_zh": "中国国产家用电器非常受欢迎。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "bid",
+      "phonetic": "bɪd",
+      "senses": [
+        {"pos": "n.", "def_zh": "企图，(为争取某物而作出的)努力", "example": "a desperate bid to free herself from a loveless marriage", "example_zh": "为摆脱那段没有爱情的婚姻而作出的不顾一切的努力"},
+        {"pos": "n.", "def_zh": "投标；出价", "example": "The company submitted a bid for the contract to clean the hospital. // They put in the highest bid for the house.", "example_zh": "该公司投标承包这所医院的清洁工作。// 他们为这幢房子出了最高价"},
+        {"pos": "v.", "def_en": "to offer or propose an amount as a price; to offer to do work for a particular price", "def_zh": "喊价;投标", "example": "He bid 10 million dollars for Picasso's painting. // We have successfully bid for the contract.", "example_zh": "他为毕加索的画出价 1000 万美元。// 我们竞标成功,得到了这份合同。"},
+        {"pos": "v.", "def_en": "to utter greetings or good wishes", "def_zh": "祝", "example": "We bade him farewell.", "example_zh": "我们向他告别。"},
+        {"pos": "v.", "def_zh": "命令", "example": "Do as you are bidden. // I will do as you bid.", "example_zh": "按命令行事。// 我将照你吩咐的去做"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "propose",
+      "phonetic": "prəˈpəuz",
+      "mnemonic": "pro(before)+pose(放置)→把提案放在前面→提议",
+      "senses": [
+        {"pos": "v.", "def_zh": "提议", "example": "He proposed that we should go for a walk.", "example_zh": "他提议我们去散步。"},
+        {"pos": "v.", "def_en": "to suggest sb. for a job, position, office, etc.", "def_zh": "提名", "example": "He was proposed as a candidate for the educational committee.", "example_zh": "他被推荐为教育委员会的候选人。"},
+        {"pos": "v.", "def_en": "to intend to do sth.", "def_zh": "打算", "example": "I propose an early start tomorrow morning.", "example_zh": "我打算明天早上早点出发。"},
+        {"pos": "v.", "def_zh": "求婚", "example": "He proposed to her, and she accepted.", "example_zh": "他向她求婚,她接受了。"}
+      ],
+      "derivatives": ["proposal n. 提议;求婚"],
+      "complete": true
+    },
+    {
+      "word": "generous",
+      "phonetic": "ˈdʒenərəs",
+      "senses": [
+        {"pos": "a.", "def_zh": "慷慨的", "example": "It's her nature to be generous.", "example_zh": "慷慨大方是她的天性。"},
+        {"pos": "a.", "def_zh": "宽厚的", "example": "She was generous enough to overlook my little mistake.", "example_zh": "她非常宽宏大量,不计较我的小错误。"},
+        {"pos": "a.", "def_en": "larger or more than the usual size or amount", "def_zh": "大量的", "example": "The farmers receive generous subsidies from the government.", "example_zh": "农民们从政府那里得到大量的补贴。"}
+      ],
+      "derivatives": ["generosity n. 慷慨,大方"],
+      "complete": true
+    },
+    {
+      "word": "plentiful",
+      "phonetic": "ˈplentɪful",
+      "mnemonic": "plenty(n. 丰富)的形容词",
+      "senses": [
+        {"pos": "a.", "def_en": "more than enough in quantity", "def_zh": "丰富的,充裕的", "example": "There are plentiful watermelons in the summer.", "example_zh": "夏季有大量的西瓜上市。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "abundant",
+      "phonetic": "əˈbʌndənt",
+      "mnemonic": "ab(away)+und(涌上来)+ant→东西多溢出来→大量的",
+      "senses": [
+        {"pos": "a.", "def_zh": "大量的", "example": "We have abundant proof of his innocence.", "example_zh": "我们有充分的证据证明他是无辜的。"},
+        {"pos": "a.", "def_zh": "(~ in) 富裕的", "example": "The country is abundant in natural resources.", "example_zh": "该国自然资源丰富。"}
+      ],
+      "derivatives": ["abundance n. 丰富"],
+      "complete": true
+    }
+  ],
+  "extras": [
+    {"type": "真题", "title": null, "content": "The same disadvantages can apply to flat sharing, with the added difficulties that arise from deciding who pays for what, and in what proportion. 译文:合租公寓也存在同样的问题,另外还有谁来付账单、各付多少的问题。"}
+  ]
+}

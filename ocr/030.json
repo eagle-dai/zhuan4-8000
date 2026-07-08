@@ -1,0 +1,112 @@
+{
+  "page": 30,
+  "continues_from": "crude",
+  "continues_to": "devise",
+  "entries": [
+    {
+      "word": "crude",
+      "partial": "tail",
+      "senses": [
+        {"pos": "a.", "def_zh": "天然的,原料状态的", "example": "The crude oil needs processing further into fuel.", "example_zh": "原油须经过进一步加工才能成为燃料。"},
+        {"pos": "a.", "def_en": "not carefully or skillfully made; rough", "def_zh": "粗糙的", "example": "crude sketch/drawing", "example_zh": "粗略的草图"}
+      ],
+      "derivatives": [],
+      "complete": false
+    },
+    {
+      "word": "raw",
+      "phonetic": "rɔː",
+      "senses": [
+        {"pos": "a.", "def_en": "being in a natural condition; not processed or refined; not cooked", "def_zh": "自然状态的,原料状态的;生的,未煮过的", "example": "Coal and oil are important raw materials for the manufacture of plastics. // raw fish", "example_zh": "煤和石油是塑料制品的重要原料。// 生鱼"},
+        {"pos": "a.", "def_zh": "(数据等)未经分析的", "example": "raw data", "example_zh": "原始数据"},
+        {"pos": "a.", "def_en": "inexperienced or untrained", "def_zh": "生疏无知的,未经训练的", "example": "The new teacher is very capable but he's still a bit raw.", "example_zh": "这位新教师很能干,但是还缺少点经验。"},
+        {"pos": "a.", "def_zh": "露肉而刺痛的", "example": "a raw wound", "example_zh": "露肉而刺痛的伤口"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "defect",
+      "phonetic": "ˈdiːfekt, dɪˈfekt",
+      "mnemonic": "de(away)+fect(做)→没做好→缺点",
+      "senses": [
+        {"pos": "n.", "def_en": "an imperfection that causes inadequacy or failure; a shortcoming", "def_zh": "缺点", "example": "a hearing defect // I think there are still lots of defects in our educational system.", "example_zh": "听力缺陷 // 我认为我们的教育体制还有很多弊病。"},
+        {"pos": "vi.", "def_zh": "叛变", "example": "A number of musicians defected from the Soviet Union to the West in the 1960s.", "example_zh": "20 世纪 60 年代,一些音乐家背叛了苏联投奔到西方。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "flaw",
+      "phonetic": "flɔː",
+      "senses": [
+        {"pos": "n.", "def_en": "a small fault or weakness; a small physical problem that makes sth. less valuable", "def_zh": "缺点,瑕疵", "example": "The flaw in this vase makes it less valuable.", "example_zh": "这个花瓶因为有点瑕疵,不那么值钱了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "condemn",
+      "phonetic": "kənˈdem",
+      "senses": [
+        {"pos": "vt.", "def_en": "to express strong disapproval of; criticize", "def_zh": "谴责", "example": "Adding erotic contents in children's websites should be seriously condemned.", "example_zh": "在儿童网站加载色情内容应受到严厉的谴责。"},
+        {"pos": "vt.", "def_en": "to sentence", "def_zh": "判…刑", "example": "He was condemned to death for murder and later hanged.", "example_zh": "他因凶杀罪被判处死刑,后被绞死。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "reproach",
+      "phonetic": "rɪˈprəutʃ",
+      "mnemonic": "re(again)+proach(靠近)→一再向前靠近→责备",
+      "senses": [
+        {"pos": "vt.", "def_en": "to blame or criticize sb. in a way that shows you are disappointed but not angry", "def_zh": "责备", "example": "She reproached me for my lack of foresight.", "example_zh": "她责备我缺乏先见之明。"},
+        {"pos": "n.", "def_zh": "责备", "example": "above/beyond reproach", "example_zh": "无可非议地,出色地"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "rebuke",
+      "phonetic": "rɪˈbjuːk",
+      "senses": [
+        {"pos": "n.", "def_zh": "谴责,指责,斥责", "example": "He received a stern rebuke from his superior.", "example_zh": "他受到上司的严厉斥责。"},
+        {"pos": "vt.", "def_en": "to criticize sb. sharply", "def_zh": "谴责,指责,斥责", "example": "My boss rebuked me for my habitual carelessness in the work.", "example_zh": "我的上司责备我工作上一贯粗心。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "imaginary",
+      "phonetic": "ɪˈmædʒɪnərɪ",
+      "senses": [
+        {"pos": "a.", "def_en": "not real; existing only in your mind or imagination", "def_zh": "想象中的,虚构的", "example": "The main characters in the novel are very true to life, but most of them are imaginary.", "example_zh": "小说里的人物写得栩栩如生,但大多是虚构的。"}
+      ],
+      "derivatives": ["imagination n. 想象(力);空想"],
+      "complete": true
+    },
+    {
+      "word": "imaginative",
+      "phonetic": "ɪˈmædʒɪnətɪv",
+      "senses": [
+        {"pos": "a.", "def_en": "having or showing an ability to think of new and interesting ideas", "def_zh": "富有想象力的", "example": "The examiner was looking for imaginative answers.", "example_zh": "主考人希望找到具有丰富想象力的答卷。"}
+      ],
+      "derivatives": ["imaginable a. 想象得到的"],
+      "complete": true
+    },
+    {
+      "word": "devise",
+      "partial": "head",
+      "phonetic": "dɪˈvaɪz",
+      "mnemonic": "de(away)+vi(路)+se→不走寻常路→发明",
+      "senses": [
+        {"pos": "vt.", "def_en": "to invent or plan (sth. that is difficult or complicated)", "def_zh": "发明,策划", "example": "She devised a method for quicker communications between offices.", "example_zh": "她发明了一种加快办公室之间交流的办法。"}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "短语", "title": "raw", "content": "in the raw 处在自然状态的;裸体的 Some nameless Indian tribes are living in the raw. 一些不知名的印第安部落过着未开化的生活。"},
+    {"type": "一言辨异", "title": "imaginary, imaginative", "content": "Anything imaginary is the products of an imaginative person's mind. 任何虚构的东西都是有想象力的人的思想产物。"}
+  ]
+}

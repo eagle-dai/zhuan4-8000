@@ -1,0 +1,111 @@
+{
+  "page": 31,
+  "continues_from": "devise",
+  "continues_to": "sense",
+  "entries": [
+    {
+      "word": "devise",
+      "partial": "tail",
+      "senses": [],
+      "derivatives": [],
+      "complete": false
+    },
+    {
+      "word": "device",
+      "phonetic": "dɪˈvaɪs",
+      "senses": [
+        {"pos": "n.", "def_zh": "装置", "example": "I have fitted a device to my bike which improves the speed.", "example_zh": "我在我的自行车上装了一个提高速度的装置。"},
+        {"pos": "n.", "def_en": "a plan or scheme for accomplishing sth.", "def_zh": "策略", "example": "Silence is a device to avoid disputes.", "example_zh": "沉默是避免争吵的一个策略。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "ingenious",
+      "phonetic": "ɪnˈdʒiːnɪəs",
+      "senses": [
+        {"pos": "a.", "def_en": "cleverly and originally devised", "def_zh": "设计独特的", "example": "an ingenious device", "example_zh": "精巧的装置"},
+        {"pos": "a.", "def_en": "very smart or clever", "def_zh": "灵巧的", "example": "An ingenious idea suddenly came upon me.", "example_zh": "我突然想到了一个绝妙的主意。"}
+      ],
+      "derivatives": ["ingenuity n. 心灵手巧;独创性"],
+      "complete": true
+    },
+    {
+      "word": "create",
+      "phonetic": "krɪˈeɪt",
+      "senses": [
+        {"pos": "vt.", "def_en": "to bring sth. into being; or to produce through artistic or imaginative effort", "def_zh": "创造", "example": "Some believe the universe was created by a big explosion. // A novelist creates characters and a plot.", "example_zh": "有些人认为宇宙是由于大爆炸而形成的。// 小说家塑造人物并设计作品的情节。"},
+        {"pos": "vt.", "def_zh": "引起", "example": "It's bound to create trouble sooner or later.", "example_zh": "迟早注定要引起麻烦的。"}
+      ],
+      "derivatives": ["creation n. 创造;作品", "creator n. 创造者", "creature n. 创造物;生物"],
+      "complete": true
+    },
+    {
+      "word": "creative",
+      "phonetic": "krɪˈeɪtɪv",
+      "senses": [
+        {"pos": "a.", "def_zh": "有创造力的", "example": "Modern education attaches great importance to cultivating a new creative generation.", "example_zh": "现代教育非常重视培育有创造力的新一代。"}
+      ],
+      "derivatives": ["creativity n. 创造力,创造"],
+      "complete": true
+    },
+    {
+      "word": "theoretical",
+      "phonetic": "θɪəˈretɪkəl",
+      "senses": [
+        {"pos": "a.", "def_zh": "理论(上)的", "example": "This book is too theoretical; I need a practical one.", "example_zh": "这本书理论性太强,我需要一本实用的。"}
+      ],
+      "derivatives": ["theory n. 理论;学说;意见"],
+      "complete": true
+    },
+    {
+      "word": "accordingly",
+      "phonetic": "əˈkɔːdɪŋlɪ",
+      "senses": [
+        {"pos": "ad.", "def_zh": "相应地", "example": "Please inform us of your decision and we will act accordingly.", "example_zh": "请把你们的决定通知我们,我们会照着去办。"},
+        {"pos": "ad.", "def_zh": "所以", "example": "The weather has changed suddenly, and accordingly we must put off the football match.", "example_zh": "天气突变,因此我们不得不推迟足球比赛。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "accordance",
+      "phonetic": "əˈkɔːdəns",
+      "senses": [
+        {"pos": "n.", "def_en": "in a way that fulfils or agrees with", "def_zh": "一致", "example": "The skill of commercial negotiations is not always in accordance with textbooks.", "example_zh": "商务谈判的技巧不总是和教科书上的一样。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "accord",
+      "phonetic": "əˈkɔːd",
+      "mnemonic": "ac(to)+cord(心)→使双方都称心→一致",
+      "senses": [
+        {"pos": "n.", "def_en": "agreement; harmony", "def_zh": "一致", "example": "Their views were found to be in perfect accord.", "example_zh": "人们发现他们的意见是完全一致的。"},
+        {"pos": "n.", "def_en": "a settlement or compromise between conflicting parties", "def_zh": "协议", "example": "The two countries reached an accord.", "example_zh": "两国签订了一项协议。"},
+        {"pos": "vi.", "def_en": "to match or agree with sth. (~with)", "def_zh": "相符合", "example": "His opinion accorded with mine.", "example_zh": "他的意见与我的一致。"},
+        {"pos": "vt.", "def_en": "to give sb. or sth. special attention or a particular type of treatment", "def_zh": "授予,给予", "example": "We accord great importance to education.", "example_zh": "我们对教育给予高度重视。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "sense",
+      "partial": "head",
+      "phonetic": "sens",
+      "senses": [
+        {"pos": "n.", "def_zh": "官能,感觉", "example": "He has a good sense of smell.", "example_zh": "他的嗅觉很灵敏。"},
+        {"pos": "n.", "def_zh": "意味,意思", "example": "Many words have more than one sense.", "example_zh": "许多词有不止一个义项。"},
+        {"pos": "n.", "def_zh": "意识,直觉", "example": null, "example_zh": null}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "短语", "title": "device", "content": "leave to one's own devices 听任…自便 I just gave her a brush and paints, and left her to her own devices. 我只给了她一支画笔和一些颜料,就让她自己发挥了。"},
+    {"type": "真题", "title": null, "content": "Devices like Kindle make reading more convenient and are a lot more environmentally friendly than the traditional paper book. 译文:像 Kindle 这类设备使得阅读比起在传统纸张上进行的阅读更为方便,也环保得多。"},
+    {"type": "短语", "title": "accordance", "content": "in accordance with 与…一致"},
+    {"type": "短语", "title": "accord", "content": "of one's own accord 出于自愿 // with one accord 一致地 // in accord with 与…一致 The two sides are completely in accord with each other on this matter. 双方在这个问题上意见完全一致。"}
+  ]
+}

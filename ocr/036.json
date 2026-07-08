@@ -1,0 +1,105 @@
+{
+  "page": 36,
+  "continues_from": "dependent",
+  "continues_to": "secure",
+  "entries": [
+    {
+      "word": "dependent",
+      "partial": "tail",
+      "senses": [
+        {"pos": "a.", "def_en": "requiring the aid of another (~on, upon)", "def_zh": "依靠的", "example": "You can't be dependent on your parents all your life.", "example_zh": "你不可能一辈子靠父母生活。"},
+        {"pos": "a.", "def_en": "determined, influenced, or controlled by sth. else", "def_zh": "取决于…的", "example": "Despite technical progress, food production is still completely dependent on weather.", "example_zh": "尽管技术进步了,食物生产仍然完全取决于天气。"}
+      ],
+      "derivatives": ["dependence n. 依靠;相信", "interdependent a. 互相依赖的,互相依存的"],
+      "complete": false
+    },
+    {
+      "word": "independent",
+      "phonetic": "ˌɪndɪˈpendənt",
+      "mnemonic": "in(not)+depend(依靠)+ent→独立的",
+      "senses": [
+        {"pos": "a.", "def_en": "self-reliant, self-supporting; self-governing", "def_zh": "独立的", "example": "He is economically independent. // Many colonies became independent nations in the 1950's.", "example_zh": "他在经济上是独立的。// 许多殖民地在 20 世纪 50 年代成了独立国家。"},
+        {"pos": "a.", "def_zh": "无偏见的,中立的", "example": "an independent witness", "example_zh": "无偏见的证人"},
+        {"pos": "a.", "def_zh": "不相关连的", "example": "a decision independent of the outcome of the study", "example_zh": "与研究结果无关的决定"}
+      ],
+      "derivatives": ["independence n. 独立,自主"],
+      "complete": true
+    },
+    {
+      "word": "rely",
+      "phonetic": "rɪˈlaɪ",
+      "senses": [
+        {"pos": "vi.", "def_en": "to be dependent for support, help, or supply (~on, upon)", "def_zh": "依靠", "example": "British weather can never be relied upon—it's always changing.", "example_zh": "英国的天气从来都靠不住——它在不停地变。"},
+        {"pos": "vi.", "def_en": "to place or have faith or confidence", "def_zh": "信赖", "example": "You can rely on me to keep your secret.", "example_zh": "你尽管相信我一定为你保密。"}
+      ],
+      "derivatives": ["reliance n. 依靠"],
+      "complete": true
+    },
+    {
+      "word": "reliable",
+      "phonetic": "rɪˈlaɪəbl",
+      "senses": [
+        {"pos": "a.", "def_en": "dependable", "def_zh": "可靠的", "example": "John is very reliable; if he says he'll do something he will do it.", "example_zh": "约翰非常可靠,他说过要做的事就一定会做。"}
+      ],
+      "derivatives": ["reliability n. 可靠(性)"],
+      "complete": true
+    },
+    {
+      "word": "attendance",
+      "phonetic": "əˈtendəns",
+      "mnemonic": "attend(v. 参加)的名词",
+      "senses": [
+        {"pos": "n.", "def_zh": "出席人数", "example": "a poor attendance record", "example_zh": "(学生)糟糕的出勤记录"},
+        {"pos": "n.", "def_zh": "参加", "example": "There was a large attendance at the party.", "example_zh": "参加聚会的人很多。"},
+        {"pos": "n.", "def_zh": "护理", "example": "Now that the patient is out of danger, the doctor is no longer in attendance.", "example_zh": "既然病人已经脱离险境,医生就不在身边护理他了。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "attendant",
+      "phonetic": "əˈtendənt",
+      "senses": [
+        {"pos": "n.", "def_zh": "服务人员", "example": "a flight attendant", "example_zh": "客机上的乘务员"},
+        {"pos": "a.", "def_en": "accompanying or following as a result", "def_zh": "随之而产生的", "example": "One of the attendant difficulties is lack of sleep.", "example_zh": "随之而来的困难之一是睡眠不足。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "assist",
+      "phonetic": "əˈsist",
+      "mnemonic": "as(to)+sist(站立)→站在旁边,可随时出手“相助”",
+      "senses": [
+        {"pos": "v.", "def_en": "to give help to, esp. as a subordinate or supplement", "def_zh": "帮助", "example": "Usually there would be a group of nurses assisting the doctor in performing the surgery. // They asked her to assist with their children.", "example_zh": "医生做外科手术时通常会有一组护士协助。// 他们请她帮助照料孩子。"},
+        {"pos": "n.", "def_zh": "帮助", "example": "He gave me an assist with the housework.", "example_zh": "他帮我做了点家务。"}
+      ],
+      "derivatives": ["assistance n. 帮助,援助"],
+      "complete": true
+    },
+    {
+      "word": "aid",
+      "phonetic": "eɪd",
+      "senses": [
+        {"pos": "n.", "def_zh": "救助", "example": "The family has lived on government aid for two years.", "example_zh": "两年来这家人就靠政府的救济生活。"},
+        {"pos": "n.", "def_zh": "辅助物", "example": "visual aids", "example_zh": "视觉辅助器"},
+        {"pos": "vt.", "def_en": "to provide what is useful or necessary", "def_zh": "援助", "example": "He will go to aid those earthquake victims.", "example_zh": "他要去援助那些地震受害者。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "secure",
+      "partial": "head",
+      "phonetic": "sɪˈkjuə",
+      "senses": [
+        {"pos": "a.", "def_en": "free from risk of loss; safe", "def_zh": "安全的", "example": "Keep your money in a secure place.", "example_zh": "把钱存放在安全可靠的地方。"},
+        {"pos": "a.", "def_zh": "牢固的,稳固的", "example": "Check that joints are secure and the wood is sound. // a secure job", "example_zh": "检查接头是否牢固,木头是否完好。// 一份稳定的工作"},
+        {"pos": "a.", "def_zh": "无忧虑的", "example": "have one's mind secure", "example_zh": "放心"},
+        {"pos": "vt.", "def_en": "to get possession of; acquire", "def_zh": "得到", "example": null, "example_zh": null}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": []
+}

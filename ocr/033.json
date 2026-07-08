@@ -1,0 +1,122 @@
+{
+  "page": 33,
+  "continues_from": null,
+  "continues_to": "pursue",
+  "entries": [
+    {
+      "word": "widespread",
+      "phonetic": "ˈwaɪdspred",
+      "mnemonic": "wide(宽广的)+spread(传播,分布)→分布广的",
+      "senses": [
+        {"pos": "a.", "def_zh": "分布广的,普遍的", "example": "There is a widespread belief that the company is in financial trouble.", "example_zh": "很多人认为该公司财务陷入困境。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "virus",
+      "phonetic": "ˈvaɪərəs",
+      "senses": [
+        {"pos": "n.", "def_zh": "病毒;病毒性疾病", "example": "The child was infected with the AIDS virus.", "example_zh": "这个小孩感染了艾滋病病毒。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "absolute",
+      "phonetic": "ˈæbsəluːt",
+      "mnemonic": "ab(away)+solute(松开)→解开的→不受约束的",
+      "senses": [
+        {"pos": "a.", "def_en": "complete and total", "def_zh": "绝对的", "example": "There is no absolute standard for beauty.", "example_zh": "美是没有绝对标准的。"},
+        {"pos": "a.", "def_en": "not limited by restrictions or exceptions", "def_zh": "不受任何限制的,无限的", "example": "absolute freedom/power // He has absolute authority to look into the matter.", "example_zh": "无限的自由/权力 // 他完全有权调查此事。"}
+      ],
+      "derivatives": ["absolutely ad. 绝对地;完全地"],
+      "complete": true
+    },
+    {
+      "word": "roughly",
+      "phonetic": "ˈrʌflɪ",
+      "senses": [
+        {"pos": "ad.", "def_en": "in a way that is not gentle or careful", "def_zh": "粗鲁地", "example": "Alan dropped the cat roughly to the floor.", "example_zh": "阿伦粗暴地把猫摔到地上。"},
+        {"pos": "ad.", "def_en": "not exactly but close in number, quality, meaning, etc.", "def_zh": "大概,大约", "example": "He roughly outlined the plot of the opera. // The company employs men and women in roughly equal proportions.", "example_zh": "他粗略地概述了歌剧的情节。// 公司聘用的男员工与女员工人数大致相等。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "approximate",
+      "phonetic": "əˈprɒksɪmət",
+      "mnemonic": "ap(to)+proxim(最接近的)+ate→接近的→近似的",
+      "senses": [
+        {"pos": "a.", "def_en": "almost correct or exact, close in value or amount but not precise", "def_zh": "近似的", "example": "What is the approximate size of this room?", "example_zh": "这间屋子大概有多大?"},
+        {"pos": "v.", "def_en": "to come close to", "def_zh": "接近", "example": "Your story approximates to the real facts.", "example_zh": "你所说的仅仅是接近事实真相。"},
+        {"pos": "v.", "def_en": "to calculate the almost exact value or position of", "def_zh": "估计", "example": "The cost of the project will approximate $10,000.", "example_zh": "这个项目的成本大约为 1 万美金。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "accidental",
+      "phonetic": "ˌæksɪˈdentəl",
+      "mnemonic": "accident(n. 事故)的形容词",
+      "senses": [
+        {"pos": "a.", "def_zh": "意外的", "example": "Their accidental meeting led to a renewal of their acquaintance.", "example_zh": "偶然的相遇使他们再续前缘。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "accurate",
+      "phonetic": "ˈækjurət",
+      "mnemonic": "ac(to)+cur(注意)+ate→高度注意,确保“精确的”",
+      "senses": [
+        {"pos": "a.", "def_en": "free from mistakes or errors", "def_zh": "正确无误的", "example": "Are you sure that your clock is accurate?", "example_zh": "你确定你的钟走时准吗?"},
+        {"pos": "a.", "def_zh": "精确的", "example": "Journalists are not always accurate in what they write.", "example_zh": "新闻工作者的报道并非总是准确的。"}
+      ],
+      "derivatives": ["accuracy n. 准确(性)"],
+      "complete": true
+    },
+    {
+      "word": "omit",
+      "phonetic": "əuˈmɪt",
+      "mnemonic": "o(away)+mit(送)→把琐碎的细节放走→省略",
+      "senses": [
+        {"pos": "vt.", "def_en": "to fail to include or mention; leave out", "def_zh": "省略,遗漏", "example": "omit an item from a list // Tell us everything that occurred. Don't omit any detail.", "example_zh": "从目录中略去一项 // 告诉我们所发生的一切,不要漏掉任何细节。"}
+      ],
+      "derivatives": ["omission n. 省略;遗漏"],
+      "complete": true
+    },
+    {
+      "word": "incidentally",
+      "phonetic": "ˌɪnsɪˈdentəlɪ",
+      "mnemonic": "incidental(偶然的)+ly→顺便提一句",
+      "senses": [
+        {"pos": "ad.", "def_zh": "顺便提一句", "example": "Incidentally, your proposal will be open to the discussion at the meeting.", "example_zh": "顺便提一句,你的建议将在会议上进行讨论。"}
+      ],
+      "derivatives": [],
+      "complete": true
+    },
+    {
+      "word": "eventual",
+      "phonetic": "ɪˈventjuəl",
+      "senses": [
+        {"pos": "a.", "def_en": "coming or happening at a later time", "def_zh": "最后的,最终的", "example": "His foolish behavior led to his eventual failure.", "example_zh": "他的愚蠢行为导致了他最后的失败。"}
+      ],
+      "derivatives": ["eventuality n. 可能出现的结果"],
+      "complete": true
+    },
+    {
+      "word": "pursue",
+      "partial": "head",
+      "phonetic": "pəˈsjuː",
+      "mnemonic": "pur(向前)+sue(跟随)→跟随前进→追赶",
+      "senses": [
+        {"pos": "vt.", "def_en": "to proceed along the course of", "def_zh": "继续", "example": "She decided to pursue her studies after obtaining her bachelor's degree.", "example_zh": "她决定在获得学士学位之后继续深造。"}
+      ],
+      "complete": false
+    }
+  ],
+  "extras": [
+    {"type": "辨析", "title": "表示“传染”的形容词", "content": "infectious:指病菌通过空气、食物、水等物的间接传染。contagious:一般指跟病人直接接触而感染的病。"}
+  ]
+}
