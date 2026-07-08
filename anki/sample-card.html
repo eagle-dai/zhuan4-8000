@@ -3,35 +3,71 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>样卡预览 · exhaust ①</title>
+<title>样卡预览 · exhaust</title>
 <style>
+  /* 视觉方向：老派英汉词典的「纸墨 + 朱批」——红黑双色印刷传统。
+     此文件与 scripts/build_anki.py 的 MODEL.css 保持同步：类名、配色、字体一致。 */
   :root { color-scheme: light dark; }
-  body { font-family: -apple-system, "Segoe UI", "Noto Sans CJK SC", sans-serif;
-         background: #f2f2f7; margin: 0; padding: 24px; }
-  @media (prefers-color-scheme: dark) { body { background: #1c1c1e; } }
+  body { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+         background: #e9e4d8; margin: 0; padding: 24px; }
+  @media (prefers-color-scheme: dark) { body { background: #171310; } }
   .wrap { max-width: 480px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
-  .card { background: #fff; border-radius: 16px; padding: 28px 24px; text-align: center;
-          box-shadow: 0 2px 12px rgba(0,0,0,.08); color: #1c1c1e; }
-  @media (prefers-color-scheme: dark) { .card { background: #2c2c2e; color: #f2f2f7; } }
-  .label { font-size: 12px; letter-spacing: .08em; color: #8e8e93; text-transform: uppercase; margin-bottom: 14px; }
-  .word { font-size: 42px; font-weight: 700; letter-spacing: -.01em; }
-  .phon { font-size: 19px; color: #8e8e93; margin-top: 4px; }
-  /* 义项区左对齐（多条并列信息，左对齐利于纵向扫读中文释义） */
+
+  /* 卡片本体：纸墨底，无重圆角，靠规线做辞书感 */
+  .card {
+    background: #f4f1ea; color: #1f1b16;
+    border-radius: 4px; padding: 30px 26px; text-align: center;
+    box-shadow: 0 1px 3px rgba(31,27,22,.12);
+    -webkit-font-smoothing: antialiased; line-height: 1.5;
+  }
+  @media (prefers-color-scheme: dark) { .card { background: #211c16; color: #ebe4d6; } }
+
+  .label { font-size: 11px; letter-spacing: .14em; color: #9e2b25;
+           text-transform: uppercase; margin-bottom: 16px; font-weight: 700; }
+
+  .word { font-size: 46px; font-weight: 700; letter-spacing: -0.005em; }
+  .phon { font-size: 19px; color: #6b6459; margin-top: 6px; font-style: italic; }
+
+  /* signature：朱红规线，替代灰 hr——老词典词目分隔线 */
+  hr, .rule { border: none; border-top: 2px solid #9e2b25; margin: 20px auto; max-width: 200px; }
+
+  /* 义项区左对齐（多条并列信息，纵向扫读中文释义） */
   .senses { text-align: left; }
-  .sense { padding: 14px 0; border-top: 1px solid #f0f0f3; }
+  .sense  { padding: 14px 0; border-top: 1px solid #d8d2c4; }
   .sense:first-child { border-top: none; padding-top: 4px; }
-  @media (prefers-color-scheme: dark) { .sense { border-top-color: #38383a; } }
-  .pos { color: #ff9500; font-weight: 700; margin-right: 8px; font-size: 15px; letter-spacing: .02em; }
-  .def-zh { font-size: 22px; font-weight: 600; margin: 0 0 8px; }
-  .ex { font-size: 17px; color: #48484a; line-height: 1.55; }
+
+  /* 词性标签：朱红小型大写，词典 pos 标记 */
+  .pos  { color: #9e2b25; font-weight: 700; margin-right: 10px;
+          font-size: 13px; letter-spacing: .08em; text-transform: uppercase; }
+  /* 中文释义：宋体加粗，认词核心 */
+  .def-zh { font-family: "Songti SC", "STSong", "Noto Serif CJK SC", serif;
+            font-size: 22px; font-weight: 600; margin: 0 0 8px; color: #1f1b16; }
+  /* 英文例句：衬线斜体 */
+  .ex   { font-size: 17px; color: #4a4438; line-height: 1.55; }
   .ex em { font-style: italic; }
-  @media (prefers-color-scheme: dark) { .ex { color: #c7c7cc; } }
-  .ex-zh { font-size: 14px; color: #8e8e93; margin-top: 3px; }
-  hr { border: none; border-top: 1px solid #e5e5ea; margin: 20px 0; }
-  @media (prefers-color-scheme: dark) { hr { border-top-color: #38383a; } }
-  .spk { cursor: pointer; background: #007aff; color: #fff; border: none; border-radius: 20px;
-         padding: 9px 20px; font-size: 15px; margin-top: 18px; }
-  .hint { font-size: 12px; color: #8e8e93; text-align: center; margin-top: 4px; }
+  /* 中文译文：宋体暖灰小字 */
+  .ex-zh{ font-family: "Songti SC", "STSong", "Noto Serif CJK SC", serif;
+          font-size: 14px; color: #6b6459; margin-top: 3px; }
+
+  @media (prefers-color-scheme: dark) {
+    .card .word, .card .def-zh { color: #f2ede2; }
+    .card .phon, .card .ex-zh { color: #a89f8f; }
+    .card .ex { color: #cfc7b6; }
+    .card .pos { color: #d4776f; }
+    hr, .rule { border-top-color: #d4776f; }
+    .sense { border-top-color: #3a342b; }
+  }
+
+  /* 读音按钮：低调朱红描边，不抢焦点 */
+  .spk { cursor: pointer; background: transparent; color: #9e2b25;
+         border: 1.5px solid #9e2b25; border-radius: 3px;
+         padding: 8px 20px; font-size: 14px; margin-top: 18px;
+         font-family: inherit; letter-spacing: .04em; }
+  .spk:hover { background: #9e2b25; color: #f4f1ea; }
+  @media (prefers-color-scheme: dark) { .spk { color: #d4776f; border-color: #d4776f; }
+    .spk:hover { background: #d4776f; color: #211c16; } }
+  .hint { font-size: 12px; color: #6b6459; text-align: center; margin-top: 4px; line-height: 1.6; }
+  @media (prefers-color-scheme: dark) { .hint { color: #a89f8f; } }
 </style>
 </head>
 <body>
@@ -45,12 +81,12 @@
     <button class="spk" onclick="say('exhaust')">🔊 读单词</button>
   </div>
 
-  <!-- 背面：全部义项 + 各例句 + 顺序读全部例句 -->
+  <!-- 背面：全部义项 + 各例句 -->
   <div class="card">
     <div class="label">背面 Back</div>
     <div class="word">exhaust</div>
     <div class="phon">/ɪɡˈzɔːst/</div>
-    <hr>
+    <hr class="rule">
     <div class="senses">
       <div class="sense">
         <div class="def-zh"><span class="pos">vt.</span>①使筋疲力尽</div>
@@ -78,13 +114,12 @@
         <div class="ex-zh">排出的废气气味</div>
       </div>
     </div>
-    <button class="spk" onclick="sayAllBack()">🔊 读全部例句</button>
+    <button class="spk" onclick="say('exhaust')">🔊 读单词</button>
   </div>
 
   <div class="hint">
-    此 HTML 用浏览器 Web Speech 模拟 Anki 的 {{tts}} 读音。<br>
-    真卡：一词一张卡，背面列全部义项；正面读单词，背面顺序读所有例句
-    （edge-tts 预生成 mp3，<code>ExampleAudio</code> 里多个 <code>[sound:]</code> 依次播放）。
+    此 HTML 用浏览器 Web Speech 模拟 Anki 的读音，配色/字体与真卡（build_anki.py 的 CSS）一致。<br>
+    真卡：一词一张卡，背面列全部义项；只正面读单词（有道 dictvoice 预生成 mp3），例句暂不配音。
   </div>
 
 </div>
@@ -94,16 +129,6 @@ function say(text) {
   const u = new SpeechSynthesisUtterance(text);
   u.lang = 'en-US'; u.rate = 0.95;
   speechSynthesis.cancel(); speechSynthesis.speak(u);
-}
-// 顺序读背面所有例句（从卡面 .ex 元素取文本，避免在 onclick 里拼含引号的字符串）
-function sayAllBack() {
-  if (!window.speechSynthesis) { alert('浏览器不支持语音'); return; }
-  speechSynthesis.cancel();
-  document.querySelectorAll('.card .ex').forEach(function (el) {
-    const u = new SpeechSynthesisUtterance(el.textContent);
-    u.lang = 'en-US'; u.rate = 0.95;
-    speechSynthesis.speak(u);  // 排队依次播放
-  });
 }
 </script>
 </body>
