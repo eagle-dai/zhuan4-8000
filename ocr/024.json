@@ -1,7 +1,7 @@
 {
   "page": 24,
   "continues_from": "bruise",
-  "continues_to": "cabinet",
+  "continues_to": null,
   "entries": [
     {
       "word": "bruise",
@@ -88,13 +88,12 @@
     },
     {
       "word": "cabinet",
-      "partial": "head",
       "phonetic": "ˈkæbɪnɪt",
       "senses": [
         {"pos": "n.", "def_zh": "内阁", "example": "In Britain, members of the Cabinet are chosen by the Prime Minister.", "example_zh": "在英国,内阁成员是由首相挑选的。"},
         {"pos": "n.", "def_zh": "陈列柜", "example": "a file cabinet", "example_zh": "文件柜"}
       ],
-      "complete": false
+      "complete": true
     }
   ],
   "extras": [
