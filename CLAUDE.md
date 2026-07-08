@@ -72,15 +72,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - **粒度**：**每词一张卡**。一个词无论多少义项都是 1 张卡，背面按词性依次列全部义项（同词性多义项加 ①②③），各带自己的例句。exhaust（vt.×3 + n.×2）→ 1 张，背面 5 个义项俱全。
 - **方向**：只 **英→中**（认词）。正面给词，背面给全部中文释义。
-- **读音**：用 **edge-tts**（微软免费神经网络语音，美音 `en-US-AriaNeural`）在构建时**预生成 mp3**，打包进 apkg，卡面用 `[sound:xxx.mp3]` 播放。正面读单词，背面顺序读所有例句。mp3 按文本内容 hash 命名去重，**只进 apkg 不入库**。
+- **读音**：单词用**有道词典 dictvoice**（`https://dict.youdao.com/dictvoice?type=0&audio=<词>`，免费、无需 key、美音）在构建时**预下载 mp3**，打包进 apkg，卡面用 `[sound:xxx.mp3]` 播放。**只正面读单词**——有道 dictvoice 只可靠返回单个词音频，多词短语/整句返回 500 null，故**例句暂不配音**。mp3 按内容 hash 命名去重，**只进 apkg 不入库**。串行下载 + `sleep 0.3s` 限频。
 - **正面**：单词 + 音标 + 读单词。
-- **背面**：单词 + 音标 + 全部义项（词性 + 中文释义 + 英文例句 + 中文翻译）+ 顺序读所有例句。（助记 mnemonic 暂不放卡面。）
+- **背面**：单词 + 音标 + 全部义项（词性 + 中文释义 + 英文例句 + 中文翻译）。（例句暂不配音；助记 mnemonic 暂不放卡面。）
 
 ### Anki 字段（一张卡 = 一个词 = 一行 note）
 
 `Word` `Phonetic` `Senses` `WordAudio` `ExampleAudio` `Key`
 
-一个词条摊平成一行 note：`Word`/`Phonetic` 取自词条；`Senses` 是把该词所有 `senses[]` 预渲染成的一段背面 HTML（每义项一块 pos + 中文释义 + 例句，同词性多义项带 ①②③ 序号，纯展示不入 Key）；`WordAudio` 是单词 `[sound:]` 标签，`ExampleAudio` 是该词所有例句 `[sound:]` 标签的顺序拼接（Anki 依次播放）；`Key`（= `word`，一词即唯一键）稳定，脚本据此生成 note guid，重导入时更新而非重复。跨页词条（`complete:false`）须先与 tail 页合并补全后再出卡。
+一个词条摊平成一行 note：`Word`/`Phonetic` 取自词条；`Senses` 是把该词所有 `senses[]` 预渲染成的一段背面 HTML（每义项一块 pos + 中文释义 + 例句，同词性多义项带 ①②③ 序号，纯展示不入 Key）；`WordAudio` 是单词 `[sound:]` 标签，`ExampleAudio` **保留字段但恒空**（有道拉不到整句音频，例句不配音）；`Key`（= `word`，一词即唯一键）稳定，脚本据此生成 note guid，重导入时更新而非重复。跨页词条（`complete:false`）须先与 tail 页合并补全后再出卡。
 
 **重复来源**：新粒度下 Key 就是 `word`，同一个词只该出现一个词条。若 `build_anki.py --check` 报「同词多条目」告警 = 有真重复（跨页 head/tail 未合并、或 OCR 把同词解析了两遍），须查 OCR/合并，不能靠拆 Key 绕过。
 
@@ -95,15 +95,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```bash
 uv run scripts/build_anki.py --check    # 只校验+统计（页数/词条/卡片/音频数、跨页警告），不生成
-uv run scripts/build_anki.py            # 生成 anki/zhuan4.apkg（含 edge-tts 音频，需联网）
+uv run scripts/build_anki.py            # 生成 anki/zhuan4.apkg（含有道单词音频，需联网）
 uv run scripts/build_anki.py --no-audio # 生成 apkg 但跳过音频（快速测试，无需联网）
 ```
 
-`scripts/build_anki.py`（uv PEP 723 inline 依赖：genanki + edge-tts）读 `ocr/*.json` → 跨页合并被切词条 → 每义项一张 note → edge-tts 生成 mp3 → 打包成 `.apkg`。要点：
+`scripts/build_anki.py`（uv PEP 723 inline 依赖：genanki + requests）读 `ocr/*.json` → 跨页合并被切词条 → 每词一张 note → 有道 dictvoice 下载单词 mp3 → 打包成 `.apkg`。要点：
 
 - **跨页合并**：`complete:false` 的 head 词条须在下一页找到 `partial:tail` 的同词头 tail 才拼全出卡；配不上（如下一页还没 OCR）则**跳过并告警**，不出残缺卡。
 - **稳定 ID/guid**：MODEL_ID、DECK_ID、note 的 guid（按 `word` 生成）都固定，重复导入是**更新**不是新建重复卡。
-- **音频**：edge-tts 联网生成，按文本 hash 命名去重（多张卡同词只生成一个词音频）。生成的 mp3 在临时目录，打包进 apkg 后清理，不落地不入库。
+- **音频**：有道 dictvoice 联网下载单词读音，按 `word` hash 命名去重；串行 + `sleep 0.3s` 限频。词头含 `/`（拼写变体如 `civilize/-ise`）取斜杠前主拼写发音，否则有道 500。下载失败清空该词 `[sound:]` 标签（免坏播放按钮）+ 删截断文件。例句不配音（`ExampleAudio` 恒空）。mp3 在临时目录，打包进 apkg 后清理，不落地不入库。
 - `.apkg` 是构建产物（zip 二进制），`.gitignore` 已忽略，不入库。
 
 ## 在本仓库工作时
