@@ -1,38 +1,44 @@
 # /// script
 # requires-python = ">=3.10"
-# dependencies = ["genanki>=0.13", "edge-tts>=6.1"]
+# dependencies = ["genanki>=0.13", "requests>=2.31"]
 # ///
 """把 ocr/*.json 构建成 Anki .apkg。
 
 流程：读所有页 → 跨页合并被切词条 → 每词一张 note（英→中，背面列全部义项）
-     → edge-tts 生成单词/例句读音 mp3 → 打包进 .apkg。
+     → 有道 dictvoice 拉单词读音 mp3 → 打包进 .apkg。
 
-读音用微软 edge-tts（免费、神经网络语音、美音），构建时预生成 mp3 存入卡片，
-用 [sound:xxx.mp3] 播放（离线音质好）。mp3 只进 apkg，不入库。
+单词读音用有道词典 dictvoice（免费、无需 key、美音），构建时预下载 mp3 存入卡片，
+用 [sound:xxx.mp3] 播放（离线）。mp3 只进 apkg，不入库。
+注意：有道 dictvoice 只可靠返回「单个词」的音频，多词短语/整句返回 null——
+因此只给正面单词配音；例句暂不配音（ExampleAudio 恒空）。
 
 用法：
-    uv run scripts/build_anki.py            # 生成 anki/zhuan4.apkg（含音频）
-    uv run scripts/build_anki.py --check    # 只校验+统计，不生成音频/apkg
+    uv run scripts/build_anki.py            # 生成 anki/zhuan4.apkg（含单词音频）
+    uv run scripts/build_anki.py --check    # 只校验+统计，不下载音频/apkg
     uv run scripts/build_anki.py --no-audio # 生成 apkg 但跳过音频（快速测试）
 """
 from __future__ import annotations
 
 import argparse
-import asyncio
 import hashlib
 import json
 import sys
 import tempfile
+import time
 from pathlib import Path
 
 import genanki
+import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 OCR_DIR = ROOT / "ocr"
 OUT = ROOT / "anki" / "zhuan4.apkg"
 
-VOICE = "en-US-AriaNeural"  # 美音女声
-TTS_CONCURRENCY = 8         # 并发调 edge-tts 的上限
+# 有道词典 TTS：type=0 美音，type=1 英音。GET 直接返回 mp3。
+YOUDAO_URL = "https://dict.youdao.com/dictvoice"
+YOUDAO_TYPE = 0             # 0=美音 1=英音
+TTS_DELAY = 0.3            # 每次请求间隔秒数：外部公共服务，串行+限频，别猛打
+TTS_TIMEOUT = 15           # 单次请求超时秒数
 
 # 稳定 ID：固定值，保证重复导入更新同一 deck/model 而非新建。
 # MODEL_ID 换过一次（旧 1607392311 → 现值）：字段布局从「每义项 8 字段」
@@ -43,13 +49,13 @@ DECK_ID = 2059400110
 
 MODEL = genanki.Model(
     MODEL_ID,
-    "TEM4 英→中（edge-tts）",
+    "TEM4 英→中（有道 TTS）",
     fields=[
         {"name": "Word"},
         {"name": "Phonetic"},
         {"name": "Senses"},         # 预渲染 HTML：该词所有义项（pos+释义+例句）
         {"name": "WordAudio"},      # [sound:xxx.mp3]
-        {"name": "ExampleAudio"},   # 所有例句的 [sound:] 顺序拼接
+        {"name": "ExampleAudio"},   # 保留字段但恒空：有道拉不到整句音频，例句暂不配音
         {"name": "Key"},            # 唯一键（= word），用于去重/更新
     ],
     templates=[
@@ -64,7 +70,6 @@ MODEL = genanki.Model(
 {{FrontSide}}
 <hr id="answer">
 <div class="senses">{{Senses}}</div>
-{{ExampleAudio}}
 """,
         }
     ],
@@ -268,36 +273,62 @@ def flatten_notes(entries: list[dict]) -> tuple[list[dict], list[str]]:
     return rows, warnings
 
 
-async def _gen_one(text: str, out_path: Path, sem: asyncio.Semaphore) -> None:
-    import edge_tts
-    async with sem:
-        await edge_tts.Communicate(text, VOICE).save(str(out_path))
+def _download_word(word: str, out_path: Path, session: requests.Session) -> None:
+    """从有道 dictvoice 下载单个词的 mp3，写到 out_path。
 
+    有道返回 500 + JSON（`returned null audio`）表示拿不到音频（多词/异常输入）。
+    此处只下单个词，正常都能拿到；拿不到就抛错，让上层告警而非静默写坏文件。
 
-async def generate_audio(rows: list[dict], media_dir: Path) -> int:
-    """为所有单词和例句生成 mp3，写进 media_dir，并在 rows 里填 [sound:] 标签。
-
-    先按文本去重成唯一集合，每个唯一文本只建一个 task——既避免重复调 edge-tts，
-    也避免多协程并发写同一文件的竞态。返回实际生成的文件数。
+    词头可能含拼写变体（如 `civilize/-ise`、`specialty/speciality`），斜杠会让有道
+    500——只取斜杠前的主拼写发音即可。
     """
-    # 收集唯一 (文本 → 文件名)，同时给每行填 [sound:] 标签
+    query = word.split("/")[0].strip()
+    resp = session.get(
+        YOUDAO_URL,
+        params={"type": YOUDAO_TYPE, "audio": query},
+        timeout=TTS_TIMEOUT,
+        stream=True,
+    )
+    resp.raise_for_status()
+    ctype = resp.headers.get("Content-Type", "")
+    if "audio" not in ctype:  # 有道失败时返回 application/json
+        raise RuntimeError(f"有道未返回音频（Content-Type={ctype!r}）：{resp.text[:120]}")
+    with out_path.open("wb") as fh:
+        for chunk in resp.iter_content(1024):
+            fh.write(chunk)
+
+
+def generate_audio(rows: list[dict], media_dir: Path) -> tuple[int, list[str]]:
+    """为所有单词从有道下载 mp3，写进 media_dir，并在 rows 里填 [sound:] 标签。
+
+    只给单词配音（有道拉不到整句），例句音频恒空。按 word 去重，每个唯一词只下一次。
+    串行 + TTS_DELAY 限频，避免猛打公共服务。返回 (成功文件数, 警告列表)。
+    """
+    # 收集唯一 (词 → 文件名)，同时给每行填 [sound:] 标签
     uniq: dict[str, str] = {}
     for r in rows:
         wname = _audio_name(r["word"])
         uniq[r["word"]] = wname
         r["word_audio"] = f"[sound:{wname}]"
-        # 该词所有例句：各生成 mp3（hash 去重），[sound:] 顺序拼接 → Anki 依次播放
-        tags = []
-        for ex in r["examples"]:
-            ename = _audio_name(ex)
-            uniq[ex] = ename
-            tags.append(f"[sound:{ename}]")
-        r["example_audio"] = "".join(tags)
+        r["example_audio"] = ""  # 例句暂不配音
 
-    sem = asyncio.Semaphore(TTS_CONCURRENCY)
-    tasks = [_gen_one(text, media_dir / name, sem) for text, name in uniq.items()]
-    await asyncio.gather(*tasks)
-    return len(uniq)
+    warnings: list[str] = []
+    session = requests.Session()
+    session.verify = False  # 有道证书链偶发问题，沿用原方法关校验
+    import urllib3
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+    ok = 0
+    total = len(uniq)
+    for i, (word, name) in enumerate(uniq.items(), 1):
+        print(f"  [{i}/{total}] 下载单词音频: {word}")
+        try:
+            _download_word(word, media_dir / name, session)
+            ok += 1
+        except Exception as exc:  # 单词失败不中断整批，记警告
+            warnings.append(f"单词 '{word}' 音频下载失败：{exc}")
+        time.sleep(TTS_DELAY)
+    return ok, warnings
 
 
 def build_notes(rows: list[dict]) -> list[genanki.Note]:
@@ -334,8 +365,8 @@ def main() -> int:
     rows, flat_warnings = flatten_notes(entries)
     warnings += flat_warnings
 
-    # 音频去重后的实际文件数：唯一单词 + 唯一例句
-    uniq_audio = {r["word"] for r in rows} | {ex for r in rows for ex in r["examples"]}
+    # 音频去重后的实际文件数：只有唯一单词（例句不配音）
+    uniq_audio = {r["word"] for r in rows}
     n_audio = 0 if args.no_audio else len(uniq_audio)
     print(f"页数 {len(pages)}｜完整词条 {len(entries)}｜卡片 {len(rows)}｜音频 {n_audio} 个")
     for w in warnings:
@@ -351,10 +382,13 @@ def main() -> int:
         media_dir = Path(td)
         media_files: list[str] = []
         if not args.no_audio:
-            print(f"生成音频（edge-tts, {VOICE}）…")
-            asyncio.run(generate_audio(rows, media_dir))
+            tone = "美音" if YOUDAO_TYPE == 0 else "英音"
+            print(f"下载单词音频（有道 dictvoice, {tone}）…")
+            ok, audio_warnings = generate_audio(rows, media_dir)
+            for w in audio_warnings:
+                print(f"⚠ {w}", file=sys.stderr)
             media_files = [str(p) for p in sorted(media_dir.glob("*.mp3"))]
-            print(f"音频文件 {len(media_files)} 个")
+            print(f"音频文件 {len(media_files)} 个（成功 {ok}）")
         else:
             for r in rows:  # 无音频时清空标签，避免卡面出现坏引用
                 r["word_audio"] = ""
